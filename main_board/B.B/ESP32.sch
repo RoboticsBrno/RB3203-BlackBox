@@ -1,0 +1,946 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L B.B-rescue:ESP32-WROVER-B.B-eagle-import U?
+U 1 1 5F77B934
+P 4900 5800
+F 0 "U?" H 4900 6900 60  0000 C CNN
+F 1 "ESP32-WROVER" H 4900 6750 60  0000 C CNN
+F 2 "esp32-wrover:ESP32-WROVER" H 5350 5500 60  0001 C CNN
+F 3 "" H 5350 5500 60  0001 C CNN
+	1    4900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F78AA86
+P 4900 7100
+F 0 "#GND?" H 4900 7100 50  0001 C CNN
+F 1 "GND" H 4900 6979 59  0000 C CNN
+F 2 "" H 4900 7100 50  0001 C CNN
+F 3 "" H 4900 7100 50  0001 C CNN
+	1    4900 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_USB:CP2102N-A01-GQFN28 U?
+U 1 1 5F78AFDC
+P 5300 2650
+F 0 "U?" H 5400 1350 50  0000 C CNN
+F 1 "CP2102N-A01-GQFN28" H 4750 1350 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 5750 1450 50  0001 L CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 5350 1900 50  0001 C CNN
+	1    5300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J?
+U 1 1 5F7A6C0B
+P 2150 2550
+F 0 "J?" H 2257 3417 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 2257 3326 50  0000 C CNN
+F 2 "" H 2300 2550 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2300 2550 50  0001 C CNN
+	1    2150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F7AF961
+P 5300 4050
+F 0 "#GND?" H 5300 4050 50  0001 C CNN
+F 1 "GND" H 5300 3929 59  0000 C CNN
+F 2 "" H 5300 4050 50  0001 C CNN
+F 3 "" H 5300 4050 50  0001 C CNN
+	1    5300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F7AFD73
+P 2150 3550
+F 0 "#GND?" H 2150 3550 50  0001 C CNN
+F 1 "GND" H 2150 3429 59  0000 C CNN
+F 2 "" H 2150 3550 50  0001 C CNN
+F 3 "" H 2150 3550 50  0001 C CNN
+	1    2150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F7B200A
+P 1850 3550
+F 0 "#GND?" H 1850 3550 50  0001 C CNN
+F 1 "GND" H 1850 3429 59  0000 C CNN
+F 2 "" H 1850 3550 50  0001 C CNN
+F 3 "" H 1850 3550 50  0001 C CNN
+	1    1850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F7A8F71
+P 3050 2450
+F 0 "R?" H 3120 2496 50  0000 L CNN
+F 1 "1K" H 3120 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2980 2450 50  0001 C CNN
+F 3 "~" H 3050 2450 50  0001 C CNN
+	1    3050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F7A96D4
+P 3300 2450
+F 0 "R?" H 3370 2496 50  0000 L CNN
+F 1 "1K" H 3370 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3230 2450 50  0001 C CNN
+F 3 "~" H 3300 2450 50  0001 C CNN
+	1    3300 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2250 3050 2250
+Wire Wire Line
+	3050 2250 3050 2300
+Wire Wire Line
+	3300 2300 3300 2150
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F7A9D47
+P 3050 2700
+F 0 "#GND?" H 3050 2700 50  0001 C CNN
+F 1 "GND" H 3050 2579 59  0000 C CNN
+F 2 "" H 3050 2700 50  0001 C CNN
+F 3 "" H 3050 2700 50  0001 C CNN
+	1    3050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F7A9FFA
+P 3300 2700
+F 0 "#GND?" H 3300 2700 50  0001 C CNN
+F 1 "GND" H 3300 2579 59  0000 C CNN
+F 2 "" H 3300 2700 50  0001 C CNN
+F 3 "" H 3300 2700 50  0001 C CNN
+	1    3300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:+3V3 #+3V3?
+U 1 1 5F7BC317
+P 1900 4500
+F 0 "#+3V3?" H 1900 4500 50  0001 C CNN
+F 1 "+3V3" H 1900 4622 59  0000 C CNN
+F 2 "" H 1900 4500 50  0001 C CNN
+F 3 "" H 1900 4500 50  0001 C CNN
+	1    1900 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:+3V3 #+3V?
+U 1 1 5F7BC737
+P 3500 1050
+F 0 "#+3V?" H 3500 1050 50  0001 C CNN
+F 1 "+3V3" H 3500 1172 59  0000 C CNN
+F 2 "" H 3500 1050 50  0001 C CNN
+F 3 "" H 3500 1050 50  0001 C CNN
+	1    3500 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1350 5200 1250
+Wire Wire Line
+	5200 1250 5300 1250
+Wire Wire Line
+	3500 1250 3500 1150
+Wire Wire Line
+	5300 1250 5300 1350
+Wire Wire Line
+	1900 4600 1900 5000
+Wire Wire Line
+	1900 5000 2350 5000
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5F7EEEBA
+P 7250 1600
+F 0 "Q?" H 7454 1646 50  0000 L CNN
+F 1 "2N7002" H 7454 1555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7450 1525 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7250 1600 50  0001 L CNN
+F 4 "C8545" H 7250 1600 50  0001 C CNN "LCSC"
+	1    7250 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5F7F1838
+P 7250 2250
+F 0 "Q?" H 7454 2204 50  0000 L CNN
+F 1 "2N7002" H 7454 2295 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7450 2175 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7250 2250 50  0001 L CNN
+F 4 "C8545" H 7250 2250 50  0001 C CNN "LCSC"
+	1    7250 2250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7050 1600 7000 1600
+Wire Wire Line
+	7050 2250 7000 2250
+Wire Wire Line
+	7000 2250 7000 2000
+Wire Wire Line
+	7000 2000 7350 1850
+Wire Wire Line
+	7350 1850 7350 1800
+Connection ~ 7000 2250
+Wire Wire Line
+	7000 2250 6850 2250
+Wire Wire Line
+	7350 2050 7350 2000
+Wire Wire Line
+	7350 2000 7000 1850
+Wire Wire Line
+	7000 1850 7000 1600
+Connection ~ 7000 1600
+Wire Wire Line
+	7000 1600 6900 1600
+Wire Wire Line
+	7350 2450 7350 2550
+Wire Wire Line
+	7350 2550 7400 2550
+Wire Wire Line
+	7350 1400 7350 1300
+Wire Wire Line
+	7350 1300 7400 1300
+$Comp
+L B.B-eagle-import:+3V3 #+3V?
+U 1 1 5F7BEF68
+P 3700 4500
+F 0 "#+3V?" H 3700 4500 50  0001 C CNN
+F 1 "+3V3" H 3700 4622 59  0000 C CNN
+F 2 "" H 3700 4500 50  0001 C CNN
+F 3 "" H 3700 4500 50  0001 C CNN
+	1    3700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F7BF9D1
+P 3700 4750
+F 0 "R?" H 3770 4796 50  0000 L CNN
+F 1 "12k" H 3770 4705 50  0000 L CNN
+F 2 "" V 3630 4750 50  0001 C CNN
+F 3 "~" H 3700 4750 50  0001 C CNN
+F 4 "C25752" H 3700 4750 50  0001 C CNN "lcsc"
+	1    3700 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5100 3700 5100
+Wire Wire Line
+	3700 4900 3700 5100
+Wire Wire Line
+	3700 5100 3800 5100
+Connection ~ 3700 5100
+$Comp
+L B.B-eagle-import:+3V3 #+3V?
+U 1 1 5F80B560
+P 7350 2950
+F 0 "#+3V?" H 7350 2950 50  0001 C CNN
+F 1 "+3V3" H 7350 3072 59  0000 C CNN
+F 2 "" H 7350 2950 50  0001 C CNN
+F 3 "" H 7350 2950 50  0001 C CNN
+	1    7350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F80B567
+P 7100 3150
+F 0 "R?" H 7170 3196 50  0000 L CNN
+F 1 "12k" H 7170 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 3150 50  0001 C CNN
+F 3 "~" H 7100 3150 50  0001 C CNN
+F 4 "C25752" H 7100 3150 50  0001 C CNN "LCSC"
+	1    7100 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F82433D
+P 7100 3650
+F 0 "R?" H 7170 3696 50  0000 L CNN
+F 1 "12k" H 7170 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 3650 50  0001 C CNN
+F 3 "~" H 7100 3650 50  0001 C CNN
+F 4 "C25752" H 7100 3650 50  0001 C CNN "LCSC"
+	1    7100 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8281DA
+P 7100 3400
+F 0 "R?" H 7170 3446 50  0000 L CNN
+F 1 "12k" H 7170 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 3400 50  0001 C CNN
+F 3 "~" H 7100 3400 50  0001 C CNN
+F 4 "C25752" H 7100 3400 50  0001 C CNN "LCSC"
+	1    7100 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7350 3050 7350 3150
+Wire Wire Line
+	7350 3650 7250 3650
+Wire Wire Line
+	7250 3400 7350 3400
+Connection ~ 7350 3400
+Wire Wire Line
+	7350 3400 7350 3650
+Wire Wire Line
+	7250 3150 7350 3150
+Connection ~ 7350 3150
+Wire Wire Line
+	7350 3150 7350 3400
+$Comp
+L Device:C C?
+U 1 1 5F84DAE6
+P 4500 1450
+F 0 "C?" H 4615 1496 50  0000 L CNN
+F 1 "10uf" H 4615 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4538 1300 50  0001 C CNN
+F 3 "~" H 4500 1450 50  0001 C CNN
+F 4 "C15850" H 4500 1450 50  0001 C CNN "LCSC"
+	1    4500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F8533E6
+P 4500 1700
+F 0 "#GND?" H 4500 1700 50  0001 C CNN
+F 1 "GND" H 4500 1579 59  0000 C CNN
+F 2 "" H 4500 1700 50  0001 C CNN
+F 3 "" H 4500 1700 50  0001 C CNN
+	1    4500 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1300 4500 1250
+Wire Wire Line
+	4500 1250 5200 1250
+$Comp
+L Device:C C?
+U 1 1 5F8566B5
+P 4100 1450
+F 0 "C?" H 4215 1496 50  0000 L CNN
+F 1 "0.1uf" H 4215 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 1300 50  0001 C CNN
+F 3 "~" H 4100 1450 50  0001 C CNN
+F 4 "C14663" H 4100 1450 50  0001 C CNN "LCSC"
+	1    4100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F856D83
+P 4100 1700
+F 0 "#GND?" H 4100 1700 50  0001 C CNN
+F 1 "GND" H 4100 1579 59  0000 C CNN
+F 2 "" H 4100 1700 50  0001 C CNN
+F 3 "" H 4100 1700 50  0001 C CNN
+	1    4100 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1300 4100 1250
+Wire Wire Line
+	4100 1250 4500 1250
+Connection ~ 4500 1250
+$Comp
+L Device:C C?
+U 1 1 5F8B4312
+P 4300 2150
+F 0 "C?" H 4415 2196 50  0000 L CNN
+F 1 "10uf" H 4415 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4338 2000 50  0001 C CNN
+F 3 "~" H 4300 2150 50  0001 C CNN
+F 4 "C15850" H 4300 2150 50  0001 C CNN "LCSC"
+	1    4300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F8B4318
+P 4300 2400
+F 0 "#GND?" H 4300 2400 50  0001 C CNN
+F 1 "GND" H 4300 2279 59  0000 C CNN
+F 2 "" H 4300 2400 50  0001 C CNN
+F 3 "" H 4300 2400 50  0001 C CNN
+	1    4300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8B431F
+P 3900 2150
+F 0 "C?" H 4015 2196 50  0000 L CNN
+F 1 "0.1uf" H 4015 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3938 2000 50  0001 C CNN
+F 3 "~" H 3900 2150 50  0001 C CNN
+F 4 "C14663" H 3900 2150 50  0001 C CNN "LCSC"
+	1    3900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F8B4325
+P 3900 2400
+F 0 "#GND?" H 3900 2400 50  0001 C CNN
+F 1 "GND" H 3900 2279 59  0000 C CNN
+F 2 "" H 3900 2400 50  0001 C CNN
+F 3 "" H 3900 2400 50  0001 C CNN
+	1    3900 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2000 4300 1950
+Connection ~ 4300 1950
+Wire Wire Line
+	4300 1950 4800 1950
+Wire Wire Line
+	3900 2000 3900 1950
+Wire Wire Line
+	3900 1950 4300 1950
+$Comp
+L Device:C C?
+U 1 1 5F8F8C8C
+P 3150 5200
+F 0 "C?" H 3265 5246 50  0000 L CNN
+F 1 "22uf" H 3265 5155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3188 5050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf" H 3150 5200 50  0001 C CNN
+F 4 "C45783" H 3150 5200 50  0001 C CNN "LCSC"
+	1    3150 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 5050 3150 5000
+Connection ~ 3150 5000
+Wire Wire Line
+	3150 5000 3800 5000
+Connection ~ 2750 5000
+Wire Wire Line
+	2750 5000 3150 5000
+Wire Wire Line
+	2350 5050 2350 5000
+Connection ~ 2350 5000
+Wire Wire Line
+	2350 5000 2750 5000
+Wire Wire Line
+	1900 5050 1900 5000
+Connection ~ 1900 5000
+Wire Wire Line
+	2750 5050 2750 5000
+$Comp
+L Device:C C?
+U 1 1 5F8FB2CD
+P 2750 5200
+F 0 "C?" H 2865 5246 50  0000 L CNN
+F 1 "22uf" H 2865 5155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2788 5050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf" H 2750 5200 50  0001 C CNN
+F 4 "C45783" H 2750 5200 50  0001 C CNN "LCSC"
+	1    2750 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F96D25A
+P 3150 5450
+F 0 "#GND?" H 3150 5450 50  0001 C CNN
+F 1 "GND" H 3150 5329 59  0000 C CNN
+F 2 "" H 3150 5450 50  0001 C CNN
+F 3 "" H 3150 5450 50  0001 C CNN
+	1    3150 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F96D6D1
+P 2750 5450
+F 0 "#GND?" H 2750 5450 50  0001 C CNN
+F 1 "GND" H 2750 5329 59  0000 C CNN
+F 2 "" H 2750 5450 50  0001 C CNN
+F 3 "" H 2750 5450 50  0001 C CNN
+	1    2750 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F96DA82
+P 2350 5450
+F 0 "#GND?" H 2350 5450 50  0001 C CNN
+F 1 "GND" H 2350 5329 59  0000 C CNN
+F 2 "" H 2350 5450 50  0001 C CNN
+F 3 "" H 2350 5450 50  0001 C CNN
+	1    2350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F96DE9E
+P 1900 5450
+F 0 "#GND?" H 1900 5450 50  0001 C CNN
+F 1 "GND" H 1900 5329 59  0000 C CNN
+F 2 "" H 1900 5450 50  0001 C CNN
+F 3 "" H 1900 5450 50  0001 C CNN
+	1    1900 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F970DFC
+P 2350 5200
+F 0 "C?" H 2465 5246 50  0000 L CNN
+F 1 "10uf" H 2465 5155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2388 5050 50  0001 C CNN
+F 3 "~" H 2350 5200 50  0001 C CNN
+F 4 "C15850" H 2350 5200 50  0001 C CNN "LCSC"
+	1    2350 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F971517
+P 1900 5200
+F 0 "C?" H 2015 5246 50  0000 L CNN
+F 1 "0.1uf" H 2015 5155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1938 5050 50  0001 C CNN
+F 3 "~" H 1900 5200 50  0001 C CNN
+F 4 "C14663" H 1900 5200 50  0001 C CNN "LCSC"
+	1    1900 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 1950
+Text Label 4700 2050 0    50   ~ 0
+D+
+Wire Wire Line
+	4800 2050 4700 2050
+Wire Wire Line
+	4800 2150 4700 2150
+Text Label 4700 2150 0    50   ~ 0
+D-
+Text Label 2800 2750 0    50   ~ 0
+D+
+Text Label 2800 2650 0    50   ~ 0
+D+
+Text Label 2800 2550 0    50   ~ 0
+D-
+Text Label 2800 2450 0    50   ~ 0
+D-
+Wire Wire Line
+	2750 2450 2800 2450
+Wire Wire Line
+	2750 2550 2800 2550
+Wire Wire Line
+	2750 2650 2800 2650
+Wire Wire Line
+	2750 2750 2800 2750
+$Comp
+L Device:R R?
+U 1 1 5F7BE1D0
+P 8000 3150
+F 0 "R?" H 8070 3196 50  0000 L CNN
+F 1 "12k" H 8070 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7930 3150 50  0001 C CNN
+F 3 "~" H 8000 3150 50  0001 C CNN
+F 4 "C25752" H 8000 3150 50  0001 C CNN "LCSC"
+	1    8000 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F7BE95B
+P 8000 3400
+F 0 "R?" H 8070 3446 50  0000 L CNN
+F 1 "12k" H 8070 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7930 3400 50  0001 C CNN
+F 3 "~" H 8000 3400 50  0001 C CNN
+F 4 "C25752" H 8000 3400 50  0001 C CNN "LCSC"
+	1    8000 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 3150 8200 3150
+Wire Wire Line
+	8200 3150 8200 3400
+Wire Wire Line
+	8150 3400 8200 3400
+Connection ~ 8200 3400
+Wire Wire Line
+	8200 3400 8200 3750
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F7C3BCF
+P 8200 3850
+F 0 "#GND?" H 8200 3850 50  0001 C CNN
+F 1 "GND" H 8200 3729 59  0000 C CNN
+F 2 "" H 8200 3850 50  0001 C CNN
+F 3 "" H 8200 3850 50  0001 C CNN
+	1    8200 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5500 3800 5500
+Text HLabel 3600 5500 0    50   Input ~ 0
+IO0
+Wire Wire Line
+	6000 5150 6250 5150
+Wire Wire Line
+	6000 5250 6250 5250
+Wire Wire Line
+	6000 5350 6250 5350
+Wire Wire Line
+	6000 5650 6250 5650
+Text HLabel 6250 5150 2    50   Input ~ 0
+IO5
+Text HLabel 6250 5250 2    50   Input ~ 0
+IO2
+Text HLabel 6250 5350 2    50   Input ~ 0
+IO12
+Text HLabel 6250 5650 2    50   Input ~ 0
+IO15
+Text Label 3600 5100 0    50   ~ 0
+EN
+Text Label 3550 5250 0    50   ~ 0
+RX-esp
+Wire Wire Line
+	3550 5250 3800 5250
+Text Label 3550 5350 0    50   ~ 0
+TX-esp
+Wire Wire Line
+	3550 5350 3800 5350
+Text Label 3600 5500 0    50   ~ 0
+IO0
+Text Label 6050 5150 0    50   ~ 0
+IO15
+Text Label 6050 5250 0    50   ~ 0
+IO2
+Text Label 6050 5350 0    50   ~ 0
+IO12
+Text Label 6050 5650 0    50   ~ 0
+IO15
+Text Label 6800 3150 0    50   ~ 0
+IO0
+Text Label 6800 3400 0    50   ~ 0
+IO5
+Text Label 6800 3650 0    50   ~ 0
+IO15
+Wire Wire Line
+	6800 3650 6950 3650
+Wire Wire Line
+	6800 3400 6950 3400
+Wire Wire Line
+	6800 3150 6950 3150
+Text Label 7700 3150 0    50   ~ 0
+IO2
+Text Label 7700 3400 0    50   ~ 0
+IO12
+Wire Wire Line
+	7700 3400 7850 3400
+Wire Wire Line
+	7700 3150 7850 3150
+Text Label 7400 2550 0    50   ~ 0
+IO0
+Text Label 7400 1300 0    50   ~ 0
+EN
+Text Label 6900 1600 0    50   ~ 0
+DTR
+Text Label 6850 2250 0    50   ~ 0
+RTS
+Text Label 5800 1550 0    50   ~ 0
+CTS
+Text Label 5800 1650 0    50   ~ 0
+RTS
+Text Label 5800 1750 0    50   ~ 0
+TX-esp
+Text Label 5800 1850 0    50   ~ 0
+RX-esp
+Text Label 5800 1950 0    50   ~ 0
+DSR
+Text Label 5800 2050 0    50   ~ 0
+DTR
+Text Label 5800 2150 0    50   ~ 0
+DCD
+Text Label 5800 2250 0    50   ~ 0
+RI
+Text HLabel 6000 5050 2    50   Input ~ 0
+IO4
+Text HLabel 6000 5450 2    50   Input ~ 0
+IO13
+Text HLabel 6000 5550 2    50   Input ~ 0
+IO14
+Text HLabel 6000 5750 2    50   Input ~ 0
+IO25
+Text HLabel 6000 5850 2    50   Input ~ 0
+IO26
+Text HLabel 6000 5950 2    50   Input ~ 0
+IO27
+Text HLabel 3800 5650 0    50   Input ~ 0
+IO39
+Text HLabel 3800 5750 0    50   Input ~ 0
+IO36
+Text HLabel 3800 5850 0    50   Input ~ 0
+IO35
+Text HLabel 3800 5950 0    50   Input ~ 0
+IO34
+Text HLabel 3800 6050 0    50   Input ~ 0
+IO33
+Text HLabel 3800 6150 0    50   Input ~ 0
+IO32
+Text HLabel 3800 6300 0    50   Input ~ 0
+IO23
+Text HLabel 3800 6400 0    50   Input ~ 0
+IO22
+Text HLabel 3800 6500 0    50   Input ~ 0
+IO21
+Text HLabel 3800 6600 0    50   Input ~ 0
+IO19
+Text HLabel 3800 6700 0    50   Input ~ 0
+IO18
+Connection ~ 5200 1250
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5F83FB30
+P 3800 1350
+F 0 "Q?" H 4004 1396 50  0000 L CNN
+F 1 "2N7002" H 4004 1305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4000 1275 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 3800 1350 50  0001 L CNN
+F 4 "C8545" H 3800 1350 50  0001 C CNN "LCSC"
+	1    3800 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 1250 4100 1250
+Connection ~ 4100 1250
+Wire Wire Line
+	3600 1250 3500 1250
+Wire Wire Line
+	3800 1550 3800 1950
+Wire Wire Line
+	3800 1950 3900 1950
+$Comp
+L Device:R R?
+U 1 1 5F860400
+P 3600 2150
+F 0 "R?" H 3670 2196 50  0000 L CNN
+F 1 "1M" H 3670 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3530 2150 50  0001 C CNN
+F 3 "~" H 3600 2150 50  0001 C CNN
+F 4 "C26083" H 3600 2150 50  0001 C CNN "LCSC"
+	1    3600 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2000 3600 1950
+Wire Wire Line
+	3600 1950 3800 1950
+Connection ~ 3800 1950
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F862EDC
+P 3600 2400
+F 0 "#GND?" H 3600 2400 50  0001 C CNN
+F 1 "GND" H 3600 2279 59  0000 C CNN
+F 2 "" H 3600 2400 50  0001 C CNN
+F 3 "" H 3600 2400 50  0001 C CNN
+	1    3600 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2150 2750 2150
+Wire Wire Line
+	2750 1950 3600 1950
+Connection ~ 3600 1950
+$Comp
+L Switch:SW_DIP_x01 SW?
+U 1 1 5F90B5A3
+P 9250 1550
+F 0 "SW?" H 9250 1817 50  0000 C CNN
+F 1 "SW_DIP_x01" H 9250 1726 50  0000 C CNN
+F 2 "" H 9250 1550 50  0001 C CNN
+F 3 "~" H 9250 1550 50  0001 C CNN
+	1    9250 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F912654
+P 9250 1800
+F 0 "C?" V 9300 1900 50  0000 C CNN
+F 1 "1nf" V 9300 1700 50  0000 C CNN
+F 2 "" H 9288 1650 50  0001 C CNN
+F 3 "~" H 9250 1800 50  0001 C CNN
+F 4 "C1523" V 9250 1800 50  0001 C CNN "LCSC"
+	1    9250 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F913318
+P 9800 1550
+F 0 "R?" H 9870 1596 50  0000 L CNN
+F 1 "470" H 9870 1505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9730 1550 50  0001 C CNN
+F 3 "~" H 9800 1550 50  0001 C CNN
+F 4 "C25117" H 9800 1550 50  0001 C CNN "LCSC"
+	1    9800 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 1550 8850 1550
+Wire Wire Line
+	8850 1550 8850 1800
+Wire Wire Line
+	9100 1800 8850 1800
+Connection ~ 8850 1800
+Wire Wire Line
+	8850 1800 8850 1950
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F917986
+P 8850 2050
+F 0 "#GND?" H 8850 2050 50  0001 C CNN
+F 1 "GND" H 8850 1929 59  0000 C CNN
+F 2 "" H 8850 2050 50  0001 C CNN
+F 3 "" H 8850 2050 50  0001 C CNN
+	1    8850 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 1800 9600 1800
+Wire Wire Line
+	9600 1800 9600 1550
+Wire Wire Line
+	9600 1550 9550 1550
+Wire Wire Line
+	9600 1550 9650 1550
+Connection ~ 9600 1550
+$Comp
+L Switch:SW_DIP_x01 SW?
+U 1 1 5F936AB7
+P 9250 2550
+F 0 "SW?" H 9250 2817 50  0000 C CNN
+F 1 "SW_DIP_x01" H 9250 2726 50  0000 C CNN
+F 2 "" H 9250 2550 50  0001 C CNN
+F 3 "~" H 9250 2550 50  0001 C CNN
+	1    9250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F936ABE
+P 9250 2800
+F 0 "C?" V 9300 2900 50  0000 C CNN
+F 1 "1nf" V 9300 2700 50  0000 C CNN
+F 2 "" H 9288 2650 50  0001 C CNN
+F 3 "~" H 9250 2800 50  0001 C CNN
+F 4 "C1523" V 9250 2800 50  0001 C CNN "LCSC"
+	1    9250 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F936AC5
+P 9800 2550
+F 0 "R?" H 9870 2596 50  0000 L CNN
+F 1 "470" H 9870 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9730 2550 50  0001 C CNN
+F 3 "~" H 9800 2550 50  0001 C CNN
+F 4 "C25117" H 9800 2550 50  0001 C CNN "LCSC"
+	1    9800 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 2550 8850 2550
+Wire Wire Line
+	8850 2550 8850 2800
+Wire Wire Line
+	9100 2800 8850 2800
+Connection ~ 8850 2800
+Wire Wire Line
+	8850 2800 8850 2950
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F936AD0
+P 8850 3050
+F 0 "#GND?" H 8850 3050 50  0001 C CNN
+F 1 "GND" H 8850 2929 59  0000 C CNN
+F 2 "" H 8850 3050 50  0001 C CNN
+F 3 "" H 8850 3050 50  0001 C CNN
+	1    8850 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 2800 9600 2800
+Wire Wire Line
+	9600 2800 9600 2550
+Wire Wire Line
+	9600 2550 9550 2550
+Wire Wire Line
+	9600 2550 9650 2550
+Connection ~ 9600 2550
+Wire Wire Line
+	9950 2550 10100 2550
+Wire Wire Line
+	9950 1550 10100 1550
+Text Label 10100 1550 0    50   ~ 0
+IO0
+Text Label 10100 2550 0    50   ~ 0
+EN
+$Comp
+L Device:C C?
+U 1 1 5F943646
+P 7100 1300
+F 0 "C?" V 7150 1400 50  0000 C CNN
+F 1 "1nf" V 7150 1200 50  0000 C CNN
+F 2 "" H 7138 1150 50  0001 C CNN
+F 3 "~" H 7100 1300 50  0001 C CNN
+F 4 "C1523" V 7100 1300 50  0001 C CNN "LCSC"
+	1    7100 1300
+	0    1    1    0   
+$EndComp
+Connection ~ 7350 1300
+Wire Wire Line
+	7250 1300 7350 1300
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F95FE63
+P 6850 1300
+F 0 "#GND?" H 6850 1300 50  0001 C CNN
+F 1 "GND" H 6850 1179 59  0000 C CNN
+F 2 "" H 6850 1300 50  0001 C CNN
+F 3 "" H 6850 1300 50  0001 C CNN
+	1    6850 1300
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
