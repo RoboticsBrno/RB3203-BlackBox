@@ -1,0 +1,1189 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L B.B-rescue:SY8286A U?
+U 1 1 5FA4F0DD
+P 4100 2100
+AR Path="/5FA4C94D/5FA4F0DD" Ref="U?"  Part="1" 
+AR Path="/5F9AAC80/5FA4F0DD" Ref="U?"  Part="1" 
+F 0 "U?" H 4100 2575 50  0000 C CNN
+F 1 "SY8286A" H 4100 2484 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm" H 4100 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Silergy-Corp-SY8286ARAC_C178251.pdf" H 4100 2350 50  0001 C CNN
+F 4 "C178251" H 4100 2100 50  0001 C CNN "LCSC"
+	1    4100 2100
+	1    0    0    -1  
+$EndComp
+Text HLabel 1800 1500 1    50   Input ~ 0
+vcc
+Wire Wire Line
+	3750 1850 3150 1850
+Wire Wire Line
+	1800 1850 1800 1500
+$Comp
+L Device:C C?
+U 1 1 5FA51440
+P 2650 2100
+AR Path="/5FA4C94D/5FA51440" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5FA51440" Ref="C?"  Part="1" 
+F 0 "C?" H 2765 2146 50  0000 L CNN
+F 1 "10uf" H 2765 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2688 1950 50  0001 C CNN
+F 3 "~" H 2650 2100 50  0001 C CNN
+F 4 "C15850" H 2650 2100 50  0001 C CNN "LCSC"
+	1    2650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA523BB
+P 4550 2900
+AR Path="/5FA4C94D/5FA523BB" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FA523BB" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 4550 2900 50  0001 C CNN
+F 1 "GND" H 4550 2820 59  0000 C CNN
+F 2 "" H 4550 2900 50  0001 C CNN
+F 3 "" H 4550 2900 50  0001 C CNN
+	1    4550 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2500 4550 2450
+Wire Wire Line
+	4550 2450 4450 2450
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA526B3
+P 4100 2900
+AR Path="/5FA4C94D/5FA526B3" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FA526B3" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 4100 2900 50  0001 C CNN
+F 1 "GND" H 4100 2820 59  0000 C CNN
+F 2 "" H 4100 2900 50  0001 C CNN
+F 3 "" H 4100 2900 50  0001 C CNN
+	1    4100 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2800 4100 2600
+$Comp
+L Device:C C?
+U 1 1 5FA52B8E
+P 3050 2100
+AR Path="/5FA4C94D/5FA52B8E" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5FA52B8E" Ref="C?"  Part="1" 
+F 0 "C?" H 3165 2146 50  0000 L CNN
+F 1 "10uf" H 3165 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3088 1950 50  0001 C CNN
+F 3 "~" H 3050 2100 50  0001 C CNN
+F 4 "C15850" H 3050 2100 50  0001 C CNN "LCSC"
+	1    3050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA53546
+P 2200 2100
+AR Path="/5FA4C94D/5FA53546" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5FA53546" Ref="C?"  Part="1" 
+F 0 "C?" H 2315 2146 50  0000 L CNN
+F 1 "4.7uf" H 2315 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2238 1950 50  0001 C CNN
+F 3 "~" H 2200 2100 50  0001 C CNN
+F 4 "C1779" H 2200 2100 50  0001 C CNN "LCSC"
+	1    2200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1950 2200 1850
+Connection ~ 2200 1850
+Wire Wire Line
+	2200 1850 1800 1850
+Wire Wire Line
+	2650 1950 2650 1850
+Connection ~ 2650 1850
+Wire Wire Line
+	2650 1850 2200 1850
+Wire Wire Line
+	3050 1950 3050 1850
+Connection ~ 3050 1850
+Wire Wire Line
+	3050 1850 2650 1850
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA53F95
+P 3050 2350
+AR Path="/5FA4C94D/5FA53F95" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FA53F95" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 3050 2350 50  0001 C CNN
+F 1 "GND" H 3050 2270 59  0000 C CNN
+F 2 "" H 3050 2350 50  0001 C CNN
+F 3 "" H 3050 2350 50  0001 C CNN
+	1    3050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA54260
+P 2650 2350
+AR Path="/5FA4C94D/5FA54260" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FA54260" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 2650 2350 50  0001 C CNN
+F 1 "GND" H 2650 2270 59  0000 C CNN
+F 2 "" H 2650 2350 50  0001 C CNN
+F 3 "" H 2650 2350 50  0001 C CNN
+	1    2650 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA54500
+P 2200 2350
+AR Path="/5FA4C94D/5FA54500" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FA54500" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 2200 2350 50  0001 C CNN
+F 1 "GND" H 2200 2270 59  0000 C CNN
+F 2 "" H 2200 2350 50  0001 C CNN
+F 3 "" H 2200 2350 50  0001 C CNN
+	1    2200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5FA55EA5
+P 5350 1850
+AR Path="/5FA4C94D/5FA55EA5" Ref="L?"  Part="1" 
+AR Path="/5F9AAC80/5FA55EA5" Ref="L?"  Part="1" 
+F 0 "L?" V 5540 1850 50  0000 C CNN
+F 1 "1.5uh" V 5449 1850 50  0000 C CNN
+F 2 "" H 5350 1850 50  0001 C CNN
+F 3 "~" H 5350 1850 50  0001 C CNN
+F 4 "C151870" V 5350 1850 50  0001 C CNN "LCSC"
+	1    5350 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA567F9
+P 4600 2000
+AR Path="/5FA4C94D/5FA567F9" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5FA567F9" Ref="C?"  Part="1" 
+F 0 "C?" V 4550 1900 50  0000 C CNN
+F 1 "0.1uf" V 4550 2150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4638 1850 50  0001 C CNN
+F 3 "~" H 4600 2000 50  0001 C CNN
+F 4 "C1525" H 4600 2000 50  0001 C CNN "LCSC"
+	1    4600 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 1850 4950 1850
+Wire Wire Line
+	4750 2000 4950 2000
+Wire Wire Line
+	4950 2000 4950 1850
+Connection ~ 4950 1850
+Wire Wire Line
+	4950 1850 5200 1850
+$Comp
+L Device:R R?
+U 1 1 5FA58D15
+P 6000 2050
+AR Path="/5FA4C94D/5FA58D15" Ref="R?"  Part="1" 
+AR Path="/5F9AAC80/5FA58D15" Ref="R?"  Part="1" 
+F 0 "R?" H 6070 2096 50  0000 L CNN
+F 1 "150k" H 6070 2005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5930 2050 50  0001 C CNN
+F 3 "~" H 6000 2050 50  0001 C CNN
+F 4 "C25755" H 6000 2050 50  0001 C CNN "LCSC"
+	1    6000 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2200 6000 2200
+$Comp
+L Device:R R?
+U 1 1 5FA59E42
+P 6000 2350
+AR Path="/5FA4C94D/5FA59E42" Ref="R?"  Part="1" 
+AR Path="/5F9AAC80/5FA59E42" Ref="R?"  Part="1" 
+F 0 "R?" H 6070 2396 50  0000 L CNN
+F 1 "20k" H 6070 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5930 2350 50  0001 C CNN
+F 3 "~" H 6000 2350 50  0001 C CNN
+F 4 "C25765" H 6000 2350 50  0001 C CNN "LCSC"
+	1    6000 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 6000 2200
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA5A382
+P 6000 2600
+AR Path="/5FA4C94D/5FA5A382" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FA5A382" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 6000 2600 50  0001 C CNN
+F 1 "GND" H 6000 2520 59  0000 C CNN
+F 2 "" H 6000 2600 50  0001 C CNN
+F 3 "" H 6000 2600 50  0001 C CNN
+	1    6000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA5ADC8
+P 6450 2050
+AR Path="/5FA4C94D/5FA5ADC8" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5FA5ADC8" Ref="C?"  Part="1" 
+F 0 "C?" H 6565 2096 50  0000 L CNN
+F 1 "22uf" H 6565 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6488 1900 50  0001 C CNN
+F 3 "~" H 6450 2050 50  0001 C CNN
+F 4 "C45783" H 6450 2050 50  0001 C CNN "LCSC"
+	1    6450 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA5BA87
+P 6850 2050
+AR Path="/5FA4C94D/5FA5BA87" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5FA5BA87" Ref="C?"  Part="1" 
+F 0 "C?" H 6965 2096 50  0000 L CNN
+F 1 "22uf" H 6965 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6888 1900 50  0001 C CNN
+F 3 "~" H 6850 2050 50  0001 C CNN
+F 4 "C45783" H 6850 2050 50  0001 C CNN "LCSC"
+	1    6850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA5C2DC
+P 7250 2050
+AR Path="/5FA4C94D/5FA5C2DC" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5FA5C2DC" Ref="C?"  Part="1" 
+F 0 "C?" H 7365 2096 50  0000 L CNN
+F 1 "10uf" H 7365 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7288 1900 50  0001 C CNN
+F 3 "~" H 7250 2050 50  0001 C CNN
+F 4 "C15850" H 7250 2050 50  0001 C CNN "LCSC"
+	1    7250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA5D691
+P 8050 2050
+AR Path="/5FA4C94D/5FA5D691" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5FA5D691" Ref="C?"  Part="1" 
+F 0 "C?" H 8165 2096 50  0000 L CNN
+F 1 "4.7uf" H 8165 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8088 1900 50  0001 C CNN
+F 3 "~" H 8050 2050 50  0001 C CNN
+F 4 "C1779" H 8050 2050 50  0001 C CNN "LCSC"
+	1    8050 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA5E0CC
+P 7650 2050
+AR Path="/5FA4C94D/5FA5E0CC" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5FA5E0CC" Ref="C?"  Part="1" 
+F 0 "C?" H 7765 2096 50  0000 L CNN
+F 1 "10uf" H 7765 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7688 1900 50  0001 C CNN
+F 3 "~" H 7650 2050 50  0001 C CNN
+F 4 "C15850" H 7650 2050 50  0001 C CNN "LCSC"
+	1    7650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA5FB81
+P 8450 2050
+AR Path="/5FA4C94D/5FA5FB81" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5FA5FB81" Ref="C?"  Part="1" 
+F 0 "C?" H 8565 2096 50  0000 L CNN
+F 1 "2.2uf" H 8565 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8488 1900 50  0001 C CNN
+F 3 "~" H 8450 2050 50  0001 C CNN
+F 4 "C49217" H 8450 2050 50  0001 C CNN "LCSC"
+	1    8450 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 1850 8450 1900
+Wire Wire Line
+	8050 1900 8050 1850
+Connection ~ 8050 1850
+Wire Wire Line
+	8050 1850 8450 1850
+Wire Wire Line
+	7650 1900 7650 1850
+Connection ~ 7650 1850
+Wire Wire Line
+	7650 1850 8050 1850
+Wire Wire Line
+	7250 1900 7250 1850
+Connection ~ 7250 1850
+Wire Wire Line
+	7250 1850 7650 1850
+Wire Wire Line
+	6850 1900 6850 1850
+Connection ~ 6850 1850
+Wire Wire Line
+	6850 1850 7250 1850
+Wire Wire Line
+	6450 1900 6450 1850
+Connection ~ 6450 1850
+Wire Wire Line
+	6450 1850 6850 1850
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA62522
+P 6450 2300
+AR Path="/5FA4C94D/5FA62522" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FA62522" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 6450 2300 50  0001 C CNN
+F 1 "GND" H 6450 2220 59  0000 C CNN
+F 2 "" H 6450 2300 50  0001 C CNN
+F 3 "" H 6450 2300 50  0001 C CNN
+	1    6450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA6282F
+P 6850 2300
+AR Path="/5FA4C94D/5FA6282F" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FA6282F" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 6850 2300 50  0001 C CNN
+F 1 "GND" H 6850 2220 59  0000 C CNN
+F 2 "" H 6850 2300 50  0001 C CNN
+F 3 "" H 6850 2300 50  0001 C CNN
+	1    6850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA62B8E
+P 7250 2300
+AR Path="/5FA4C94D/5FA62B8E" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FA62B8E" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 7250 2300 50  0001 C CNN
+F 1 "GND" H 7250 2220 59  0000 C CNN
+F 2 "" H 7250 2300 50  0001 C CNN
+F 3 "" H 7250 2300 50  0001 C CNN
+	1    7250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA62F44
+P 7650 2300
+AR Path="/5FA4C94D/5FA62F44" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FA62F44" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 7650 2300 50  0001 C CNN
+F 1 "GND" H 7650 2220 59  0000 C CNN
+F 2 "" H 7650 2300 50  0001 C CNN
+F 3 "" H 7650 2300 50  0001 C CNN
+	1    7650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA63301
+P 8050 2300
+AR Path="/5FA4C94D/5FA63301" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FA63301" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 8050 2300 50  0001 C CNN
+F 1 "GND" H 8050 2220 59  0000 C CNN
+F 2 "" H 8050 2300 50  0001 C CNN
+F 3 "" H 8050 2300 50  0001 C CNN
+	1    8050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA63724
+P 8450 2300
+AR Path="/5FA4C94D/5FA63724" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FA63724" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 8450 2300 50  0001 C CNN
+F 1 "GND" H 8450 2220 59  0000 C CNN
+F 2 "" H 8450 2300 50  0001 C CNN
+F 3 "" H 8450 2300 50  0001 C CNN
+	1    8450 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 1850 8750 1850
+Connection ~ 8450 1850
+Text HLabel 8750 1850 2    50   Input ~ 0
+5V
+Wire Wire Line
+	3750 2250 3700 2250
+Wire Wire Line
+	3700 2250 3700 2800
+Wire Wire Line
+	3700 2250 3700 2050
+Wire Wire Line
+	3700 2050 3750 2050
+Connection ~ 3700 2250
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA70F4F
+P 3700 2900
+AR Path="/5FA4C94D/5FA70F4F" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FA70F4F" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 3700 2900 50  0001 C CNN
+F 1 "GND" H 3700 2820 59  0000 C CNN
+F 2 "" H 3700 2900 50  0001 C CNN
+F 3 "" H 3700 2900 50  0001 C CNN
+	1    3700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2450 4600 2450
+Connection ~ 4550 2450
+Text HLabel 4600 2450 2    50   Input ~ 0
+low_power_3V3
+Wire Wire Line
+	6000 1900 6000 1850
+Wire Wire Line
+	6000 1850 6450 1850
+Wire Wire Line
+	5500 1850 6000 1850
+Connection ~ 6000 1850
+Text HLabel 3600 1750 0    50   Input ~ 0
+SHUTDOWN_5V
+Text Notes 4500 2400 0    50   ~ 0
+low power 3V3 output can provide \nmax continuous current 150mA
+$Comp
+L Device:C C?
+U 1 1 5FAA5D15
+P 4550 2650
+AR Path="/5FA4C94D/5FAA5D15" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5FAA5D15" Ref="C?"  Part="1" 
+F 0 "C?" H 4665 2696 50  0000 L CNN
+F 1 "10uf" H 4665 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4588 2500 50  0001 C CNN
+F 3 "~" H 4550 2650 50  0001 C CNN
+F 4 "C15850" H 4550 2650 50  0001 C CNN "LCSC"
+	1    4550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-rescue:FR9885 U?
+U 1 1 5FAB5D8C
+P 4100 3800
+AR Path="/5FA4C94D/5FAB5D8C" Ref="U?"  Part="1" 
+AR Path="/5F9AAC80/5FAB5D8C" Ref="U?"  Part="1" 
+F 0 "U?" H 4075 4025 50  0000 C CNN
+F 1 "FR9885" H 4075 3934 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4100 3800 50  0001 C CNN
+F 3 "https://file.remont-aud.net/baza/dc_dc/data/FR9885.pdf" H 4100 3800 50  0001 C CNN
+F 4 "C172767" H 4100 3800 50  0001 C CNN "LCSC"
+	1    4100 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1850 1800 3800
+Wire Wire Line
+	1800 3800 2550 3800
+Connection ~ 1800 1850
+Text HLabel 3500 3700 0    50   Input ~ 0
+SHUTDOWN_4V
+$Comp
+L Device:R R?
+U 1 1 5FABD1B9
+P 3350 3950
+AR Path="/5FA4C94D/5FABD1B9" Ref="R?"  Part="1" 
+AR Path="/5F9AAC80/5FABD1B9" Ref="R?"  Part="1" 
+F 0 "R?" V 3300 3800 50  0000 C CNN
+F 1 "100k" V 3300 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3280 3950 50  0001 C CNN
+F 3 "~" H 3350 3950 50  0001 C CNN
+F 4 "C25741" H 3350 3950 50  0001 C CNN "LCSC"
+	1    3350 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 3700 3650 3700
+Wire Wire Line
+	3500 3950 3650 3950
+Wire Wire Line
+	3200 3950 3150 3950
+Wire Wire Line
+	3150 3950 3150 3800
+Connection ~ 3150 3800
+Wire Wire Line
+	3150 3800 3700 3800
+$Comp
+L Device:R R?
+U 1 1 5FAC0485
+P 3400 1950
+AR Path="/5FA4C94D/5FAC0485" Ref="R?"  Part="1" 
+AR Path="/5F9AAC80/5FAC0485" Ref="R?"  Part="1" 
+F 0 "R?" V 3350 1800 50  0000 C CNN
+F 1 "100k" V 3350 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 1950 50  0001 C CNN
+F 3 "~" H 3400 1950 50  0001 C CNN
+F 4 "C25741" H 3400 1950 50  0001 C CNN "LCSC"
+	1    3400 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 1950 3150 1950
+Wire Wire Line
+	3150 1950 3150 1850
+Connection ~ 3150 1850
+Wire Wire Line
+	3150 1850 3050 1850
+Wire Wire Line
+	3550 1950 3700 1950
+Wire Wire Line
+	3600 1750 3700 1750
+Wire Wire Line
+	3700 1750 3700 1950
+Connection ~ 3700 1950
+Wire Wire Line
+	3700 1950 3750 1950
+$Comp
+L Device:L L?
+U 1 1 5FADDF9A
+P 5000 3900
+AR Path="/5FA4C94D/5FADDF9A" Ref="L?"  Part="1" 
+AR Path="/5F9AAC80/5FADDF9A" Ref="L?"  Part="1" 
+F 0 "L?" V 5190 3900 50  0000 C CNN
+F 1 "4,7uH" V 5099 3900 50  0000 C CNN
+F 2 "" H 5000 3900 50  0001 C CNN
+F 3 "~" H 5000 3900 50  0001 C CNN
+	1    5000 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 3900 4800 3900
+$Comp
+L Device:C C?
+U 1 1 5FAE0908
+P 4600 3800
+AR Path="/5FA4C94D/5FAE0908" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5FAE0908" Ref="C?"  Part="1" 
+F 0 "C?" V 4550 3700 50  0000 C CNN
+F 1 "0.1uf" V 4550 3950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4638 3650 50  0001 C CNN
+F 3 "~" H 4600 3800 50  0001 C CNN
+F 4 "C1525" H 4600 3800 50  0001 C CNN "LCSC"
+	1    4600 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 3800 4800 3800
+Wire Wire Line
+	4800 3800 4800 3900
+Connection ~ 4800 3900
+Wire Wire Line
+	4800 3900 4850 3900
+$Comp
+L Device:R R?
+U 1 1 5FAE4AFC
+P 5000 4050
+AR Path="/5FA4C94D/5FAE4AFC" Ref="R?"  Part="1" 
+AR Path="/5F9AAC80/5FAE4AFC" Ref="R?"  Part="1" 
+F 0 "R?" V 4950 4200 50  0000 C CNN
+F 1 "56k" V 4950 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4930 4050 50  0001 C CNN
+F 3 "~" H 5000 4050 50  0001 C CNN
+F 4 "C25796" H 5000 4050 50  0001 C CNN "LCSC"
+	1    5000 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 4050 4700 4050
+Wire Wire Line
+	5150 4050 5250 4050
+Wire Wire Line
+	5250 4050 5250 3900
+Wire Wire Line
+	5250 3900 5150 3900
+$Comp
+L Device:R R?
+U 1 1 5FAE83BC
+P 4700 4250
+AR Path="/5FA4C94D/5FAE83BC" Ref="R?"  Part="1" 
+AR Path="/5F9AAC80/5FAE83BC" Ref="R?"  Part="1" 
+F 0 "R?" V 4600 4250 50  0000 C CNN
+F 1 "10k" V 4800 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4630 4250 50  0001 C CNN
+F 3 "~" H 4700 4250 50  0001 C CNN
+F 4 "C25744" H 4700 4250 50  0001 C CNN "LCSC"
+	1    4700 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 4100 4700 4050
+Connection ~ 4700 4050
+Wire Wire Line
+	4700 4050 4450 4050
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FAEBC5A
+P 4700 4500
+AR Path="/5FA4C94D/5FAEBC5A" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FAEBC5A" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 4700 4500 50  0001 C CNN
+F 1 "GND" H 4700 4420 59  0000 C CNN
+F 2 "" H 4700 4500 50  0001 C CNN
+F 3 "" H 4700 4500 50  0001 C CNN
+	1    4700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FAEC105
+P 4150 4500
+AR Path="/5FA4C94D/5FAEC105" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FAEC105" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 4150 4500 50  0001 C CNN
+F 1 "GND" H 4150 4420 59  0000 C CNN
+F 2 "" H 4150 4500 50  0001 C CNN
+F 3 "" H 4150 4500 50  0001 C CNN
+	1    4150 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4400 4150 4200
+Wire Wire Line
+	3650 3700 3650 3950
+Connection ~ 3650 3950
+Wire Wire Line
+	3650 3950 3700 3950
+$Comp
+L Device:C C?
+U 1 1 5F8CFB13
+P 3000 4050
+AR Path="/5FA4C94D/5F8CFB13" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5F8CFB13" Ref="C?"  Part="1" 
+F 0 "C?" H 3115 4096 50  0000 L CNN
+F 1 "10uf" H 3115 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3038 3900 50  0001 C CNN
+F 3 "~" H 3000 4050 50  0001 C CNN
+F 4 "C15850" H 3000 4050 50  0001 C CNN "LCSC"
+	1    3000 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3900 3000 3800
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F8CFB1A
+P 3000 4300
+AR Path="/5FA4C94D/5F8CFB1A" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5F8CFB1A" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 3000 4300 50  0001 C CNN
+F 1 "GND" H 3000 4220 59  0000 C CNN
+F 2 "" H 3000 4300 50  0001 C CNN
+F 3 "" H 3000 4300 50  0001 C CNN
+	1    3000 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 3800
+Wire Wire Line
+	3000 3800 3150 3800
+$Comp
+L Device:C C?
+U 1 1 5F8E7E62
+P 6250 4100
+AR Path="/5FA4C94D/5F8E7E62" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5F8E7E62" Ref="C?"  Part="1" 
+F 0 "C?" H 6365 4146 50  0000 L CNN
+F 1 "2.2uf" H 6365 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6288 3950 50  0001 C CNN
+F 3 "~" H 6250 4100 50  0001 C CNN
+F 4 "C49217" H 6250 4100 50  0001 C CNN "LCSC"
+	1    6250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F8E7E7A
+P 6250 4350
+AR Path="/5FA4C94D/5F8E7E7A" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5F8E7E7A" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 6250 4350 50  0001 C CNN
+F 1 "GND" H 6250 4270 59  0000 C CNN
+F 2 "" H 6250 4350 50  0001 C CNN
+F 3 "" H 6250 4350 50  0001 C CNN
+	1    6250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8F3113
+P 5400 4100
+AR Path="/5FA4C94D/5F8F3113" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5F8F3113" Ref="C?"  Part="1" 
+F 0 "C?" H 5515 4146 50  0000 L CNN
+F 1 "22uf" H 5515 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5438 3950 50  0001 C CNN
+F 3 "~" H 5400 4100 50  0001 C CNN
+F 4 "C45783" H 5400 4100 50  0001 C CNN "LCSC"
+	1    5400 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3950 5400 3900
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F8F311A
+P 5400 4350
+AR Path="/5FA4C94D/5F8F311A" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5F8F311A" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 5400 4350 50  0001 C CNN
+F 1 "GND" H 5400 4270 59  0000 C CNN
+F 2 "" H 5400 4350 50  0001 C CNN
+F 3 "" H 5400 4350 50  0001 C CNN
+	1    5400 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3900 5400 3900
+Wire Wire Line
+	6250 3900 6250 3950
+Connection ~ 5250 3900
+Connection ~ 5400 3900
+Wire Wire Line
+	5400 3900 5800 3900
+Wire Wire Line
+	6250 3900 6500 3900
+Connection ~ 6250 3900
+Text HLabel 6500 3900 2    50   Input ~ 0
+4V
+$Comp
+L Device:C C?
+U 1 1 5F908880
+P 2550 4050
+AR Path="/5FA4C94D/5F908880" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5F908880" Ref="C?"  Part="1" 
+F 0 "C?" H 2665 4096 50  0000 L CNN
+F 1 "4.7uf" H 2665 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2588 3900 50  0001 C CNN
+F 3 "~" H 2550 4050 50  0001 C CNN
+F 4 "C1779" H 2550 4050 50  0001 C CNN "LCSC"
+	1    2550 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 3900 2550 3800
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F908887
+P 2550 4300
+AR Path="/5FA4C94D/5F908887" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5F908887" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 2550 4300 50  0001 C CNN
+F 1 "GND" H 2550 4220 59  0000 C CNN
+F 2 "" H 2550 4300 50  0001 C CNN
+F 3 "" H 2550 4300 50  0001 C CNN
+	1    2550 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 2550 3800
+Wire Wire Line
+	2550 3800 3000 3800
+$Comp
+L Device:C C?
+U 1 1 5F91C7FE
+P 5800 4100
+AR Path="/5FA4C94D/5F91C7FE" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5F91C7FE" Ref="C?"  Part="1" 
+F 0 "C?" H 5915 4146 50  0000 L CNN
+F 1 "4.7uf" H 5915 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5838 3950 50  0001 C CNN
+F 3 "~" H 5800 4100 50  0001 C CNN
+F 4 "C1779" H 5800 4100 50  0001 C CNN "LCSC"
+	1    5800 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3950 5800 3900
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F91C805
+P 5800 4350
+AR Path="/5FA4C94D/5F91C805" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5F91C805" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 5800 4350 50  0001 C CNN
+F 1 "GND" H 5800 4270 59  0000 C CNN
+F 2 "" H 5800 4350 50  0001 C CNN
+F 3 "" H 5800 4350 50  0001 C CNN
+	1    5800 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 3900
+Wire Wire Line
+	5800 3900 6250 3900
+$Comp
+L B.B-rescue:FR9885 U?
+U 1 1 5F938D1B
+P 4150 5600
+AR Path="/5FA4C94D/5F938D1B" Ref="U?"  Part="1" 
+AR Path="/5F9AAC80/5F938D1B" Ref="U?"  Part="1" 
+F 0 "U?" H 4125 5825 50  0000 C CNN
+F 1 "FR9885" H 4125 5734 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4150 5600 50  0001 C CNN
+F 3 "https://file.remont-aud.net/baza/dc_dc/data/FR9885.pdf" H 4150 5600 50  0001 C CNN
+F 4 "C172767" H 4150 5600 50  0001 C CNN "LCSC"
+	1    4150 5600
+	1    0    0    -1  
+$EndComp
+Text HLabel 3550 5500 0    50   Input ~ 0
+SHUTDOWN_3V
+$Comp
+L Device:R R?
+U 1 1 5F938D24
+P 3400 5750
+AR Path="/5FA4C94D/5F938D24" Ref="R?"  Part="1" 
+AR Path="/5F9AAC80/5F938D24" Ref="R?"  Part="1" 
+F 0 "R?" V 3350 5600 50  0000 C CNN
+F 1 "100k" V 3350 5950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 5750 50  0001 C CNN
+F 3 "~" H 3400 5750 50  0001 C CNN
+F 4 "C25741" H 3400 5750 50  0001 C CNN "LCSC"
+	1    3400 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 5500 3700 5500
+Wire Wire Line
+	3550 5750 3700 5750
+Wire Wire Line
+	3250 5750 3200 5750
+Wire Wire Line
+	3200 5750 3200 5600
+Connection ~ 3200 5600
+Wire Wire Line
+	3200 5600 3750 5600
+$Comp
+L Device:L L?
+U 1 1 5F938D30
+P 5050 5700
+AR Path="/5FA4C94D/5F938D30" Ref="L?"  Part="1" 
+AR Path="/5F9AAC80/5F938D30" Ref="L?"  Part="1" 
+F 0 "L?" V 5240 5700 50  0000 C CNN
+F 1 "4,7uH" V 5149 5700 50  0000 C CNN
+F 2 "" H 5050 5700 50  0001 C CNN
+F 3 "~" H 5050 5700 50  0001 C CNN
+	1    5050 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 5700 4850 5700
+$Comp
+L Device:C C?
+U 1 1 5F938D38
+P 4650 5600
+AR Path="/5FA4C94D/5F938D38" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5F938D38" Ref="C?"  Part="1" 
+F 0 "C?" V 4600 5500 50  0000 C CNN
+F 1 "0.1uf" V 4600 5750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4688 5450 50  0001 C CNN
+F 3 "~" H 4650 5600 50  0001 C CNN
+F 4 "C1525" H 4650 5600 50  0001 C CNN "LCSC"
+	1    4650 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 5600 4850 5600
+Wire Wire Line
+	4850 5600 4850 5700
+Connection ~ 4850 5700
+Wire Wire Line
+	4850 5700 4900 5700
+$Comp
+L Device:R R?
+U 1 1 5F938D43
+P 5050 5850
+AR Path="/5FA4C94D/5F938D43" Ref="R?"  Part="1" 
+AR Path="/5F9AAC80/5F938D43" Ref="R?"  Part="1" 
+F 0 "R?" V 5000 6000 50  0000 C CNN
+F 1 "33k" V 5000 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4980 5850 50  0001 C CNN
+F 3 "~" H 5050 5850 50  0001 C CNN
+F 4 "C25779" H 5050 5850 50  0001 C CNN "LCSC"
+	1    5050 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 5850 4750 5850
+Wire Wire Line
+	5200 5850 5300 5850
+Wire Wire Line
+	5300 5850 5300 5700
+Wire Wire Line
+	5300 5700 5200 5700
+$Comp
+L Device:R R?
+U 1 1 5F938D4E
+P 4750 6050
+AR Path="/5FA4C94D/5F938D4E" Ref="R?"  Part="1" 
+AR Path="/5F9AAC80/5F938D4E" Ref="R?"  Part="1" 
+F 0 "R?" V 4650 6050 50  0000 C CNN
+F 1 "7.5k" V 4850 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4680 6050 50  0001 C CNN
+F 3 "~" H 4750 6050 50  0001 C CNN
+F 4 "C25918" H 4750 6050 50  0001 C CNN "LCSC"
+	1    4750 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 5900 4750 5850
+Connection ~ 4750 5850
+Wire Wire Line
+	4750 5850 4500 5850
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F938D57
+P 4750 6300
+AR Path="/5FA4C94D/5F938D57" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5F938D57" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 4750 6300 50  0001 C CNN
+F 1 "GND" H 4750 6220 59  0000 C CNN
+F 2 "" H 4750 6300 50  0001 C CNN
+F 3 "" H 4750 6300 50  0001 C CNN
+	1    4750 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F938D5D
+P 4200 6300
+AR Path="/5FA4C94D/5F938D5D" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5F938D5D" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 4200 6300 50  0001 C CNN
+F 1 "GND" H 4200 6220 59  0000 C CNN
+F 2 "" H 4200 6300 50  0001 C CNN
+F 3 "" H 4200 6300 50  0001 C CNN
+	1    4200 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6200 4200 6000
+Wire Wire Line
+	3700 5500 3700 5750
+Connection ~ 3700 5750
+Wire Wire Line
+	3700 5750 3750 5750
+$Comp
+L Device:C C?
+U 1 1 5F938D68
+P 3050 5850
+AR Path="/5FA4C94D/5F938D68" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5F938D68" Ref="C?"  Part="1" 
+F 0 "C?" H 3165 5896 50  0000 L CNN
+F 1 "10uf" H 3165 5805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3088 5700 50  0001 C CNN
+F 3 "~" H 3050 5850 50  0001 C CNN
+F 4 "C15850" H 3050 5850 50  0001 C CNN "LCSC"
+	1    3050 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 5700 3050 5600
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F938D6F
+P 3050 6100
+AR Path="/5FA4C94D/5F938D6F" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5F938D6F" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 3050 6100 50  0001 C CNN
+F 1 "GND" H 3050 6020 59  0000 C CNN
+F 2 "" H 3050 6100 50  0001 C CNN
+F 3 "" H 3050 6100 50  0001 C CNN
+	1    3050 6100
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 5600
+Wire Wire Line
+	3050 5600 3200 5600
+$Comp
+L Device:C C?
+U 1 1 5F938D78
+P 6300 5900
+AR Path="/5FA4C94D/5F938D78" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5F938D78" Ref="C?"  Part="1" 
+F 0 "C?" H 6415 5946 50  0000 L CNN
+F 1 "2.2uf" H 6415 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6338 5750 50  0001 C CNN
+F 3 "~" H 6300 5900 50  0001 C CNN
+F 4 "C49217" H 6300 5900 50  0001 C CNN "LCSC"
+	1    6300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F938D7E
+P 6300 6150
+AR Path="/5FA4C94D/5F938D7E" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5F938D7E" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 6300 6150 50  0001 C CNN
+F 1 "GND" H 6300 6070 59  0000 C CNN
+F 2 "" H 6300 6150 50  0001 C CNN
+F 3 "" H 6300 6150 50  0001 C CNN
+	1    6300 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F938D85
+P 5450 5900
+AR Path="/5FA4C94D/5F938D85" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5F938D85" Ref="C?"  Part="1" 
+F 0 "C?" H 5565 5946 50  0000 L CNN
+F 1 "22uf" H 5565 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5488 5750 50  0001 C CNN
+F 3 "~" H 5450 5900 50  0001 C CNN
+F 4 "C45783" H 5450 5900 50  0001 C CNN "LCSC"
+	1    5450 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 5750 5450 5700
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F938D8C
+P 5450 6150
+AR Path="/5FA4C94D/5F938D8C" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5F938D8C" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 5450 6150 50  0001 C CNN
+F 1 "GND" H 5450 6070 59  0000 C CNN
+F 2 "" H 5450 6150 50  0001 C CNN
+F 3 "" H 5450 6150 50  0001 C CNN
+	1    5450 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5700 5450 5700
+Wire Wire Line
+	6300 5700 6300 5750
+Connection ~ 5300 5700
+Connection ~ 5450 5700
+Wire Wire Line
+	5450 5700 5850 5700
+Wire Wire Line
+	6300 5700 6550 5700
+Connection ~ 6300 5700
+$Comp
+L Device:C C?
+U 1 1 5F938D9B
+P 2600 5850
+AR Path="/5FA4C94D/5F938D9B" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5F938D9B" Ref="C?"  Part="1" 
+F 0 "C?" H 2715 5896 50  0000 L CNN
+F 1 "4.7uf" H 2715 5805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 5700 50  0001 C CNN
+F 3 "~" H 2600 5850 50  0001 C CNN
+F 4 "C1779" H 2600 5850 50  0001 C CNN "LCSC"
+	1    2600 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 5700 2600 5600
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F938DA2
+P 2600 6100
+AR Path="/5FA4C94D/5F938DA2" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5F938DA2" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 2600 6100 50  0001 C CNN
+F 1 "GND" H 2600 6020 59  0000 C CNN
+F 2 "" H 2600 6100 50  0001 C CNN
+F 3 "" H 2600 6100 50  0001 C CNN
+	1    2600 6100
+	1    0    0    -1  
+$EndComp
+Connection ~ 2600 5600
+Wire Wire Line
+	2600 5600 3050 5600
+$Comp
+L Device:C C?
+U 1 1 5F938DAB
+P 5850 5900
+AR Path="/5FA4C94D/5F938DAB" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5F938DAB" Ref="C?"  Part="1" 
+F 0 "C?" H 5965 5946 50  0000 L CNN
+F 1 "4.7uf" H 5965 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5888 5750 50  0001 C CNN
+F 3 "~" H 5850 5900 50  0001 C CNN
+F 4 "C1779" H 5850 5900 50  0001 C CNN "LCSC"
+	1    5850 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5750 5850 5700
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F938DB2
+P 5850 6150
+AR Path="/5FA4C94D/5F938DB2" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5F938DB2" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 5850 6150 50  0001 C CNN
+F 1 "GND" H 5850 6070 59  0000 C CNN
+F 2 "" H 5850 6150 50  0001 C CNN
+F 3 "" H 5850 6150 50  0001 C CNN
+	1    5850 6150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 5700
+Wire Wire Line
+	5850 5700 6300 5700
+Wire Wire Line
+	1800 5600 2600 5600
+Connection ~ 1800 3800
+Text HLabel 6550 5700 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	1800 3800 1800 5600
+$Comp
+L B.B-eagle-import:NC #NC?
+U 1 1 5FA07E2A
+P 3750 2450
+AR Path="/5FA4C94D/5FA07E2A" Ref="#NC?"  Part="1" 
+AR Path="/5F9AAC80/5FA07E2A" Ref="#NC?"  Part="1" 
+F 0 "#NC?" H 3750 2450 50  0001 C CNN
+F 1 "NC" H 3750 2450 50  0001 C CNN
+F 2 "" H 3750 2450 50  0001 C CNN
+F 3 "" H 3750 2450 50  0001 C CNN
+	1    3750 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L B.B-eagle-import:NC #NC?
+U 1 1 5FA08C2E
+P 3750 2150
+AR Path="/5FA4C94D/5FA08C2E" Ref="#NC?"  Part="1" 
+AR Path="/5F9AAC80/5FA08C2E" Ref="#NC?"  Part="1" 
+F 0 "#NC?" H 3750 2150 50  0001 C CNN
+F 1 "NC" H 3750 2150 50  0001 C CNN
+F 2 "" H 3750 2150 50  0001 C CNN
+F 3 "" H 3750 2150 50  0001 C CNN
+	1    3750 2150
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

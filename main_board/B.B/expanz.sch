@@ -1,0 +1,339 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L B.B-rescue:PCA9555D-Interface_Expansion U?
+U 1 1 5F9EEC47
+P 3950 3650
+AR Path="/5F9EE529/5F9EEC47" Ref="U?"  Part="1" 
+AR Path="/5FA9DBB3/5F9EEC47" Ref="U?"  Part="1" 
+F 0 "U?" H 3950 4700 50  0000 C CNN
+F 1 "PCA9555D-Interface_Expansion" H 3950 4600 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 4900 2650 50  0001 C CNN
+F 3 "" H 3950 3650 50  0001 C CNN
+	1    3950 3650
+	1    0    0    -1  
+$EndComp
+Text HLabel 2850 2850 0    50   Input ~ 0
+3V3
+Text HLabel 3450 3050 0    50   Input ~ 0
+SCL
+Text HLabel 3450 3150 0    50   Input ~ 0
+SDA
+$Sheet
+S 6000 2400 550  1300
+U 5F9F24D4
+F0 "perception00" 50
+F1 "perception.sch" 50
+F2 "3V3" I L 6000 2450 50 
+F3 "SCL" I L 6000 2600 50 
+F4 "SDA" I L 6000 2700 50 
+F5 "int_accel1" I L 6000 2850 50 
+F6 "int_accel2" I L 6000 2950 50 
+F7 "int_giro1" I L 6000 3050 50 
+F8 "int_giro2" I L 6000 3150 50 
+F9 "int_magnet" I L 6000 3250 50 
+F10 "INT" I L 6000 3600 50 
+F11 "int_RTC" I L 6000 3350 50 
+F12 "int_baro" I L 6000 3450 50 
+$EndSheet
+Text HLabel 6000 2600 0    50   Input ~ 0
+SCL
+Text HLabel 6000 2700 0    50   Input ~ 0
+SDA
+Text HLabel 6000 2450 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	6000 2850 4450 2850
+Wire Wire Line
+	4450 2950 6000 2950
+Wire Wire Line
+	6000 3050 4450 3050
+Wire Wire Line
+	4450 3150 6000 3150
+Wire Wire Line
+	6000 3250 4450 3250
+Wire Wire Line
+	4450 3350 6000 3350
+Wire Wire Line
+	6000 3450 4450 3450
+Text HLabel 5800 3600 0    50   Input ~ 0
+INT
+Text HLabel 3450 3350 0    50   Input ~ 0
+INT-PCA
+Wire Wire Line
+	3450 4250 3400 4250
+Wire Wire Line
+	3400 4250 3400 4350
+Wire Wire Line
+	3400 4700 3950 4700
+Wire Wire Line
+	3950 4700 3950 4650
+Wire Wire Line
+	3450 4450 3400 4450
+Connection ~ 3400 4450
+Wire Wire Line
+	3400 4450 3400 4700
+Wire Wire Line
+	3450 4350 3400 4350
+Connection ~ 3400 4350
+Wire Wire Line
+	3400 4350 3400 4450
+Wire Wire Line
+	3950 4700 3950 4750
+Connection ~ 3950 4700
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA31D9D
+P 3950 4850
+AR Path="/5F9EE529/5FA31D9D" Ref="#GND?"  Part="1" 
+AR Path="/5FA9DBB3/5FA31D9D" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 3950 4850 50  0001 C CNN
+F 1 "GND" H 3950 4770 59  0000 C CNN
+F 2 "" H 3950 4850 50  0001 C CNN
+F 3 "" H 3950 4850 50  0001 C CNN
+	1    3950 4850
+	1    0    0    -1  
+$EndComp
+Text HLabel 4450 4150 2    50   Input ~ 0
+IO1_4
+Text HLabel 4450 4250 2    50   Input ~ 0
+IO1_5
+Text HLabel 4450 4350 2    50   Input ~ 0
+IO1_6
+Text HLabel 4450 4450 2    50   Input ~ 0
+IO1_7
+$Comp
+L Device:C C?
+U 1 1 5FA4EEE5
+P 2900 3100
+AR Path="/5F9EE529/5FA4EEE5" Ref="C?"  Part="1" 
+AR Path="/5FA9DBB3/5FA4EEE5" Ref="C?"  Part="1" 
+F 0 "C?" H 3015 3146 50  0000 L CNN
+F 1 "1uf" H 3015 3055 50  0000 L CNN
+F 2 "" H 2938 2950 50  0001 C CNN
+F 3 "~" H 2900 3100 50  0001 C CNN
+F 4 "C52923" H 2900 3100 50  0001 C CNN "LCSC"
+	1    2900 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2850 2900 2850
+Wire Wire Line
+	2900 2950 2900 2850
+Connection ~ 2900 2850
+Wire Wire Line
+	2900 2850 3450 2850
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA4FAE4
+P 2900 3350
+AR Path="/5F9EE529/5FA4FAE4" Ref="#GND?"  Part="1" 
+AR Path="/5FA9DBB3/5FA4FAE4" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 2900 3350 50  0001 C CNN
+F 1 "GND" H 2900 3270 59  0000 C CNN
+F 2 "" H 2900 3350 50  0001 C CNN
+F 3 "" H 2900 3350 50  0001 C CNN
+	1    2900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Motor:Motor_DC M?
+U 1 1 5FA5194A
+P 9650 2650
+AR Path="/5F9EE529/5FA5194A" Ref="M?"  Part="1" 
+AR Path="/5FA9DBB3/5FA5194A" Ref="M?"  Part="1" 
+F 0 "M?" H 9808 2646 50  0000 L CNN
+F 1 "Motor_DC" H 9808 2555 50  0000 L CNN
+F 2 "" H 9650 2560 50  0001 C CNN
+F 3 "~" H 9650 2560 50  0001 C CNN
+	1    9650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_DSG Q?
+U 1 1 5FA59A13
+P 8900 2900
+AR Path="/5F9EE529/5FA59A13" Ref="Q?"  Part="1" 
+AR Path="/5FA9DBB3/5FA59A13" Ref="Q?"  Part="1" 
+F 0 "Q?" H 9104 2946 50  0000 L CNN
+F 1 "Q_NMOS_DSG" H 9104 2855 50  0000 L CNN
+F 2 "" H 9100 3000 50  0001 C CNN
+F 3 "~" H 8900 2900 50  0001 C CNN
+	1    8900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_DSG Q?
+U 1 1 5FA5D5AC
+P 9000 2500
+AR Path="/5F9EE529/5FA5D5AC" Ref="Q?"  Part="1" 
+AR Path="/5FA9DBB3/5FA5D5AC" Ref="Q?"  Part="1" 
+F 0 "Q?" V 9342 2500 50  0000 C CNN
+F 1 "Q_NMOS_DSG" V 9251 2500 50  0000 C CNN
+F 2 "" H 9200 2600 50  0001 C CNN
+F 3 "~" H 9000 2500 50  0001 C CNN
+	1    9000 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 2400 9650 2400
+Wire Wire Line
+	9650 2400 9650 2450
+Wire Wire Line
+	9650 2950 9650 3100
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA5FD95
+P 9000 3200
+AR Path="/5F9EE529/5FA5FD95" Ref="#GND?"  Part="1" 
+AR Path="/5FA9DBB3/5FA5FD95" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 9000 3200 50  0001 C CNN
+F 1 "GND" H 9000 3120 59  0000 C CNN
+F 2 "" H 9000 3200 50  0001 C CNN
+F 3 "" H 9000 3200 50  0001 C CNN
+	1    9000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA60281
+P 9650 3200
+AR Path="/5F9EE529/5FA60281" Ref="#GND?"  Part="1" 
+AR Path="/5FA9DBB3/5FA60281" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 9650 3200 50  0001 C CNN
+F 1 "GND" H 9650 3120 59  0000 C CNN
+F 2 "" H 9650 3200 50  0001 C CNN
+F 3 "" H 9650 3200 50  0001 C CNN
+	1    9650 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 8800 2400 0    50   Input ~ 0
+5V
+$Comp
+L Device:D D?
+U 1 1 5F99F1C9
+P 5850 3800
+AR Path="/5F96CFDA/5F99F1C9" Ref="D?"  Part="1" 
+AR Path="/5F9EE529/5F9F24D4/5F99F1C9" Ref="D?"  Part="1" 
+AR Path="/5FA9DBB3/5F9F24D4/5F99F1C9" Ref="D?"  Part="1" 
+AR Path="/5F9EE529/5F99F1C9" Ref="D?"  Part="1" 
+F 0 "D?" H 6050 3750 50  0000 R CNN
+F 1 "D" V 5750 3800 50  0000 R CNN
+F 2 "BB:SOD-323" H 5850 3800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/SK-SD103AWS_C109204.pdf" H 5850 3800 50  0001 C CNN
+F 4 "C109204" V 5850 3800 50  0001 C CNN "LCSC"
+	1    5850 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 3600 5850 3600
+Wire Wire Line
+	5850 3650 5850 3600
+Connection ~ 5850 3600
+Wire Wire Line
+	5850 3600 6000 3600
+Wire Wire Line
+	6000 4000 5850 4000
+Wire Wire Line
+	5850 4000 5850 3950
+Wire Wire Line
+	5850 4000 5600 4000
+Wire Wire Line
+	5600 4000 5600 3550
+Wire Wire Line
+	5600 3550 4450 3550
+Connection ~ 5850 4000
+$Sheet
+S 6000 3900 800  600 
+U 5F9AAC54
+F0 "sheet5F9AAC52" 50
+F1 "A9G+.sch" 50
+F2 "4V" I R 6800 3950 50 
+F3 "3.3V" I R 6800 4050 50 
+F4 "PWR_KEY" I L 6000 4250 50 
+F5 "RESET" I L 6000 4150 50 
+F6 "TXD_A9G" I R 6800 4300 50 
+F7 "RXD_A9G" I R 6800 4400 50 
+F8 "INT" I L 6000 4000 50 
+$EndSheet
+Text HLabel 6800 4050 2    50   Input ~ 0
+3V3
+Text HLabel 6800 3950 2    50   Input ~ 0
+4V
+Wire Wire Line
+	6000 4150 5500 4150
+Wire Wire Line
+	5500 4150 5500 3750
+Wire Wire Line
+	5500 3750 4450 3750
+Wire Wire Line
+	4450 3850 5400 3850
+Wire Wire Line
+	5400 3850 5400 4250
+Wire Wire Line
+	5400 4250 6000 4250
+Text Label 4450 3950 0    50   ~ 0
+motor
+Text Label 8700 2900 2    50   ~ 0
+motor
+Text Label 4450 4050 0    50   ~ 0
+WS2812-power
+$Comp
+L Device:Q_NMOS_DSG Q?
+U 1 1 5F9DF808
+P 8900 4250
+AR Path="/5F9EE529/5F9DF808" Ref="Q?"  Part="1" 
+AR Path="/5FA9DBB3/5F9DF808" Ref="Q?"  Part="1" 
+F 0 "Q?" H 9104 4296 50  0000 L CNN
+F 1 "Q_NMOS_DSG" H 9104 4205 50  0000 L CNN
+F 2 "" H 9100 4350 50  0001 C CNN
+F 3 "~" H 8900 4250 50  0001 C CNN
+	1    8900 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_DSG Q?
+U 1 1 5F9DF80E
+P 9000 3850
+AR Path="/5F9EE529/5F9DF80E" Ref="Q?"  Part="1" 
+AR Path="/5FA9DBB3/5F9DF80E" Ref="Q?"  Part="1" 
+F 0 "Q?" V 9342 3850 50  0000 C CNN
+F 1 "Q_NMOS_DSG" V 9251 3850 50  0000 C CNN
+F 2 "" H 9200 3950 50  0001 C CNN
+F 3 "~" H 9000 3850 50  0001 C CNN
+	1    9000 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5F9DF814
+P 9000 4550
+AR Path="/5F9EE529/5F9DF814" Ref="#GND?"  Part="1" 
+AR Path="/5FA9DBB3/5F9DF814" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 9000 4550 50  0001 C CNN
+F 1 "GND" H 9000 4470 59  0000 C CNN
+F 2 "" H 9000 4550 50  0001 C CNN
+F 3 "" H 9000 4550 50  0001 C CNN
+	1    9000 4550
+	1    0    0    -1  
+$EndComp
+Text HLabel 8800 3750 0    50   Input ~ 0
+5V
+Text Label 8700 4250 2    50   ~ 0
+WS2812-power
+Text HLabel 9200 3750 2    50   Input ~ 0
+5V-WS2812
+$EndSCHEMATC

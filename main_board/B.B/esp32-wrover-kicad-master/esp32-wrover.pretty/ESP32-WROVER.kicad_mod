@@ -78,7 +78,7 @@
   (pad 39 smd rect (at -0.4 7.83) (size 5 5) (layers F.Cu F.Paste F.Mask))
   (pad 39 thru_hole circle (at -2.4 5.82) (size 0.8 0.8) (drill 0.3) (layers *.Cu *.Mask))
   (model ${KIWALTER3DMOD}/nrf51822-04_module.x3d
-    (at (xyz 0.433071 1.181102 0))
+    (offset (xyz 11.00000323479652 29.99999034944534 0))
     (scale (xyz 2 2.8 1))
     (rotate (xyz 0 0 0))
   )
