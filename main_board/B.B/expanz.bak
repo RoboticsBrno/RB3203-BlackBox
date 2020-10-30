@@ -421,13 +421,6 @@ U 5FA93863
 F0 "enc00" 50
 F1 "enc.sch" 50
 F2 "3V3" I L 10000 3050 50 
-F3 "OUT_1" I L 10000 3400 50 
-F4 "OUT_0" I L 10000 3300 50 
+F3 "OUT" I L 10000 3200 50 
 $EndSheet
-Text HLabel 10000 3050 0    50   Input ~ 0
-3V3
-Text HLabel 10000 3300 0    50   Input ~ 0
-ENC_OUT_0
-Text HLabel 10000 3400 0    50   Input ~ 0
-ENC_OUT_1
 $EndSCHEMATC
