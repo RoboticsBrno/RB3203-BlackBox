@@ -208,7 +208,7 @@ F 3 "" H 10200 2050 50  0001 C CNN
 	1    10200 2050
 	1    0    0    -1  
 $EndComp
-Text HLabel 8900 1250 0    50   Input ~ 0
+Text HLabel 8650 1250 0    50   Input ~ 0
 5V
 Wire Wire Line
 	4950 4000 4950 3550
@@ -271,8 +271,6 @@ F 3 "" H 8800 3800 50  0001 C CNN
 	1    8800 3800
 	1    0    0    -1  
 $EndComp
-Text HLabel 8600 3000 0    50   Input ~ 0
-5V
 Text Label 8500 3500 2    50   ~ 0
 WS2812-power
 Text HLabel 9000 3000 2    50   Input ~ 0
@@ -507,4 +505,62 @@ F 4 "C25092" V 9750 4950 50  0001 C CNN "LCSC"
 	1    9750 4950
 	-1   0    0    1   
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 5FAA51EC
+P 8900 1550
+AR Path="/5F96CFDA/5FAA51EC" Ref="R?"  Part="1" 
+AR Path="/5F9EE529/5F9F24D4/5FAA51EC" Ref="R?"  Part="1" 
+AR Path="/5FA9DBB3/5F9F24D4/5FAA51EC" Ref="R?"  Part="1" 
+AR Path="/5F9EE529/5FAA51EC" Ref="R?"  Part="1" 
+F 0 "R?" H 8950 1500 50  0000 L CNN
+F 1 "100k" H 8950 1600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8830 1550 50  0001 C CNN
+F 3 "~" H 8900 1550 50  0001 C CNN
+F 4 "C25741" H 8900 1550 50  0001 C CNN "LCSC"
+	1    8900 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9100 1550 9050 1550
+Connection ~ 9100 1550
+Text HLabel 8350 3000 0    50   Input ~ 0
+5V
+$Comp
+L Device:R R?
+U 1 1 5FAAB362
+P 8600 3300
+AR Path="/5F96CFDA/5FAAB362" Ref="R?"  Part="1" 
+AR Path="/5F9EE529/5F9F24D4/5FAAB362" Ref="R?"  Part="1" 
+AR Path="/5FA9DBB3/5F9F24D4/5FAAB362" Ref="R?"  Part="1" 
+AR Path="/5F9EE529/5FAAB362" Ref="R?"  Part="1" 
+F 0 "R?" H 8650 3250 50  0000 L CNN
+F 1 "100k" H 8650 3350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8530 3300 50  0001 C CNN
+F 3 "~" H 8600 3300 50  0001 C CNN
+F 4 "C25741" H 8600 3300 50  0001 C CNN "LCSC"
+	1    8600 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8750 3300 8800 3300
+Connection ~ 8800 3300
+Wire Wire Line
+	8350 3000 8400 3000
+Wire Wire Line
+	8450 3300 8400 3300
+Wire Wire Line
+	8400 3300 8400 3000
+Connection ~ 8400 3000
+Wire Wire Line
+	8400 3000 8600 3000
+Wire Wire Line
+	8650 1250 8700 1250
+Wire Wire Line
+	8750 1550 8700 1550
+Wire Wire Line
+	8700 1550 8700 1250
+Connection ~ 8700 1250
+Wire Wire Line
+	8700 1250 8900 1250
 $EndSCHEMATC
