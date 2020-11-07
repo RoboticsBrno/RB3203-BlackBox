@@ -153,14 +153,14 @@ $EndComp
 $Comp
 L Motor:Motor_DC M?
 U 1 1 5FA5194A
-P 9750 1500
+P 10200 1500
 AR Path="/5F9EE529/5FA5194A" Ref="M?"  Part="1" 
 AR Path="/5FA9DBB3/5FA5194A" Ref="M?"  Part="1" 
-F 0 "M?" H 9908 1496 50  0000 L CNN
-F 1 "Motor_DC" H 9908 1405 50  0000 L CNN
-F 2 "" H 9750 1410 50  0001 C CNN
-F 3 "~" H 9750 1410 50  0001 C CNN
-	1    9750 1500
+F 0 "M?" H 10358 1496 50  0000 L CNN
+F 1 "Motor_DC" H 10358 1405 50  0000 L CNN
+F 2 "" H 10200 1410 50  0001 C CNN
+F 3 "~" H 10200 1410 50  0001 C CNN
+	1    10200 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -176,25 +176,12 @@ F 3 "~" H 9000 1750 50  0001 C CNN
 	1    9000 1750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Q_NMOS_DSG Q?
-U 1 1 5FA5D5AC
-P 9100 1350
-AR Path="/5F9EE529/5FA5D5AC" Ref="Q?"  Part="1" 
-AR Path="/5FA9DBB3/5FA5D5AC" Ref="Q?"  Part="1" 
-F 0 "Q?" V 9442 1350 50  0000 C CNN
-F 1 "Q_NMOS_DSG" V 9351 1350 50  0000 C CNN
-F 2 "" H 9300 1450 50  0001 C CNN
-F 3 "~" H 9100 1350 50  0001 C CNN
-	1    9100 1350
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	9300 1250 9750 1250
+	9300 1250 9900 1250
 Wire Wire Line
-	9750 1250 9750 1300
+	10200 1250 10200 1300
 Wire Wire Line
-	9750 1800 9750 1950
+	10200 1800 10200 1950
 $Comp
 L B.B-eagle-import:GND #GND?
 U 1 1 5FA5FD95
@@ -211,14 +198,14 @@ $EndComp
 $Comp
 L B.B-eagle-import:GND #GND?
 U 1 1 5FA60281
-P 9750 2050
+P 10200 2050
 AR Path="/5F9EE529/5FA60281" Ref="#GND?"  Part="1" 
 AR Path="/5FA9DBB3/5FA60281" Ref="#GND?"  Part="1" 
-F 0 "#GND?" H 9750 2050 50  0001 C CNN
-F 1 "GND" H 9750 1970 59  0000 C CNN
-F 2 "" H 9750 2050 50  0001 C CNN
-F 3 "" H 9750 2050 50  0001 C CNN
-	1    9750 2050
+F 0 "#GND?" H 10200 2050 50  0001 C CNN
+F 1 "GND" H 10200 1970 59  0000 C CNN
+F 2 "" H 10200 2050 50  0001 C CNN
+F 3 "" H 10200 2050 50  0001 C CNN
+	1    10200 2050
 	1    0    0    -1  
 $EndComp
 Text HLabel 8900 1250 0    50   Input ~ 0
@@ -257,10 +244,6 @@ Wire Wire Line
 Wire Wire Line
 	4750 4250 5350 4250
 Text Label 4100 3950 0    50   ~ 0
-motor
-Text Label 8800 1750 2    50   ~ 0
-motor
-Text Label 4100 4050 0    50   ~ 0
 WS2812-power
 $Comp
 L Device:Q_NMOS_DSG Q?
@@ -274,19 +257,6 @@ F 2 "" H 8900 3600 50  0001 C CNN
 F 3 "~" H 8700 3500 50  0001 C CNN
 	1    8700 3500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_DSG Q?
-U 1 1 5F9DF80E
-P 8800 3100
-AR Path="/5F9EE529/5F9DF80E" Ref="Q?"  Part="1" 
-AR Path="/5FA9DBB3/5F9DF80E" Ref="Q?"  Part="1" 
-F 0 "Q?" V 9142 3100 50  0000 C CNN
-F 1 "Q_NMOS_DSG" V 9051 3100 50  0000 C CNN
-F 2 "" H 9000 3200 50  0001 C CNN
-F 3 "~" H 8800 3100 50  0001 C CNN
-	1    8800 3100
-	0    -1   -1   0   
 $EndComp
 $Comp
 L B.B-eagle-import:GND #GND?
@@ -307,20 +277,20 @@ Text Label 8500 3500 2    50   ~ 0
 WS2812-power
 Text HLabel 9000 3000 2    50   Input ~ 0
 5V-WS2812
-Text HLabel 8200 5100 0    50   Input ~ 0
+Text HLabel 7900 5100 0    50   Input ~ 0
 3V3
 $Comp
 L Device:R R?
 U 1 1 5FA465DA
-P 8350 5100
+P 8050 5100
 AR Path="/5FA3274C/5FA465DA" Ref="R?"  Part="1" 
 AR Path="/5F9EE529/5FA465DA" Ref="R?"  Part="1" 
-F 0 "R?" V 8143 5100 50  0000 C CNN
-F 1 "182" V 8234 5100 50  0000 C CNN
-F 2 "" V 8280 5100 50  0001 C CNN
-F 3 "~" H 8350 5100 50  0001 C CNN
-F 4 "C270634" V 8350 5100 50  0001 C CNN "LCSC"
-	1    8350 5100
+F 0 "R?" V 7843 5100 50  0000 C CNN
+F 1 "220" V 7934 5100 50  0000 C CNN
+F 2 "" V 7980 5100 50  0001 C CNN
+F 3 "~" H 8050 5100 50  0001 C CNN
+F 4 "C25092" V 8050 5100 50  0001 C CNN "LCSC"
+	1    8050 5100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -365,7 +335,7 @@ F 3 "" H 9750 5500 50  0001 C CNN
 	1    9750 5500
 	1    0    0    -1  
 $EndComp
-Text HLabel 9750 5100 1    50   Input ~ 0
+Text HLabel 9750 4800 1    50   Input ~ 0
 IR-INPUT
 $Comp
 L B.B-rescue:IRM-H936 U?
@@ -376,7 +346,7 @@ AR Path="/5F9EE529/5FA465F6" Ref="U?"  Part="1"
 F 0 "U?" H 8800 5325 50  0000 C CNN
 F 1 "IRM-H936" H 8800 5234 50  0000 C CNN
 F 2 "" H 8800 5100 50  0001 C CNN
-F 3 "" H 8800 5100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Everlight-Elec-IRM-H936-TR2_C264266.pdf" H 8800 5100 50  0001 C CNN
 F 4 "C264266" H 8800 5100 50  0001 C CNN "LCSC"
 	1    8800 5100
 	1    0    0    -1  
@@ -430,4 +400,111 @@ Text HLabel 10000 3300 0    50   Input ~ 0
 ENC_OUT_0
 Text HLabel 10000 3400 0    50   Input ~ 0
 ENC_OUT_1
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 5FAED176
+P 9100 1350
+F 0 "Q?" V 9443 1350 50  0000 C CNN
+F 1 "Q_PMOS_DGS" V 9352 1350 50  0000 C CNN
+F 2 "" H 9300 1450 50  0001 C CNN
+F 3 "~" H 9100 1350 50  0001 C CNN
+	1    9100 1350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 5FAEED74
+P 8800 3100
+F 0 "Q?" V 9143 3100 50  0000 C CNN
+F 1 "Q_PMOS_DGS" V 9052 3100 50  0000 C CNN
+F 2 "" H 9000 3200 50  0001 C CNN
+F 3 "~" H 8800 3100 50  0001 C CNN
+	1    8800 3100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5FAF23FC
+P 9900 1600
+F 0 "D?" V 9850 1450 50  0000 L CNN
+F 1 "D_Schottky" V 9950 1100 50  0000 L CNN
+F 2 "" H 9900 1600 50  0001 C CNN
+F 3 "~" H 9900 1600 50  0001 C CNN
+	1    9900 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9900 1450 9900 1250
+Connection ~ 9900 1250
+Wire Wire Line
+	9900 1250 10200 1250
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FAF4CA6
+P 9900 2050
+AR Path="/5F9EE529/5FAF4CA6" Ref="#GND?"  Part="1" 
+AR Path="/5FA9DBB3/5FAF4CA6" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 9900 2050 50  0001 C CNN
+F 1 "GND" H 9900 1970 59  0000 C CNN
+F 2 "" H 9900 2050 50  0001 C CNN
+F 3 "" H 9900 2050 50  0001 C CNN
+	1    9900 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 1950 9900 1750
+Text HLabel 4100 4050 2    50   Input ~ 0
+IO1_3
+Text HLabel 8800 1750 0    50   Input ~ 0
+MOTOR
+$Comp
+L Device:C C?
+U 1 1 5FB0693F
+P 8250 5300
+AR Path="/5FA4C94D/5FB0693F" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/5FB0693F" Ref="C?"  Part="1" 
+AR Path="/5F9EE529/5FB0693F" Ref="C?"  Part="1" 
+F 0 "C?" H 8365 5346 50  0000 L CNN
+F 1 "2.2uf" H 8365 5255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8288 5150 50  0001 C CNN
+F 3 "~" H 8250 5300 50  0001 C CNN
+F 4 "C49217" H 8250 5300 50  0001 C CNN "LCSC"
+	1    8250 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FB06945
+P 8250 5550
+AR Path="/5FA4C94D/5FB06945" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FB06945" Ref="#GND?"  Part="1" 
+AR Path="/5F9EE529/5FB06945" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 8250 5550 50  0001 C CNN
+F 1 "GND" H 8250 5470 59  0000 C CNN
+F 2 "" H 8250 5550 50  0001 C CNN
+F 3 "" H 8250 5550 50  0001 C CNN
+	1    8250 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 5100 8250 5150
+Wire Wire Line
+	8200 5100 8250 5100
+Connection ~ 8250 5100
+Wire Wire Line
+	8250 5100 8500 5100
+$Comp
+L Device:R R?
+U 1 1 5FA5476F
+P 9750 4950
+AR Path="/5FA3274C/5FA5476F" Ref="R?"  Part="1" 
+AR Path="/5F9EE529/5FA5476F" Ref="R?"  Part="1" 
+F 0 "R?" V 9543 4950 50  0000 C CNN
+F 1 "220" V 9634 4950 50  0000 C CNN
+F 2 "" V 9680 4950 50  0001 C CNN
+F 3 "~" H 9750 4950 50  0001 C CNN
+F 4 "C25092" V 9750 4950 50  0001 C CNN "LCSC"
+	1    9750 4950
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
