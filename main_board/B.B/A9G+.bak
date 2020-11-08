@@ -69,17 +69,6 @@ Text GLabel 5400 2200 2    50   Input ~ 0
 GSM_RF
 Text HLabel 2150 3550 0    50   Input ~ 0
 PWR_KEY
-$Comp
-L Device:Q_NMOS_DGS Q?
-U 1 1 5F805096
-P 2100 2800
-F 0 "Q?" H 2306 2846 50  0000 L CNN
-F 1 "Q_NMOS_DGS" H 2306 2755 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 2900 50  0001 C CNN
-F 3 "~" H 2100 2800 50  0001 C CNN
-	1    2100 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2200 2600 2200 2550
 Wire Wire Line
@@ -588,17 +577,6 @@ Text HLabel 3250 4750 0    50   Input ~ 0
 RXD_A9G
 Text HLabel 3250 3050 0    50   Input ~ 0
 INT
-$Comp
-L Device:Q_NMOS_DGS Q?
-U 1 1 5F9775A3
-P 2350 3550
-F 0 "Q?" H 2556 3596 50  0000 L CNN
-F 1 "Q_NMOS_DGS" H 2556 3505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2550 3650 50  0001 C CNN
-F 3 "~" H 2350 3550 50  0001 C CNN
-	1    2350 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2450 3350 2450 2450
 Wire Wire Line
@@ -634,6 +612,36 @@ F 1 "GND" H 2450 3729 59  0000 C CNN
 F 2 "" H 2450 3850 50  0001 C CNN
 F 3 "" H 2450 3850 50  0001 C CNN
 	1    2450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5FAAADE2
+P 2350 3550
+AR Path="/5F77B818/5FAAADE2" Ref="Q?"  Part="1" 
+AR Path="/5F9EE529/5F9AAC54/5FAAADE2" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2554 3596 50  0000 L CNN
+F 1 "CJ3134K" H 2554 3505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2550 3475 50  0001 L CIN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-CJ3134K_C110100.pdf" H 2350 3550 50  0001 L CNN
+F 4 "C110100" H 2350 3550 50  0001 C CNN "LCSC"
+F 5 "nutno vyměnit (musí být ->  Vgs-min>1.6V)" H 2350 3550 50  0001 C CNN "poznamka"
+	1    2350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5FAACBD2
+P 2100 2800
+AR Path="/5F77B818/5FAACBD2" Ref="Q?"  Part="1" 
+AR Path="/5F9EE529/5F9AAC54/5FAACBD2" Ref="Q?"  Part="1" 
+F 0 "Q?" H 1950 2850 50  0000 L CNN
+F 1 "CJ3134K" H 1850 2950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 2725 50  0001 L CIN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-CJ3134K_C110100.pdf" H 2100 2800 50  0001 L CNN
+F 4 "C110100" H 2100 2800 50  0001 C CNN "LCSC"
+F 5 "nutno vyměnit (musí být ->  Vgs-min>1.6V)" H 2100 2800 50  0001 C CNN "poznamka"
+	1    2100 2800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

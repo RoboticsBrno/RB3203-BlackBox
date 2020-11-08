@@ -69,21 +69,6 @@ F1 "WS2812.sch" 50
 F2 "5V" I L 8650 3150 50 
 F3 "DIN" I L 8650 3550 50 
 $EndSheet
-$Comp
-L Device:Q_NMOS_DSG Q?
-U 1 1 5FAB2954
-P 8150 3450
-AR Path="/5F9EE529/5FAB2954" Ref="Q?"  Part="1" 
-AR Path="/5FA9DBB3/5FAB2954" Ref="Q?"  Part="1" 
-AR Path="/5FA9675D/5FAA484F/5FAB2954" Ref="Q?"  Part="1" 
-AR Path="/5FA9675D/5FAB2954" Ref="Q?"  Part="1" 
-F 0 "Q?" H 8354 3496 50  0000 L CNN
-F 1 "Q_NMOS_DSG" H 8354 3405 50  0000 L CNN
-F 2 "" H 8350 3550 50  0001 C CNN
-F 3 "~" H 8150 3450 50  0001 C CNN
-	1    8150 3450
-	0    1    1    0   
-$EndComp
 Text HLabel 7800 3550 0    50   Input ~ 0
 WS2812
 Text HLabel 7800 3150 0    50   Input ~ 0
@@ -246,5 +231,20 @@ F 4 "C25752" H 7850 3350 50  0001 C CNN "(LCSC)"
 F 5 "při využití na B.B neosazovat" H 7850 3350 50  0001 C CNN "poznámka"
 	1    7850 3350
 	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5FAB1240
+P 8150 3450
+AR Path="/5F77B818/5FAB1240" Ref="Q?"  Part="1" 
+AR Path="/5FA9675D/5FAB1240" Ref="Q?"  Part="1" 
+F 0 "Q?" H 8354 3496 50  0000 L CNN
+F 1 "CJ3134K" H 8354 3405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8350 3375 50  0001 L CIN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-CJ3134K_C110100.pdf" H 8150 3450 50  0001 L CNN
+F 4 "C110100" H 8150 3450 50  0001 C CNN "LCSC"
+F 5 "nutno vyměnit (musí být ->  Vgs-min>1.6V)" H 8150 3450 50  0001 C CNN "poznamka"
+	1    8150 3450
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
