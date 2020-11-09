@@ -39,9 +39,9 @@ S 4950 1250 550  1150
 U 5F9F24D4
 F0 "perception00" 50
 F1 "perception.sch" 50
-F2 "3V3" I L 4950 1300 50 
-F3 "SCL" I L 4950 1450 50 
-F4 "SDA" I L 4950 1550 50 
+F2 "3V3" I R 5500 1400 50 
+F3 "SCL" I L 4950 1300 50 
+F4 "SDA" I L 4950 1400 50 
 F5 "int_accel1" I L 4950 1700 50 
 F6 "int_accel2" I L 4950 1800 50 
 F7 "int_giro1" I L 4950 1900 50 
@@ -49,12 +49,13 @@ F8 "int_giro2" I L 4950 2000 50
 F9 "int_magnet" I L 4950 2100 50 
 F10 "int_RTC" I L 4950 2200 50 
 F11 "int_baro" I L 4950 2300 50 
+F12 "VCC" I R 5500 1300 50 
 $EndSheet
-Text HLabel 4950 1450 0    50   Input ~ 0
-SCL
-Text HLabel 4950 1550 0    50   Input ~ 0
-SDA
 Text HLabel 4950 1300 0    50   Input ~ 0
+SCL
+Text HLabel 4950 1400 0    50   Input ~ 0
+SDA
+Text HLabel 5500 1400 2    50   Input ~ 0
 3V3
 Wire Wire Line
 	4950 1700 4000 1700
@@ -212,8 +213,6 @@ F8 "INT" I L 4950 2700 50
 $EndSheet
 Text HLabel 5750 2750 2    50   Input ~ 0
 3V3
-Text HLabel 5750 2650 2    50   Input ~ 0
-4V
 Wire Wire Line
 	4950 2850 4750 2850
 Wire Wire Line
@@ -598,7 +597,7 @@ P 9400 4950
 F 0 "J6" H 9170 4939 50  0000 R CNN
 F 1 "USB_A" H 9170 4848 50  0000 R CNN
 F 2 "BB:USBA-G-SMD" H 9550 4900 50  0001 C CNN
-F 3 " ~" H 9550 4900 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/c60640e62718fce43a5513d267b5b1dc/DS1095.pdf" H 9550 4900 50  0001 C CNN
 	1    9400 4950
 	-1   0    0    -1  
 $EndComp
@@ -677,4 +676,8 @@ F 4 "C22452" V 9400 1600 50  0001 C CNN "LCSC"
 	1    9400 1600
 	0    1    1    0   
 $EndComp
+Text HLabel 5750 2650 2    50   Input ~ 0
+4V
+Text HLabel 5500 1300 2    50   Input ~ 0
+4V
 $EndSCHEMATC

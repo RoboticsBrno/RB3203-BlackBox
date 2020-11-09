@@ -162,8 +162,6 @@ F 4 "C113207" H 5600 3750 50  0001 C CNN "LCSC"
 	1    5600 3750
 	1    0    0    -1  
 $EndComp
-Text HLabel 4000 3650 1    50   Input ~ 0
-3V3
 $Comp
 L Device:D D?
 U 1 1 5F93AF19
@@ -181,8 +179,6 @@ F 4 "C109204" V 4200 3750 50  0001 C CNN "LCSC"
 $EndComp
 Wire Wire Line
 	4050 3750 4000 3750
-Wire Wire Line
-	4000 3750 4000 3650
 $Comp
 L Device:Crystal Y?
 U 1 1 5F93D78D
@@ -273,9 +269,9 @@ F 4 "C233787" H 5600 5150 50  0001 C CNN "LCSC"
 	1    5600 5150
 	1    0    0    -1  
 $EndComp
-Text HLabel 4900 5550 0    50   Input ~ 0
+Text HLabel 5200 5550 0    50   Input ~ 0
 SCL
-Text HLabel 4900 5450 0    50   Input ~ 0
+Text HLabel 5200 5450 0    50   Input ~ 0
 SDA
 Text HLabel 6450 5250 2    50   Input ~ 0
 int_baro
@@ -484,34 +480,6 @@ Wire Wire Line
 Connection ~ 6350 5250
 Wire Wire Line
 	6350 5250 6450 5250
-$Comp
-L Device:R R?
-U 1 1 5FBC93C7
-P 5050 5450
-AR Path="/5FA3274C/5FBC93C7" Ref="R?"  Part="1" 
-AR Path="/5F9EE529/5FBC93C7" Ref="R?"  Part="1" 
-AR Path="/5F9EE529/5F9F24D4/5FBC93C7" Ref="R48"  Part="1" 
-F 0 "R48" V 4950 5550 50  0000 C CNN
-F 1 "220" V 4950 5350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4980 5450 50  0001 C CNN
-F 3 "~" H 5050 5450 50  0001 C CNN
-F 4 "C25092" V 5050 5450 50  0001 C CNN "LCSC"
-	1    5050 5450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FBC93CE
-P 5050 5550
-AR Path="/5FA3274C/5FBC93CE" Ref="R?"  Part="1" 
-AR Path="/5F9EE529/5FBC93CE" Ref="R?"  Part="1" 
-AR Path="/5F9EE529/5F9F24D4/5FBC93CE" Ref="R50"  Part="1" 
-F 0 "R50" V 5150 5650 50  0000 C CNN
-F 1 "220" V 5150 5450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4980 5550 50  0001 C CNN
-F 3 "~" H 5050 5550 50  0001 C CNN
-F 4 "C25092" V 5050 5550 50  0001 C CNN "LCSC"
-	1    5050 5550
-	0    1    1    0   
-$EndComp
+Text HLabel 4000 3750 0    50   Input ~ 0
+VCC
 $EndSCHEMATC

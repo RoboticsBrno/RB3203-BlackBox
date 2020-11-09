@@ -39,9 +39,9 @@ S 4950 1250 550  1150
 U 5F9F24D4
 F0 "perception00" 50
 F1 "perception.sch" 50
-F2 "3V3" I L 4950 1300 50 
-F3 "SCL" I L 4950 1450 50 
-F4 "SDA" I L 4950 1550 50 
+F2 "3V3" I R 5500 1400 50 
+F3 "SCL" I L 4950 1300 50 
+F4 "SDA" I L 4950 1400 50 
 F5 "int_accel1" I L 4950 1700 50 
 F6 "int_accel2" I L 4950 1800 50 
 F7 "int_giro1" I L 4950 1900 50 
@@ -49,12 +49,13 @@ F8 "int_giro2" I L 4950 2000 50
 F9 "int_magnet" I L 4950 2100 50 
 F10 "int_RTC" I L 4950 2200 50 
 F11 "int_baro" I L 4950 2300 50 
+F12 "VCC" I R 5500 1300 50 
 $EndSheet
-Text HLabel 4950 1450 0    50   Input ~ 0
-SCL
-Text HLabel 4950 1550 0    50   Input ~ 0
-SDA
 Text HLabel 4950 1300 0    50   Input ~ 0
+SCL
+Text HLabel 4950 1400 0    50   Input ~ 0
+SDA
+Text HLabel 5500 1400 2    50   Input ~ 0
 3V3
 Wire Wire Line
 	4950 1700 4000 1700
@@ -212,8 +213,6 @@ F8 "INT" I L 4950 2700 50
 $EndSheet
 Text HLabel 5750 2750 2    50   Input ~ 0
 3V3
-Text HLabel 5750 2650 2    50   Input ~ 0
-4V
 Wire Wire Line
 	4950 2850 4750 2850
 Wire Wire Line
@@ -677,4 +676,8 @@ F 4 "C22452" V 9400 1600 50  0001 C CNN "LCSC"
 	1    9400 1600
 	0    1    1    0   
 $EndComp
+Text HLabel 5750 2650 2    50   Input ~ 0
+4V
+Text HLabel 5500 1300 2    50   Input ~ 0
+4V
 $EndSCHEMATC
