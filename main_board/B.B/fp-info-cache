@@ -1,4 +1,4 @@
-27280784221170
+28890255659132
 BB
 A9G
 
@@ -7,19 +7,19 @@ A9G
 56
 56
 BB
-conn_antena
-
-
-0
-3
-2
-BB
 DO-214AC
 
 
 0
 2
 2
+BB
+ESP32-WROVER
+
+
+0
+64
+39
 BB
 JC-128
 
@@ -34,13 +34,6 @@ LGA_4.5x3
 0
 20
 20
-BB
-micro-SD
-
-
-0
-15
-10
 BB
 SIM
 
@@ -118,3 +111,17 @@ WS2812
 0
 4
 4
+BB
+conn_antena
+
+
+0
+3
+2
+BB
+micro-SD
+
+
+0
+15
+10

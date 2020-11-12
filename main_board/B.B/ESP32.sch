@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:B.B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -20,7 +19,7 @@ U 1 1 5F77B934
 P 4900 5800
 F 0 "U65" H 4900 6900 60  0000 C CNN
 F 1 "ESP32-WROVER" H 4900 6750 60  0000 C CNN
-F 2 "esp32-wrover:ESP32-WROVER" H 5350 5500 60  0001 C CNN
+F 2 "BB:ESP32-WROVER" H 5350 5500 60  0001 C CNN
 F 3 "" H 5350 5500 60  0001 C CNN
 	1    4900 5800
 	1    0    0    -1  
@@ -429,7 +428,7 @@ Wire Wire Line
 Text Label 3600 5500 0    50   ~ 0
 IO0
 Text Label 6050 5150 0    50   ~ 0
-IO15
+IO5
 Text Label 6050 5250 0    50   ~ 0
 IO2
 Text Label 6050 5350 0    50   ~ 0

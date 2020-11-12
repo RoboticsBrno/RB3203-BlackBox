@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:B.B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -875,17 +874,6 @@ Connection ~ 10200 5250
 Wire Wire Line
 	9950 4850 10200 4850
 Connection ~ 10200 4850
-$Comp
-L Connector:AudioJack4 J4
-U 1 1 5F9F0C6D
-P 9850 2950
-F 0 "J4" H 9520 2833 50  0000 R CNN
-F 1 "AudioJack4" H 9520 2924 50  0000 R CNN
-F 2 "BB:JC-128" H 9850 2950 50  0001 C CNN
-F 3 "~" H 9850 2950 50  0001 C CNN
-	1    9850 2950
-	-1   0    0    1   
-$EndComp
 Connection ~ 3950 1600
 $Comp
 L Device:C C76
@@ -1012,4 +1000,15 @@ Wire Wire Line
 Connection ~ 2600 4350
 Wire Wire Line
 	2600 4350 2850 4350
+$Comp
+L B.B-rescue:AudioJack4 J4
+U 1 1 5FAE8ECF
+P 9850 2950
+F 0 "J4" H 9520 2833 50  0000 R CNN
+F 1 "AudioJack4" H 9520 2924 50  0000 R CNN
+F 2 "BB:JC-128" H 9850 2950 50  0001 C CNN
+F 3 "~" H 9850 2950 50  0001 C CNN
+	1    9850 2950
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

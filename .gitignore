@@ -1,10 +1,9 @@
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
-# Format documentation: http://kicad-pcb.org/help/file-formats/
-
 # Temporary files
 *.000
 *.bak
 *.bck
+*.sch-bck
+*.sch-bak
 *.kicad_pcb-bak
 *~
 _autosave-*
@@ -31,3 +30,6 @@ _autosave-*
 gerber*
 *-gerber
 *.zip
+
+# build files
+build

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:B.B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -23,17 +22,6 @@ F 1 "A9G" H 4325 5174 50  0000 C CNN
 F 2 "BB:A9G" H 4000 3800 50  0001 C CNN
 F 3 "" H 4000 3800 50  0001 C CNN
 	1    4350 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:SIM_Card J7
-U 1 1 5F7BD351
-P 9250 1750
-F 0 "J7" H 9880 1850 50  0000 L CNN
-F 1 "SIM_Card" H 9880 1759 50  0000 L CNN
-F 2 "BB:SIM" H 9250 2100 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/693010010601.pdf" H 9200 1750 50  0001 C CNN
-	1    9250 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -647,4 +635,15 @@ Connection ~ 7550 3350
 Connection ~ 7550 2950
 Connection ~ 8000 2950
 Connection ~ 8000 3350
+$Comp
+L B.B-rescue:SIM_Card J7
+U 1 1 5FAC315F
+P 9250 1750
+F 0 "J7" H 9880 1850 50  0000 L CNN
+F 1 "SIM_Card" H 9880 1759 50  0000 L CNN
+F 2 "BB:SIM" H 9250 2100 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/693010010601.pdf" H 9200 1750 50  0001 C CNN
+	1    9250 1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
