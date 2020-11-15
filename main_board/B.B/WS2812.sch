@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:B.B-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -13,25 +14,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L B.B-eagle-import:WS2812 U1
-U 1 1 5FAA4AAB
-P 1850 1000
-F 0 "U1" H 1900 1050 50  0001 C CNN
-F 1 "WS2812" H 1850 1000 50  0001 C CNN
-F 2 "BB:WS2812" H 1850 1000 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 1850 1000 50  0001 C CNN
-	1    1850 1000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1300 900  1400 900 
 Text HLabel 900  750  1    50   Input ~ 0
 5V
 Text HLabel 1300 900  0    50   Input ~ 0
 DIN
-Wire Wire Line
-	900  750  900  1100
 Wire Wire Line
 	900  1100 1350 1100
 $Comp
@@ -59,17 +47,6 @@ Wire Wire Line
 	2350 1300 2350 1100
 Wire Wire Line
 	2350 1100 2300 1100
-$Comp
-L B.B-eagle-import:GND #GND01
-U 1 1 5FABDF38
-P 2350 1450
-F 0 "#GND01" H 2350 1450 50  0001 C CNN
-F 1 "GND" H 2350 1370 59  0000 C CNN
-F 2 "" H 2350 1450 50  0001 C CNN
-F 3 "" H 2350 1450 50  0001 C CNN
-	1    2350 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 1350 2350 1300
 Connection ~ 2350 1300
@@ -85,17 +62,6 @@ Wire Wire Line
 	3550 1300 3550 1100
 Wire Wire Line
 	3550 1100 3500 1100
-$Comp
-L B.B-eagle-import:GND #GND02
-U 1 1 5FABFB70
-P 3550 1450
-F 0 "#GND02" H 3550 1450 50  0001 C CNN
-F 1 "GND" H 3550 1370 59  0000 C CNN
-F 2 "" H 3550 1450 50  0001 C CNN
-F 3 "" H 3550 1450 50  0001 C CNN
-	1    3550 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 1350 3550 1300
 Connection ~ 3550 1300
@@ -103,9 +69,6 @@ Wire Wire Line
 	2300 900  2600 900 
 Text HLabel 2550 750  1    50   Input ~ 0
 5V
-Wire Wire Line
-	2550 750  2550 1100
-Connection ~ 2550 1100
 Wire Wire Line
 	3750 1100 3750 1300
 Wire Wire Line
@@ -118,17 +81,6 @@ Wire Wire Line
 	4750 1300 4750 1100
 Wire Wire Line
 	4750 1100 4700 1100
-$Comp
-L B.B-eagle-import:GND #GND03
-U 1 1 5FAC398F
-P 4750 1450
-F 0 "#GND03" H 4750 1450 50  0001 C CNN
-F 1 "GND" H 4750 1370 59  0000 C CNN
-F 2 "" H 4750 1450 50  0001 C CNN
-F 3 "" H 4750 1450 50  0001 C CNN
-	1    4750 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 1350 4750 1300
 Connection ~ 4750 1300
@@ -136,9 +88,6 @@ Wire Wire Line
 	3500 900  3800 900 
 Text HLabel 3750 750  1    50   Input ~ 0
 5V
-Wire Wire Line
-	3750 750  3750 1100
-Connection ~ 3750 1100
 $Comp
 L Device:C C2
 U 1 1 5FAC4561
@@ -175,17 +124,6 @@ Wire Wire Line
 	5950 1300 5950 1100
 Wire Wire Line
 	5950 1100 5900 1100
-$Comp
-L B.B-eagle-import:GND #GND04
-U 1 1 5FAC607A
-P 5950 1450
-F 0 "#GND04" H 5950 1450 50  0001 C CNN
-F 1 "GND" H 5950 1370 59  0000 C CNN
-F 2 "" H 5950 1450 50  0001 C CNN
-F 3 "" H 5950 1450 50  0001 C CNN
-	1    5950 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5950 1350 5950 1300
 Connection ~ 5950 1300
@@ -193,9 +131,6 @@ Wire Wire Line
 	4700 900  5000 900 
 Text HLabel 4950 750  1    50   Input ~ 0
 5V
-Wire Wire Line
-	4950 750  4950 1100
-Connection ~ 4950 1100
 $Comp
 L Device:C C4
 U 1 1 5FAC6087
@@ -220,17 +155,6 @@ Wire Wire Line
 	7150 1300 7150 1100
 Wire Wire Line
 	7150 1100 7100 1100
-$Comp
-L B.B-eagle-import:GND #GND05
-U 1 1 5FAC7F70
-P 7150 1450
-F 0 "#GND05" H 7150 1450 50  0001 C CNN
-F 1 "GND" H 7150 1370 59  0000 C CNN
-F 2 "" H 7150 1450 50  0001 C CNN
-F 3 "" H 7150 1450 50  0001 C CNN
-	1    7150 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7150 1350 7150 1300
 Connection ~ 7150 1300
@@ -238,9 +162,6 @@ Wire Wire Line
 	5900 900  6200 900 
 Text HLabel 6150 750  1    50   Input ~ 0
 5V
-Wire Wire Line
-	6150 750  6150 1100
-Connection ~ 6150 1100
 $Comp
 L Device:C C5
 U 1 1 5FAC7F7D
@@ -265,17 +186,6 @@ Wire Wire Line
 	8350 1300 8350 1100
 Wire Wire Line
 	8350 1100 8300 1100
-$Comp
-L B.B-eagle-import:GND #GND06
-U 1 1 5FAC7F8F
-P 8350 1450
-F 0 "#GND06" H 8350 1450 50  0001 C CNN
-F 1 "GND" H 8350 1370 59  0000 C CNN
-F 2 "" H 8350 1450 50  0001 C CNN
-F 3 "" H 8350 1450 50  0001 C CNN
-	1    8350 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8350 1350 8350 1300
 Connection ~ 8350 1300
@@ -283,9 +193,6 @@ Wire Wire Line
 	7100 900  7400 900 
 Text HLabel 7350 750  1    50   Input ~ 0
 5V
-Wire Wire Line
-	7350 750  7350 1100
-Connection ~ 7350 1100
 $Comp
 L Device:C C6
 U 1 1 5FAC7F9C
@@ -310,17 +217,6 @@ Wire Wire Line
 	9550 1300 9550 1100
 Wire Wire Line
 	9550 1100 9500 1100
-$Comp
-L B.B-eagle-import:GND #GND07
-U 1 1 5FB2FBD8
-P 9550 1450
-F 0 "#GND07" H 9550 1450 50  0001 C CNN
-F 1 "GND" H 9550 1370 59  0000 C CNN
-F 2 "" H 9550 1450 50  0001 C CNN
-F 3 "" H 9550 1450 50  0001 C CNN
-	1    9550 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9550 1350 9550 1300
 Connection ~ 9550 1300
@@ -328,9 +224,6 @@ Wire Wire Line
 	8300 900  8600 900 
 Text HLabel 8550 750  1    50   Input ~ 0
 5V
-Wire Wire Line
-	8550 750  8550 1100
-Connection ~ 8550 1100
 $Comp
 L Device:C C7
 U 1 1 5FB2FBE5
@@ -355,17 +248,6 @@ Wire Wire Line
 	10750 1300 10750 1100
 Wire Wire Line
 	10750 1100 10700 1100
-$Comp
-L B.B-eagle-import:GND #GND08
-U 1 1 5FB2FBF7
-P 10750 1450
-F 0 "#GND08" H 10750 1450 50  0001 C CNN
-F 1 "GND" H 10750 1370 59  0000 C CNN
-F 2 "" H 10750 1450 50  0001 C CNN
-F 3 "" H 10750 1450 50  0001 C CNN
-	1    10750 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10750 1350 10750 1300
 Connection ~ 10750 1300
@@ -373,9 +255,6 @@ Wire Wire Line
 	9500 900  9800 900 
 Text HLabel 9750 750  1    50   Input ~ 0
 5V
-Wire Wire Line
-	9750 750  9750 1100
-Connection ~ 9750 1100
 $Comp
 L Device:C C8
 U 1 1 5FB2FC04
@@ -400,9 +279,6 @@ F 4 "C16772" V 10250 2150 50  0001 C CNN "LCSC"
 	1    10250 2150
 	0    1    1    0   
 $EndComp
-Connection ~ 9750 1950
-Wire Wire Line
-	9750 1600 9750 1950
 Text HLabel 9750 1600 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -410,17 +286,6 @@ Wire Wire Line
 Connection ~ 10750 2150
 Wire Wire Line
 	10750 2200 10750 2150
-$Comp
-L B.B-eagle-import:GND #GND016
-U 1 1 5FB47DCA
-P 10750 2300
-F 0 "#GND016" H 10750 2300 50  0001 C CNN
-F 1 "GND" H 10750 2220 59  0000 C CNN
-F 2 "" H 10750 2300 50  0001 C CNN
-F 3 "" H 10750 2300 50  0001 C CNN
-	1    10750 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10750 1950 10700 1950
 Wire Wire Line
@@ -445,9 +310,6 @@ F 4 "C16772" V 9050 2150 50  0001 C CNN "LCSC"
 	1    9050 2150
 	0    1    1    0   
 $EndComp
-Connection ~ 8550 1950
-Wire Wire Line
-	8550 1600 8550 1950
 Text HLabel 8550 1600 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -455,17 +317,6 @@ Wire Wire Line
 Connection ~ 9550 2150
 Wire Wire Line
 	9550 2200 9550 2150
-$Comp
-L B.B-eagle-import:GND #GND015
-U 1 1 5FB47DAB
-P 9550 2300
-F 0 "#GND015" H 9550 2300 50  0001 C CNN
-F 1 "GND" H 9550 2220 59  0000 C CNN
-F 2 "" H 9550 2300 50  0001 C CNN
-F 3 "" H 9550 2300 50  0001 C CNN
-	1    9550 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9550 1950 9500 1950
 Wire Wire Line
@@ -490,9 +341,6 @@ F 4 "C16772" V 7850 2150 50  0001 C CNN "LCSC"
 	1    7850 2150
 	0    1    1    0   
 $EndComp
-Connection ~ 7350 1950
-Wire Wire Line
-	7350 1600 7350 1950
 Text HLabel 7350 1600 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -500,17 +348,6 @@ Wire Wire Line
 Connection ~ 8350 2150
 Wire Wire Line
 	8350 2200 8350 2150
-$Comp
-L B.B-eagle-import:GND #GND014
-U 1 1 5FB47D8C
-P 8350 2300
-F 0 "#GND014" H 8350 2300 50  0001 C CNN
-F 1 "GND" H 8350 2220 59  0000 C CNN
-F 2 "" H 8350 2300 50  0001 C CNN
-F 3 "" H 8350 2300 50  0001 C CNN
-	1    8350 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8350 1950 8300 1950
 Wire Wire Line
@@ -535,9 +372,6 @@ F 4 "C16772" V 6650 2150 50  0001 C CNN "LCSC"
 	1    6650 2150
 	0    1    1    0   
 $EndComp
-Connection ~ 6150 1950
-Wire Wire Line
-	6150 1600 6150 1950
 Text HLabel 6150 1600 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -545,17 +379,6 @@ Wire Wire Line
 Connection ~ 7150 2150
 Wire Wire Line
 	7150 2200 7150 2150
-$Comp
-L B.B-eagle-import:GND #GND013
-U 1 1 5FB47D6D
-P 7150 2300
-F 0 "#GND013" H 7150 2300 50  0001 C CNN
-F 1 "GND" H 7150 2220 59  0000 C CNN
-F 2 "" H 7150 2300 50  0001 C CNN
-F 3 "" H 7150 2300 50  0001 C CNN
-	1    7150 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7150 1950 7100 1950
 Wire Wire Line
@@ -580,9 +403,6 @@ F 4 "C16772" V 5450 2150 50  0001 C CNN "LCSC"
 	1    5450 2150
 	0    1    1    0   
 $EndComp
-Connection ~ 4950 1950
-Wire Wire Line
-	4950 1600 4950 1950
 Text HLabel 4950 1600 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -590,17 +410,6 @@ Wire Wire Line
 Connection ~ 5950 2150
 Wire Wire Line
 	5950 2200 5950 2150
-$Comp
-L B.B-eagle-import:GND #GND012
-U 1 1 5FB47D4E
-P 5950 2300
-F 0 "#GND012" H 5950 2300 50  0001 C CNN
-F 1 "GND" H 5950 2220 59  0000 C CNN
-F 2 "" H 5950 2300 50  0001 C CNN
-F 3 "" H 5950 2300 50  0001 C CNN
-	1    5950 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5950 1950 5900 1950
 Wire Wire Line
@@ -637,9 +446,6 @@ F 4 "C16772" V 3050 2150 50  0001 C CNN "LCSC"
 	1    3050 2150
 	0    1    1    0   
 $EndComp
-Connection ~ 3750 1950
-Wire Wire Line
-	3750 1600 3750 1950
 Text HLabel 3750 1600 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -647,17 +453,6 @@ Wire Wire Line
 Connection ~ 4750 2150
 Wire Wire Line
 	4750 2200 4750 2150
-$Comp
-L B.B-eagle-import:GND #GND011
-U 1 1 5FB47D28
-P 4750 2300
-F 0 "#GND011" H 4750 2300 50  0001 C CNN
-F 1 "GND" H 4750 2220 59  0000 C CNN
-F 2 "" H 4750 2300 50  0001 C CNN
-F 3 "" H 4750 2300 50  0001 C CNN
-	1    4750 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 1950 4700 1950
 Wire Wire Line
@@ -670,9 +465,6 @@ Wire Wire Line
 	3750 2150 4100 2150
 Wire Wire Line
 	3750 1950 3750 2150
-Connection ~ 2550 1950
-Wire Wire Line
-	2550 1600 2550 1950
 Text HLabel 2550 1600 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -680,17 +472,6 @@ Wire Wire Line
 Connection ~ 3550 2150
 Wire Wire Line
 	3550 2200 3550 2150
-$Comp
-L B.B-eagle-import:GND #GND010
-U 1 1 5FB47D10
-P 3550 2300
-F 0 "#GND010" H 3550 2300 50  0001 C CNN
-F 1 "GND" H 3550 2220 59  0000 C CNN
-F 2 "" H 3550 2300 50  0001 C CNN
-F 3 "" H 3550 2300 50  0001 C CNN
-	1    3550 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 1950 3500 1950
 Wire Wire Line
@@ -706,17 +487,6 @@ Wire Wire Line
 Connection ~ 2350 2150
 Wire Wire Line
 	2350 2200 2350 2150
-$Comp
-L B.B-eagle-import:GND #GND09
-U 1 1 5FB47CFC
-P 2350 2300
-F 0 "#GND09" H 2350 2300 50  0001 C CNN
-F 1 "GND" H 2350 2220 59  0000 C CNN
-F 2 "" H 2350 2300 50  0001 C CNN
-F 3 "" H 2350 2300 50  0001 C CNN
-	1    2350 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 1950 2300 1950
 Wire Wire Line
@@ -744,8 +514,6 @@ F 4 "C16772" V 1850 2150 50  0001 C CNN "LCSC"
 $EndComp
 Wire Wire Line
 	900  1950 1350 1950
-Wire Wire Line
-	900  1600 900  1950
 Text HLabel 900  1600 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -754,8 +522,6 @@ Wire Wire Line
 	1300 2600 1400 2600
 Text HLabel 900  2450 1    50   Input ~ 0
 5V
-Wire Wire Line
-	900  2450 900  2800
 Wire Wire Line
 	900  2800 1350 2800
 $Comp
@@ -783,17 +549,6 @@ Wire Wire Line
 	2350 3000 2350 2800
 Wire Wire Line
 	2350 2800 2300 2800
-$Comp
-L B.B-eagle-import:GND #GND017
-U 1 1 5FB8EEBE
-P 2350 3150
-F 0 "#GND017" H 2350 3150 50  0001 C CNN
-F 1 "GND" H 2350 3070 59  0000 C CNN
-F 2 "" H 2350 3150 50  0001 C CNN
-F 3 "" H 2350 3150 50  0001 C CNN
-	1    2350 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 3050 2350 3000
 Connection ~ 2350 3000
@@ -809,17 +564,6 @@ Wire Wire Line
 	3550 3000 3550 2800
 Wire Wire Line
 	3550 2800 3500 2800
-$Comp
-L B.B-eagle-import:GND #GND018
-U 1 1 5FB8EED2
-P 3550 3150
-F 0 "#GND018" H 3550 3150 50  0001 C CNN
-F 1 "GND" H 3550 3070 59  0000 C CNN
-F 2 "" H 3550 3150 50  0001 C CNN
-F 3 "" H 3550 3150 50  0001 C CNN
-	1    3550 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 3050 3550 3000
 Connection ~ 3550 3000
@@ -827,9 +571,6 @@ Wire Wire Line
 	2300 2600 2600 2600
 Text HLabel 2550 2450 1    50   Input ~ 0
 5V
-Wire Wire Line
-	2550 2450 2550 2800
-Connection ~ 2550 2800
 Wire Wire Line
 	3750 2800 3750 3000
 Wire Wire Line
@@ -842,17 +583,6 @@ Wire Wire Line
 	4750 3000 4750 2800
 Wire Wire Line
 	4750 2800 4700 2800
-$Comp
-L B.B-eagle-import:GND #GND019
-U 1 1 5FB8EEEA
-P 4750 3150
-F 0 "#GND019" H 4750 3150 50  0001 C CNN
-F 1 "GND" H 4750 3070 59  0000 C CNN
-F 2 "" H 4750 3150 50  0001 C CNN
-F 3 "" H 4750 3150 50  0001 C CNN
-	1    4750 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 3050 4750 3000
 Connection ~ 4750 3000
@@ -860,9 +590,6 @@ Wire Wire Line
 	3500 2600 3800 2600
 Text HLabel 3750 2450 1    50   Input ~ 0
 5V
-Wire Wire Line
-	3750 2450 3750 2800
-Connection ~ 3750 2800
 $Comp
 L Device:C C18
 U 1 1 5FB8EEF7
@@ -899,17 +626,6 @@ Wire Wire Line
 	5950 3000 5950 2800
 Wire Wire Line
 	5950 2800 5900 2800
-$Comp
-L B.B-eagle-import:GND #GND020
-U 1 1 5FB8EF10
-P 5950 3150
-F 0 "#GND020" H 5950 3150 50  0001 C CNN
-F 1 "GND" H 5950 3070 59  0000 C CNN
-F 2 "" H 5950 3150 50  0001 C CNN
-F 3 "" H 5950 3150 50  0001 C CNN
-	1    5950 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5950 3050 5950 3000
 Connection ~ 5950 3000
@@ -917,9 +633,6 @@ Wire Wire Line
 	4700 2600 5000 2600
 Text HLabel 4950 2450 1    50   Input ~ 0
 5V
-Wire Wire Line
-	4950 2450 4950 2800
-Connection ~ 4950 2800
 $Comp
 L Device:C C20
 U 1 1 5FB8EF1D
@@ -944,17 +657,6 @@ Wire Wire Line
 	7150 3000 7150 2800
 Wire Wire Line
 	7150 2800 7100 2800
-$Comp
-L B.B-eagle-import:GND #GND021
-U 1 1 5FB8EF2F
-P 7150 3150
-F 0 "#GND021" H 7150 3150 50  0001 C CNN
-F 1 "GND" H 7150 3070 59  0000 C CNN
-F 2 "" H 7150 3150 50  0001 C CNN
-F 3 "" H 7150 3150 50  0001 C CNN
-	1    7150 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7150 3050 7150 3000
 Connection ~ 7150 3000
@@ -962,9 +664,6 @@ Wire Wire Line
 	5900 2600 6200 2600
 Text HLabel 6150 2450 1    50   Input ~ 0
 5V
-Wire Wire Line
-	6150 2450 6150 2800
-Connection ~ 6150 2800
 $Comp
 L Device:C C21
 U 1 1 5FB8EF3C
@@ -989,17 +688,6 @@ Wire Wire Line
 	8350 3000 8350 2800
 Wire Wire Line
 	8350 2800 8300 2800
-$Comp
-L B.B-eagle-import:GND #GND022
-U 1 1 5FB8EF4E
-P 8350 3150
-F 0 "#GND022" H 8350 3150 50  0001 C CNN
-F 1 "GND" H 8350 3070 59  0000 C CNN
-F 2 "" H 8350 3150 50  0001 C CNN
-F 3 "" H 8350 3150 50  0001 C CNN
-	1    8350 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8350 3050 8350 3000
 Connection ~ 8350 3000
@@ -1007,9 +695,6 @@ Wire Wire Line
 	7100 2600 7400 2600
 Text HLabel 7350 2450 1    50   Input ~ 0
 5V
-Wire Wire Line
-	7350 2450 7350 2800
-Connection ~ 7350 2800
 $Comp
 L Device:C C22
 U 1 1 5FB8EF5B
@@ -1034,17 +719,6 @@ Wire Wire Line
 	9550 3000 9550 2800
 Wire Wire Line
 	9550 2800 9500 2800
-$Comp
-L B.B-eagle-import:GND #GND023
-U 1 1 5FB8EF6D
-P 9550 3150
-F 0 "#GND023" H 9550 3150 50  0001 C CNN
-F 1 "GND" H 9550 3070 59  0000 C CNN
-F 2 "" H 9550 3150 50  0001 C CNN
-F 3 "" H 9550 3150 50  0001 C CNN
-	1    9550 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9550 3050 9550 3000
 Connection ~ 9550 3000
@@ -1052,9 +726,6 @@ Wire Wire Line
 	8300 2600 8600 2600
 Text HLabel 8550 2450 1    50   Input ~ 0
 5V
-Wire Wire Line
-	8550 2450 8550 2800
-Connection ~ 8550 2800
 $Comp
 L Device:C C23
 U 1 1 5FB8EF7A
@@ -1079,17 +750,6 @@ Wire Wire Line
 	10750 3000 10750 2800
 Wire Wire Line
 	10750 2800 10700 2800
-$Comp
-L B.B-eagle-import:GND #GND024
-U 1 1 5FB8EF8C
-P 10750 3150
-F 0 "#GND024" H 10750 3150 50  0001 C CNN
-F 1 "GND" H 10750 3070 59  0000 C CNN
-F 2 "" H 10750 3150 50  0001 C CNN
-F 3 "" H 10750 3150 50  0001 C CNN
-	1    10750 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10750 3050 10750 3000
 Connection ~ 10750 3000
@@ -1097,9 +757,6 @@ Wire Wire Line
 	9500 2600 9800 2600
 Text HLabel 9750 2450 1    50   Input ~ 0
 5V
-Wire Wire Line
-	9750 2450 9750 2800
-Connection ~ 9750 2800
 $Comp
 L Device:C C24
 U 1 1 5FB8EF99
@@ -1116,8 +773,6 @@ Wire Wire Line
 	1300 3400 1400 3400
 Text HLabel 900  3250 1    50   Input ~ 0
 5V
-Wire Wire Line
-	900  3250 900  3600
 Wire Wire Line
 	900  3600 1350 3600
 $Comp
@@ -1145,17 +800,6 @@ Wire Wire Line
 	2350 3800 2350 3600
 Wire Wire Line
 	2350 3600 2300 3600
-$Comp
-L B.B-eagle-import:GND #GND025
-U 1 1 5FB9FAE3
-P 2350 3950
-F 0 "#GND025" H 2350 3950 50  0001 C CNN
-F 1 "GND" H 2350 3870 59  0000 C CNN
-F 2 "" H 2350 3950 50  0001 C CNN
-F 3 "" H 2350 3950 50  0001 C CNN
-	1    2350 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 3850 2350 3800
 Connection ~ 2350 3800
@@ -1171,27 +815,11 @@ Wire Wire Line
 	3550 3800 3550 3600
 Wire Wire Line
 	3550 3600 3500 3600
-$Comp
-L B.B-eagle-import:GND #GND026
-U 1 1 5FB9FAF7
-P 3550 3950
-F 0 "#GND026" H 3550 3950 50  0001 C CNN
-F 1 "GND" H 3550 3870 59  0000 C CNN
-F 2 "" H 3550 3950 50  0001 C CNN
-F 3 "" H 3550 3950 50  0001 C CNN
-	1    3550 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 3850 3550 3800
 Connection ~ 3550 3800
 Wire Wire Line
 	2300 3400 2600 3400
-Text HLabel 2550 3250 1    50   Input ~ 0
-5V
-Wire Wire Line
-	2550 3250 2550 3600
-Connection ~ 2550 3600
 Wire Wire Line
 	3750 3600 3750 3800
 Wire Wire Line
@@ -1204,27 +832,11 @@ Wire Wire Line
 	4750 3800 4750 3600
 Wire Wire Line
 	4750 3600 4700 3600
-$Comp
-L B.B-eagle-import:GND #GND027
-U 1 1 5FB9FB0F
-P 4750 3950
-F 0 "#GND027" H 4750 3950 50  0001 C CNN
-F 1 "GND" H 4750 3870 59  0000 C CNN
-F 2 "" H 4750 3950 50  0001 C CNN
-F 3 "" H 4750 3950 50  0001 C CNN
-	1    4750 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 3850 4750 3800
 Connection ~ 4750 3800
 Wire Wire Line
 	3500 3400 3800 3400
-Text HLabel 3750 3250 1    50   Input ~ 0
-5V
-Wire Wire Line
-	3750 3250 3750 3600
-Connection ~ 3750 3600
 $Comp
 L Device:C C26
 U 1 1 5FB9FB1C
@@ -1261,27 +873,11 @@ Wire Wire Line
 	5950 3800 5950 3600
 Wire Wire Line
 	5950 3600 5900 3600
-$Comp
-L B.B-eagle-import:GND #GND028
-U 1 1 5FB9FB35
-P 5950 3950
-F 0 "#GND028" H 5950 3950 50  0001 C CNN
-F 1 "GND" H 5950 3870 59  0000 C CNN
-F 2 "" H 5950 3950 50  0001 C CNN
-F 3 "" H 5950 3950 50  0001 C CNN
-	1    5950 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5950 3850 5950 3800
 Connection ~ 5950 3800
 Wire Wire Line
 	4700 3400 5000 3400
-Text HLabel 4950 3250 1    50   Input ~ 0
-5V
-Wire Wire Line
-	4950 3250 4950 3600
-Connection ~ 4950 3600
 $Comp
 L Device:C C28
 U 1 1 5FB9FB42
@@ -1306,27 +902,11 @@ Wire Wire Line
 	7150 3800 7150 3600
 Wire Wire Line
 	7150 3600 7100 3600
-$Comp
-L B.B-eagle-import:GND #GND029
-U 1 1 5FB9FB54
-P 7150 3950
-F 0 "#GND029" H 7150 3950 50  0001 C CNN
-F 1 "GND" H 7150 3870 59  0000 C CNN
-F 2 "" H 7150 3950 50  0001 C CNN
-F 3 "" H 7150 3950 50  0001 C CNN
-	1    7150 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7150 3850 7150 3800
 Connection ~ 7150 3800
 Wire Wire Line
 	5900 3400 6200 3400
-Text HLabel 6150 3250 1    50   Input ~ 0
-5V
-Wire Wire Line
-	6150 3250 6150 3600
-Connection ~ 6150 3600
 $Comp
 L Device:C C29
 U 1 1 5FB9FB61
@@ -1351,27 +931,11 @@ Wire Wire Line
 	8350 3800 8350 3600
 Wire Wire Line
 	8350 3600 8300 3600
-$Comp
-L B.B-eagle-import:GND #GND030
-U 1 1 5FB9FB73
-P 8350 3950
-F 0 "#GND030" H 8350 3950 50  0001 C CNN
-F 1 "GND" H 8350 3870 59  0000 C CNN
-F 2 "" H 8350 3950 50  0001 C CNN
-F 3 "" H 8350 3950 50  0001 C CNN
-	1    8350 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8350 3850 8350 3800
 Connection ~ 8350 3800
 Wire Wire Line
 	7100 3400 7400 3400
-Text HLabel 7350 3250 1    50   Input ~ 0
-5V
-Wire Wire Line
-	7350 3250 7350 3600
-Connection ~ 7350 3600
 $Comp
 L Device:C C30
 U 1 1 5FB9FB80
@@ -1396,27 +960,11 @@ Wire Wire Line
 	9550 3800 9550 3600
 Wire Wire Line
 	9550 3600 9500 3600
-$Comp
-L B.B-eagle-import:GND #GND031
-U 1 1 5FB9FB92
-P 9550 3950
-F 0 "#GND031" H 9550 3950 50  0001 C CNN
-F 1 "GND" H 9550 3870 59  0000 C CNN
-F 2 "" H 9550 3950 50  0001 C CNN
-F 3 "" H 9550 3950 50  0001 C CNN
-	1    9550 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9550 3850 9550 3800
 Connection ~ 9550 3800
 Wire Wire Line
 	8300 3400 8600 3400
-Text HLabel 8550 3250 1    50   Input ~ 0
-5V
-Wire Wire Line
-	8550 3250 8550 3600
-Connection ~ 8550 3600
 $Comp
 L Device:C C31
 U 1 1 5FB9FB9F
@@ -1441,27 +989,11 @@ Wire Wire Line
 	10750 3800 10750 3600
 Wire Wire Line
 	10750 3600 10700 3600
-$Comp
-L B.B-eagle-import:GND #GND032
-U 1 1 5FB9FBB1
-P 10750 3950
-F 0 "#GND032" H 10750 3950 50  0001 C CNN
-F 1 "GND" H 10750 3870 59  0000 C CNN
-F 2 "" H 10750 3950 50  0001 C CNN
-F 3 "" H 10750 3950 50  0001 C CNN
-	1    10750 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10750 3850 10750 3800
 Connection ~ 10750 3800
 Wire Wire Line
 	9500 3400 9800 3400
-Text HLabel 9750 3250 1    50   Input ~ 0
-5V
-Wire Wire Line
-	9750 3250 9750 3600
-Connection ~ 9750 3600
 $Comp
 L Device:C C32
 U 1 1 5FB9FBBE
@@ -1478,8 +1010,6 @@ Wire Wire Line
 	1300 4250 1400 4250
 Text HLabel 900  4100 1    50   Input ~ 0
 5V
-Wire Wire Line
-	900  4100 900  4450
 Wire Wire Line
 	900  4450 1350 4450
 $Comp
@@ -1507,17 +1037,6 @@ Wire Wire Line
 	2350 4650 2350 4450
 Wire Wire Line
 	2350 4450 2300 4450
-$Comp
-L B.B-eagle-import:GND #GND033
-U 1 1 5FC053EB
-P 2350 4800
-F 0 "#GND033" H 2350 4800 50  0001 C CNN
-F 1 "GND" H 2350 4720 59  0000 C CNN
-F 2 "" H 2350 4800 50  0001 C CNN
-F 3 "" H 2350 4800 50  0001 C CNN
-	1    2350 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 4700 2350 4650
 Connection ~ 2350 4650
@@ -1533,17 +1052,6 @@ Wire Wire Line
 	3550 4650 3550 4450
 Wire Wire Line
 	3550 4450 3500 4450
-$Comp
-L B.B-eagle-import:GND #GND034
-U 1 1 5FC053FF
-P 3550 4800
-F 0 "#GND034" H 3550 4800 50  0001 C CNN
-F 1 "GND" H 3550 4720 59  0000 C CNN
-F 2 "" H 3550 4800 50  0001 C CNN
-F 3 "" H 3550 4800 50  0001 C CNN
-	1    3550 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 4700 3550 4650
 Connection ~ 3550 4650
@@ -1551,9 +1059,6 @@ Wire Wire Line
 	2300 4250 2600 4250
 Text HLabel 2550 4100 1    50   Input ~ 0
 5V
-Wire Wire Line
-	2550 4100 2550 4450
-Connection ~ 2550 4450
 Wire Wire Line
 	3750 4450 3750 4650
 Wire Wire Line
@@ -1566,17 +1071,6 @@ Wire Wire Line
 	4750 4650 4750 4450
 Wire Wire Line
 	4750 4450 4700 4450
-$Comp
-L B.B-eagle-import:GND #GND035
-U 1 1 5FC05417
-P 4750 4800
-F 0 "#GND035" H 4750 4800 50  0001 C CNN
-F 1 "GND" H 4750 4720 59  0000 C CNN
-F 2 "" H 4750 4800 50  0001 C CNN
-F 3 "" H 4750 4800 50  0001 C CNN
-	1    4750 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 4700 4750 4650
 Connection ~ 4750 4650
@@ -1584,9 +1078,6 @@ Wire Wire Line
 	3500 4250 3800 4250
 Text HLabel 3750 4100 1    50   Input ~ 0
 5V
-Wire Wire Line
-	3750 4100 3750 4450
-Connection ~ 3750 4450
 $Comp
 L Device:C C34
 U 1 1 5FC05424
@@ -1623,17 +1114,6 @@ Wire Wire Line
 	5950 4650 5950 4450
 Wire Wire Line
 	5950 4450 5900 4450
-$Comp
-L B.B-eagle-import:GND #GND036
-U 1 1 5FC0543D
-P 5950 4800
-F 0 "#GND036" H 5950 4800 50  0001 C CNN
-F 1 "GND" H 5950 4720 59  0000 C CNN
-F 2 "" H 5950 4800 50  0001 C CNN
-F 3 "" H 5950 4800 50  0001 C CNN
-	1    5950 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5950 4700 5950 4650
 Connection ~ 5950 4650
@@ -1641,9 +1121,6 @@ Wire Wire Line
 	4700 4250 5000 4250
 Text HLabel 4950 4100 1    50   Input ~ 0
 5V
-Wire Wire Line
-	4950 4100 4950 4450
-Connection ~ 4950 4450
 $Comp
 L Device:C C36
 U 1 1 5FC0544A
@@ -1668,17 +1145,6 @@ Wire Wire Line
 	7150 4650 7150 4450
 Wire Wire Line
 	7150 4450 7100 4450
-$Comp
-L B.B-eagle-import:GND #GND037
-U 1 1 5FC0545C
-P 7150 4800
-F 0 "#GND037" H 7150 4800 50  0001 C CNN
-F 1 "GND" H 7150 4720 59  0000 C CNN
-F 2 "" H 7150 4800 50  0001 C CNN
-F 3 "" H 7150 4800 50  0001 C CNN
-	1    7150 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7150 4700 7150 4650
 Connection ~ 7150 4650
@@ -1686,9 +1152,6 @@ Wire Wire Line
 	5900 4250 6200 4250
 Text HLabel 6150 4100 1    50   Input ~ 0
 5V
-Wire Wire Line
-	6150 4100 6150 4450
-Connection ~ 6150 4450
 $Comp
 L Device:C C37
 U 1 1 5FC05469
@@ -1713,17 +1176,6 @@ Wire Wire Line
 	8350 4650 8350 4450
 Wire Wire Line
 	8350 4450 8300 4450
-$Comp
-L B.B-eagle-import:GND #GND038
-U 1 1 5FC0547B
-P 8350 4800
-F 0 "#GND038" H 8350 4800 50  0001 C CNN
-F 1 "GND" H 8350 4720 59  0000 C CNN
-F 2 "" H 8350 4800 50  0001 C CNN
-F 3 "" H 8350 4800 50  0001 C CNN
-	1    8350 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8350 4700 8350 4650
 Connection ~ 8350 4650
@@ -1731,9 +1183,6 @@ Wire Wire Line
 	7100 4250 7400 4250
 Text HLabel 7350 4100 1    50   Input ~ 0
 5V
-Wire Wire Line
-	7350 4100 7350 4450
-Connection ~ 7350 4450
 $Comp
 L Device:C C38
 U 1 1 5FC05488
@@ -1758,17 +1207,6 @@ Wire Wire Line
 	9550 4650 9550 4450
 Wire Wire Line
 	9550 4450 9500 4450
-$Comp
-L B.B-eagle-import:GND #GND039
-U 1 1 5FC0549A
-P 9550 4800
-F 0 "#GND039" H 9550 4800 50  0001 C CNN
-F 1 "GND" H 9550 4720 59  0000 C CNN
-F 2 "" H 9550 4800 50  0001 C CNN
-F 3 "" H 9550 4800 50  0001 C CNN
-	1    9550 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9550 4700 9550 4650
 Connection ~ 9550 4650
@@ -1776,9 +1214,6 @@ Wire Wire Line
 	8300 4250 8600 4250
 Text HLabel 8550 4100 1    50   Input ~ 0
 5V
-Wire Wire Line
-	8550 4100 8550 4450
-Connection ~ 8550 4450
 $Comp
 L Device:C C39
 U 1 1 5FC054A7
@@ -1803,17 +1238,6 @@ Wire Wire Line
 	10750 4650 10750 4450
 Wire Wire Line
 	10750 4450 10700 4450
-$Comp
-L B.B-eagle-import:GND #GND040
-U 1 1 5FC054B9
-P 10750 4800
-F 0 "#GND040" H 10750 4800 50  0001 C CNN
-F 1 "GND" H 10750 4720 59  0000 C CNN
-F 2 "" H 10750 4800 50  0001 C CNN
-F 3 "" H 10750 4800 50  0001 C CNN
-	1    10750 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10750 4700 10750 4650
 Connection ~ 10750 4650
@@ -1821,9 +1245,6 @@ Wire Wire Line
 	9500 4250 9800 4250
 Text HLabel 9750 4100 1    50   Input ~ 0
 5V
-Wire Wire Line
-	9750 4100 9750 4450
-Connection ~ 9750 4450
 $Comp
 L Device:C C40
 U 1 1 5FC054C6
@@ -1848,9 +1269,6 @@ F 4 "C16772" V 10250 5500 50  0001 C CNN "LCSC"
 	1    10250 5500
 	0    1    1    0   
 $EndComp
-Connection ~ 9750 5300
-Wire Wire Line
-	9750 4950 9750 5300
 Text HLabel 9750 4950 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -1858,17 +1276,6 @@ Wire Wire Line
 Connection ~ 10750 5500
 Wire Wire Line
 	10750 5550 10750 5500
-$Comp
-L B.B-eagle-import:GND #GND048
-U 1 1 5FC054D9
-P 10750 5650
-F 0 "#GND048" H 10750 5650 50  0001 C CNN
-F 1 "GND" H 10750 5570 59  0000 C CNN
-F 2 "" H 10750 5650 50  0001 C CNN
-F 3 "" H 10750 5650 50  0001 C CNN
-	1    10750 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10750 5300 10700 5300
 Wire Wire Line
@@ -1893,9 +1300,6 @@ F 4 "C16772" V 9050 5500 50  0001 C CNN "LCSC"
 	1    9050 5500
 	0    1    1    0   
 $EndComp
-Connection ~ 8550 5300
-Wire Wire Line
-	8550 4950 8550 5300
 Text HLabel 8550 4950 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -1903,17 +1307,6 @@ Wire Wire Line
 Connection ~ 9550 5500
 Wire Wire Line
 	9550 5550 9550 5500
-$Comp
-L B.B-eagle-import:GND #GND047
-U 1 1 5FC054F8
-P 9550 5650
-F 0 "#GND047" H 9550 5650 50  0001 C CNN
-F 1 "GND" H 9550 5570 59  0000 C CNN
-F 2 "" H 9550 5650 50  0001 C CNN
-F 3 "" H 9550 5650 50  0001 C CNN
-	1    9550 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9550 5300 9500 5300
 Wire Wire Line
@@ -1938,9 +1331,6 @@ F 4 "C16772" V 7850 5500 50  0001 C CNN "LCSC"
 	1    7850 5500
 	0    1    1    0   
 $EndComp
-Connection ~ 7350 5300
-Wire Wire Line
-	7350 4950 7350 5300
 Text HLabel 7350 4950 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -1948,17 +1338,6 @@ Wire Wire Line
 Connection ~ 8350 5500
 Wire Wire Line
 	8350 5550 8350 5500
-$Comp
-L B.B-eagle-import:GND #GND046
-U 1 1 5FC05517
-P 8350 5650
-F 0 "#GND046" H 8350 5650 50  0001 C CNN
-F 1 "GND" H 8350 5570 59  0000 C CNN
-F 2 "" H 8350 5650 50  0001 C CNN
-F 3 "" H 8350 5650 50  0001 C CNN
-	1    8350 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8350 5300 8300 5300
 Wire Wire Line
@@ -1983,9 +1362,6 @@ F 4 "C16772" V 6650 5500 50  0001 C CNN "LCSC"
 	1    6650 5500
 	0    1    1    0   
 $EndComp
-Connection ~ 6150 5300
-Wire Wire Line
-	6150 4950 6150 5300
 Text HLabel 6150 4950 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -1993,17 +1369,6 @@ Wire Wire Line
 Connection ~ 7150 5500
 Wire Wire Line
 	7150 5550 7150 5500
-$Comp
-L B.B-eagle-import:GND #GND045
-U 1 1 5FC05536
-P 7150 5650
-F 0 "#GND045" H 7150 5650 50  0001 C CNN
-F 1 "GND" H 7150 5570 59  0000 C CNN
-F 2 "" H 7150 5650 50  0001 C CNN
-F 3 "" H 7150 5650 50  0001 C CNN
-	1    7150 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7150 5300 7100 5300
 Wire Wire Line
@@ -2028,9 +1393,6 @@ F 4 "C16772" V 5450 5500 50  0001 C CNN "LCSC"
 	1    5450 5500
 	0    1    1    0   
 $EndComp
-Connection ~ 4950 5300
-Wire Wire Line
-	4950 4950 4950 5300
 Text HLabel 4950 4950 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -2038,17 +1400,6 @@ Wire Wire Line
 Connection ~ 5950 5500
 Wire Wire Line
 	5950 5550 5950 5500
-$Comp
-L B.B-eagle-import:GND #GND044
-U 1 1 5FC05555
-P 5950 5650
-F 0 "#GND044" H 5950 5650 50  0001 C CNN
-F 1 "GND" H 5950 5570 59  0000 C CNN
-F 2 "" H 5950 5650 50  0001 C CNN
-F 3 "" H 5950 5650 50  0001 C CNN
-	1    5950 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5950 5300 5900 5300
 Wire Wire Line
@@ -2085,9 +1436,6 @@ F 4 "C16772" V 3050 5500 50  0001 C CNN "LCSC"
 	1    3050 5500
 	0    1    1    0   
 $EndComp
-Connection ~ 3750 5300
-Wire Wire Line
-	3750 4950 3750 5300
 Text HLabel 3750 4950 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -2095,17 +1443,6 @@ Wire Wire Line
 Connection ~ 4750 5500
 Wire Wire Line
 	4750 5550 4750 5500
-$Comp
-L B.B-eagle-import:GND #GND043
-U 1 1 5FC0557B
-P 4750 5650
-F 0 "#GND043" H 4750 5650 50  0001 C CNN
-F 1 "GND" H 4750 5570 59  0000 C CNN
-F 2 "" H 4750 5650 50  0001 C CNN
-F 3 "" H 4750 5650 50  0001 C CNN
-	1    4750 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 5300 4700 5300
 Wire Wire Line
@@ -2118,9 +1455,6 @@ Wire Wire Line
 	3750 5500 4100 5500
 Wire Wire Line
 	3750 5300 3750 5500
-Connection ~ 2550 5300
-Wire Wire Line
-	2550 4950 2550 5300
 Text HLabel 2550 4950 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -2128,17 +1462,6 @@ Wire Wire Line
 Connection ~ 3550 5500
 Wire Wire Line
 	3550 5550 3550 5500
-$Comp
-L B.B-eagle-import:GND #GND042
-U 1 1 5FC05593
-P 3550 5650
-F 0 "#GND042" H 3550 5650 50  0001 C CNN
-F 1 "GND" H 3550 5570 59  0000 C CNN
-F 2 "" H 3550 5650 50  0001 C CNN
-F 3 "" H 3550 5650 50  0001 C CNN
-	1    3550 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 5300 3500 5300
 Wire Wire Line
@@ -2154,17 +1477,6 @@ Wire Wire Line
 Connection ~ 2350 5500
 Wire Wire Line
 	2350 5550 2350 5500
-$Comp
-L B.B-eagle-import:GND #GND041
-U 1 1 5FC055A7
-P 2350 5650
-F 0 "#GND041" H 2350 5650 50  0001 C CNN
-F 1 "GND" H 2350 5570 59  0000 C CNN
-F 2 "" H 2350 5650 50  0001 C CNN
-F 3 "" H 2350 5650 50  0001 C CNN
-	1    2350 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 5300 2300 5300
 Wire Wire Line
@@ -2192,8 +1504,6 @@ F 4 "C16772" V 1850 5500 50  0001 C CNN "LCSC"
 $EndComp
 Wire Wire Line
 	900  5300 1350 5300
-Wire Wire Line
-	900  4950 900  5300
 Text HLabel 900  4950 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -2202,8 +1512,6 @@ Wire Wire Line
 	1300 5950 1400 5950
 Text HLabel 900  5800 1    50   Input ~ 0
 5V
-Wire Wire Line
-	900  5800 900  6150
 Wire Wire Line
 	900  6150 1350 6150
 $Comp
@@ -2231,17 +1539,6 @@ Wire Wire Line
 	2350 6350 2350 6150
 Wire Wire Line
 	2350 6150 2300 6150
-$Comp
-L B.B-eagle-import:GND #GND053
-U 1 1 5FC055DF
-P 2350 6500
-F 0 "#GND053" H 2350 6500 50  0001 C CNN
-F 1 "GND" H 2350 6420 59  0000 C CNN
-F 2 "" H 2350 6500 50  0001 C CNN
-F 3 "" H 2350 6500 50  0001 C CNN
-	1    2350 6500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 6400 2350 6350
 Connection ~ 2350 6350
@@ -2257,17 +1554,6 @@ Wire Wire Line
 	3550 6350 3550 6150
 Wire Wire Line
 	3550 6150 3500 6150
-$Comp
-L B.B-eagle-import:GND #GND054
-U 1 1 5FC055F3
-P 3550 6500
-F 0 "#GND054" H 3550 6500 50  0001 C CNN
-F 1 "GND" H 3550 6420 59  0000 C CNN
-F 2 "" H 3550 6500 50  0001 C CNN
-F 3 "" H 3550 6500 50  0001 C CNN
-	1    3550 6500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 6400 3550 6350
 Connection ~ 3550 6350
@@ -2275,9 +1561,6 @@ Wire Wire Line
 	2300 5950 2600 5950
 Text HLabel 2550 5800 1    50   Input ~ 0
 5V
-Wire Wire Line
-	2550 5800 2550 6150
-Connection ~ 2550 6150
 Wire Wire Line
 	3750 6150 3750 6350
 Wire Wire Line
@@ -2290,17 +1573,6 @@ Wire Wire Line
 	4750 6350 4750 6150
 Wire Wire Line
 	4750 6150 4700 6150
-$Comp
-L B.B-eagle-import:GND #GND055
-U 1 1 5FC0560B
-P 4750 6500
-F 0 "#GND055" H 4750 6500 50  0001 C CNN
-F 1 "GND" H 4750 6420 59  0000 C CNN
-F 2 "" H 4750 6500 50  0001 C CNN
-F 3 "" H 4750 6500 50  0001 C CNN
-	1    4750 6500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 6400 4750 6350
 Connection ~ 4750 6350
@@ -2308,9 +1580,6 @@ Wire Wire Line
 	3500 5950 3800 5950
 Text HLabel 3750 5800 1    50   Input ~ 0
 5V
-Wire Wire Line
-	3750 5800 3750 6150
-Connection ~ 3750 6150
 $Comp
 L Device:C C50
 U 1 1 5FC05618
@@ -2347,17 +1616,6 @@ Wire Wire Line
 	5950 6350 5950 6150
 Wire Wire Line
 	5950 6150 5900 6150
-$Comp
-L B.B-eagle-import:GND #GND056
-U 1 1 5FC05631
-P 5950 6500
-F 0 "#GND056" H 5950 6500 50  0001 C CNN
-F 1 "GND" H 5950 6420 59  0000 C CNN
-F 2 "" H 5950 6500 50  0001 C CNN
-F 3 "" H 5950 6500 50  0001 C CNN
-	1    5950 6500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5950 6400 5950 6350
 Connection ~ 5950 6350
@@ -2365,9 +1623,6 @@ Wire Wire Line
 	4700 5950 5000 5950
 Text HLabel 4950 5800 1    50   Input ~ 0
 5V
-Wire Wire Line
-	4950 5800 4950 6150
-Connection ~ 4950 6150
 $Comp
 L Device:C C52
 U 1 1 5FC0563E
@@ -2392,24 +1647,10 @@ Wire Wire Line
 	7150 6350 7150 6150
 Wire Wire Line
 	7150 6150 7100 6150
-$Comp
-L B.B-eagle-import:GND #GND049
-U 1 1 5FC05650
-P 7250 6400
-F 0 "#GND049" H 7250 6400 50  0001 C CNN
-F 1 "GND" H 7250 6320 59  0000 C CNN
-F 2 "" H 7250 6400 50  0001 C CNN
-F 3 "" H 7250 6400 50  0001 C CNN
-	1    7250 6400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5900 5950 6200 5950
 Text HLabel 6150 5800 1    50   Input ~ 0
 5V
-Wire Wire Line
-	6150 5800 6150 6150
-Connection ~ 6150 6150
 $Comp
 L Device:C C53
 U 1 1 5FC0565D
@@ -2434,24 +1675,10 @@ Wire Wire Line
 	8350 6350 8350 6150
 Wire Wire Line
 	8350 6150 8300 6150
-$Comp
-L B.B-eagle-import:GND #GND050
-U 1 1 5FC0566F
-P 8450 6400
-F 0 "#GND050" H 8450 6400 50  0001 C CNN
-F 1 "GND" H 8450 6320 59  0000 C CNN
-F 2 "" H 8450 6400 50  0001 C CNN
-F 3 "" H 8450 6400 50  0001 C CNN
-	1    8450 6400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 5950 7400 5950
 Text HLabel 7350 5800 1    50   Input ~ 0
 5V
-Wire Wire Line
-	7350 5800 7350 6150
-Connection ~ 7350 6150
 $Comp
 L Device:C C54
 U 1 1 5FC0567C
@@ -2476,24 +1703,10 @@ Wire Wire Line
 	9550 6350 9550 6150
 Wire Wire Line
 	9550 6150 9500 6150
-$Comp
-L B.B-eagle-import:GND #GND051
-U 1 1 5FC0568E
-P 9650 6400
-F 0 "#GND051" H 9650 6400 50  0001 C CNN
-F 1 "GND" H 9650 6320 59  0000 C CNN
-F 2 "" H 9650 6400 50  0001 C CNN
-F 3 "" H 9650 6400 50  0001 C CNN
-	1    9650 6400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8300 5950 8600 5950
 Text HLabel 8550 5800 1    50   Input ~ 0
 5V
-Wire Wire Line
-	8550 5800 8550 6150
-Connection ~ 8550 6150
 $Comp
 L Device:C C55
 U 1 1 5FC0569B
@@ -2518,24 +1731,10 @@ Wire Wire Line
 	10750 6350 10750 6150
 Wire Wire Line
 	10750 6150 10700 6150
-$Comp
-L B.B-eagle-import:GND #GND052
-U 1 1 5FC056AD
-P 10850 6400
-F 0 "#GND052" H 10850 6400 50  0001 C CNN
-F 1 "GND" H 10850 6320 59  0000 C CNN
-F 2 "" H 10850 6400 50  0001 C CNN
-F 3 "" H 10850 6400 50  0001 C CNN
-	1    10850 6400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9500 5950 9800 5950
 Text HLabel 9750 5800 1    50   Input ~ 0
 5V
-Wire Wire Line
-	9750 5800 9750 6150
-Connection ~ 9750 6150
 $Comp
 L Device:C C56
 U 1 1 5FC056BA
@@ -2552,8 +1751,6 @@ Wire Wire Line
 	1300 6750 1400 6750
 Text HLabel 900  6600 1    50   Input ~ 0
 5V
-Wire Wire Line
-	900  6600 900  6950
 Wire Wire Line
 	900  6950 1350 6950
 $Comp
@@ -2581,17 +1778,6 @@ Wire Wire Line
 	2350 7150 2350 6950
 Wire Wire Line
 	2350 6950 2300 6950
-$Comp
-L B.B-eagle-import:GND #GND057
-U 1 1 5FC056D9
-P 2350 7300
-F 0 "#GND057" H 2350 7300 50  0001 C CNN
-F 1 "GND" H 2350 7220 59  0000 C CNN
-F 2 "" H 2350 7300 50  0001 C CNN
-F 3 "" H 2350 7300 50  0001 C CNN
-	1    2350 7300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 7200 2350 7150
 Connection ~ 2350 7150
@@ -2607,17 +1793,6 @@ Wire Wire Line
 	3550 7150 3550 6950
 Wire Wire Line
 	3550 6950 3500 6950
-$Comp
-L B.B-eagle-import:GND #GND058
-U 1 1 5FC056ED
-P 3550 7300
-F 0 "#GND058" H 3550 7300 50  0001 C CNN
-F 1 "GND" H 3550 7220 59  0000 C CNN
-F 2 "" H 3550 7300 50  0001 C CNN
-F 3 "" H 3550 7300 50  0001 C CNN
-	1    3550 7300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 7200 3550 7150
 Connection ~ 3550 7150
@@ -2625,9 +1800,6 @@ Wire Wire Line
 	2300 6750 2600 6750
 Text HLabel 2550 6600 1    50   Input ~ 0
 5V
-Wire Wire Line
-	2550 6600 2550 6950
-Connection ~ 2550 6950
 Wire Wire Line
 	3750 6950 3750 7150
 Wire Wire Line
@@ -2640,17 +1812,6 @@ Wire Wire Line
 	4750 7150 4750 6950
 Wire Wire Line
 	4750 6950 4700 6950
-$Comp
-L B.B-eagle-import:GND #GND059
-U 1 1 5FC05705
-P 4750 7300
-F 0 "#GND059" H 4750 7300 50  0001 C CNN
-F 1 "GND" H 4750 7220 59  0000 C CNN
-F 2 "" H 4750 7300 50  0001 C CNN
-F 3 "" H 4750 7300 50  0001 C CNN
-	1    4750 7300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 7200 4750 7150
 Connection ~ 4750 7150
@@ -2658,9 +1819,6 @@ Wire Wire Line
 	3500 6750 3800 6750
 Text HLabel 3750 6600 1    50   Input ~ 0
 5V
-Wire Wire Line
-	3750 6600 3750 6950
-Connection ~ 3750 6950
 $Comp
 L Device:C C58
 U 1 1 5FC05712
@@ -2697,17 +1855,6 @@ Wire Wire Line
 	5950 7150 5950 6950
 Wire Wire Line
 	5950 6950 5900 6950
-$Comp
-L B.B-eagle-import:GND #GND060
-U 1 1 5FC0572B
-P 5950 7300
-F 0 "#GND060" H 5950 7300 50  0001 C CNN
-F 1 "GND" H 5950 7220 59  0000 C CNN
-F 2 "" H 5950 7300 50  0001 C CNN
-F 3 "" H 5950 7300 50  0001 C CNN
-	1    5950 7300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5950 7200 5950 7150
 Connection ~ 5950 7150
@@ -2715,9 +1862,6 @@ Wire Wire Line
 	4700 6750 5000 6750
 Text HLabel 4950 6600 1    50   Input ~ 0
 5V
-Wire Wire Line
-	4950 6600 4950 6950
-Connection ~ 4950 6950
 $Comp
 L Device:C C60
 U 1 1 5FC05738
@@ -2779,652 +1923,1569 @@ Text Label 1300 6750 0    50   ~ 0
 Text Label 1300 5950 0    50   ~ 0
 5-8
 $Comp
-L B.B-eagle-import:WS2812 U2
-U 1 1 5FB39D84
+L power:GND #PWR?
+U 1 1 5FC74B64
+P 2350 7200
+F 0 "#PWR?" H 2350 6950 50  0001 C CNN
+F 1 "GND" H 2355 7027 50  0000 C CNN
+F 2 "" H 2350 7200 50  0001 C CNN
+F 3 "" H 2350 7200 50  0001 C CNN
+	1    2350 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC75C32
+P 3550 7200
+F 0 "#PWR?" H 3550 6950 50  0001 C CNN
+F 1 "GND" H 3555 7027 50  0000 C CNN
+F 2 "" H 3550 7200 50  0001 C CNN
+F 3 "" H 3550 7200 50  0001 C CNN
+	1    3550 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC75F8C
+P 4750 7200
+F 0 "#PWR?" H 4750 6950 50  0001 C CNN
+F 1 "GND" H 4755 7027 50  0000 C CNN
+F 2 "" H 4750 7200 50  0001 C CNN
+F 3 "" H 4750 7200 50  0001 C CNN
+	1    4750 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC76573
+P 5950 7200
+F 0 "#PWR?" H 5950 6950 50  0001 C CNN
+F 1 "GND" H 5955 7027 50  0000 C CNN
+F 2 "" H 5950 7200 50  0001 C CNN
+F 3 "" H 5950 7200 50  0001 C CNN
+	1    5950 7200
+	1    0    0    -1  
+$EndComp
+Text HLabel 9750 3250 1    50   Input ~ 0
+5V
+Text HLabel 8550 3250 1    50   Input ~ 0
+5V
+Text HLabel 7350 3250 1    50   Input ~ 0
+5V
+Text HLabel 6150 3250 1    50   Input ~ 0
+5V
+Text HLabel 4950 3250 1    50   Input ~ 0
+5V
+Text HLabel 3750 3250 1    50   Input ~ 0
+5V
+Text HLabel 2550 3250 1    50   Input ~ 0
+5V
+$Comp
+L power:GND #PWR?
+U 1 1 5FEC4816
+P 7250 6300
+F 0 "#PWR?" H 7250 6050 50  0001 C CNN
+F 1 "GND" H 7255 6127 50  0000 C CNN
+F 2 "" H 7250 6300 50  0001 C CNN
+F 3 "" H 7250 6300 50  0001 C CNN
+	1    7250 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FEC481C
+P 8450 6300
+F 0 "#PWR?" H 8450 6050 50  0001 C CNN
+F 1 "GND" H 8455 6127 50  0000 C CNN
+F 2 "" H 8450 6300 50  0001 C CNN
+F 3 "" H 8450 6300 50  0001 C CNN
+	1    8450 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FEC4822
+P 9650 6300
+F 0 "#PWR?" H 9650 6050 50  0001 C CNN
+F 1 "GND" H 9655 6127 50  0000 C CNN
+F 2 "" H 9650 6300 50  0001 C CNN
+F 3 "" H 9650 6300 50  0001 C CNN
+	1    9650 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FEC4828
+P 10850 6300
+F 0 "#PWR?" H 10850 6050 50  0001 C CNN
+F 1 "GND" H 10855 6127 50  0000 C CNN
+F 2 "" H 10850 6300 50  0001 C CNN
+F 3 "" H 10850 6300 50  0001 C CNN
+	1    10850 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FF19BDC
+P 2350 6400
+F 0 "#PWR?" H 2350 6150 50  0001 C CNN
+F 1 "GND" H 2355 6227 50  0000 C CNN
+F 2 "" H 2350 6400 50  0001 C CNN
+F 3 "" H 2350 6400 50  0001 C CNN
+	1    2350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FF19BE2
+P 3550 6400
+F 0 "#PWR?" H 3550 6150 50  0001 C CNN
+F 1 "GND" H 3555 6227 50  0000 C CNN
+F 2 "" H 3550 6400 50  0001 C CNN
+F 3 "" H 3550 6400 50  0001 C CNN
+	1    3550 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FF19BE8
+P 4750 6400
+F 0 "#PWR?" H 4750 6150 50  0001 C CNN
+F 1 "GND" H 4755 6227 50  0000 C CNN
+F 2 "" H 4750 6400 50  0001 C CNN
+F 3 "" H 4750 6400 50  0001 C CNN
+	1    4750 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FF19BEE
+P 5950 6400
+F 0 "#PWR?" H 5950 6150 50  0001 C CNN
+F 1 "GND" H 5955 6227 50  0000 C CNN
+F 2 "" H 5950 6400 50  0001 C CNN
+F 3 "" H 5950 6400 50  0001 C CNN
+	1    5950 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FF6E506
+P 2350 5550
+F 0 "#PWR?" H 2350 5300 50  0001 C CNN
+F 1 "GND" H 2355 5377 50  0000 C CNN
+F 2 "" H 2350 5550 50  0001 C CNN
+F 3 "" H 2350 5550 50  0001 C CNN
+	1    2350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FF6E50C
+P 3550 5550
+F 0 "#PWR?" H 3550 5300 50  0001 C CNN
+F 1 "GND" H 3555 5377 50  0000 C CNN
+F 2 "" H 3550 5550 50  0001 C CNN
+F 3 "" H 3550 5550 50  0001 C CNN
+	1    3550 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FF6E512
+P 4750 5550
+F 0 "#PWR?" H 4750 5300 50  0001 C CNN
+F 1 "GND" H 4755 5377 50  0000 C CNN
+F 2 "" H 4750 5550 50  0001 C CNN
+F 3 "" H 4750 5550 50  0001 C CNN
+	1    4750 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FF6E518
+P 5950 5550
+F 0 "#PWR?" H 5950 5300 50  0001 C CNN
+F 1 "GND" H 5955 5377 50  0000 C CNN
+F 2 "" H 5950 5550 50  0001 C CNN
+F 3 "" H 5950 5550 50  0001 C CNN
+	1    5950 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFC43E8
+P 7150 5550
+F 0 "#PWR?" H 7150 5300 50  0001 C CNN
+F 1 "GND" H 7155 5377 50  0000 C CNN
+F 2 "" H 7150 5550 50  0001 C CNN
+F 3 "" H 7150 5550 50  0001 C CNN
+	1    7150 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFC43EE
+P 8350 5550
+F 0 "#PWR?" H 8350 5300 50  0001 C CNN
+F 1 "GND" H 8355 5377 50  0000 C CNN
+F 2 "" H 8350 5550 50  0001 C CNN
+F 3 "" H 8350 5550 50  0001 C CNN
+	1    8350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFC43F4
+P 9550 5550
+F 0 "#PWR?" H 9550 5300 50  0001 C CNN
+F 1 "GND" H 9555 5377 50  0000 C CNN
+F 2 "" H 9550 5550 50  0001 C CNN
+F 3 "" H 9550 5550 50  0001 C CNN
+	1    9550 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFC43FA
+P 10750 5550
+F 0 "#PWR?" H 10750 5300 50  0001 C CNN
+F 1 "GND" H 10755 5377 50  0000 C CNN
+F 2 "" H 10750 5550 50  0001 C CNN
+F 3 "" H 10750 5550 50  0001 C CNN
+	1    10750 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6001C2B0
+P 2350 4700
+F 0 "#PWR?" H 2350 4450 50  0001 C CNN
+F 1 "GND" H 2355 4527 50  0000 C CNN
+F 2 "" H 2350 4700 50  0001 C CNN
+F 3 "" H 2350 4700 50  0001 C CNN
+	1    2350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6001C2B6
+P 3550 4700
+F 0 "#PWR?" H 3550 4450 50  0001 C CNN
+F 1 "GND" H 3555 4527 50  0000 C CNN
+F 2 "" H 3550 4700 50  0001 C CNN
+F 3 "" H 3550 4700 50  0001 C CNN
+	1    3550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6001C2BC
+P 4750 4700
+F 0 "#PWR?" H 4750 4450 50  0001 C CNN
+F 1 "GND" H 4755 4527 50  0000 C CNN
+F 2 "" H 4750 4700 50  0001 C CNN
+F 3 "" H 4750 4700 50  0001 C CNN
+	1    4750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6001C2C2
+P 5950 4700
+F 0 "#PWR?" H 5950 4450 50  0001 C CNN
+F 1 "GND" H 5955 4527 50  0000 C CNN
+F 2 "" H 5950 4700 50  0001 C CNN
+F 3 "" H 5950 4700 50  0001 C CNN
+	1    5950 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6001C2C8
+P 7150 4700
+F 0 "#PWR?" H 7150 4450 50  0001 C CNN
+F 1 "GND" H 7155 4527 50  0000 C CNN
+F 2 "" H 7150 4700 50  0001 C CNN
+F 3 "" H 7150 4700 50  0001 C CNN
+	1    7150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6001C2CE
+P 8350 4700
+F 0 "#PWR?" H 8350 4450 50  0001 C CNN
+F 1 "GND" H 8355 4527 50  0000 C CNN
+F 2 "" H 8350 4700 50  0001 C CNN
+F 3 "" H 8350 4700 50  0001 C CNN
+	1    8350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6001C2D4
+P 9550 4700
+F 0 "#PWR?" H 9550 4450 50  0001 C CNN
+F 1 "GND" H 9555 4527 50  0000 C CNN
+F 2 "" H 9550 4700 50  0001 C CNN
+F 3 "" H 9550 4700 50  0001 C CNN
+	1    9550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6001C2DA
+P 10750 4700
+F 0 "#PWR?" H 10750 4450 50  0001 C CNN
+F 1 "GND" H 10755 4527 50  0000 C CNN
+F 2 "" H 10750 4700 50  0001 C CNN
+F 3 "" H 10750 4700 50  0001 C CNN
+	1    10750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60072E8C
+P 2350 3050
+F 0 "#PWR?" H 2350 2800 50  0001 C CNN
+F 1 "GND" H 2355 2877 50  0000 C CNN
+F 2 "" H 2350 3050 50  0001 C CNN
+F 3 "" H 2350 3050 50  0001 C CNN
+	1    2350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60072E92
+P 3550 3050
+F 0 "#PWR?" H 3550 2800 50  0001 C CNN
+F 1 "GND" H 3555 2877 50  0000 C CNN
+F 2 "" H 3550 3050 50  0001 C CNN
+F 3 "" H 3550 3050 50  0001 C CNN
+	1    3550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60072E98
+P 4750 3050
+F 0 "#PWR?" H 4750 2800 50  0001 C CNN
+F 1 "GND" H 4755 2877 50  0000 C CNN
+F 2 "" H 4750 3050 50  0001 C CNN
+F 3 "" H 4750 3050 50  0001 C CNN
+	1    4750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60072E9E
+P 5950 3050
+F 0 "#PWR?" H 5950 2800 50  0001 C CNN
+F 1 "GND" H 5955 2877 50  0000 C CNN
+F 2 "" H 5950 3050 50  0001 C CNN
+F 3 "" H 5950 3050 50  0001 C CNN
+	1    5950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60072EA4
+P 7150 3050
+F 0 "#PWR?" H 7150 2800 50  0001 C CNN
+F 1 "GND" H 7155 2877 50  0000 C CNN
+F 2 "" H 7150 3050 50  0001 C CNN
+F 3 "" H 7150 3050 50  0001 C CNN
+	1    7150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60072EAA
+P 8350 3050
+F 0 "#PWR?" H 8350 2800 50  0001 C CNN
+F 1 "GND" H 8355 2877 50  0000 C CNN
+F 2 "" H 8350 3050 50  0001 C CNN
+F 3 "" H 8350 3050 50  0001 C CNN
+	1    8350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60072EB0
+P 9550 3050
+F 0 "#PWR?" H 9550 2800 50  0001 C CNN
+F 1 "GND" H 9555 2877 50  0000 C CNN
+F 2 "" H 9550 3050 50  0001 C CNN
+F 3 "" H 9550 3050 50  0001 C CNN
+	1    9550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60072EB6
+P 10750 3050
+F 0 "#PWR?" H 10750 2800 50  0001 C CNN
+F 1 "GND" H 10755 2877 50  0000 C CNN
+F 2 "" H 10750 3050 50  0001 C CNN
+F 3 "" H 10750 3050 50  0001 C CNN
+	1    10750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6011C980
+P 2350 3850
+F 0 "#PWR?" H 2350 3600 50  0001 C CNN
+F 1 "GND" H 2355 3677 50  0000 C CNN
+F 2 "" H 2350 3850 50  0001 C CNN
+F 3 "" H 2350 3850 50  0001 C CNN
+	1    2350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6011C986
+P 3550 3850
+F 0 "#PWR?" H 3550 3600 50  0001 C CNN
+F 1 "GND" H 3555 3677 50  0000 C CNN
+F 2 "" H 3550 3850 50  0001 C CNN
+F 3 "" H 3550 3850 50  0001 C CNN
+	1    3550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6011C98C
+P 4750 3850
+F 0 "#PWR?" H 4750 3600 50  0001 C CNN
+F 1 "GND" H 4755 3677 50  0000 C CNN
+F 2 "" H 4750 3850 50  0001 C CNN
+F 3 "" H 4750 3850 50  0001 C CNN
+	1    4750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6011C992
+P 5950 3850
+F 0 "#PWR?" H 5950 3600 50  0001 C CNN
+F 1 "GND" H 5955 3677 50  0000 C CNN
+F 2 "" H 5950 3850 50  0001 C CNN
+F 3 "" H 5950 3850 50  0001 C CNN
+	1    5950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6011C998
+P 7150 3850
+F 0 "#PWR?" H 7150 3600 50  0001 C CNN
+F 1 "GND" H 7155 3677 50  0000 C CNN
+F 2 "" H 7150 3850 50  0001 C CNN
+F 3 "" H 7150 3850 50  0001 C CNN
+	1    7150 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6011C99E
+P 8350 3850
+F 0 "#PWR?" H 8350 3600 50  0001 C CNN
+F 1 "GND" H 8355 3677 50  0000 C CNN
+F 2 "" H 8350 3850 50  0001 C CNN
+F 3 "" H 8350 3850 50  0001 C CNN
+	1    8350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6011C9A4
+P 9550 3850
+F 0 "#PWR?" H 9550 3600 50  0001 C CNN
+F 1 "GND" H 9555 3677 50  0000 C CNN
+F 2 "" H 9550 3850 50  0001 C CNN
+F 3 "" H 9550 3850 50  0001 C CNN
+	1    9550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6011C9AA
+P 10750 3850
+F 0 "#PWR?" H 10750 3600 50  0001 C CNN
+F 1 "GND" H 10755 3677 50  0000 C CNN
+F 2 "" H 10750 3850 50  0001 C CNN
+F 3 "" H 10750 3850 50  0001 C CNN
+	1    10750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60171E5C
+P 2350 2200
+F 0 "#PWR?" H 2350 1950 50  0001 C CNN
+F 1 "GND" H 2355 2027 50  0000 C CNN
+F 2 "" H 2350 2200 50  0001 C CNN
+F 3 "" H 2350 2200 50  0001 C CNN
+	1    2350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60171E62
+P 3550 2200
+F 0 "#PWR?" H 3550 1950 50  0001 C CNN
+F 1 "GND" H 3555 2027 50  0000 C CNN
+F 2 "" H 3550 2200 50  0001 C CNN
+F 3 "" H 3550 2200 50  0001 C CNN
+	1    3550 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60171E68
+P 4750 2200
+F 0 "#PWR?" H 4750 1950 50  0001 C CNN
+F 1 "GND" H 4755 2027 50  0000 C CNN
+F 2 "" H 4750 2200 50  0001 C CNN
+F 3 "" H 4750 2200 50  0001 C CNN
+	1    4750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60171E6E
+P 5950 2200
+F 0 "#PWR?" H 5950 1950 50  0001 C CNN
+F 1 "GND" H 5955 2027 50  0000 C CNN
+F 2 "" H 5950 2200 50  0001 C CNN
+F 3 "" H 5950 2200 50  0001 C CNN
+	1    5950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60171E74
+P 7150 2200
+F 0 "#PWR?" H 7150 1950 50  0001 C CNN
+F 1 "GND" H 7155 2027 50  0000 C CNN
+F 2 "" H 7150 2200 50  0001 C CNN
+F 3 "" H 7150 2200 50  0001 C CNN
+	1    7150 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60171E7A
+P 8350 2200
+F 0 "#PWR?" H 8350 1950 50  0001 C CNN
+F 1 "GND" H 8355 2027 50  0000 C CNN
+F 2 "" H 8350 2200 50  0001 C CNN
+F 3 "" H 8350 2200 50  0001 C CNN
+	1    8350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60171E80
+P 9550 2200
+F 0 "#PWR?" H 9550 1950 50  0001 C CNN
+F 1 "GND" H 9555 2027 50  0000 C CNN
+F 2 "" H 9550 2200 50  0001 C CNN
+F 3 "" H 9550 2200 50  0001 C CNN
+	1    9550 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60171E86
+P 10750 2200
+F 0 "#PWR?" H 10750 1950 50  0001 C CNN
+F 1 "GND" H 10755 2027 50  0000 C CNN
+F 2 "" H 10750 2200 50  0001 C CNN
+F 3 "" H 10750 2200 50  0001 C CNN
+	1    10750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601C7AA8
+P 2350 1350
+F 0 "#PWR?" H 2350 1100 50  0001 C CNN
+F 1 "GND" H 2355 1177 50  0000 C CNN
+F 2 "" H 2350 1350 50  0001 C CNN
+F 3 "" H 2350 1350 50  0001 C CNN
+	1    2350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601C7AAE
+P 3550 1350
+F 0 "#PWR?" H 3550 1100 50  0001 C CNN
+F 1 "GND" H 3555 1177 50  0000 C CNN
+F 2 "" H 3550 1350 50  0001 C CNN
+F 3 "" H 3550 1350 50  0001 C CNN
+	1    3550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601C7AB4
+P 4750 1350
+F 0 "#PWR?" H 4750 1100 50  0001 C CNN
+F 1 "GND" H 4755 1177 50  0000 C CNN
+F 2 "" H 4750 1350 50  0001 C CNN
+F 3 "" H 4750 1350 50  0001 C CNN
+	1    4750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601C7ABA
+P 5950 1350
+F 0 "#PWR?" H 5950 1100 50  0001 C CNN
+F 1 "GND" H 5955 1177 50  0000 C CNN
+F 2 "" H 5950 1350 50  0001 C CNN
+F 3 "" H 5950 1350 50  0001 C CNN
+	1    5950 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601C7AC0
+P 7150 1350
+F 0 "#PWR?" H 7150 1100 50  0001 C CNN
+F 1 "GND" H 7155 1177 50  0000 C CNN
+F 2 "" H 7150 1350 50  0001 C CNN
+F 3 "" H 7150 1350 50  0001 C CNN
+	1    7150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601C7AC6
+P 8350 1350
+F 0 "#PWR?" H 8350 1100 50  0001 C CNN
+F 1 "GND" H 8355 1177 50  0000 C CNN
+F 2 "" H 8350 1350 50  0001 C CNN
+F 3 "" H 8350 1350 50  0001 C CNN
+	1    8350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601C7ACC
+P 9550 1350
+F 0 "#PWR?" H 9550 1100 50  0001 C CNN
+F 1 "GND" H 9555 1177 50  0000 C CNN
+F 2 "" H 9550 1350 50  0001 C CNN
+F 3 "" H 9550 1350 50  0001 C CNN
+	1    9550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601C7AD2
+P 10750 1350
+F 0 "#PWR?" H 10750 1100 50  0001 C CNN
+F 1 "GND" H 10755 1177 50  0000 C CNN
+F 2 "" H 10750 1350 50  0001 C CNN
+F 3 "" H 10750 1350 50  0001 C CNN
+	1    10750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:WS2812 U?
+U 1 1 605AE701
+P 1850 1000
+F 0 "U?" H 1900 1050 50  0001 C CNN
+F 1 "WS2812" H 1850 1000 50  0001 C CNN
+F 2 "BB:WS2812" H 1850 1000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 1850 1000 50  0001 C CNN
+F 4 "C114583" H 1850 1000 50  0001 C CNN "LCSC"
+	1    1850 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1100 900  750 
+$Comp
+L B.B-eagle-import:WS2812 U?
+U 1 1 6063D221
 P 3050 1000
-F 0 "U2" H 3100 1050 50  0001 C CNN
+F 0 "U?" H 3100 1050 50  0001 C CNN
 F 1 "WS2812" H 3050 1000 50  0001 C CNN
 F 2 "BB:WS2812" H 3050 1000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 3050 1000 50  0001 C CNN
+F 4 "C114583" H 3050 1000 50  0001 C CNN "LCSC"
 	1    3050 1000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2550 750  2550 1100
+Connection ~ 2550 1100
 $Comp
-L B.B-eagle-import:WS2812 U3
-U 1 1 5FB39FCC
+L B.B-eagle-import:WS2812 U?
+U 1 1 60684DAF
 P 4250 1000
-F 0 "U3" H 4300 1050 50  0001 C CNN
+F 0 "U?" H 4300 1050 50  0001 C CNN
 F 1 "WS2812" H 4250 1000 50  0001 C CNN
 F 2 "BB:WS2812" H 4250 1000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 4250 1000 50  0001 C CNN
+F 4 "C114583" H 4250 1000 50  0001 C CNN "LCSC"
 	1    4250 1000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3750 750  3750 1100
 $Comp
-L B.B-eagle-import:WS2812 U4
-U 1 1 5FB3A1D8
+L B.B-eagle-import:WS2812 U?
+U 1 1 606CBF24
 P 5450 1000
-F 0 "U4" H 5500 1050 50  0001 C CNN
+F 0 "U?" H 5500 1050 50  0001 C CNN
 F 1 "WS2812" H 5450 1000 50  0001 C CNN
 F 2 "BB:WS2812" H 5450 1000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 5450 1000 50  0001 C CNN
+F 4 "C114583" H 5450 1000 50  0001 C CNN "LCSC"
 	1    5450 1000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4950 750  4950 1100
+Connection ~ 3750 1100
+Connection ~ 4950 1100
+Connection ~ 6150 1100
 $Comp
-L B.B-eagle-import:WS2812 U5
-U 1 1 5FB3A405
+L B.B-eagle-import:WS2812 U?
+U 1 1 60713B66
 P 6650 1000
-F 0 "U5" H 6700 1050 50  0001 C CNN
+F 0 "U?" H 6700 1050 50  0001 C CNN
 F 1 "WS2812" H 6650 1000 50  0001 C CNN
 F 2 "BB:WS2812" H 6650 1000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 6650 1000 50  0001 C CNN
+F 4 "C114583" H 6650 1000 50  0001 C CNN "LCSC"
 	1    6650 1000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6150 750  6150 1100
 $Comp
-L B.B-eagle-import:WS2812 U6
-U 1 1 5FB3A5B0
+L B.B-eagle-import:WS2812 U?
+U 1 1 6075B3AD
 P 7850 1000
-F 0 "U6" H 7900 1050 50  0001 C CNN
+F 0 "U?" H 7900 1050 50  0001 C CNN
 F 1 "WS2812" H 7850 1000 50  0001 C CNN
 F 2 "BB:WS2812" H 7850 1000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 7850 1000 50  0001 C CNN
+F 4 "C114583" H 7850 1000 50  0001 C CNN "LCSC"
 	1    7850 1000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7350 750  7350 1100
 $Comp
-L B.B-eagle-import:WS2812 U7
-U 1 1 5FB3A720
+L B.B-eagle-import:WS2812 U?
+U 1 1 607A3038
 P 9050 1000
-F 0 "U7" H 9100 1050 50  0001 C CNN
+F 0 "U?" H 9100 1050 50  0001 C CNN
 F 1 "WS2812" H 9050 1000 50  0001 C CNN
 F 2 "BB:WS2812" H 9050 1000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 9050 1000 50  0001 C CNN
+F 4 "C114583" H 9050 1000 50  0001 C CNN "LCSC"
 	1    9050 1000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8550 750  8550 1100
 $Comp
-L B.B-eagle-import:WS2812 U8
-U 1 1 5FB3A9AB
+L B.B-eagle-import:WS2812 U?
+U 1 1 607EAE63
 P 10250 1000
-F 0 "U8" H 10300 1050 50  0001 C CNN
+F 0 "U?" H 10300 1050 50  0001 C CNN
 F 1 "WS2812" H 10250 1000 50  0001 C CNN
 F 2 "BB:WS2812" H 10250 1000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 10250 1000 50  0001 C CNN
+F 4 "C114583" H 10250 1000 50  0001 C CNN "LCSC"
 	1    10250 1000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9750 750  9750 1100
 $Comp
-L B.B-eagle-import:WS2812 U9
-U 1 1 5FB3AB39
+L B.B-eagle-import:WS2812 U?
+U 1 1 60837B6F
 P 1850 1850
-F 0 "U9" H 1900 1900 50  0001 C CNN
+F 0 "U?" H 1900 1900 50  0001 C CNN
 F 1 "WS2812" H 1850 1850 50  0001 C CNN
 F 2 "BB:WS2812" H 1850 1850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 1850 1850 50  0001 C CNN
+F 4 "C114583" H 1850 1850 50  0001 C CNN "LCSC"
 	1    1850 1850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	900  1950 900  1600
 $Comp
-L B.B-eagle-import:WS2812 U10
-U 1 1 5FB3AF53
+L B.B-eagle-import:WS2812 U?
+U 1 1 60837B77
 P 3050 1850
-F 0 "U10" H 3100 1900 50  0001 C CNN
+F 0 "U?" H 3100 1900 50  0001 C CNN
 F 1 "WS2812" H 3050 1850 50  0001 C CNN
 F 2 "BB:WS2812" H 3050 1850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 3050 1850 50  0001 C CNN
+F 4 "C114583" H 3050 1850 50  0001 C CNN "LCSC"
 	1    3050 1850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2550 1600 2550 1950
 $Comp
-L B.B-eagle-import:WS2812 U11
-U 1 1 5FB3B22D
+L B.B-eagle-import:WS2812 U?
+U 1 1 60837B7F
 P 4250 1850
-F 0 "U11" H 4300 1900 50  0001 C CNN
+F 0 "U?" H 4300 1900 50  0001 C CNN
 F 1 "WS2812" H 4250 1850 50  0001 C CNN
 F 2 "BB:WS2812" H 4250 1850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 4250 1850 50  0001 C CNN
+F 4 "C114583" H 4250 1850 50  0001 C CNN "LCSC"
 	1    4250 1850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3750 1600 3750 1950
 $Comp
-L B.B-eagle-import:WS2812 U12
-U 1 1 5FB3B4D7
+L B.B-eagle-import:WS2812 U?
+U 1 1 60837B87
 P 5450 1850
-F 0 "U12" H 5500 1900 50  0001 C CNN
+F 0 "U?" H 5500 1900 50  0001 C CNN
 F 1 "WS2812" H 5450 1850 50  0001 C CNN
 F 2 "BB:WS2812" H 5450 1850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 5450 1850 50  0001 C CNN
+F 4 "C114583" H 5450 1850 50  0001 C CNN "LCSC"
 	1    5450 1850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4950 1600 4950 1950
 $Comp
-L B.B-eagle-import:WS2812 U13
-U 1 1 5FB3B7AF
+L B.B-eagle-import:WS2812 U?
+U 1 1 60837B8F
 P 6650 1850
-F 0 "U13" H 6700 1900 50  0001 C CNN
+F 0 "U?" H 6700 1900 50  0001 C CNN
 F 1 "WS2812" H 6650 1850 50  0001 C CNN
 F 2 "BB:WS2812" H 6650 1850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 6650 1850 50  0001 C CNN
+F 4 "C114583" H 6650 1850 50  0001 C CNN "LCSC"
 	1    6650 1850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6150 1600 6150 1950
 $Comp
-L B.B-eagle-import:WS2812 U14
-U 1 1 5FB3B99C
+L B.B-eagle-import:WS2812 U?
+U 1 1 60837B97
 P 7850 1850
-F 0 "U14" H 7900 1900 50  0001 C CNN
+F 0 "U?" H 7900 1900 50  0001 C CNN
 F 1 "WS2812" H 7850 1850 50  0001 C CNN
 F 2 "BB:WS2812" H 7850 1850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 7850 1850 50  0001 C CNN
+F 4 "C114583" H 7850 1850 50  0001 C CNN "LCSC"
 	1    7850 1850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7350 1600 7350 1950
 $Comp
-L B.B-eagle-import:WS2812 U15
-U 1 1 5FB3BB8E
+L B.B-eagle-import:WS2812 U?
+U 1 1 60837B9F
 P 9050 1850
-F 0 "U15" H 9100 1900 50  0001 C CNN
+F 0 "U?" H 9100 1900 50  0001 C CNN
 F 1 "WS2812" H 9050 1850 50  0001 C CNN
 F 2 "BB:WS2812" H 9050 1850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 9050 1850 50  0001 C CNN
+F 4 "C114583" H 9050 1850 50  0001 C CNN "LCSC"
 	1    9050 1850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8550 1600 8550 1950
 $Comp
-L B.B-eagle-import:WS2812 U16
-U 1 1 5FB3BD61
+L B.B-eagle-import:WS2812 U?
+U 1 1 60837BA7
 P 10250 1850
-F 0 "U16" H 10300 1900 50  0001 C CNN
+F 0 "U?" H 10300 1900 50  0001 C CNN
 F 1 "WS2812" H 10250 1850 50  0001 C CNN
 F 2 "BB:WS2812" H 10250 1850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 10250 1850 50  0001 C CNN
+F 4 "C114583" H 10250 1850 50  0001 C CNN "LCSC"
 	1    10250 1850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9750 1600 9750 1950
 $Comp
-L B.B-eagle-import:WS2812 U17
-U 1 1 5FB3BF4C
+L B.B-eagle-import:WS2812 U?
+U 1 1 60883726
 P 1850 2700
-F 0 "U17" H 1900 2750 50  0001 C CNN
+F 0 "U?" H 1900 2750 50  0001 C CNN
 F 1 "WS2812" H 1850 2700 50  0001 C CNN
 F 2 "BB:WS2812" H 1850 2700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 1850 2700 50  0001 C CNN
+F 4 "C114583" H 1850 2700 50  0001 C CNN "LCSC"
 	1    1850 2700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	900  2800 900  2450
 $Comp
-L B.B-eagle-import:WS2812 U18
-U 1 1 5FB3C2DA
+L B.B-eagle-import:WS2812 U?
+U 1 1 6088372E
 P 3050 2700
-F 0 "U18" H 3100 2750 50  0001 C CNN
+F 0 "U?" H 3100 2750 50  0001 C CNN
 F 1 "WS2812" H 3050 2700 50  0001 C CNN
 F 2 "BB:WS2812" H 3050 2700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 3050 2700 50  0001 C CNN
+F 4 "C114583" H 3050 2700 50  0001 C CNN "LCSC"
 	1    3050 2700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2550 2450 2550 2800
 $Comp
-L B.B-eagle-import:WS2812 U19
-U 1 1 5FB3C596
+L B.B-eagle-import:WS2812 U?
+U 1 1 60883736
 P 4250 2700
-F 0 "U19" H 4300 2750 50  0001 C CNN
+F 0 "U?" H 4300 2750 50  0001 C CNN
 F 1 "WS2812" H 4250 2700 50  0001 C CNN
 F 2 "BB:WS2812" H 4250 2700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 4250 2700 50  0001 C CNN
+F 4 "C114583" H 4250 2700 50  0001 C CNN "LCSC"
 	1    4250 2700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3750 2450 3750 2800
 $Comp
-L B.B-eagle-import:WS2812 U20
-U 1 1 5FB3C829
+L B.B-eagle-import:WS2812 U?
+U 1 1 6088373E
 P 5450 2700
-F 0 "U20" H 5500 2750 50  0001 C CNN
+F 0 "U?" H 5500 2750 50  0001 C CNN
 F 1 "WS2812" H 5450 2700 50  0001 C CNN
 F 2 "BB:WS2812" H 5450 2700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 5450 2700 50  0001 C CNN
+F 4 "C114583" H 5450 2700 50  0001 C CNN "LCSC"
 	1    5450 2700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4950 2450 4950 2800
 $Comp
-L B.B-eagle-import:WS2812 U21
-U 1 1 5FB3CA7C
+L B.B-eagle-import:WS2812 U?
+U 1 1 60883746
 P 6650 2700
-F 0 "U21" H 6700 2750 50  0001 C CNN
+F 0 "U?" H 6700 2750 50  0001 C CNN
 F 1 "WS2812" H 6650 2700 50  0001 C CNN
 F 2 "BB:WS2812" H 6650 2700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 6650 2700 50  0001 C CNN
+F 4 "C114583" H 6650 2700 50  0001 C CNN "LCSC"
 	1    6650 2700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6150 2450 6150 2800
 $Comp
-L B.B-eagle-import:WS2812 U22
-U 1 1 5FB3CCE6
+L B.B-eagle-import:WS2812 U?
+U 1 1 6088374E
 P 7850 2700
-F 0 "U22" H 7900 2750 50  0001 C CNN
+F 0 "U?" H 7900 2750 50  0001 C CNN
 F 1 "WS2812" H 7850 2700 50  0001 C CNN
 F 2 "BB:WS2812" H 7850 2700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 7850 2700 50  0001 C CNN
+F 4 "C114583" H 7850 2700 50  0001 C CNN "LCSC"
 	1    7850 2700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7350 2450 7350 2800
 $Comp
-L B.B-eagle-import:WS2812 U23
-U 1 1 5FB3CEFC
+L B.B-eagle-import:WS2812 U?
+U 1 1 60883756
 P 9050 2700
-F 0 "U23" H 9100 2750 50  0001 C CNN
+F 0 "U?" H 9100 2750 50  0001 C CNN
 F 1 "WS2812" H 9050 2700 50  0001 C CNN
 F 2 "BB:WS2812" H 9050 2700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 9050 2700 50  0001 C CNN
+F 4 "C114583" H 9050 2700 50  0001 C CNN "LCSC"
 	1    9050 2700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8550 2450 8550 2800
 $Comp
-L B.B-eagle-import:WS2812 U24
-U 1 1 5FB3D124
+L B.B-eagle-import:WS2812 U?
+U 1 1 6088375E
 P 10250 2700
-F 0 "U24" H 10300 2750 50  0001 C CNN
+F 0 "U?" H 10300 2750 50  0001 C CNN
 F 1 "WS2812" H 10250 2700 50  0001 C CNN
 F 2 "BB:WS2812" H 10250 2700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 10250 2700 50  0001 C CNN
+F 4 "C114583" H 10250 2700 50  0001 C CNN "LCSC"
 	1    10250 2700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9750 2450 9750 2800
 $Comp
-L B.B-eagle-import:WS2812 U25
-U 1 1 5FB3D3C1
+L B.B-eagle-import:WS2812 U?
+U 1 1 608D1A27
 P 1850 3500
-F 0 "U25" H 1900 3550 50  0001 C CNN
+F 0 "U?" H 1900 3550 50  0001 C CNN
 F 1 "WS2812" H 1850 3500 50  0001 C CNN
 F 2 "BB:WS2812" H 1850 3500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 1850 3500 50  0001 C CNN
+F 4 "C114583" H 1850 3500 50  0001 C CNN "LCSC"
 	1    1850 3500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	900  3600 900  3250
 $Comp
-L B.B-eagle-import:WS2812 U26
-U 1 1 5FB3D71F
+L B.B-eagle-import:WS2812 U?
+U 1 1 608D1A2F
 P 3050 3500
-F 0 "U26" H 3100 3550 50  0001 C CNN
+F 0 "U?" H 3100 3550 50  0001 C CNN
 F 1 "WS2812" H 3050 3500 50  0001 C CNN
 F 2 "BB:WS2812" H 3050 3500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 3050 3500 50  0001 C CNN
+F 4 "C114583" H 3050 3500 50  0001 C CNN "LCSC"
 	1    3050 3500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2550 3250 2550 3600
 $Comp
-L B.B-eagle-import:WS2812 U27
-U 1 1 5FB3D998
+L B.B-eagle-import:WS2812 U?
+U 1 1 608D1A37
 P 4250 3500
-F 0 "U27" H 4300 3550 50  0001 C CNN
+F 0 "U?" H 4300 3550 50  0001 C CNN
 F 1 "WS2812" H 4250 3500 50  0001 C CNN
 F 2 "BB:WS2812" H 4250 3500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 4250 3500 50  0001 C CNN
+F 4 "C114583" H 4250 3500 50  0001 C CNN "LCSC"
 	1    4250 3500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3750 3250 3750 3600
 $Comp
-L B.B-eagle-import:WS2812 U28
-U 1 1 5FB3DB64
+L B.B-eagle-import:WS2812 U?
+U 1 1 608D1A3F
 P 5450 3500
-F 0 "U28" H 5500 3550 50  0001 C CNN
+F 0 "U?" H 5500 3550 50  0001 C CNN
 F 1 "WS2812" H 5450 3500 50  0001 C CNN
 F 2 "BB:WS2812" H 5450 3500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 5450 3500 50  0001 C CNN
+F 4 "C114583" H 5450 3500 50  0001 C CNN "LCSC"
 	1    5450 3500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4950 3250 4950 3600
 $Comp
-L B.B-eagle-import:WS2812 U29
-U 1 1 5FB3DDBC
+L B.B-eagle-import:WS2812 U?
+U 1 1 608D1A47
 P 6650 3500
-F 0 "U29" H 6700 3550 50  0001 C CNN
+F 0 "U?" H 6700 3550 50  0001 C CNN
 F 1 "WS2812" H 6650 3500 50  0001 C CNN
 F 2 "BB:WS2812" H 6650 3500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 6650 3500 50  0001 C CNN
+F 4 "C114583" H 6650 3500 50  0001 C CNN "LCSC"
 	1    6650 3500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6150 3250 6150 3600
 $Comp
-L B.B-eagle-import:WS2812 U30
-U 1 1 5FB3E07E
+L B.B-eagle-import:WS2812 U?
+U 1 1 608D1A4F
 P 7850 3500
-F 0 "U30" H 7900 3550 50  0001 C CNN
+F 0 "U?" H 7900 3550 50  0001 C CNN
 F 1 "WS2812" H 7850 3500 50  0001 C CNN
 F 2 "BB:WS2812" H 7850 3500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 7850 3500 50  0001 C CNN
+F 4 "C114583" H 7850 3500 50  0001 C CNN "LCSC"
 	1    7850 3500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7350 3250 7350 3600
 $Comp
-L B.B-eagle-import:WS2812 U31
-U 1 1 5FB3E299
+L B.B-eagle-import:WS2812 U?
+U 1 1 608D1A57
 P 9050 3500
-F 0 "U31" H 9100 3550 50  0001 C CNN
+F 0 "U?" H 9100 3550 50  0001 C CNN
 F 1 "WS2812" H 9050 3500 50  0001 C CNN
 F 2 "BB:WS2812" H 9050 3500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 9050 3500 50  0001 C CNN
+F 4 "C114583" H 9050 3500 50  0001 C CNN "LCSC"
 	1    9050 3500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8550 3250 8550 3600
 $Comp
-L B.B-eagle-import:WS2812 U32
-U 1 1 5FB3E474
+L B.B-eagle-import:WS2812 U?
+U 1 1 608D1A5F
 P 10250 3500
-F 0 "U32" H 10300 3550 50  0001 C CNN
+F 0 "U?" H 10300 3550 50  0001 C CNN
 F 1 "WS2812" H 10250 3500 50  0001 C CNN
 F 2 "BB:WS2812" H 10250 3500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 10250 3500 50  0001 C CNN
+F 4 "C114583" H 10250 3500 50  0001 C CNN "LCSC"
 	1    10250 3500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9750 3250 9750 3600
 $Comp
-L B.B-eagle-import:WS2812 U33
-U 1 1 5FB3E72D
+L B.B-eagle-import:WS2812 U?
+U 1 1 609212E5
 P 1850 4350
-F 0 "U33" H 1900 4400 50  0001 C CNN
+F 0 "U?" H 1900 4400 50  0001 C CNN
 F 1 "WS2812" H 1850 4350 50  0001 C CNN
 F 2 "BB:WS2812" H 1850 4350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 1850 4350 50  0001 C CNN
+F 4 "C114583" H 1850 4350 50  0001 C CNN "LCSC"
 	1    1850 4350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	900  4450 900  4100
 $Comp
-L B.B-eagle-import:WS2812 U34
-U 1 1 5FB3EAC2
+L B.B-eagle-import:WS2812 U?
+U 1 1 609212ED
 P 3050 4350
-F 0 "U34" H 3100 4400 50  0001 C CNN
+F 0 "U?" H 3100 4400 50  0001 C CNN
 F 1 "WS2812" H 3050 4350 50  0001 C CNN
 F 2 "BB:WS2812" H 3050 4350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 3050 4350 50  0001 C CNN
+F 4 "C114583" H 3050 4350 50  0001 C CNN "LCSC"
 	1    3050 4350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2550 4100 2550 4450
 $Comp
-L B.B-eagle-import:WS2812 U35
-U 1 1 5FB3EE9D
+L B.B-eagle-import:WS2812 U?
+U 1 1 609212F5
 P 4250 4350
-F 0 "U35" H 4300 4400 50  0001 C CNN
+F 0 "U?" H 4300 4400 50  0001 C CNN
 F 1 "WS2812" H 4250 4350 50  0001 C CNN
 F 2 "BB:WS2812" H 4250 4350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 4250 4350 50  0001 C CNN
+F 4 "C114583" H 4250 4350 50  0001 C CNN "LCSC"
 	1    4250 4350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3750 4100 3750 4450
 $Comp
-L B.B-eagle-import:WS2812 U36
-U 1 1 5FB3F014
+L B.B-eagle-import:WS2812 U?
+U 1 1 609212FD
 P 5450 4350
-F 0 "U36" H 5500 4400 50  0001 C CNN
+F 0 "U?" H 5500 4400 50  0001 C CNN
 F 1 "WS2812" H 5450 4350 50  0001 C CNN
 F 2 "BB:WS2812" H 5450 4350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 5450 4350 50  0001 C CNN
+F 4 "C114583" H 5450 4350 50  0001 C CNN "LCSC"
 	1    5450 4350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4950 4100 4950 4450
 $Comp
-L B.B-eagle-import:WS2812 U37
-U 1 1 5FB3F24B
+L B.B-eagle-import:WS2812 U?
+U 1 1 60921305
 P 6650 4350
-F 0 "U37" H 6700 4400 50  0001 C CNN
+F 0 "U?" H 6700 4400 50  0001 C CNN
 F 1 "WS2812" H 6650 4350 50  0001 C CNN
 F 2 "BB:WS2812" H 6650 4350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 6650 4350 50  0001 C CNN
+F 4 "C114583" H 6650 4350 50  0001 C CNN "LCSC"
 	1    6650 4350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6150 4100 6150 4450
 $Comp
-L B.B-eagle-import:WS2812 U38
-U 1 1 5FB3F500
+L B.B-eagle-import:WS2812 U?
+U 1 1 6092130D
 P 7850 4350
-F 0 "U38" H 7900 4400 50  0001 C CNN
+F 0 "U?" H 7900 4400 50  0001 C CNN
 F 1 "WS2812" H 7850 4350 50  0001 C CNN
 F 2 "BB:WS2812" H 7850 4350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 7850 4350 50  0001 C CNN
+F 4 "C114583" H 7850 4350 50  0001 C CNN "LCSC"
 	1    7850 4350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7350 4100 7350 4450
 $Comp
-L B.B-eagle-import:WS2812 U39
-U 1 1 5FB3F817
+L B.B-eagle-import:WS2812 U?
+U 1 1 60921315
 P 9050 4350
-F 0 "U39" H 9100 4400 50  0001 C CNN
+F 0 "U?" H 9100 4400 50  0001 C CNN
 F 1 "WS2812" H 9050 4350 50  0001 C CNN
 F 2 "BB:WS2812" H 9050 4350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 9050 4350 50  0001 C CNN
+F 4 "C114583" H 9050 4350 50  0001 C CNN "LCSC"
 	1    9050 4350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8550 4100 8550 4450
 $Comp
-L B.B-eagle-import:WS2812 U40
-U 1 1 5FB3FA69
+L B.B-eagle-import:WS2812 U?
+U 1 1 6092131D
 P 10250 4350
-F 0 "U40" H 10300 4400 50  0001 C CNN
+F 0 "U?" H 10300 4400 50  0001 C CNN
 F 1 "WS2812" H 10250 4350 50  0001 C CNN
 F 2 "BB:WS2812" H 10250 4350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 10250 4350 50  0001 C CNN
+F 4 "C114583" H 10250 4350 50  0001 C CNN "LCSC"
 	1    10250 4350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9750 4100 9750 4450
 $Comp
-L B.B-eagle-import:WS2812 U41
-U 1 1 5FB3FC25
+L B.B-eagle-import:WS2812 U?
+U 1 1 60972D27
 P 1850 5200
-F 0 "U41" H 1900 5250 50  0001 C CNN
+F 0 "U?" H 1900 5250 50  0001 C CNN
 F 1 "WS2812" H 1850 5200 50  0001 C CNN
 F 2 "BB:WS2812" H 1850 5200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 1850 5200 50  0001 C CNN
+F 4 "C114583" H 1850 5200 50  0001 C CNN "LCSC"
 	1    1850 5200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	900  5300 900  4950
 $Comp
-L B.B-eagle-import:WS2812 U42
-U 1 1 5FB3FF00
+L B.B-eagle-import:WS2812 U?
+U 1 1 60972D2F
 P 3050 5200
-F 0 "U42" H 3100 5250 50  0001 C CNN
+F 0 "U?" H 3100 5250 50  0001 C CNN
 F 1 "WS2812" H 3050 5200 50  0001 C CNN
 F 2 "BB:WS2812" H 3050 5200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 3050 5200 50  0001 C CNN
+F 4 "C114583" H 3050 5200 50  0001 C CNN "LCSC"
 	1    3050 5200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2550 4950 2550 5300
 $Comp
-L B.B-eagle-import:WS2812 U43
-U 1 1 5FB40155
+L B.B-eagle-import:WS2812 U?
+U 1 1 60972D37
 P 4250 5200
-F 0 "U43" H 4300 5250 50  0001 C CNN
+F 0 "U?" H 4300 5250 50  0001 C CNN
 F 1 "WS2812" H 4250 5200 50  0001 C CNN
 F 2 "BB:WS2812" H 4250 5200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 4250 5200 50  0001 C CNN
+F 4 "C114583" H 4250 5200 50  0001 C CNN "LCSC"
 	1    4250 5200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3750 4950 3750 5300
 $Comp
-L B.B-eagle-import:WS2812 U44
-U 1 1 5FB4036B
+L B.B-eagle-import:WS2812 U?
+U 1 1 60972D3F
 P 5450 5200
-F 0 "U44" H 5500 5250 50  0001 C CNN
+F 0 "U?" H 5500 5250 50  0001 C CNN
 F 1 "WS2812" H 5450 5200 50  0001 C CNN
 F 2 "BB:WS2812" H 5450 5200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 5450 5200 50  0001 C CNN
+F 4 "C114583" H 5450 5200 50  0001 C CNN "LCSC"
 	1    5450 5200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4950 4950 4950 5300
 $Comp
-L B.B-eagle-import:WS2812 U45
-U 1 1 5FB40558
+L B.B-eagle-import:WS2812 U?
+U 1 1 60972D47
 P 6650 5200
-F 0 "U45" H 6700 5250 50  0001 C CNN
+F 0 "U?" H 6700 5250 50  0001 C CNN
 F 1 "WS2812" H 6650 5200 50  0001 C CNN
 F 2 "BB:WS2812" H 6650 5200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 6650 5200 50  0001 C CNN
+F 4 "C114583" H 6650 5200 50  0001 C CNN "LCSC"
 	1    6650 5200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6150 4950 6150 5300
 $Comp
-L B.B-eagle-import:WS2812 U46
-U 1 1 5FB40817
+L B.B-eagle-import:WS2812 U?
+U 1 1 60972D4F
 P 7850 5200
-F 0 "U46" H 7900 5250 50  0001 C CNN
+F 0 "U?" H 7900 5250 50  0001 C CNN
 F 1 "WS2812" H 7850 5200 50  0001 C CNN
 F 2 "BB:WS2812" H 7850 5200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 7850 5200 50  0001 C CNN
+F 4 "C114583" H 7850 5200 50  0001 C CNN "LCSC"
 	1    7850 5200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7350 4950 7350 5300
 $Comp
-L B.B-eagle-import:WS2812 U47
-U 1 1 5FB409D6
+L B.B-eagle-import:WS2812 U?
+U 1 1 60972D57
 P 9050 5200
-F 0 "U47" H 9100 5250 50  0001 C CNN
+F 0 "U?" H 9100 5250 50  0001 C CNN
 F 1 "WS2812" H 9050 5200 50  0001 C CNN
 F 2 "BB:WS2812" H 9050 5200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 9050 5200 50  0001 C CNN
+F 4 "C114583" H 9050 5200 50  0001 C CNN "LCSC"
 	1    9050 5200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8550 4950 8550 5300
 $Comp
-L B.B-eagle-import:WS2812 U48
-U 1 1 5FB40BAC
+L B.B-eagle-import:WS2812 U?
+U 1 1 60972D5F
 P 10250 5200
-F 0 "U48" H 10300 5250 50  0001 C CNN
+F 0 "U?" H 10300 5250 50  0001 C CNN
 F 1 "WS2812" H 10250 5200 50  0001 C CNN
 F 2 "BB:WS2812" H 10250 5200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 10250 5200 50  0001 C CNN
+F 4 "C114583" H 10250 5200 50  0001 C CNN "LCSC"
 	1    10250 5200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9750 4950 9750 5300
 $Comp
-L B.B-eagle-import:WS2812 U49
-U 1 1 5FB40E09
+L B.B-eagle-import:WS2812 U?
+U 1 1 60A1B5B9
 P 1850 6050
-F 0 "U49" H 1900 6100 50  0001 C CNN
+F 0 "U?" H 1900 6100 50  0001 C CNN
 F 1 "WS2812" H 1850 6050 50  0001 C CNN
 F 2 "BB:WS2812" H 1850 6050 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 1850 6050 50  0001 C CNN
+F 4 "C114583" H 1850 6050 50  0001 C CNN "LCSC"
 	1    1850 6050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	900  6150 900  5800
 $Comp
-L B.B-eagle-import:WS2812 U50
-U 1 1 5FB4124B
+L B.B-eagle-import:WS2812 U?
+U 1 1 60A1B5C1
 P 3050 6050
-F 0 "U50" H 3100 6100 50  0001 C CNN
+F 0 "U?" H 3100 6100 50  0001 C CNN
 F 1 "WS2812" H 3050 6050 50  0001 C CNN
 F 2 "BB:WS2812" H 3050 6050 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 3050 6050 50  0001 C CNN
+F 4 "C114583" H 3050 6050 50  0001 C CNN "LCSC"
 	1    3050 6050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2550 5800 2550 6150
 $Comp
-L B.B-eagle-import:WS2812 U51
-U 1 1 5FB415B9
+L B.B-eagle-import:WS2812 U?
+U 1 1 60A1B5C9
 P 4250 6050
-F 0 "U51" H 4300 6100 50  0001 C CNN
+F 0 "U?" H 4300 6100 50  0001 C CNN
 F 1 "WS2812" H 4250 6050 50  0001 C CNN
 F 2 "BB:WS2812" H 4250 6050 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 4250 6050 50  0001 C CNN
+F 4 "C114583" H 4250 6050 50  0001 C CNN "LCSC"
 	1    4250 6050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3750 5800 3750 6150
 $Comp
-L B.B-eagle-import:WS2812 U52
-U 1 1 5FB417F2
+L B.B-eagle-import:WS2812 U?
+U 1 1 60A1B5D1
 P 5450 6050
-F 0 "U52" H 5500 6100 50  0001 C CNN
+F 0 "U?" H 5500 6100 50  0001 C CNN
 F 1 "WS2812" H 5450 6050 50  0001 C CNN
 F 2 "BB:WS2812" H 5450 6050 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 5450 6050 50  0001 C CNN
+F 4 "C114583" H 5450 6050 50  0001 C CNN "LCSC"
 	1    5450 6050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4950 5800 4950 6150
 $Comp
-L B.B-eagle-import:WS2812 U53
-U 1 1 5FB419BB
+L B.B-eagle-import:WS2812 U?
+U 1 1 60A1B5D9
 P 6650 6050
-F 0 "U53" H 6700 6100 50  0001 C CNN
+F 0 "U?" H 6700 6100 50  0001 C CNN
 F 1 "WS2812" H 6650 6050 50  0001 C CNN
 F 2 "BB:WS2812" H 6650 6050 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 6650 6050 50  0001 C CNN
+F 4 "C114583" H 6650 6050 50  0001 C CNN "LCSC"
 	1    6650 6050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6150 5800 6150 6150
 $Comp
-L B.B-eagle-import:WS2812 U54
-U 1 1 5FB41C3A
+L B.B-eagle-import:WS2812 U?
+U 1 1 60A1B5E1
 P 7850 6050
-F 0 "U54" H 7900 6100 50  0001 C CNN
+F 0 "U?" H 7900 6100 50  0001 C CNN
 F 1 "WS2812" H 7850 6050 50  0001 C CNN
 F 2 "BB:WS2812" H 7850 6050 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 7850 6050 50  0001 C CNN
+F 4 "C114583" H 7850 6050 50  0001 C CNN "LCSC"
 	1    7850 6050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7350 5800 7350 6150
 $Comp
-L B.B-eagle-import:WS2812 U55
-U 1 1 5FB41ED6
+L B.B-eagle-import:WS2812 U?
+U 1 1 60A1B5E9
 P 9050 6050
-F 0 "U55" H 9100 6100 50  0001 C CNN
+F 0 "U?" H 9100 6100 50  0001 C CNN
 F 1 "WS2812" H 9050 6050 50  0001 C CNN
 F 2 "BB:WS2812" H 9050 6050 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 9050 6050 50  0001 C CNN
+F 4 "C114583" H 9050 6050 50  0001 C CNN "LCSC"
 	1    9050 6050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8550 5800 8550 6150
 $Comp
-L B.B-eagle-import:WS2812 U56
-U 1 1 5FB420F1
+L B.B-eagle-import:WS2812 U?
+U 1 1 60A1B5F1
 P 10250 6050
-F 0 "U56" H 10300 6100 50  0001 C CNN
+F 0 "U?" H 10300 6100 50  0001 C CNN
 F 1 "WS2812" H 10250 6050 50  0001 C CNN
 F 2 "BB:WS2812" H 10250 6050 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 10250 6050 50  0001 C CNN
+F 4 "C114583" H 10250 6050 50  0001 C CNN "LCSC"
 	1    10250 6050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9750 5800 9750 6150
 $Comp
-L B.B-eagle-import:WS2812 U57
-U 1 1 5FB422B8
+L B.B-eagle-import:WS2812 U?
+U 1 1 60A70720
 P 1850 6850
-F 0 "U57" H 1900 6900 50  0001 C CNN
+F 0 "U?" H 1900 6900 50  0001 C CNN
 F 1 "WS2812" H 1850 6850 50  0001 C CNN
 F 2 "BB:WS2812" H 1850 6850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 1850 6850 50  0001 C CNN
+F 4 "C114583" H 1850 6850 50  0001 C CNN "LCSC"
 	1    1850 6850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	900  6950 900  6600
 $Comp
-L B.B-eagle-import:WS2812 U58
-U 1 1 5FB42678
+L B.B-eagle-import:WS2812 U?
+U 1 1 60A70728
 P 3050 6850
-F 0 "U58" H 3100 6900 50  0001 C CNN
+F 0 "U?" H 3100 6900 50  0001 C CNN
 F 1 "WS2812" H 3050 6850 50  0001 C CNN
 F 2 "BB:WS2812" H 3050 6850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 3050 6850 50  0001 C CNN
+F 4 "C114583" H 3050 6850 50  0001 C CNN "LCSC"
 	1    3050 6850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2550 6600 2550 6950
 $Comp
-L B.B-eagle-import:WS2812 U59
-U 1 1 5FB42945
+L B.B-eagle-import:WS2812 U?
+U 1 1 60A70730
 P 4250 6850
-F 0 "U59" H 4300 6900 50  0001 C CNN
+F 0 "U?" H 4300 6900 50  0001 C CNN
 F 1 "WS2812" H 4250 6850 50  0001 C CNN
 F 2 "BB:WS2812" H 4250 6850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 4250 6850 50  0001 C CNN
+F 4 "C114583" H 4250 6850 50  0001 C CNN "LCSC"
 	1    4250 6850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3750 6600 3750 6950
 $Comp
-L B.B-eagle-import:WS2812 U74
-U 1 1 5FB42C15
+L B.B-eagle-import:WS2812 U?
+U 1 1 60A70738
 P 5450 6850
-F 0 "U74" H 5500 6900 50  0001 C CNN
+F 0 "U?" H 5500 6900 50  0001 C CNN
 F 1 "WS2812" H 5450 6850 50  0001 C CNN
 F 2 "BB:WS2812" H 5450 6850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005251033_Worldsemi-WS2812B-Mini_C527089.pdf" H 5450 6850 50  0001 C CNN
+F 4 "C114583" H 5450 6850 50  0001 C CNN "LCSC"
 	1    5450 6850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4950 6600 4950 6950
+Connection ~ 4950 6950
+Connection ~ 3750 6950
+Connection ~ 2550 6950
+Connection ~ 9750 1100
+Connection ~ 8550 1100
+Connection ~ 7350 1100
+Connection ~ 9750 1950
+Connection ~ 8550 1950
+Connection ~ 7350 1950
+Connection ~ 6150 1950
+Connection ~ 4950 1950
+Connection ~ 3750 1950
+Connection ~ 9750 2800
+Connection ~ 8550 2800
+Connection ~ 7350 2800
+Connection ~ 6150 2800
+Connection ~ 4950 2800
+Connection ~ 3750 2800
+Connection ~ 2550 2800
+Connection ~ 9750 3600
+Connection ~ 8550 3600
+Connection ~ 7350 3600
+Connection ~ 6150 3600
+Connection ~ 4950 3600
+Connection ~ 3750 3600
+Connection ~ 2550 3600
+Connection ~ 9750 4450
+Connection ~ 8550 4450
+Connection ~ 7350 4450
+Connection ~ 6150 4450
+Connection ~ 4950 4450
+Connection ~ 3750 4450
+Connection ~ 2550 4450
+Connection ~ 9750 5300
+Connection ~ 8550 5300
+Connection ~ 7350 5300
+Connection ~ 6150 5300
+Connection ~ 4950 5300
+Connection ~ 3750 5300
+Connection ~ 2550 5300
+Connection ~ 9750 6150
+Connection ~ 8550 6150
+Connection ~ 7350 6150
+Connection ~ 6150 6150
+Connection ~ 4950 6150
+Connection ~ 3750 6150
+Connection ~ 2550 6150
+Connection ~ 2550 1950
 $EndSCHEMATC
