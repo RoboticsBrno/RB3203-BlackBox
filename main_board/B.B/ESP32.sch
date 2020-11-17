@@ -492,7 +492,7 @@ P 3900 1350
 F 0 "Q3" V 4104 1396 50  0000 L CNN
 F 1 "AO3400A" V 4100 950 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 1275 50  0001 L CIN
-F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-CJ3134K_C110100.pdf" H 3900 1350 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3400A_C20917.pdf" H 3900 1350 50  0001 L CNN
 F 4 "C20917" H 3900 1350 50  0001 C CNN "LCSC"
 	1    3900 1350
 	0    -1   -1   0   
@@ -1270,4 +1270,24 @@ Wire Wire Line
 	3900 1950 4150 1950
 Wire Wire Line
 	4150 1950 4500 1950
+Text HLabel 6300 1250 2    50   Input ~ 0
+cable_connected
+$Comp
+L Device:R R?
+U 1 1 5FB94C99
+P 6150 1250
+AR Path="/5FA3274C/5FB94C99" Ref="R?"  Part="1" 
+AR Path="/5F9EE529/5FB94C99" Ref="R?"  Part="1" 
+AR Path="/5F77B818/5FB94C99" Ref="R?"  Part="1" 
+F 0 "R?" V 5943 1250 50  0000 C CNN
+F 1 "220" V 6034 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6080 1250 50  0001 C CNN
+F 3 "~" H 6150 1250 50  0001 C CNN
+F 4 "C25092" V 6150 1250 50  0001 C CNN "LCSC"
+	1    6150 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 1250 5950 1250
+Connection ~ 5950 1250
 $EndSCHEMATC

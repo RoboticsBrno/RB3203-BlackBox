@@ -29,7 +29,7 @@ Text HLabel 4100 3250 0    50   Input ~ 0
 VCC
 Wire Wire Line
 	4100 3250 4175 3250
-Text HLabel 7000 3250 2    50   Input ~ 0
+Text HLabel 8000 3250 2    50   Input ~ 0
 BAT
 $Comp
 L Device:R R?
@@ -107,8 +107,8 @@ $Comp
 L Device:R R?
 U 1 1 5FC03C27
 P 5250 3400
-F 0 "R?" V 5325 3375 50  0000 R CNN
-F 1 "1,2k" V 5325 3550 50  0000 R CNN
+F 0 "R?" V 5300 3275 50  0000 R CNN
+F 1 "1,2k" V 5325 3500 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5180 3400 50  0001 C CNN
 F 3 "~" H 5250 3400 50  0001 C CNN
 F 4 "C25862" V 5250 3400 50  0001 C CNN "LCSC"
@@ -119,8 +119,8 @@ $Comp
 L Device:R R?
 U 1 1 5FC04CCC
 P 5250 3625
-F 0 "R?" V 5325 3750 50  0000 R CNN
-F 1 "1,2k" V 5325 3650 50  0000 R CNN
+F 0 "R?" V 5325 3850 50  0000 R CNN
+F 1 "1,2k" V 5175 3700 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5180 3625 50  0001 C CNN
 F 3 "~" H 5250 3625 50  0001 C CNN
 F 4 "C25862" V 5250 3625 50  0001 C CNN "LCSC"
@@ -168,7 +168,7 @@ Wire Wire Line
 	6375 3250 6875 3250
 Connection ~ 6875 3250
 Wire Wire Line
-	6875 3250 7000 3250
+	6875 3250 7350 3250
 $Comp
 L B.B-rescue:SE9017 U?
 U 1 1 5FB4881E
@@ -229,4 +229,85 @@ Wire Wire Line
 Connection ~ 4175 3250
 Wire Wire Line
 	4175 3250 4750 3250
+$Comp
+L B.B-rescue:Q_PMOS_DSG Q?
+U 1 1 5FBB8789
+P 7550 3350
+AR Path="/5F9EE529/5FBB8789" Ref="Q?"  Part="1" 
+AR Path="/5FA4C94D/5FBB8789" Ref="Q?"  Part="1" 
+AR Path="/5FBB8789" Ref="Q?"  Part="1" 
+AR Path="/5FB8FF0F/5FBB8789" Ref="Q?"  Part="1" 
+F 0 "Q?" V 7892 3350 50  0000 C CNN
+F 1 "SI3447CDV" V 7801 3350 50  0000 C CNN
+F 2 "BB:TSOP-6_1.5x3.0x0.95P" H 7750 3450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Vishay-Intertech-SI3447CDV-T1-E3_C145421.pdf" H 7550 3350 50  0001 C CNN
+F 4 "C145421" V 7550 3350 50  0001 C CNN "LCSC"
+	1    7550 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5FBBD3A8
+P 7450 3750
+AR Path="/5F77B818/5FBBD3A8" Ref="Q?"  Part="1" 
+AR Path="/5FA4C94D/5FBBD3A8" Ref="Q?"  Part="1" 
+AR Path="/5FB8FF0F/5FBBD3A8" Ref="Q?"  Part="1" 
+F 0 "Q?" H 7654 3796 50  0000 L CNN
+F 1 "2N7002" H 7654 3705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7650 3675 50  0001 L CIN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-CJ3134K_C110100.pdf" H 7450 3750 50  0001 L CNN
+F 4 "C8545" H 7450 3750 50  0001 C CNN "LCSC"
+	1    7450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FBC46B0
+P 7550 4050
+AR Path="/5FA4C94D/5FBC46B0" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FBC46B0" Ref="#GND?"  Part="1" 
+AR Path="/5FB8FF0F/5FBC46B0" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 7550 4050 50  0001 C CNN
+F 1 "GND" H 7550 3970 59  0000 C CNN
+F 2 "" H 7550 4050 50  0001 C CNN
+F 3 "" H 7550 4050 50  0001 C CNN
+	1    7550 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 3750 7125 3750
+Wire Wire Line
+	7125 3750 7125 4150
+Wire Wire Line
+	7125 4150 4750 4150
+Wire Wire Line
+	4750 4150 4750 3625
+Connection ~ 4750 3625
+Wire Wire Line
+	7600 3550 7550 3550
+Connection ~ 7550 3550
+Wire Wire Line
+	7900 3550 7950 3550
+Wire Wire Line
+	7950 3550 7950 3250
+Wire Wire Line
+	7950 3250 7750 3250
+Wire Wire Line
+	8000 3250 7950 3250
+Connection ~ 7950 3250
+$Comp
+L Device:R R?
+U 1 1 5FBC9206
+P 7750 3550
+AR Path="/5F77B818/5FBC9206" Ref="R?"  Part="1" 
+AR Path="/5FBC9206" Ref="R?"  Part="1" 
+AR Path="/5FB8FF0F/5FBC9206" Ref="R?"  Part="1" 
+F 0 "R?" V 7825 3425 50  0000 L CNN
+F 1 "1M" V 7825 3550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7680 3550 50  0001 C CNN
+F 3 "~" H 7750 3550 50  0001 C CNN
+F 4 "C26083" H 7750 3550 50  0001 C CNN "LCSC"
+	1    7750 3550
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
