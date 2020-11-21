@@ -75,18 +75,6 @@ Wire Wire Line
 Connection ~ 5350 3050
 Wire Wire Line
 	5250 3150 5850 3150
-$Comp
-L Device:R R40
-U 1 1 60083558
-P 8400 3350
-F 0 "R40" H 8470 3396 50  0000 L CNN
-F 1 "12k" H 8470 3305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8330 3350 50  0001 C CNN
-F 3 "~" H 8400 3350 50  0001 C CNN
-F 4 "C25752" H 8400 3350 50  0001 C CNN "LCSC"
-	1    8400 3350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 2950 5850 3050
 Wire Wire Line
@@ -370,13 +358,29 @@ U 1 1 5FBAD606
 P 8150 3450
 AR Path="/5F77B818/5FBAD606" Ref="Q?"  Part="1" 
 AR Path="/5FA4C94D/5FBAD606" Ref="Q?"  Part="1" 
-AR Path="/5FA9675D/5FBAD606" Ref="Q?"  Part="1" 
-F 0 "Q?" H 8354 3496 50  0000 L CNN
+AR Path="/5FA9675D/5FBAD606" Ref="Q6"  Part="1" 
+F 0 "Q6" H 8354 3496 50  0000 L CNN
 F 1 "2N7002" H 8354 3405 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8350 3375 50  0001 L CIN
 F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-CJ3134K_C110100.pdf" H 8150 3450 50  0001 L CNN
 F 4 "C8545" H 8150 3450 50  0001 C CNN "LCSC"
 	1    8150 3450
 	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FCD78C9
+P 8400 3350
+AR Path="/5FA4C94D/5FCD78C9" Ref="R?"  Part="1" 
+AR Path="/5F9AAC80/5FCD78C9" Ref="R?"  Part="1" 
+AR Path="/5FCD78C9" Ref="R?"  Part="1" 
+AR Path="/5FA9675D/5FCD78C9" Ref="R40"  Part="1" 
+F 0 "R40" V 8300 3350 50  0000 C CNN
+F 1 "7.5k" V 8500 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8330 3350 50  0001 C CNN
+F 3 "~" H 8400 3350 50  0001 C CNN
+F 4 "C25918" H 8400 3350 50  0001 C CNN "LCSC"
+	1    8400 3350
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

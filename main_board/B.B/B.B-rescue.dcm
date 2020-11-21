@@ -10,6 +10,12 @@ $CMP BMX055
 F https://datasheet.lcsc.com/szlcsc/Bosch-Sensortec-BMX055_C94022.pdf
 $ENDCMP
 #
+$CMP Battery_Cell
+D Single-cell battery
+K battery cell
+F ~
+$ENDCMP
+#
 $CMP LDC1314
 D Inductance to digital converter, 4-channel 12-bit, WQFN-16
 K inductance sensor

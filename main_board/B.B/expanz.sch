@@ -556,8 +556,8 @@ U 1 1 5FBA8934
 P 7650 2725
 AR Path="/5F77B818/5FBA8934" Ref="Q?"  Part="1" 
 AR Path="/5FA4C94D/5FBA8934" Ref="Q?"  Part="1" 
-AR Path="/5F9EE529/5FBA8934" Ref="Q?"  Part="1" 
-F 0 "Q?" H 7854 2771 50  0000 L CNN
+AR Path="/5F9EE529/5FBA8934" Ref="Q8"  Part="1" 
+F 0 "Q8" H 7854 2771 50  0000 L CNN
 F 1 "2N7002" H 7854 2680 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7850 2650 50  0001 L CIN
 F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-CJ3134K_C110100.pdf" H 7650 2725 50  0001 L CNN
@@ -572,8 +572,8 @@ U 1 1 5FBAB051
 P 3525 4750
 AR Path="/5F77B818/5FBAB051" Ref="Q?"  Part="1" 
 AR Path="/5FA4C94D/5FBAB051" Ref="Q?"  Part="1" 
-AR Path="/5F9EE529/5FBAB051" Ref="Q?"  Part="1" 
-F 0 "Q?" H 3729 4796 50  0000 L CNN
+AR Path="/5F9EE529/5FBAB051" Ref="Q10"  Part="1" 
+F 0 "Q10" H 3729 4796 50  0000 L CNN
 F 1 "2N7002" H 3729 4705 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3725 4675 50  0001 L CIN
 F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-CJ3134K_C110100.pdf" H 3525 4750 50  0001 L CNN
