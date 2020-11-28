@@ -818,4 +818,61 @@ Wire Wire Line
 	4950 2525 4625 2525
 Connection ~ 4950 2525
 Connection ~ 4625 2525
+$Comp
+L Device:R R?
+U 1 1 5FBC25E2
+P 3975 4750
+AR Path="/5FBC25E2" Ref="R?"  Part="1" 
+AR Path="/5FA4C94D/5FBC25E2" Ref="R4"  Part="1" 
+F 0 "R4" H 4045 4796 50  0000 L CNN
+F 1 "300k" H 4045 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 3905 4750 50  0001 C CNN
+F 3 "~" H 3975 4750 50  0001 C CNN
+F 4 "C25774" H 3975 4750 50  0001 C CNN "LCSC"
+	1    3975 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FBC25E8
+P 3975 5000
+AR Path="/5FBC25E8" Ref="#GND?"  Part="1" 
+AR Path="/5FA4C94D/5FBC25E8" Ref="#GND0158"  Part="1" 
+F 0 "#GND0158" H 3975 5000 50  0001 C CNN
+F 1 "GND" H 3975 4920 59  0000 C CNN
+F 2 "" H 3975 5000 50  0001 C CNN
+F 3 "" H 3975 5000 50  0001 C CNN
+	1    3975 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 4600 3975 4600
+$Comp
+L Device:R R?
+U 1 1 5FBC25F0
+P 3975 4450
+AR Path="/5F77B818/5FBC25F0" Ref="R?"  Part="1" 
+AR Path="/5FBC25F0" Ref="R?"  Part="1" 
+AR Path="/5FA4C94D/5FBC25F0" Ref="R3"  Part="1" 
+F 0 "R3" H 4045 4496 50  0000 L CNN
+F 1 "1M" H 4045 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3905 4450 50  0001 C CNN
+F 3 "~" H 3975 4450 50  0001 C CNN
+F 4 "C26083" H 3975 4450 50  0001 C CNN "LCSC"
+	1    3975 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3975 4600
+Wire Wire Line
+	3975 4300 3975 4275
+Wire Wire Line
+	3975 4275 4625 4275
+Text HLabel 3825 4600 0    50   Input ~ 0
+baterimetr
+Text HLabel 4675 2425 2    50   Input ~ 0
+VCC-OUT
+Wire Wire Line
+	4675 2425 4625 2425
+Wire Wire Line
+	4625 2425 4625 2525
 $EndSCHEMATC
