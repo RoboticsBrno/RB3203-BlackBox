@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -255,8 +255,6 @@ Wire Wire Line
 Wire Wire Line
 	8950 4650 8950 4600
 Connection ~ 8950 4600
-Wire Wire Line
-	8950 4600 9050 4600
 Text HLabel 8950 4250 1    50   Input ~ 0
 3V3
 $Comp
@@ -369,8 +367,6 @@ Wire Wire Line
 Wire Wire Line
 	6900 4650 6900 4600
 Connection ~ 6900 4600
-Wire Wire Line
-	6900 4600 7000 4600
 Text HLabel 6900 4250 1    50   Input ~ 0
 3V3
 $Comp
@@ -387,10 +383,6 @@ F 4 "C1532" H 7800 4800 50  0001 C CNN "LCSC"
 	1    7800 4800
 	1    0    0    -1  
 $EndComp
-Text HLabel 9050 4600 2    50   Input ~ 0
-ENC_OUT_1
-Text HLabel 7000 4600 2    50   Input ~ 0
-ENC_OUT_0
 $Comp
 L B.B-rescue:Q_PMOS_DSG Q9
 U 1 1 602B1909
@@ -434,10 +426,6 @@ F 4 "C8545" H 3525 4750 50  0001 C CNN "LCSC"
 	1    3525 4750
 	1    0    0    -1  
 $EndComp
-Text HLabel 3175 4250 0    50   Input ~ 0
-5V
-Text HLabel 3450 2450 0    50   Input ~ 0
-5V
 Connection ~ 3625 4550
 $Comp
 L B.B-eagle-import:GND #GND?
@@ -452,7 +440,7 @@ F 3 "" H 4350 2900 50  0001 C CNN
 	1    4350 2900
 	1    0    0    -1  
 $EndComp
-Text HLabel 4650 2450 2    50   Input ~ 0
+Text HLabel 5350 2200 1    50   Input ~ 0
 IR-OUT
 $Comp
 L B.B-eagle-import:LED LED?
@@ -481,8 +469,6 @@ F 3 "" H 5350 2900 50  0001 C CNN
 	1    5350 2900
 	1    0    0    -1  
 $EndComp
-Text HLabel 5350 2200 1    50   Input ~ 0
-IR-INPUT
 $Comp
 L B.B-rescue:IRM-H936 U?
 U 1 1 5FA465F6
@@ -500,39 +486,39 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5FB0693F
-P 3800 2650
+P 3375 2650
 AR Path="/5FA4C94D/5FB0693F" Ref="C?"  Part="1" 
 AR Path="/5F9AAC80/5FB0693F" Ref="C?"  Part="1" 
 AR Path="/5F9EE529/5FB0693F" Ref="C114"  Part="1" 
-F 0 "C114" H 3915 2696 50  0000 L CNN
-F 1 "2.2uf" H 3915 2605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3838 2500 50  0001 C CNN
-F 3 "~" H 3800 2650 50  0001 C CNN
-F 4 "C49217" H 3800 2650 50  0001 C CNN "LCSC"
-	1    3800 2650
+F 0 "C114" H 3490 2696 50  0000 L CNN
+F 1 "2.2uf" H 3490 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3413 2500 50  0001 C CNN
+F 3 "~" H 3375 2650 50  0001 C CNN
+F 4 "C49217" H 3375 2650 50  0001 C CNN "LCSC"
+	1    3375 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L B.B-eagle-import:GND #GND?
 U 1 1 5FB06945
-P 3800 2900
+P 3375 2900
 AR Path="/5FA4C94D/5FB06945" Ref="#GND?"  Part="1" 
 AR Path="/5F9AAC80/5FB06945" Ref="#GND?"  Part="1" 
 AR Path="/5F9EE529/5FB06945" Ref="#GND0138"  Part="1" 
-F 0 "#GND0138" H 3800 2900 50  0001 C CNN
-F 1 "GND" H 3800 2820 59  0000 C CNN
-F 2 "" H 3800 2900 50  0001 C CNN
-F 3 "" H 3800 2900 50  0001 C CNN
-	1    3800 2900
+F 0 "#GND0138" H 3375 2900 50  0001 C CNN
+F 1 "GND" H 3375 2820 59  0000 C CNN
+F 2 "" H 3375 2900 50  0001 C CNN
+F 3 "" H 3375 2900 50  0001 C CNN
+	1    3375 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 2450 3800 2500
-Connection ~ 3800 2450
+	3375 2450 3375 2500
+Connection ~ 3375 2450
 Wire Wire Line
-	3750 2450 3800 2450
+	3325 2450 3375 2450
 Wire Wire Line
-	3800 2450 4050 2450
+	3375 2450 3850 2450
 $Comp
 L Device:R R?
 U 1 1 5FA5476F
@@ -568,16 +554,88 @@ Wire Wire Line
 	4825 4250 4825 4300
 Wire Wire Line
 	3825 4250 4525 4250
+Wire Wire Line
+	8950 4600 9050 4600
+Text HLabel 9050 4600 2    50   Input ~ 0
+ENC_OUT_1
+Wire Wire Line
+	6900 4600 7000 4600
+Text HLabel 7000 4600 2    50   Input ~ 0
+ENC_OUT_0
+Text HLabel 3175 4250 0    50   Input ~ 0
+5V
+Text HLabel 4650 2450 2    50   Input ~ 0
+IR-INPUT
+Text HLabel 2725 2450 0    50   Input ~ 0
+VCC
 $Comp
-L Device:R R5
-U 1 1 5FC0183A
-P 3600 2450
-F 0 "R5" V 3525 2575 50  0000 R CNN
-F 1 "1k" V 3525 2425 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3530 2450 50  0001 C CNN
-F 3 "~" H 3600 2450 50  0001 C CNN
-F 4 "C11702" V 3600 2450 50  0001 C CNN "LCSC"
-	1    3600 2450
+L Device:D D?
+U 1 1 5FCDB883
+P 2875 2450
+AR Path="/5F96CFDA/5FCDB883" Ref="D?"  Part="1" 
+AR Path="/5F9EE529/5F9F24D4/5FCDB883" Ref="D?"  Part="1" 
+AR Path="/5FA9DBB3/5F9F24D4/5FCDB883" Ref="D?"  Part="1" 
+AR Path="/5F9EE529/5FB1300F/5FCDB883" Ref="D?"  Part="1" 
+AR Path="/5FB26A97/5FCDB883" Ref="D?"  Part="1" 
+AR Path="/5F9EE529/5FCDB883" Ref="D2"  Part="1" 
+F 0 "D2" V 2921 2370 50  0000 R CNN
+F 1 "D" V 2830 2370 50  0000 R CNN
+F 2 "BB:SOD-323" H 2875 2450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/SK-SD103AWS_C109204.pdf" H 2875 2450 50  0001 C CNN
+F 4 "C109204" V 2875 2450 50  0001 C CNN "LCSC"
+	1    2875 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FCDDF04
+P 3850 2650
+AR Path="/5F96CFDA/5FCDDF04" Ref="C?"  Part="1" 
+AR Path="/5F9EE529/5F9F24D4/5FCDDF04" Ref="C?"  Part="1" 
+AR Path="/5FA9DBB3/5F9F24D4/5FCDDF04" Ref="C?"  Part="1" 
+AR Path="/5F9EE529/5FB1300F/5FCDDF04" Ref="C?"  Part="1" 
+AR Path="/5FB26A97/5FCDDF04" Ref="C?"  Part="1" 
+AR Path="/5FA9675D/5FCDDF04" Ref="C?"  Part="1" 
+AR Path="/5F9EE529/5FCDDF04" Ref="C81"  Part="1" 
+F 0 "C81" H 3875 2750 50  0000 L CNN
+F 1 "0.1uf" H 3875 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3888 2500 50  0001 C CNN
+F 3 "~" H 3850 2650 50  0001 C CNN
+F 4 "C1525" H 3850 2650 50  0001 C CNN "LCSC"
+	1    3850 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2500 3850 2450
+Connection ~ 3850 2450
+Wire Wire Line
+	3850 2450 4050 2450
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FCE1B74
+P 3850 2900
+AR Path="/5FA4C94D/5FCE1B74" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/5FCE1B74" Ref="#GND?"  Part="1" 
+AR Path="/5F9EE529/5FCE1B74" Ref="#GND02"  Part="1" 
+F 0 "#GND02" H 3850 2900 50  0001 C CNN
+F 1 "GND" H 3850 2820 59  0000 C CNN
+F 2 "" H 3850 2900 50  0001 C CNN
+F 3 "" H 3850 2900 50  0001 C CNN
+	1    3850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FD86664
+P 3175 2450
+AR Path="/5F77B818/5FD86664" Ref="R?"  Part="1" 
+AR Path="/5F9EE529/5FD86664" Ref="R?"  Part="1" 
+F 0 "R?" H 3025 2500 50  0000 L CNN
+F 1 "470" H 2975 2425 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3105 2450 50  0001 C CNN
+F 3 "~" H 3175 2450 50  0001 C CNN
+F 4 "C25117" H 3175 2450 50  0001 C CNN "LCSC"
+	1    3175 2450
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC

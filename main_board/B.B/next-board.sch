@@ -324,4 +324,6 @@ Text HLabel 3325 3150 3    50   Input ~ 0
 LDC-GND
 Text HLabel 3600 3150 3    50   Input ~ 0
 LDC-GND
+Text HLabel 5250 2850 2    50   Input ~ 0
+LDC-GND
 $EndSCHEMATC

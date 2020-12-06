@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -36,10 +36,10 @@ L Device:R R48
 U 1 1 5FB9BA20
 P 6425 3750
 F 0 "R48" H 6355 3704 50  0000 R CNN
-F 1 "2k" H 6355 3795 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6355 3750 50  0001 C CNN
+F 1 "1.5k" H 6355 3795 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6355 3750 50  0001 C CNN
 F 3 "~" H 6425 3750 50  0001 C CNN
-F 4 "https://datasheet.lcsc.com/szlcsc/Seaward-Elec-SE9017-HF_C115752.pdf" V 6425 3750 50  0001 C CNN "LCSC"
+F 4 "C22843" V 6425 3750 50  0001 C CNN "LCSC"
 	1    6425 3750
 	-1   0    0    1   
 $EndComp
