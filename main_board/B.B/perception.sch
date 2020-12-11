@@ -482,44 +482,10 @@ F 3 "" H 6850 5550 50  0001 C CNN
 	1    6850 5550
 	1    0    0    -1  
 $EndComp
-Text HLabel 5400 4000 0    50   Input ~ 0
+Text HLabel 5700 4000 0    50   Input ~ 0
 SCL
-Text HLabel 5400 3900 0    50   Input ~ 0
+Text HLabel 5700 3900 0    50   Input ~ 0
 SDA
-$Comp
-L Device:R R?
-U 1 1 5FB01470
-P 5550 3900
-AR Path="/5FA3274C/5FB01470" Ref="R?"  Part="1" 
-AR Path="/5F9EE529/5FB01470" Ref="R?"  Part="1" 
-AR Path="/5F9EE529/5F9F24D4/5FB01470" Ref="R46"  Part="1" 
-AR Path="/5F9EE529/5FB1300F/5FB01470" Ref="R?"  Part="1" 
-AR Path="/5FB26A97/5FB01470" Ref="R9"  Part="1" 
-F 0 "R9" V 5450 4000 50  0000 C CNN
-F 1 "220" V 5450 3800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5480 3900 50  0001 C CNN
-F 3 "~" H 5550 3900 50  0001 C CNN
-F 4 "C25092" V 5550 3900 50  0001 C CNN "LCSC"
-	1    5550 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FB01477
-P 5550 4000
-AR Path="/5FA3274C/5FB01477" Ref="R?"  Part="1" 
-AR Path="/5F9EE529/5FB01477" Ref="R?"  Part="1" 
-AR Path="/5F9EE529/5F9F24D4/5FB01477" Ref="R47"  Part="1" 
-AR Path="/5F9EE529/5FB1300F/5FB01477" Ref="R?"  Part="1" 
-AR Path="/5FB26A97/5FB01477" Ref="R39"  Part="1" 
-F 0 "R39" V 5650 4100 50  0000 C CNN
-F 1 "220" V 5650 3900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5480 4000 50  0001 C CNN
-F 3 "~" H 5550 4000 50  0001 C CNN
-F 4 "C25092" V 5550 4000 50  0001 C CNN "LCSC"
-	1    5550 4000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5000 4950 5000 5000
 Connection ~ 6850 5100

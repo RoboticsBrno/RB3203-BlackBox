@@ -42,7 +42,7 @@ U 1 1 5F7A6C0B
 P 1900 2550
 F 0 "J5" H 2007 3417 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 2007 3326 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 2050 2550 50  0001 C CNN
+F 2 "BB:USB_C_Female-16Pin-HPJF" H 2050 2550 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2050 2550 50  0001 C CNN
 	1    1900 2550
 	1    0    0    -1  
@@ -219,44 +219,6 @@ F 3 "" H 4500 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4500 1300 4500 1250
-$Comp
-L Device:C C106
-U 1 1 5F8B4312
-P 4950 2150
-F 0 "C106" H 5065 2196 50  0000 L CNN
-F 1 "10uf" H 5065 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4988 2000 50  0001 C CNN
-F 3 "~" H 4950 2150 50  0001 C CNN
-F 4 "C15850" H 4950 2150 50  0001 C CNN "LCSC"
-	1    4950 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L B.B-eagle-import:GND #GND0115
-U 1 1 5F8B4318
-P 4950 2400
-F 0 "#GND0115" H 4950 2400 50  0001 C CNN
-F 1 "GND" H 4950 2350 59  0000 C CNN
-F 2 "" H 4950 2400 50  0001 C CNN
-F 3 "" H 4950 2400 50  0001 C CNN
-	1    4950 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L B.B-eagle-import:GND #GND0114
-U 1 1 5F8B4325
-P 4500 2400
-F 0 "#GND0114" H 4500 2400 50  0001 C CNN
-F 1 "GND" H 4500 2350 59  0000 C CNN
-F 2 "" H 4500 2400 50  0001 C CNN
-F 3 "" H 4500 2400 50  0001 C CNN
-	1    4500 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4950 2000 4950 1950
-Wire Wire Line
-	4500 2000 4500 1950
 Wire Wire Line
 	2750 5025 2750 4975
 Wire Wire Line
@@ -680,10 +642,7 @@ $EndComp
 Connection ~ 5850 1250
 Connection ~ 4950 1250
 Wire Wire Line
-	4950 1250 5350 1250
-Connection ~ 4950 1950
-Wire Wire Line
-	4950 1950 5450 1950
+	4950 1250 5250 1250
 $Comp
 L Device:R R22
 U 1 1 5F8D7784
@@ -1218,14 +1177,8 @@ Wire Wire Line
 	4500 1250 4950 1250
 Wire Wire Line
 	4150 1250 4500 1250
-Connection ~ 4150 1950
-Connection ~ 4500 1950
-Wire Wire Line
-	4500 1950 4950 1950
 Wire Wire Line
 	3900 1950 4150 1950
-Wire Wire Line
-	4150 1950 4500 1950
 Text HLabel 6300 1250 2    50   Input ~ 0
 cable_connected
 $Comp
@@ -1246,18 +1199,6 @@ $EndComp
 Wire Wire Line
 	6000 1250 5950 1250
 Connection ~ 5950 1250
-$Comp
-L Device:C C105
-U 1 1 5FBE5B3C
-P 4500 2150
-F 0 "C105" H 4615 2196 50  0000 L CNN
-F 1 "0.1uf" H 4615 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4538 2000 50  0001 C CNN
-F 3 "~" H 4500 2150 50  0001 C CNN
-F 4 "C15850" H 4500 2150 50  0001 C CNN "LCSC"
-	1    4500 2150
-	1    0    0    -1  
-$EndComp
 $Comp
 L B.B-eagle-import:NC #NC28
 U 1 1 5FC5D9A0
@@ -1282,4 +1223,11 @@ Wire Wire Line
 Connection ~ 7400 2425
 Wire Wire Line
 	7400 950  5350 950 
+Wire Wire Line
+	5450 1950 5250 1950
+Wire Wire Line
+	5250 1950 5250 1250
+Connection ~ 5250 1250
+Wire Wire Line
+	5250 1250 5350 1250
 $EndSCHEMATC
