@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:B.B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -23,7 +22,7 @@ DIN
 Wire Wire Line
 	900  1100 1350 1100
 $Comp
-L Device:C C1
+L B.B-rescue:C-Device C1
 U 1 1 5FAB9594
 P 1850 1300
 F 0 "C1" V 1800 1450 50  0000 C CNN
@@ -89,7 +88,7 @@ Wire Wire Line
 Text HLabel 3750 750  1    50   Input ~ 0
 5V
 $Comp
-L Device:C C2
+L B.B-rescue:C-Device C2
 U 1 1 5FAC4561
 P 3050 1300
 F 0 "C2" V 3000 1450 50  0000 C CNN
@@ -101,7 +100,7 @@ F 4 "C16772" V 3050 1300 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C3
+L B.B-rescue:C-Device C3
 U 1 1 5FAC4874
 P 4250 1300
 F 0 "C3" V 4200 1450 50  0000 C CNN
@@ -132,7 +131,7 @@ Wire Wire Line
 Text HLabel 4950 750  1    50   Input ~ 0
 5V
 $Comp
-L Device:C C4
+L B.B-rescue:C-Device C4
 U 1 1 5FAC6087
 P 5450 1300
 F 0 "C4" V 5400 1450 50  0000 C CNN
@@ -163,7 +162,7 @@ Wire Wire Line
 Text HLabel 6150 750  1    50   Input ~ 0
 5V
 $Comp
-L Device:C C5
+L B.B-rescue:C-Device C5
 U 1 1 5FAC7F7D
 P 6650 1300
 F 0 "C5" V 6600 1450 50  0000 C CNN
@@ -194,7 +193,7 @@ Wire Wire Line
 Text HLabel 7350 750  1    50   Input ~ 0
 5V
 $Comp
-L Device:C C6
+L B.B-rescue:C-Device C6
 U 1 1 5FAC7F9C
 P 7850 1300
 F 0 "C6" V 7800 1450 50  0000 C CNN
@@ -225,7 +224,7 @@ Wire Wire Line
 Text HLabel 8550 750  1    50   Input ~ 0
 5V
 $Comp
-L Device:C C7
+L B.B-rescue:C-Device C7
 U 1 1 5FB2FBE5
 P 9050 1300
 F 0 "C7" V 9000 1450 50  0000 C CNN
@@ -256,7 +255,7 @@ Wire Wire Line
 Text HLabel 9750 750  1    50   Input ~ 0
 5V
 $Comp
-L Device:C C8
+L B.B-rescue:C-Device C8
 U 1 1 5FB2FC04
 P 10250 1300
 F 0 "C8" V 10200 1450 50  0000 C CNN
@@ -268,7 +267,7 @@ F 4 "C16772" V 10250 1300 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C16
+L B.B-rescue:C-Device C16
 U 1 1 5FB47DD7
 P 10250 2150
 F 0 "C16" V 10200 2300 50  0000 C CNN
@@ -299,7 +298,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 1950 9750 2150
 $Comp
-L Device:C C15
+L B.B-rescue:C-Device C15
 U 1 1 5FB47DB8
 P 9050 2150
 F 0 "C15" V 9000 2300 50  0000 C CNN
@@ -330,7 +329,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 1950 8550 2150
 $Comp
-L Device:C C14
+L B.B-rescue:C-Device C14
 U 1 1 5FB47D99
 P 7850 2150
 F 0 "C14" V 7800 2300 50  0000 C CNN
@@ -361,7 +360,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 1950 7350 2150
 $Comp
-L Device:C C13
+L B.B-rescue:C-Device C13
 U 1 1 5FB47D7A
 P 6650 2150
 F 0 "C13" V 6600 2300 50  0000 C CNN
@@ -392,7 +391,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 1950 6150 2150
 $Comp
-L Device:C C12
+L B.B-rescue:C-Device C12
 U 1 1 5FB47D5B
 P 5450 2150
 F 0 "C12" V 5400 2300 50  0000 C CNN
@@ -423,7 +422,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 1950 4950 2150
 $Comp
-L Device:C C11
+L B.B-rescue:C-Device C11
 U 1 1 5FB47D3C
 P 4250 2150
 F 0 "C11" V 4200 2300 50  0000 C CNN
@@ -435,7 +434,7 @@ F 4 "C16772" V 4250 2150 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C10
+L B.B-rescue:C-Device C10
 U 1 1 5FB47D35
 P 3050 2150
 F 0 "C10" V 3000 2300 50  0000 C CNN
@@ -501,7 +500,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 1950 1350 2150
 $Comp
-L Device:C C9
+L B.B-rescue:C-Device C9
 U 1 1 5FB47CEF
 P 1850 2150
 F 0 "C9" V 1800 2300 50  0000 C CNN
@@ -525,7 +524,7 @@ Text HLabel 900  2450 1    50   Input ~ 0
 Wire Wire Line
 	900  2800 1350 2800
 $Comp
-L Device:C C17
+L B.B-rescue:C-Device C17
 U 1 1 5FB8EEB1
 P 1850 3000
 F 0 "C17" V 1800 3150 50  0000 C CNN
@@ -591,7 +590,7 @@ Wire Wire Line
 Text HLabel 3750 2450 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C18
+L B.B-rescue:C-Device C18
 U 1 1 5FB8EEF7
 P 3050 3000
 F 0 "C18" V 3000 3150 50  0000 C CNN
@@ -603,7 +602,7 @@ F 4 "C16772" V 3050 3000 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C19
+L B.B-rescue:C-Device C19
 U 1 1 5FB8EEFE
 P 4250 3000
 F 0 "C19" V 4200 3150 50  0000 C CNN
@@ -634,7 +633,7 @@ Wire Wire Line
 Text HLabel 4950 2450 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C20
+L B.B-rescue:C-Device C20
 U 1 1 5FB8EF1D
 P 5450 3000
 F 0 "C20" V 5400 3150 50  0000 C CNN
@@ -665,7 +664,7 @@ Wire Wire Line
 Text HLabel 6150 2450 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C21
+L B.B-rescue:C-Device C21
 U 1 1 5FB8EF3C
 P 6650 3000
 F 0 "C21" V 6600 3150 50  0000 C CNN
@@ -696,7 +695,7 @@ Wire Wire Line
 Text HLabel 7350 2450 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C22
+L B.B-rescue:C-Device C22
 U 1 1 5FB8EF5B
 P 7850 3000
 F 0 "C22" V 7800 3150 50  0000 C CNN
@@ -727,7 +726,7 @@ Wire Wire Line
 Text HLabel 8550 2450 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C23
+L B.B-rescue:C-Device C23
 U 1 1 5FB8EF7A
 P 9050 3000
 F 0 "C23" V 9000 3150 50  0000 C CNN
@@ -758,7 +757,7 @@ Wire Wire Line
 Text HLabel 9750 2450 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C24
+L B.B-rescue:C-Device C24
 U 1 1 5FB8EF99
 P 10250 3000
 F 0 "C24" V 10200 3150 50  0000 C CNN
@@ -776,7 +775,7 @@ Text HLabel 900  3250 1    50   Input ~ 0
 Wire Wire Line
 	900  3600 1350 3600
 $Comp
-L Device:C C25
+L B.B-rescue:C-Device C25
 U 1 1 5FB9FAD6
 P 1850 3800
 F 0 "C25" V 1800 3950 50  0000 C CNN
@@ -838,7 +837,7 @@ Connection ~ 4750 3800
 Wire Wire Line
 	3500 3400 3800 3400
 $Comp
-L Device:C C26
+L B.B-rescue:C-Device C26
 U 1 1 5FB9FB1C
 P 3050 3800
 F 0 "C26" V 3000 3950 50  0000 C CNN
@@ -850,7 +849,7 @@ F 4 "C16772" V 3050 3800 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C27
+L B.B-rescue:C-Device C27
 U 1 1 5FB9FB23
 P 4250 3800
 F 0 "C27" V 4200 3950 50  0000 C CNN
@@ -879,7 +878,7 @@ Connection ~ 5950 3800
 Wire Wire Line
 	4700 3400 5000 3400
 $Comp
-L Device:C C28
+L B.B-rescue:C-Device C28
 U 1 1 5FB9FB42
 P 5450 3800
 F 0 "C28" V 5400 3950 50  0000 C CNN
@@ -908,7 +907,7 @@ Connection ~ 7150 3800
 Wire Wire Line
 	5900 3400 6200 3400
 $Comp
-L Device:C C29
+L B.B-rescue:C-Device C29
 U 1 1 5FB9FB61
 P 6650 3800
 F 0 "C29" V 6600 3950 50  0000 C CNN
@@ -937,7 +936,7 @@ Connection ~ 8350 3800
 Wire Wire Line
 	7100 3400 7400 3400
 $Comp
-L Device:C C30
+L B.B-rescue:C-Device C30
 U 1 1 5FB9FB80
 P 7850 3800
 F 0 "C30" V 7800 3950 50  0000 C CNN
@@ -966,7 +965,7 @@ Connection ~ 9550 3800
 Wire Wire Line
 	8300 3400 8600 3400
 $Comp
-L Device:C C31
+L B.B-rescue:C-Device C31
 U 1 1 5FB9FB9F
 P 9050 3800
 F 0 "C31" V 9000 3950 50  0000 C CNN
@@ -995,7 +994,7 @@ Connection ~ 10750 3800
 Wire Wire Line
 	9500 3400 9800 3400
 $Comp
-L Device:C C32
+L B.B-rescue:C-Device C32
 U 1 1 5FB9FBBE
 P 10250 3800
 F 0 "C32" V 10200 3950 50  0000 C CNN
@@ -1013,7 +1012,7 @@ Text HLabel 900  4100 1    50   Input ~ 0
 Wire Wire Line
 	900  4450 1350 4450
 $Comp
-L Device:C C33
+L B.B-rescue:C-Device C33
 U 1 1 5FC053DE
 P 1850 4650
 F 0 "C33" V 1800 4800 50  0000 C CNN
@@ -1079,7 +1078,7 @@ Wire Wire Line
 Text HLabel 3750 4100 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C34
+L B.B-rescue:C-Device C34
 U 1 1 5FC05424
 P 3050 4650
 F 0 "C34" V 3000 4800 50  0000 C CNN
@@ -1091,7 +1090,7 @@ F 4 "C16772" V 3050 4650 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C35
+L B.B-rescue:C-Device C35
 U 1 1 5FC0542B
 P 4250 4650
 F 0 "C35" V 4200 4800 50  0000 C CNN
@@ -1122,7 +1121,7 @@ Wire Wire Line
 Text HLabel 4950 4100 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C36
+L B.B-rescue:C-Device C36
 U 1 1 5FC0544A
 P 5450 4650
 F 0 "C36" V 5400 4800 50  0000 C CNN
@@ -1153,7 +1152,7 @@ Wire Wire Line
 Text HLabel 6150 4100 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C37
+L B.B-rescue:C-Device C37
 U 1 1 5FC05469
 P 6650 4650
 F 0 "C37" V 6600 4800 50  0000 C CNN
@@ -1184,7 +1183,7 @@ Wire Wire Line
 Text HLabel 7350 4100 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C38
+L B.B-rescue:C-Device C38
 U 1 1 5FC05488
 P 7850 4650
 F 0 "C38" V 7800 4800 50  0000 C CNN
@@ -1215,7 +1214,7 @@ Wire Wire Line
 Text HLabel 8550 4100 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C39
+L B.B-rescue:C-Device C39
 U 1 1 5FC054A7
 P 9050 4650
 F 0 "C39" V 9000 4800 50  0000 C CNN
@@ -1246,7 +1245,7 @@ Wire Wire Line
 Text HLabel 9750 4100 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C40
+L B.B-rescue:C-Device C40
 U 1 1 5FC054C6
 P 10250 4650
 F 0 "C40" V 10200 4800 50  0000 C CNN
@@ -1258,7 +1257,7 @@ F 4 "C16772" V 10250 4650 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C48
+L B.B-rescue:C-Device C48
 U 1 1 5FC054CD
 P 10250 5500
 F 0 "C48" V 10200 5650 50  0000 C CNN
@@ -1289,7 +1288,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 5300 9750 5500
 $Comp
-L Device:C C47
+L B.B-rescue:C-Device C47
 U 1 1 5FC054EC
 P 9050 5500
 F 0 "C47" V 9000 5650 50  0000 C CNN
@@ -1320,7 +1319,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 5300 8550 5500
 $Comp
-L Device:C C46
+L B.B-rescue:C-Device C46
 U 1 1 5FC0550B
 P 7850 5500
 F 0 "C46" V 7800 5650 50  0000 C CNN
@@ -1351,7 +1350,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 5300 7350 5500
 $Comp
-L Device:C C45
+L B.B-rescue:C-Device C45
 U 1 1 5FC0552A
 P 6650 5500
 F 0 "C45" V 6600 5650 50  0000 C CNN
@@ -1382,7 +1381,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 5300 6150 5500
 $Comp
-L Device:C C44
+L B.B-rescue:C-Device C44
 U 1 1 5FC05549
 P 5450 5500
 F 0 "C44" V 5400 5650 50  0000 C CNN
@@ -1413,7 +1412,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 5300 4950 5500
 $Comp
-L Device:C C43
+L B.B-rescue:C-Device C43
 U 1 1 5FC05568
 P 4250 5500
 F 0 "C43" V 4200 5650 50  0000 C CNN
@@ -1425,7 +1424,7 @@ F 4 "C16772" V 4250 5500 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C42
+L B.B-rescue:C-Device C42
 U 1 1 5FC0556F
 P 3050 5500
 F 0 "C42" V 3000 5650 50  0000 C CNN
@@ -1491,7 +1490,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 5300 1350 5500
 $Comp
-L Device:C C41
+L B.B-rescue:C-Device C41
 U 1 1 5FC055B5
 P 1850 5500
 F 0 "C41" V 1800 5650 50  0000 C CNN
@@ -1515,7 +1514,7 @@ Text HLabel 900  5800 1    50   Input ~ 0
 Wire Wire Line
 	900  6150 1350 6150
 $Comp
-L Device:C C49
+L B.B-rescue:C-Device C49
 U 1 1 5FC055D2
 P 1850 6350
 F 0 "C49" V 1800 6500 50  0000 C CNN
@@ -1581,7 +1580,7 @@ Wire Wire Line
 Text HLabel 3750 5800 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C50
+L B.B-rescue:C-Device C50
 U 1 1 5FC05618
 P 3050 6350
 F 0 "C50" V 3000 6500 50  0000 C CNN
@@ -1593,7 +1592,7 @@ F 4 "C16772" V 3050 6350 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C51
+L B.B-rescue:C-Device C51
 U 1 1 5FC0561F
 P 4250 6350
 F 0 "C51" V 4200 6500 50  0000 C CNN
@@ -1624,7 +1623,7 @@ Wire Wire Line
 Text HLabel 4950 5800 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C52
+L B.B-rescue:C-Device C52
 U 1 1 5FC0563E
 P 5450 6350
 F 0 "C52" V 5400 6500 50  0000 C CNN
@@ -1652,7 +1651,7 @@ Wire Wire Line
 Text HLabel 6150 5800 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C53
+L B.B-rescue:C-Device C53
 U 1 1 5FC0565D
 P 6650 6350
 F 0 "C53" V 6600 6500 50  0000 C CNN
@@ -1680,7 +1679,7 @@ Wire Wire Line
 Text HLabel 7350 5800 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C54
+L B.B-rescue:C-Device C54
 U 1 1 5FC0567C
 P 7850 6350
 F 0 "C54" V 7800 6500 50  0000 C CNN
@@ -1708,7 +1707,7 @@ Wire Wire Line
 Text HLabel 8550 5800 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C55
+L B.B-rescue:C-Device C55
 U 1 1 5FC0569B
 P 9050 6350
 F 0 "C55" V 9000 6500 50  0000 C CNN
@@ -1736,7 +1735,7 @@ Wire Wire Line
 Text HLabel 9750 5800 1    50   Input ~ 0
 5V
 $Comp
-L Device:C C56
+L B.B-rescue:C-Device C56
 U 1 1 5FC056BA
 P 10250 6350
 F 0 "C56" V 10200 6500 50  0000 C CNN
@@ -1754,7 +1753,7 @@ Text HLabel 900  6600 1    50   Input ~ 0
 Wire Wire Line
 	900  6950 1350 6950
 $Comp
-L Device:C C57
+L B.B-rescue:C-Device C57
 U 1 1 5FC056CC
 P 1850 7150
 F 0 "C57" V 1800 7300 50  0000 C CNN
@@ -1816,7 +1815,7 @@ Connection ~ 4750 7150
 Wire Wire Line
 	3500 6750 3800 6750
 $Comp
-L Device:C C58
+L B.B-rescue:C-Device C58
 U 1 1 5FC05712
 P 3050 7150
 F 0 "C58" V 3000 7300 50  0000 C CNN
@@ -1828,7 +1827,7 @@ F 4 "C16772" V 3050 7150 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C59
+L B.B-rescue:C-Device C59
 U 1 1 5FC05719
 P 4250 7150
 F 0 "C59" V 4200 7300 50  0000 C CNN
@@ -1857,7 +1856,7 @@ Connection ~ 5950 7150
 Wire Wire Line
 	4700 6750 5000 6750
 $Comp
-L Device:C C60
+L B.B-rescue:C-Device C60
 U 1 1 5FC05738
 P 5450 7150
 F 0 "C60" V 5400 7300 50  0000 C CNN

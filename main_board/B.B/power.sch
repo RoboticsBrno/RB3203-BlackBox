@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:B.B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -29,7 +28,7 @@ F 4 "C41240" H 6225 2525 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C88
+L B.B-rescue:C-Device C88
 U 1 1 5FA5C393
 P 7725 2825
 AR Path="/5FA4C94D/5FA5C393" Ref="C88"  Part="1" 
@@ -58,7 +57,7 @@ F 3 "" H 7725 3075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C87
+L B.B-rescue:C-Device C87
 U 1 1 5FA66714
 P 4950 2725
 AR Path="/5FA4C94D/5FA66714" Ref="C87"  Part="1" 
@@ -104,7 +103,7 @@ F 3 "" H 6225 2975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R10
+L B.B-rescue:R-Device R10
 U 1 1 5FA82308
 P 5575 2675
 AR Path="/5FA4C94D/5FA82308" Ref="R10"  Part="1" 
@@ -139,7 +138,7 @@ Connection ~ 5275 2525
 Wire Wire Line
 	5275 2525 5925 2525
 $Comp
-L Device:R R11
+L B.B-rescue:R-Device R11
 U 1 1 5FAAA54F
 P 6925 2725
 AR Path="/5FA4C94D/5FAAA54F" Ref="R11"  Part="1" 
@@ -157,7 +156,7 @@ Wire Wire Line
 Wire Wire Line
 	7225 2775 7225 2625
 $Comp
-L Device:R R12
+L B.B-rescue:R-Device R12
 U 1 1 5FAAA559
 P 6625 2925
 AR Path="/5FA4C94D/5FAAA559" Ref="R12"  Part="1" 
@@ -192,7 +191,7 @@ Connection ~ 7225 2625
 Wire Wire Line
 	7225 2625 7275 2625
 $Comp
-L Device:C C85
+L B.B-rescue:C-Device C85
 U 1 1 5FACBCDA
 P 6775 2525
 F 0 "C85" V 6523 2525 50  0000 C CNN
@@ -210,7 +209,7 @@ Wire Wire Line
 Wire Wire Line
 	7225 2525 7225 2625
 $Comp
-L Device:D_Schottky D1
+L B.B-rescue:D_Schottky-Device D1
 U 1 1 5FAEBDB1
 P 7225 2925
 F 0 "D1" H 7175 3025 50  0000 L CNN
@@ -242,7 +241,7 @@ Wire Wire Line
 	7625 2725 7625 2625
 Connection ~ 7625 2625
 $Comp
-L Device:R R14
+L B.B-rescue:R-Device R14
 U 1 1 5FA6804A
 P 6775 4475
 AR Path="/5FA4C94D/5FA6804A" Ref="R14"  Part="1" 
@@ -269,7 +268,7 @@ F 3 "" H 6775 5025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C92
+L B.B-rescue:C-Device C92
 U 1 1 5FA68060
 P 7125 4475
 AR Path="/5FA4C94D/5FA68060" Ref="C92"  Part="1" 
@@ -283,7 +282,7 @@ F 4 "C45783" H 7125 4475 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C93
+L B.B-rescue:C-Device C93
 U 1 1 5FA68067
 P 7550 4475
 AR Path="/5FA4C94D/5FA68067" Ref="C93"  Part="1" 
@@ -350,7 +349,7 @@ F 3 "" H 5975 4925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C90
+L B.B-rescue:C-Device C90
 U 1 1 5FCAA96B
 P 4625 4475
 AR Path="/5FA4C94D/5FCAA96B" Ref="C90"  Part="1" 
@@ -384,7 +383,7 @@ Connection ~ 4625 4275
 Wire Wire Line
 	5625 4275 5475 4275
 $Comp
-L Transistor_FET:2N7002 Q?
+L B.B-rescue:2N7002-Transistor_FET Q?
 U 1 1 5FA8B0DC
 P 3275 3025
 AR Path="/5F77B818/5FA8B0DC" Ref="Q?"  Part="1" 
@@ -417,7 +416,7 @@ F 4 "C145421" V 3375 2625 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R6
+L B.B-rescue:R-Device R6
 U 1 1 602F171D
 P 3175 2825
 AR Path="/5FA4C94D/602F171D" Ref="R6"  Part="1" 
@@ -447,7 +446,7 @@ Wire Wire Line
 Text Notes 2125 2975 0    50   ~ 0
 pull-up to 3V3 in ESP32
 $Comp
-L Device:L L1
+L B.B-rescue:L-Device L1
 U 1 1 5FBDFC00
 P 7425 2625
 F 0 "L1" V 7615 2625 50  0000 C CNN
@@ -461,7 +460,7 @@ $EndComp
 Text HLabel 2525 3025 0    50   Input ~ 0
 SHUTDOWN_3V3-5V
 $Comp
-L Device:C C62
+L B.B-rescue:C-Device C62
 U 1 1 5FC4D1AC
 P 2925 3225
 AR Path="/5FA4C94D/5FC4D1AC" Ref="C62"  Part="1" 
@@ -490,7 +489,7 @@ F 3 "" H 2925 3475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FC4F9B1
 P 2625 3225
 AR Path="/5F77B818/5FC4F9B1" Ref="R?"  Part="1" 
@@ -522,7 +521,7 @@ Wire Wire Line
 Wire Wire Line
 	2625 3075 2625 3025
 $Comp
-L Switch:SW_DIP_x01 SW?
+L B.B-rescue:SW_DIP_x01-Switch SW?
 U 1 1 5FC5B229
 P 4275 3500
 AR Path="/5F77B818/5FC5B229" Ref="SW?"  Part="1" 
@@ -536,7 +535,7 @@ F 4 "C318889" H 4275 3500 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C61
+L B.B-rescue:C-Device C61
 U 1 1 5FC601F5
 P 4050 2825
 F 0 "C61" H 3950 2725 50  0000 C CNN
@@ -548,7 +547,7 @@ F 4 "C52923" V 4050 2825 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FC61828
 P 4050 3050
 AR Path="/5F77B818/5FC61828" Ref="R?"  Part="1" 
@@ -642,7 +641,7 @@ Connection ~ 5100 4475
 Wire Wire Line
 	5550 4800 5550 4675
 $Comp
-L Transistor_FET:2N7002 Q?
+L B.B-rescue:2N7002-Transistor_FET Q?
 U 1 1 5FBA36C7
 P 5450 5000
 AR Path="/5F77B818/5FBA36C7" Ref="Q?"  Part="1" 
@@ -673,7 +672,7 @@ F 3 "" H 5550 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R18
+L B.B-rescue:R-Device R18
 U 1 1 5FCDFEDA
 P 5325 4675
 AR Path="/5FA4C94D/5FCDFEDA" Ref="R18"  Part="1" 
@@ -697,7 +696,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 4275 7975 4275
 $Comp
-L Device:R R13
+L B.B-rescue:R-Device R13
 U 1 1 5FBBDF29
 P 6775 4775
 AR Path="/5FA4C94D/5FBBDF29" Ref="R13"  Part="1" 
@@ -713,7 +712,7 @@ F 4 "C25918" H 6775 4775 50  0001 C CNN "LCSC"
 $EndComp
 Connection ~ 6775 4625
 $Comp
-L Device:C C75
+L B.B-rescue:C-Device C75
 U 1 1 5FBDCDD3
 P 7975 4475
 AR Path="/5FA4C94D/5FBDCDD3" Ref="C75"  Part="1" 
@@ -745,7 +744,7 @@ Connection ~ 7975 4275
 Wire Wire Line
 	7975 4275 8325 4275
 $Comp
-L Device:L L2
+L B.B-rescue:L-Device L2
 U 1 1 5FBEEA97
 P 5325 4275
 F 0 "L2" V 5515 4275 50  0000 C CNN
@@ -757,7 +756,7 @@ F 4 "C112126" V 5325 4275 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R15
+L B.B-rescue:R-Device R15
 U 1 1 5FBF0991
 P 6375 4875
 AR Path="/5FA4C94D/5FBF0991" Ref="R15"  Part="1" 
@@ -801,7 +800,7 @@ F 3 "" H 8125 3075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C89
+L B.B-rescue:C-Device C89
 U 1 1 5FA5C39A
 P 8125 2825
 AR Path="/5FA4C94D/5FA5C39A" Ref="C89"  Part="1" 
@@ -819,7 +818,7 @@ Wire Wire Line
 Connection ~ 4950 2525
 Connection ~ 4625 2525
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FBC25E2
 P 3975 4750
 AR Path="/5FBC25E2" Ref="R?"  Part="1" 
@@ -848,7 +847,7 @@ $EndComp
 Wire Wire Line
 	3825 4600 3975 4600
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FBC25F0
 P 3975 4450
 AR Path="/5F77B818/5FBC25F0" Ref="R?"  Part="1" 

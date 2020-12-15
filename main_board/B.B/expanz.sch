@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:B.B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Motor:Motor_DC M1
+L B.B-rescue:Motor_DC-Motor M1
 U 1 1 5FA5194A
 P 4825 4500
 AR Path="/5F9EE529/5FA5194A" Ref="M1"  Part="1" 
@@ -73,7 +72,7 @@ Wire Wire Line
 Text HLabel 3325 4750 0    50   Input ~ 0
 MOTOR
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FAA51EC
 P 3425 4550
 AR Path="/5F96CFDA/5FAA51EC" Ref="R?"  Part="1" 
@@ -100,7 +99,7 @@ Connection ~ 3225 4250
 Wire Wire Line
 	3225 4250 3425 4250
 $Comp
-L Device:D_Schottky D?
+L B.B-rescue:D_Schottky-Device D?
 U 1 1 5FBB2FF1
 P 4525 4600
 AR Path="/5FA4C94D/5FBB2FF1" Ref="D?"  Part="1" 
@@ -131,7 +130,7 @@ Text HLabel 7950 2225 2    50   Input ~ 0
 Text HLabel 7300 2225 0    50   Input ~ 0
 5V
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FAAB362
 P 7550 2525
 AR Path="/5F96CFDA/5FAAB362" Ref="R?"  Part="1" 
@@ -177,7 +176,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 4700 9350 4700
 $Comp
-L Device:C C?
+L B.B-rescue:C-Device C?
 U 1 1 5FB5B58D
 P 10100 4900
 AR Path="/5F9EE529/5FA93863/5FB5B58D" Ref="C?"  Part="1" 
@@ -191,7 +190,7 @@ F 4 "C1549" H 10100 4900 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FB5B594
 P 10100 4500
 AR Path="/5F9EE529/5FA93863/5FB5B594" Ref="R?"  Part="1" 
@@ -227,7 +226,7 @@ $EndComp
 Text HLabel 5900 4700 0    50   Input ~ 0
 3V3
 $Comp
-L Device:C C?
+L B.B-rescue:C-Device C?
 U 1 1 5FB5B5B5
 P 6900 4900
 AR Path="/5F9EE529/5FA93863/5FB5B5B5" Ref="C?"  Part="1" 
@@ -248,7 +247,7 @@ Connection ~ 6900 4700
 Wire Wire Line
 	6900 4700 7300 4700
 $Comp
-L Device:C C?
+L B.B-rescue:C-Device C?
 U 1 1 5FB5B5C6
 P 8050 4900
 AR Path="/5F9EE529/5FA93863/5FB5B5C6" Ref="C?"  Part="1" 
@@ -262,7 +261,7 @@ F 4 "C1549" H 8050 4900 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FB5B5CD
 P 8050 4500
 AR Path="/5F9EE529/5FA93863/5FB5B5CD" Ref="R?"  Part="1" 
@@ -283,7 +282,7 @@ Wire Wire Line
 	8050 4750 8050 4700
 Connection ~ 8050 4700
 $Comp
-L Device:C C?
+L B.B-rescue:C-Device C?
 U 1 1 5FB5B5DB
 P 8950 4900
 AR Path="/5F9EE529/5FA93863/5FB5B5DB" Ref="C?"  Part="1" 
@@ -309,7 +308,7 @@ F 4 "C145421" V 7750 2325 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Transistor_FET:2N7002 Q?
+L B.B-rescue:2N7002-Transistor_FET Q?
 U 1 1 5FBA8934
 P 7650 2725
 AR Path="/5F77B818/5FBA8934" Ref="Q?"  Part="1" 
@@ -325,7 +324,7 @@ F 4 "C8545" H 7650 2725 50  0001 C CNN "LCSC"
 $EndComp
 Connection ~ 7750 2525
 $Comp
-L Transistor_FET:2N7002 Q?
+L B.B-rescue:2N7002-Transistor_FET Q?
 U 1 1 5FBAB051
 P 3525 4750
 AR Path="/5F77B818/5FBAB051" Ref="Q?"  Part="1" 
@@ -353,35 +352,6 @@ F 3 "" H 4350 2900 50  0001 C CNN
 	1    4350 2900
 	1    0    0    -1  
 $EndComp
-Text HLabel 5350 2200 1    50   Input ~ 0
-IR-OUT
-$Comp
-L B.B-eagle-import:LED LED?
-U 1 1 5FA465E8
-P 5350 2600
-AR Path="/5FA3274C/5FA465E8" Ref="LED?"  Part="1" 
-AR Path="/5F9EE529/5FA465E8" Ref="LED3"  Part="1" 
-F 0 "LED3" H 5428 2603 59  0000 L CNN
-F 1 "IR" H 5428 2498 59  0000 L CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 5350 2600 50  0001 C CNN
-F 3 "" H 5350 2600 50  0001 C CNN
-F 4 "C142316" H 5350 2600 50  0001 C CNN "LCSC"
-	1    5350 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L B.B-eagle-import:GND #GND?
-U 1 1 5FA465EE
-P 5350 2900
-AR Path="/5FA3274C/5FA465EE" Ref="#GND?"  Part="1" 
-AR Path="/5F9EE529/5FA465EE" Ref="#GND0140"  Part="1" 
-F 0 "#GND0140" H 5350 2900 50  0001 C CNN
-F 1 "GND" H 5350 2820 59  0000 C CNN
-F 2 "" H 5350 2900 50  0001 C CNN
-F 3 "" H 5350 2900 50  0001 C CNN
-	1    5350 2900
-	1    0    0    -1  
-$EndComp
 $Comp
 L B.B-rescue:IRM-H936 U?
 U 1 1 5FA465F6
@@ -397,7 +367,7 @@ F 4 "C264266" H 4350 2450 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L B.B-rescue:C-Device C?
 U 1 1 5FB0693F
 P 3375 2650
 AR Path="/5FA4C94D/5FB0693F" Ref="C?"  Part="1" 
@@ -433,20 +403,6 @@ Wire Wire Line
 Wire Wire Line
 	3375 2450 3850 2450
 $Comp
-L Device:R R?
-U 1 1 5FA5476F
-P 5350 2350
-AR Path="/5FA3274C/5FA5476F" Ref="R?"  Part="1" 
-AR Path="/5F9EE529/5FA5476F" Ref="R43"  Part="1" 
-F 0 "R43" V 5143 2350 50  0000 C CNN
-F 1 "220" V 5234 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5280 2350 50  0001 C CNN
-F 3 "~" H 5350 2350 50  0001 C CNN
-F 4 "C25092" V 5350 2350 50  0001 C CNN "LCSC"
-	1    5350 2350
-	-1   0    0    1   
-$EndComp
-$Comp
 L B.B-rescue:Q_PMOS_DSG Q7
 U 1 1 5FBE7385
 P 3625 4350
@@ -478,7 +434,7 @@ IR-INPUT
 Text HLabel 2725 2450 0    50   Input ~ 0
 VCC
 $Comp
-L Device:D D?
+L B.B-rescue:D-Device D?
 U 1 1 5FCDB883
 P 2875 2450
 AR Path="/5F96CFDA/5FCDB883" Ref="D?"  Part="1" 
@@ -496,7 +452,7 @@ F 4 "C109204" V 2875 2450 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L B.B-rescue:C-Device C?
 U 1 1 5FCDDF04
 P 3850 2650
 AR Path="/5F96CFDA/5FCDDF04" Ref="C?"  Part="1" 
@@ -534,7 +490,7 @@ F 3 "" H 3850 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FD86664
 P 3175 2450
 AR Path="/5F77B818/5FD86664" Ref="R?"  Part="1" 
@@ -548,9 +504,11 @@ F 4 "C25117" H 3175 2450 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J1
+L B.B-rescue:Conn_01x04-Connector_Generic J1
 U 1 1 5FE739E9
 P 6100 4700
+AR Path="/5FE739E9" Ref="J1"  Part="1" 
+AR Path="/5F9EE529/5FE739E9" Ref="J1"  Part="1" 
 F 0 "J1" H 6050 4900 50  0000 L CNN
 F 1 "Conn_01x04" V 6200 4400 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6100 4700 50  0001 C CNN
@@ -594,8 +552,6 @@ Wire Wire Line
 	8950 5050 8950 5100
 Connection ~ 8950 5100
 Wire Wire Line
-	8950 5100 8050 5100
-Wire Wire Line
 	6900 4700 6900 4300
 Wire Wire Line
 	10100 4300 10100 4350
@@ -610,8 +566,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 4350 8050 4300
 Connection ~ 8050 4300
-Wire Wire Line
-	8050 4300 8950 4300
 $Comp
 L B.B-eagle-import:GND #GND0114
 U 1 1 5FE93EA1
@@ -646,9 +600,11 @@ Wire Wire Line
 Wire Wire Line
 	10100 4700 10350 4700
 $Comp
-L Connector_Generic:Conn_01x04 J4
+L B.B-rescue:Conn_01x04-Connector_Generic J4
 U 1 1 5FE71BD6
 P 6300 4700
+AR Path="/5FE71BD6" Ref="J4"  Part="1" 
+AR Path="/5F9EE529/5FE71BD6" Ref="J4"  Part="1" 
 F 0 "J4" H 6300 4400 50  0000 C CNN
 F 1 "Conn_01x04" V 6400 4625 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6300 4700 50  0001 C CNN
@@ -656,4 +612,64 @@ F 3 "~" H 6300 4700 50  0001 C CNN
 	1    6300 4700
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5900 4800 6500 4800
+Connection ~ 5900 4800
+Connection ~ 6500 4800
+Wire Wire Line
+	6500 4700 5900 4700
+Connection ~ 6500 4700
+Wire Wire Line
+	5900 4600 6500 4600
+Connection ~ 6500 4600
+Wire Wire Line
+	6500 4500 5900 4500
+Connection ~ 6500 4500
+$Comp
+L B.B-rescue:R-Device R?
+U 1 1 5FA5476F
+P 5350 2350
+AR Path="/5FA3274C/5FA5476F" Ref="R?"  Part="1" 
+AR Path="/5F9EE529/5FA5476F" Ref="R43"  Part="1" 
+F 0 "R43" V 5143 2350 50  0000 C CNN
+F 1 "220" V 5234 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5280 2350 50  0001 C CNN
+F 3 "~" H 5350 2350 50  0001 C CNN
+F 4 "C25092" V 5350 2350 50  0001 C CNN "LCSC"
+	1    5350 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L B.B-eagle-import:GND #GND?
+U 1 1 5FA465EE
+P 5350 2900
+AR Path="/5FA3274C/5FA465EE" Ref="#GND?"  Part="1" 
+AR Path="/5F9EE529/5FA465EE" Ref="#GND0140"  Part="1" 
+F 0 "#GND0140" H 5350 2900 50  0001 C CNN
+F 1 "GND" H 5350 2820 59  0000 C CNN
+F 2 "" H 5350 2900 50  0001 C CNN
+F 3 "" H 5350 2900 50  0001 C CNN
+	1    5350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-eagle-import:LED LED?
+U 1 1 5FA465E8
+P 5350 2600
+AR Path="/5FA3274C/5FA465E8" Ref="LED?"  Part="1" 
+AR Path="/5F9EE529/5FA465E8" Ref="LED3"  Part="1" 
+F 0 "LED3" H 5428 2603 59  0000 L CNN
+F 1 "IR" H 5428 2498 59  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5350 2600 50  0001 C CNN
+F 3 "" H 5350 2600 50  0001 C CNN
+F 4 "C142316" H 5350 2600 50  0001 C CNN "LCSC"
+	1    5350 2600
+	1    0    0    -1  
+$EndComp
+Text HLabel 5350 2200 1    50   Input ~ 0
+IR-OUT
+Wire Wire Line
+	8050 5100 8950 5100
+Wire Wire Line
+	8050 4300 8950 4300
 $EndSCHEMATC

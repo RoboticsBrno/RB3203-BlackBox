@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:B.B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -59,7 +58,7 @@ F 3 "" H 1900 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R31
+L B.B-rescue:R-Device R31
 U 1 1 5F7A8F71
 P 2800 2450
 F 0 "R31" H 2870 2496 50  0000 L CNN
@@ -120,7 +119,7 @@ Wire Wire Line
 	3450 5075 3550 5075
 Connection ~ 3450 5075
 $Comp
-L Device:R R33
+L B.B-rescue:R-Device R33
 U 1 1 5F80B567
 P 8900 3350
 F 0 "R33" H 8970 3396 50  0000 L CNN
@@ -132,7 +131,7 @@ F 4 "C25752" H 8900 3350 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R37
+L B.B-rescue:R-Device R37
 U 1 1 5F82433D
 P 8900 3850
 F 0 "R37" H 8970 3896 50  0000 L CNN
@@ -144,7 +143,7 @@ F 4 "C25752" H 8900 3850 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R35
+L B.B-rescue:R-Device R35
 U 1 1 5F8281DA
 P 8900 3600
 F 0 "R35" H 8970 3646 50  0000 L CNN
@@ -170,7 +169,7 @@ Connection ~ 9150 3350
 Wire Wire Line
 	9150 3350 9150 3600
 $Comp
-L Device:C C103
+L B.B-rescue:C-Device C103
 U 1 1 5F84DAE6
 P 4950 1450
 F 0 "C103" H 5065 1496 50  0000 L CNN
@@ -195,7 +194,7 @@ $EndComp
 Wire Wire Line
 	4950 1300 4950 1250
 $Comp
-L Device:C C102
+L B.B-rescue:C-Device C102
 U 1 1 5F8566B5
 P 4500 1450
 F 0 "C102" H 4615 1496 50  0000 L CNN
@@ -247,7 +246,7 @@ F 3 "" H 2300 5425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C109
+L B.B-rescue:C-Device C109
 U 1 1 5F970DFC
 P 2750 5175
 F 0 "C109" H 2865 5221 50  0000 L CNN
@@ -259,7 +258,7 @@ F 4 "C15850" H 2750 5175 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C108
+L B.B-rescue:C-Device C108
 U 1 1 5F971517
 P 2300 5175
 F 0 "C108" H 2415 5221 50  0000 L CNN
@@ -279,7 +278,7 @@ D-
 Text Label 2500 2450 0    50   ~ 0
 D-
 $Comp
-L Device:R R34
+L B.B-rescue:R-Device R34
 U 1 1 5F7BE1D0
 P 9800 3350
 F 0 "R34" H 9870 3396 50  0000 L CNN
@@ -291,7 +290,7 @@ F 4 "C25752" H 9800 3350 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R36
+L B.B-rescue:R-Device R36
 U 1 1 5F7BE95B
 P 9800 3600
 F 0 "R36" H 9870 3646 50  0000 L CNN
@@ -425,7 +424,7 @@ IO19
 Text HLabel 3550 6675 0    50   Input ~ 0
 IO18
 $Comp
-L Transistor_FET:2N7002 Q3
+L B.B-rescue:2N7002-Transistor_FET Q3
 U 1 1 5F83FB30
 P 3900 1350
 F 0 "Q3" V 4104 1396 50  0000 L CNN
@@ -439,7 +438,7 @@ $EndComp
 Wire Wire Line
 	3700 1250 3600 1250
 $Comp
-L Device:R R28
+L B.B-rescue:R-Device R28
 U 1 1 5F860400
 P 4150 2150
 F 0 "R28" H 4220 2196 50  0000 L CNN
@@ -468,7 +467,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 1950 2800 1950
 $Comp
-L Switch:SW_DIP_x01 SW1
+L B.B-rescue:SW_DIP_x01-Switch SW1
 U 1 1 5F90B5A3
 P 7650 5400
 F 0 "SW1" H 7650 5667 50  0000 C CNN
@@ -480,7 +479,7 @@ F 4 "C318889" H 7650 5400 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R20
+L B.B-rescue:R-Device R20
 U 1 1 5F913318
 P 8200 5400
 F 0 "R20" H 8270 5446 50  0000 L CNN
@@ -521,7 +520,7 @@ Wire Wire Line
 	8000 5400 8050 5400
 Connection ~ 8000 5400
 $Comp
-L Device:R R30
+L B.B-rescue:R-Device R30
 U 1 1 5F936AC5
 P 9900 5400
 F 0 "R30" H 9970 5446 50  0000 L CNN
@@ -568,7 +567,7 @@ IO0
 Text Label 10200 5400 0    50   ~ 0
 EN
 $Comp
-L Device:R R21
+L B.B-rescue:R-Device R21
 U 1 1 5F898834
 P 4150 1450
 F 0 "R21" H 4220 1496 50  0000 L CNN
@@ -628,7 +627,7 @@ F 3 "" H 5950 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_USB:CP2102N-A01-GQFN28 U64
+L B.B-rescue:CP2102N-A01-GQFN28-Interface_USB U64
 U 1 1 5F78AFDC
 P 5950 2650
 F 0 "U64" H 6125 1350 50  0000 C CNN
@@ -644,7 +643,7 @@ Connection ~ 4950 1250
 Wire Wire Line
 	4950 1250 5250 1250
 $Comp
-L Device:R R22
+L B.B-rescue:R-Device R22
 U 1 1 5F8D7784
 P 5350 1450
 F 0 "R22" H 5420 1496 50  0000 L CNN
@@ -671,7 +670,7 @@ Wire Wire Line
 Wire Wire Line
 	8975 1800 9150 1800
 $Comp
-L Device:R R23
+L B.B-rescue:R-Device R23
 U 1 1 5F9B97DB
 P 9350 1800
 F 0 "R23" H 9420 1846 50  0000 L CNN
@@ -683,7 +682,7 @@ F 4 "C25752" H 9350 1800 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R29
+L B.B-rescue:R-Device R29
 U 1 1 5F9BA036
 P 9350 2450
 F 0 "R29" H 9420 2496 50  0000 L CNN
@@ -963,7 +962,7 @@ F 3 "" H 6450 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C104
+L B.B-rescue:C-Device C104
 U 1 1 5FABBE4E
 P 7650 5650
 F 0 "C104" V 7700 5800 50  0000 C CNN
@@ -975,7 +974,7 @@ F 4 "C1525" V 7650 5650 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R32
+L B.B-rescue:R-Device R32
 U 1 1 5FAC0DBD
 P 3100 2450
 F 0 "R32" H 3170 2496 50  0000 L CNN
@@ -1013,7 +1012,7 @@ $EndComp
 Wire Wire Line
 	7400 3075 7400 3250
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FA6121E
 P 6900 1750
 AR Path="/5FA3274C/5FA6121E" Ref="R?"  Part="1" 
@@ -1028,7 +1027,7 @@ F 4 "C25092" V 6900 1750 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FA64256
 P 6900 1850
 AR Path="/5FA3274C/5FA64256" Ref="R?"  Part="1" 
@@ -1043,7 +1042,7 @@ F 4 "C25092" V 6900 1850 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FA643BB
 P 6950 2925
 AR Path="/5FA3274C/5FA643BB" Ref="R?"  Part="1" 
@@ -1058,7 +1057,7 @@ F 4 "C25092" V 6950 2925 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FA646C4
 P 7400 2925
 AR Path="/5FA3274C/5FA646C4" Ref="R?"  Part="1" 
@@ -1080,7 +1079,7 @@ Connection ~ 2800 1950
 Wire Wire Line
 	2800 1950 3075 1950
 $Comp
-L Switch:SW_DIP_x01 SW2
+L B.B-rescue:SW_DIP_x01-Switch SW2
 U 1 1 5FB1B20F
 P 9350 5400
 F 0 "SW2" H 9350 5667 50  0000 C CNN
@@ -1092,7 +1091,7 @@ F 4 "C318889" H 9350 5400 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C107
+L B.B-rescue:C-Device C107
 U 1 1 5FB1BF0E
 P 9350 5650
 F 0 "C107" V 9400 5800 50  0000 C CNN
@@ -1106,7 +1105,7 @@ $EndComp
 Wire Wire Line
 	10050 5400 10200 5400
 $Comp
-L Device:R R38
+L B.B-rescue:R-Device R38
 U 1 1 5FBD064E
 P 3450 4725
 F 0 "R38" H 3520 4771 50  0000 L CNN
@@ -1155,7 +1154,7 @@ F 4 "C20526" H 9750 2450 50  0001 C CNN "LCSC"
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DIP_x02 SW4
+L B.B-rescue:SW_DIP_x02-Switch SW4
 U 1 1 5FB55D9C
 P 3375 1950
 F 0 "SW4" H 3375 2317 50  0000 C CNN
@@ -1182,7 +1181,7 @@ Wire Wire Line
 Text HLabel 6300 1250 2    50   Input ~ 0
 cable_connected
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FB94C99
 P 6150 1250
 AR Path="/5FA3274C/5FB94C99" Ref="R?"  Part="1" 

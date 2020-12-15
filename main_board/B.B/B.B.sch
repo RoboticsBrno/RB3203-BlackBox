@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:B.B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -93,7 +92,7 @@ Connection ~ 6550 1400
 Wire Wire Line
 	4300 2150 5250 2150
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FA57DCC
 P 6900 1600
 AR Path="/5FA4C94D/5FA57DCC" Ref="R?"  Part="1" 
@@ -128,14 +127,6 @@ F 3 "" H 4500 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8650 4450 8650 4700
-$Sheet
-S 3450 2625 850  175 
-U 5FB8FF0F
-F0 "charger00" 50
-F1 "charger.sch" 50
-F2 "VCC" I R 4300 2700 50 
-F3 "BAT" I L 3450 2700 50 
-$EndSheet
 Wire Wire Line
 	4300 2700 5250 2700
 $Sheet
@@ -184,7 +175,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 3750 5250 3750
 $Comp
-L Connector_Generic:Conn_01x11 J2
+L B.B-rescue:Conn_01x11-Connector_Generic J2
 U 1 1 5FC8A4A2
 P 7600 5350
 F 0 "J2" H 7550 5950 50  0000 L CNN
@@ -345,7 +336,7 @@ F 4 "C145421" V 2725 1600 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Polyfuse F2
+L B.B-rescue:Polyfuse-Device F2
 U 1 1 5FC5EA4C
 P 2050 1700
 F 0 "F2" H 2138 1746 50  0000 L CNN
@@ -357,7 +348,7 @@ F 4 "C20988" H 2050 1700 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F1
+L B.B-rescue:Polyfuse-Device F1
 U 1 1 5FC5F6AE
 P 1850 1700
 F 0 "F1" H 1675 1750 50  0000 L CNN
@@ -391,7 +382,7 @@ F9 "GND" I L 8575 5050 50
 F10 "LDC-GND" I L 8575 5850 50 
 $EndSheet
 $Comp
-L Connector_Generic:Conn_01x11 J3
+L B.B-rescue:Conn_01x11-Connector_Generic J3
 U 1 1 5FC91920
 P 7800 5350
 F 0 "J3" H 7750 5950 50  0000 L CNN
@@ -511,7 +502,7 @@ Wire Wire Line
 Text Label 3700 1325 0    50   ~ 0
 BAT+
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5FA54DFA
 P 6550 1600
 AR Path="/5FA4C94D/5FA54DFA" Ref="R?"  Part="1" 
@@ -540,4 +531,12 @@ F 3 "" H 7175 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7175 1250 7175 3150
+$Sheet
+S 3450 2625 850  175 
+U 5FB8FF0F
+F0 "charger00" 50
+F1 "charger.sch" 50
+F2 "VCC" I L 3450 2700 50 
+F3 "BAT" I R 4300 2700 50 
+$EndSheet
 $EndSCHEMATC

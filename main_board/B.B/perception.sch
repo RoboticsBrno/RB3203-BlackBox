@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:B.B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -38,7 +37,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 1750 5500 1750
 $Comp
-L Device:C C?
+L B.B-rescue:C-Device C?
 U 1 1 5F971B50
 P 4550 1950
 AR Path="/5F96CFDA/5F971B50" Ref="C?"  Part="1" 
@@ -71,7 +70,7 @@ F 3 "" H 4550 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L B.B-rescue:C-Device C?
 U 1 1 5F974417
 P 4950 1950
 AR Path="/5F96CFDA/5F974417" Ref="C?"  Part="1" 
@@ -177,7 +176,7 @@ F 4 "C113207" H 6100 3600 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D?
+L B.B-rescue:D-Device D?
 U 1 1 5F93AF19
 P 4700 3600
 AR Path="/5F96CFDA/5F93AF19" Ref="D?"  Part="1" 
@@ -196,7 +195,7 @@ $EndComp
 Wire Wire Line
 	4550 3600 4500 3600
 $Comp
-L Device:Crystal Y?
+L B.B-rescue:Crystal-Device Y?
 U 1 1 5F93D78D
 P 6750 4100
 AR Path="/5F96CFDA/5F93D78D" Ref="Y?"  Part="1" 
@@ -366,7 +365,7 @@ $EndComp
 Text HLabel 5000 4950 1    50   Input ~ 0
 3V3
 $Comp
-L Device:C C?
+L B.B-rescue:C-Device C?
 U 1 1 5F975C33
 P 5000 5200
 AR Path="/5F96CFDA/5F975C33" Ref="C?"  Part="1" 
@@ -401,7 +400,7 @@ $EndComp
 Wire Wire Line
 	5000 5050 5000 5000
 $Comp
-L Device:C C?
+L B.B-rescue:C-Device C?
 U 1 1 5F9780C8
 P 4950 3800
 AR Path="/5F96CFDA/5F9780C8" Ref="C?"  Part="1" 
@@ -448,7 +447,7 @@ F 3 "" H 6100 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L B.B-rescue:R-Device R?
 U 1 1 5F990B4D
 P 6850 5300
 AR Path="/5F96CFDA/5F990B4D" Ref="R?"  Part="1" 
