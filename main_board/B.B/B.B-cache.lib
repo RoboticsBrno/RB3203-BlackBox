@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# B.B-eagle-import_+3V3
+# B.B-rescue_+3V3-B.B-eagle-import
 #
-DEF B.B-eagle-import_+3V3 #V 0 40 Y Y 1 L P
+DEF B.B-rescue_+3V3-B.B-eagle-import #V 0 40 Y Y 1 L P
 F0 "#V" 0 0 50 H I C CNN
-F1 "B.B-eagle-import_+3V3" -150 75 59 H V L BNN
+F1 "B.B-rescue_+3V3-B.B-eagle-import" -150 75 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -17,11 +17,11 @@ X +3V3 1 0 -100 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# B.B-eagle-import_+5V
+# B.B-rescue_+5V-B.B-eagle-import
 #
-DEF B.B-eagle-import_+5V #V 0 40 Y Y 1 L P
+DEF B.B-rescue_+5V-B.B-eagle-import #V 0 40 Y Y 1 L P
 F0 "#V" 0 0 50 H I C CNN
-F1 "B.B-eagle-import_+5V" -100 75 59 H V L BNN
+F1 "B.B-rescue_+5V-B.B-eagle-import" -100 75 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -33,99 +33,11 @@ X +5V 1 0 -100 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# B.B-eagle-import_GND
+# B.B-rescue_2N7002-Transistor_FET-B.B-rescue
 #
-DEF B.B-eagle-import_GND #GND 0 40 Y Y 1 L P
-F0 "#GND" 0 0 50 H I C CNN
-F1 "B.B-eagle-import_GND" -87 -100 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 0 62 -43 62 N
-P 2 1 0 0 0 100 0 62 N
-P 2 1 0 0 6 0 -6 0 N
-P 2 1 0 0 25 31 -25 31 N
-P 2 1 0 0 43 62 0 62 N
-X GND 1 0 100 0 D 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
-# B.B-eagle-import_LED
-#
-DEF B.B-eagle-import_LED LED 0 40 Y Y 1 L N
-F0 "LED" 140 -180 59 V V L BNN
-F1 "B.B-eagle-import_LED" 225 -180 59 V V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -80 -30 -135 -85 N
-P 2 1 0 0 -75 -75 -130 -130 N
-P 2 1 0 0 0 -100 -50 -100 N
-P 2 1 0 0 0 -100 -50 0 N
-P 2 1 0 0 0 0 -50 0 N
-P 2 1 0 0 50 -100 0 -100 N
-P 2 1 0 0 50 0 0 -100 N
-P 2 1 0 0 50 0 0 0 N
-P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
-P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
-X C 1 0 -200 100 U 0 0 1 0 P
-X A 2 0 100 100 D 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# B.B-eagle-import_NC
-#
-DEF B.B-eagle-import_NC #NC 0 40 Y Y 1 L N
-F0 "#NC" 0 0 50 H I C CNN
-F1 "B.B-eagle-import_NC" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 70 35 105 0 N
-P 2 1 0 0 105 0 70 -35 N
-P 2 1 0 0 105 0 140 35 N
-P 2 1 0 0 140 -35 105 0 N
-X NC 1 0 0 100 R 0 50 1 0 B
-ENDDRAW
-ENDDEF
-#
-# B.B-eagle-import_VCC
-#
-DEF B.B-eagle-import_VCC #V 0 40 Y Y 1 L P
-F0 "#V" 0 0 50 H I C CNN
-F1 "B.B-eagle-import_VCC" -87 75 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -25 -25 0 50 N
-P 2 1 0 0 0 50 25 -25 N
-P 2 1 0 0 25 -25 -25 -25 N
-P 3 1 0 0 0 50 25 -25 -25 -25 F
-X VCC 1 0 -100 100 U 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
-# B.B-eagle-import_WS2812
-#
-DEF B.B-eagle-import_WS2812 ~ 0 40 Y Y 1 L N
-F0 "" 0 0 50 H I C CNN
-F1 "B.B-eagle-import_WS2812" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -250 150 250 -150 0 1 0 f
-X VCC 1 -450 -100 200 R 50 50 1 0 B
-X DOUT 2 450 100 200 L 50 50 1 0 B
-X GND 3 450 -100 200 L 50 50 1 0 B
-X DIN 4 -450 100 200 R 50 50 1 0 B
-ENDDRAW
-ENDDEF
-#
-# B.B-rescue_2N7002-Transistor_FET
-#
-DEF B.B-rescue_2N7002-Transistor_FET Q 0 0 Y N 1 F N
+DEF B.B-rescue_2N7002-Transistor_FET-B.B-rescue Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "B.B-rescue_2N7002-Transistor_FET" 200 0 50 H V L CNN
+F1 "B.B-rescue_2N7002-Transistor_FET-B.B-rescue" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -155,11 +67,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_AOZ1280
+# B.B-rescue_AOZ1280-B.B-rescue
 #
-DEF B.B-rescue_AOZ1280 U 0 40 Y Y 1 F N
+DEF B.B-rescue_AOZ1280-B.B-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 200 50 H V C CNN
-F1 "B.B-rescue_AOZ1280" 0 100 50 H V C CNN
+F1 "B.B-rescue_AOZ1280-B.B-rescue" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -173,11 +85,11 @@ X LX 6 300 -100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_BMX055
+# B.B-rescue_BMX055-B.B-rescue
 #
-DEF B.B-rescue_BMX055 U 0 40 Y Y 1 F N
+DEF B.B-rescue_BMX055-B.B-rescue U 0 40 Y Y 1 F N
 F0 "U" 50 150 50 H V C CNN
-F1 "B.B-rescue_BMX055" 50 50 50 H V C CNN
+F1 "B.B-rescue_BMX055-B.B-rescue" 50 50 50 H V C CNN
 F2 "BB:LGA_4.5x3" -200 -50 50 H I C CNN
 F3 "" -200 -50 50 H I C CNN
 DRAW
@@ -204,11 +116,11 @@ X SCL/SCK 9 -600 -700 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_Battery_Cell
+# B.B-rescue_Battery_Cell-B.B-rescue
 #
-DEF B.B-rescue_Battery_Cell BT 0 0 N N 1 F N
+DEF B.B-rescue_Battery_Cell-B.B-rescue BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "B.B-rescue_Battery_Cell" 100 0 50 H V L CNN
+F1 "B.B-rescue_Battery_Cell-B.B-rescue" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -231,11 +143,11 @@ X - 4 -200 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_C-Device
+# B.B-rescue_C-Device-B.B-rescue
 #
-DEF B.B-rescue_C-Device C 0 10 N Y 1 F N
+DEF B.B-rescue_C-Device-B.B-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "B.B-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "B.B-rescue_C-Device-B.B-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -249,11 +161,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_CP2102N-A01-GQFN28-Interface_USB
+# B.B-rescue_CP2102N-A01-GQFN28-Interface_USB-B.B-rescue
 #
-DEF B.B-rescue_CP2102N-A01-GQFN28-Interface_USB U 0 20 Y Y 1 F N
+DEF B.B-rescue_CP2102N-A01-GQFN28-Interface_USB-B.B-rescue U 0 20 Y Y 1 F N
 F0 "U" -300 1250 50 H V R CNN
-F1 "B.B-rescue_CP2102N-A01-GQFN28-Interface_USB" 1050 1250 50 H V R CNN
+F1 "B.B-rescue_CP2102N-A01-GQFN28-Interface_USB-B.B-rescue" 1050 1250 50 H V R CNN
 F2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" 450 -1200 50 H I L CNN
 F3 "" 50 -750 50 H I C CNN
 $FPLIST
@@ -293,11 +205,11 @@ X ~RSTb 9 -500 900 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_Conn_01x04-Connector_Generic
+# B.B-rescue_Conn_01x04-Connector_Generic-B.B-rescue
 #
-DEF B.B-rescue_Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
+DEF B.B-rescue_Conn_01x04-Connector_Generic-B.B-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "B.B-rescue_Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
+F1 "B.B-rescue_Conn_01x04-Connector_Generic-B.B-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -316,11 +228,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_Conn_01x11-Connector_Generic
+# B.B-rescue_Conn_01x11-Connector_Generic-B.B-rescue
 #
-DEF B.B-rescue_Conn_01x11-Connector_Generic J 0 40 Y N 1 F N
+DEF B.B-rescue_Conn_01x11-Connector_Generic-B.B-rescue J 0 40 Y N 1 F N
 F0 "J" 0 600 50 H V C CNN
-F1 "B.B-rescue_Conn_01x11-Connector_Generic" 0 -600 50 H V C CNN
+F1 "B.B-rescue_Conn_01x11-Connector_Generic-B.B-rescue" 0 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -353,11 +265,11 @@ X Pin_9 9 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_Crystal-Device
+# B.B-rescue_Crystal-Device-B.B-rescue
 #
-DEF B.B-rescue_Crystal-Device Y 0 40 N N 1 F N
+DEF B.B-rescue_Crystal-Device-B.B-rescue Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "B.B-rescue_Crystal-Device" 0 -150 50 H V C CNN
+F1 "B.B-rescue_Crystal-Device-B.B-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -374,11 +286,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_D-Device
+# B.B-rescue_D-Device-B.B-rescue
 #
-DEF B.B-rescue_D-Device D 0 40 N N 1 F N
+DEF B.B-rescue_D-Device-B.B-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "B.B-rescue_D-Device" 0 -100 50 H V C CNN
+F1 "B.B-rescue_D-Device-B.B-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -396,11 +308,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_D_Schottky-Device
+# B.B-rescue_D_Schottky-Device-B.B-rescue
 #
-DEF B.B-rescue_D_Schottky-Device D 0 40 N N 1 F N
+DEF B.B-rescue_D_Schottky-Device-B.B-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "B.B-rescue_D_Schottky-Device" 0 -100 50 H V C CNN
+F1 "B.B-rescue_D_Schottky-Device-B.B-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -418,11 +330,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_ESP32-WROVER-B.B-eagle-import
+# B.B-rescue_ESP32-WROVER-B.B-eagle-import-B.B-rescue
 #
-DEF B.B-rescue_ESP32-WROVER-B.B-eagle-import U 0 40 Y Y 1 F N
+DEF B.B-rescue_ESP32-WROVER-B.B-eagle-import-B.B-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 1100 60 H V C CNN
-F1 "B.B-rescue_ESP32-WROVER-B.B-eagle-import" 0 950 60 H V C CNN
+F1 "B.B-rescue_ESP32-WROVER-B.B-eagle-import-B.B-rescue" 0 950 60 H V C CNN
 F2 "" 550 -300 60 H I C CNN
 F3 "" 550 -300 60 H I C CNN
 DRAW
@@ -466,11 +378,11 @@ X IO33_XTAL_32K_N/ADC1 9 -1100 -250 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_FP6276
+# B.B-rescue_FP6276-B.B-rescue
 #
-DEF B.B-rescue_FP6276 U 0 40 Y Y 1 F N
+DEF B.B-rescue_FP6276-B.B-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 200 50 H V C CNN
-F1 "B.B-rescue_FP6276" 0 100 50 H V C CNN
+F1 "B.B-rescue_FP6276-B.B-rescue" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -486,11 +398,28 @@ X VO 8 350 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_IRM-H936
+# B.B-rescue_GND-B.B-eagle-import
 #
-DEF B.B-rescue_IRM-H936 U 0 40 Y Y 1 F N
+DEF B.B-rescue_GND-B.B-eagle-import #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "B.B-rescue_GND-B.B-eagle-import" -87 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 62 -43 62 N
+P 2 1 0 0 0 100 0 62 N
+P 2 1 0 0 6 0 -6 0 N
+P 2 1 0 0 25 31 -25 31 N
+P 2 1 0 0 43 62 0 62 N
+X GND 1 0 100 0 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# B.B-rescue_IRM-H936-B.B-rescue
+#
+DEF B.B-rescue_IRM-H936-B.B-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 200 50 H V C CNN
-F1 "B.B-rescue_IRM-H936" 0 100 50 H V C CNN
+F1 "B.B-rescue_IRM-H936-B.B-rescue" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -502,11 +431,11 @@ X VCC 4 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_L-Device
+# B.B-rescue_L-Device-B.B-rescue
 #
-DEF B.B-rescue_L-Device L 0 40 N N 1 F N
+DEF B.B-rescue_L-Device-B.B-rescue L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "B.B-rescue_L-Device" 75 0 50 V V C CNN
+F1 "B.B-rescue_L-Device-B.B-rescue" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -525,14 +454,13 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_LDC1314
+# B.B-rescue_LDC1314-B.B-rescue
 #
-DEF B.B-rescue_LDC1314 U 0 20 Y Y 1 F N
+DEF B.B-rescue_LDC1314-B.B-rescue U 0 20 Y Y 1 F N
 F0 "U" 0 950 50 H V C CNN
-F1 "B.B-rescue_LDC1314" 0 850 50 H V C CNN
+F1 "B.B-rescue_LDC1314-B.B-rescue" 0 850 50 H V C CNN
 F2 "Package_DFN_QFN:WQFN-16-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" 0 750 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
-ALIAS LDC1614
 $FPLIST
  WQFN*1EP*4x4mm*P0.5mm*
 $ENDFPLIST
@@ -558,11 +486,34 @@ X IN0A 9 -500 400 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_M41T62
+# B.B-rescue_LED-B.B-eagle-import
 #
-DEF B.B-rescue_M41T62 U 0 40 Y Y 1 F N
+DEF B.B-rescue_LED-B.B-eagle-import LED 0 40 Y Y 1 L N
+F0 "LED" 140 -180 59 V V L BNN
+F1 "B.B-rescue_LED-B.B-eagle-import" 225 -180 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -80 -30 -135 -85 N
+P 2 1 0 0 -75 -75 -130 -130 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 0 0 -50 0 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 0 -100 N
+P 2 1 0 0 50 0 0 0 N
+P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
+P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
+X C 1 0 -200 100 U 0 0 1 0 P
+X A 2 0 100 100 D 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# B.B-rescue_M41T62-B.B-rescue
+#
+DEF B.B-rescue_M41T62-B.B-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 200 50 H V C CNN
-F1 "B.B-rescue_M41T62" 0 100 50 H V C CNN
+F1 "B.B-rescue_M41T62-B.B-rescue" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -580,11 +531,11 @@ X SDA 9 -400 -300 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_MH253ESO
+# B.B-rescue_MH253ESO-B.B-rescue
 #
-DEF B.B-rescue_MH253ESO U 0 40 Y Y 1 F N
+DEF B.B-rescue_MH253ESO-B.B-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 200 50 H V C CNN
-F1 "B.B-rescue_MH253ESO" 0 100 50 H V C CNN
+F1 "B.B-rescue_MH253ESO-B.B-rescue" 0 100 50 H V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 DRAW
@@ -595,11 +546,11 @@ X GND 3 0 -350 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_Motor_DC-Motor
+# B.B-rescue_Motor_DC-Motor-B.B-rescue
 #
-DEF B.B-rescue_Motor_DC-Motor M 0 0 Y Y 1 F N
+DEF B.B-rescue_Motor_DC-Motor-B.B-rescue M 0 0 Y Y 1 F N
 F0 "M" 100 100 50 H V L CNN
-F1 "B.B-rescue_Motor_DC-Motor" 100 -200 50 H V L TNN
+F1 "B.B-rescue_Motor_DC-Motor-B.B-rescue" 100 -200 50 H V L TNN
 F2 "" 0 -90 50 H I C CNN
 F3 "" 0 -90 50 H I C CNN
 $FPLIST
@@ -618,11 +569,27 @@ X - 2 0 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_Polyfuse-Device
+# B.B-rescue_NC-B.B-eagle-import
 #
-DEF B.B-rescue_Polyfuse-Device F 0 0 N Y 1 F N
+DEF B.B-rescue_NC-B.B-eagle-import #NC 0 40 Y Y 1 L N
+F0 "#NC" 0 0 50 H I C CNN
+F1 "B.B-rescue_NC-B.B-eagle-import" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 70 35 105 0 N
+P 2 1 0 0 105 0 70 -35 N
+P 2 1 0 0 105 0 140 35 N
+P 2 1 0 0 140 -35 105 0 N
+X NC 1 0 0 100 R 0 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# B.B-rescue_Polyfuse-Device-B.B-rescue
+#
+DEF B.B-rescue_Polyfuse-Device-B.B-rescue F 0 0 N Y 1 F N
 F0 "F" -100 0 50 V V C CNN
-F1 "B.B-rescue_Polyfuse-Device" 100 0 50 V V C CNN
+F1 "B.B-rescue_Polyfuse-Device-B.B-rescue" 100 0 50 V V C CNN
 F2 "" 50 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -638,11 +605,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_Q_NPN_BCE
+# B.B-rescue_Q_NPN_BCE-B.B-rescue
 #
-DEF B.B-rescue_Q_NPN_BCE Q 0 0 Y N 1 F N
+DEF B.B-rescue_Q_NPN_BCE-B.B-rescue Q 0 0 Y N 1 F N
 F0 "Q" 150 50 50 H V L CNN
-F1 "B.B-rescue_Q_NPN_BCE" 150 -50 50 H V L CNN
+F1 "B.B-rescue_Q_NPN_BCE-B.B-rescue" 150 -50 50 H V L CNN
 F2 "" 150 100 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -657,11 +624,11 @@ X C 3 50 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_Q_PMOS_DSG
+# B.B-rescue_Q_PMOS_DSG-B.B-rescue
 #
-DEF B.B-rescue_Q_PMOS_DSG Q 0 0 Y N 1 F N
+DEF B.B-rescue_Q_PMOS_DSG-B.B-rescue Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "B.B-rescue_Q_PMOS_DSG" 200 -50 50 H V L CNN
+F1 "B.B-rescue_Q_PMOS_DSG-B.B-rescue" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -688,11 +655,11 @@ X ~ 6 100 -200 100 U 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_R-Device
+# B.B-rescue_R-Device-B.B-rescue
 #
-DEF B.B-rescue_R-Device R 0 0 N Y 1 F N
+DEF B.B-rescue_R-Device-B.B-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "B.B-rescue_R-Device" 0 0 50 V V C CNN
+F1 "B.B-rescue_R-Device-B.B-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -705,11 +672,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_SE9017
+# B.B-rescue_SE9017-B.B-rescue
 #
-DEF B.B-rescue_SE9017 U 0 40 Y Y 1 F N
+DEF B.B-rescue_SE9017-B.B-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 250 50 H V C CNN
-F1 "B.B-rescue_SE9017" 0 150 50 H V C CNN
+F1 "B.B-rescue_SE9017-B.B-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -723,11 +690,11 @@ X PROG 6 400 -300 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_SPL06
+# B.B-rescue_SPL06-B.B-rescue
 #
-DEF B.B-rescue_SPL06 U 0 40 Y Y 1 F N
+DEF B.B-rescue_SPL06-B.B-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 200 50 H V C CNN
-F1 "B.B-rescue_SPL06" 0 100 50 H V C CNN
+F1 "B.B-rescue_SPL06-B.B-rescue" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -744,11 +711,11 @@ X VDD 8 -400 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_SW_DIP_x01-Switch
+# B.B-rescue_SW_DIP_x01-Switch-B.B-rescue
 #
-DEF B.B-rescue_SW_DIP_x01-Switch SW 0 0 Y N 1 F N
+DEF B.B-rescue_SW_DIP_x01-Switch-B.B-rescue SW 0 0 Y N 1 F N
 F0 "SW" 0 150 50 H V C CNN
-F1 "B.B-rescue_SW_DIP_x01-Switch" 0 -150 50 H V C CNN
+F1 "B.B-rescue_SW_DIP_x01-Switch-B.B-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -764,11 +731,11 @@ X ~ 2 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_SW_DIP_x02-Switch
+# B.B-rescue_SW_DIP_x02-Switch-B.B-rescue
 #
-DEF B.B-rescue_SW_DIP_x02-Switch SW 0 0 Y N 1 F N
+DEF B.B-rescue_SW_DIP_x02-Switch-B.B-rescue SW 0 0 Y N 1 F N
 F0 "SW" 0 250 50 H V C CNN
-F1 "B.B-rescue_SW_DIP_x02-Switch" 0 -150 50 H V C CNN
+F1 "B.B-rescue_SW_DIP_x02-Switch-B.B-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -789,11 +756,11 @@ X ~ 4 300 100 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_USB_C_Receptacle_USB2.0-Connector
+# B.B-rescue_USB_C_Receptacle_USB2.0-Connector-B.B-rescue
 #
-DEF B.B-rescue_USB_C_Receptacle_USB2.0-Connector J 0 40 Y Y 1 F N
+DEF B.B-rescue_USB_C_Receptacle_USB2.0-Connector-B.B-rescue J 0 40 Y Y 1 F N
 F0 "J" -400 750 50 H V L CNN
-F1 "B.B-rescue_USB_C_Receptacle_USB2.0-Connector" 750 750 50 H V R CNN
+F1 "B.B-rescue_USB_C_Receptacle_USB2.0-Connector-B.B-rescue" 750 750 50 H V R CNN
 F2 "" 150 0 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 $FPLIST
@@ -844,6 +811,38 @@ X D- B7 600 0 200 L 50 50 1 1 B
 X SBU2 B8 600 -600 200 L 50 50 1 1 B
 X VBUS B9 600 600 200 L 50 50 1 1 P N
 X SHIELD S1 -300 -900 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# B.B-rescue_VCC-B.B-eagle-import
+#
+DEF B.B-rescue_VCC-B.B-eagle-import #V 0 40 Y Y 1 L P
+F0 "#V" 0 0 50 H I C CNN
+F1 "B.B-rescue_VCC-B.B-eagle-import" -87 75 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -25 -25 0 50 N
+P 2 1 0 0 0 50 25 -25 N
+P 2 1 0 0 25 -25 -25 -25 N
+P 3 1 0 0 0 50 25 -25 -25 -25 F
+X VCC 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# B.B-rescue_WS2812-B.B-eagle-import
+#
+DEF B.B-rescue_WS2812-B.B-eagle-import ~ 0 40 Y Y 1 L N
+F0 "" 0 0 50 H I C CNN
+F1 "B.B-rescue_WS2812-B.B-eagle-import" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 150 250 -150 0 1 0 f
+X VCC 1 -450 -100 200 R 50 50 1 0 B
+X DOUT 2 450 100 200 L 50 50 1 0 B
+X GND 3 450 -100 200 L 50 50 1 0 B
+X DIN 4 -450 100 200 R 50 50 1 0 B
 ENDDRAW
 ENDDEF
 #

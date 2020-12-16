@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L B.B-rescue:Motor_DC-Motor M1
+L B.B-rescue:Motor_DC-Motor-B.B-rescue M1
 U 1 1 5FA5194A
 P 4825 4500
 AR Path="/5F9EE529/5FA5194A" Ref="M1"  Part="1" 
@@ -29,7 +29,7 @@ $EndComp
 Wire Wire Line
 	4825 4800 4825 4950
 $Comp
-L B.B-eagle-import:GND #GND0132
+L B.B-rescue:GND-B.B-eagle-import #GND0132
 U 1 1 5FA5FD95
 P 3625 5050
 AR Path="/5F9EE529/5FA5FD95" Ref="#GND0132"  Part="1" 
@@ -42,7 +42,7 @@ F 3 "" H 3625 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND0134
+L B.B-rescue:GND-B.B-eagle-import #GND0134
 U 1 1 5FA60281
 P 5850 4950
 AR Path="/5F9EE529/5FA60281" Ref="#GND0134"  Part="1" 
@@ -55,7 +55,7 @@ F 3 "" H 5850 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND0133
+L B.B-rescue:GND-B.B-eagle-import #GND0133
 U 1 1 5FAF4CA6
 P 4525 5050
 AR Path="/5F9EE529/5FAF4CA6" Ref="#GND0133"  Part="1" 
@@ -72,7 +72,7 @@ Wire Wire Line
 Text HLabel 3325 4750 0    50   Input ~ 0
 MOTOR
 $Comp
-L B.B-rescue:R-Device R?
+L B.B-rescue:R-Device-B.B-rescue R?
 U 1 1 5FAA51EC
 P 3425 4550
 AR Path="/5F96CFDA/5FAA51EC" Ref="R?"  Part="1" 
@@ -99,7 +99,7 @@ Connection ~ 3225 4250
 Wire Wire Line
 	3225 4250 3425 4250
 $Comp
-L B.B-rescue:D_Schottky-Device D?
+L B.B-rescue:D_Schottky-Device-B.B-rescue D?
 U 1 1 5FBB2FF1
 P 4525 4600
 AR Path="/5FA4C94D/5FBB2FF1" Ref="D?"  Part="1" 
@@ -113,7 +113,7 @@ F 4 "C22452" V 4525 4600 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND0137
+L B.B-rescue:GND-B.B-eagle-import #GND0137
 U 1 1 5F9DF814
 P 7750 3025
 AR Path="/5F9EE529/5F9DF814" Ref="#GND0137"  Part="1" 
@@ -130,7 +130,7 @@ Text HLabel 7950 2225 2    50   Input ~ 0
 Text HLabel 7300 2225 0    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:R-Device R?
+L B.B-rescue:R-Device-B.B-rescue R?
 U 1 1 5FAAB362
 P 7550 2525
 AR Path="/5F96CFDA/5FAAB362" Ref="R?"  Part="1" 
@@ -159,7 +159,7 @@ Wire Wire Line
 Text HLabel 7450 2725 0    50   Input ~ 0
 WS2812-power
 $Comp
-L B.B-rescue:MH253ESO U?
+L B.B-rescue:MH253ESO-B.B-rescue U?
 U 1 1 5FB5B56F
 P 9650 4700
 AR Path="/5F9EE529/5FA93863/5FB5B56F" Ref="U?"  Part="1" 
@@ -168,6 +168,7 @@ F 0 "U71" H 9650 4925 50  0000 C CNN
 F 1 "MH253ESO" H 9650 4834 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9650 4750 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Magnesensor-Tech-MST-MH253ESO_C114369.pdf" H 9650 4750 50  0001 C CNN
+F 4 "C114369" H 9650 4700 50  0001 C CNN "LCSC"
 	1    9650 4700
 	1    0    0    -1  
 $EndComp
@@ -176,7 +177,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 4700 9350 4700
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 5FB5B58D
 P 10100 4900
 AR Path="/5F9EE529/5FA93863/5FB5B58D" Ref="C?"  Part="1" 
@@ -190,7 +191,7 @@ F 4 "C1549" H 10100 4900 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:R-Device R?
+L B.B-rescue:R-Device-B.B-rescue R?
 U 1 1 5FB5B594
 P 10100 4500
 AR Path="/5F9EE529/5FA93863/5FB5B594" Ref="R?"  Part="1" 
@@ -211,7 +212,7 @@ Wire Wire Line
 	10100 4750 10100 4700
 Connection ~ 10100 4700
 $Comp
-L B.B-rescue:MH253ESO U?
+L B.B-rescue:MH253ESO-B.B-rescue U?
 U 1 1 5FB5B5A1
 P 7600 4700
 AR Path="/5F9EE529/5FA93863/5FB5B5A1" Ref="U?"  Part="1" 
@@ -220,13 +221,14 @@ F 0 "U70" H 7600 4925 50  0000 C CNN
 F 1 "MH253ESO" H 7600 4834 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7600 4750 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Magnesensor-Tech-MST-MH253ESO_C114369.pdf" H 7600 4750 50  0001 C CNN
+F 4 "C114369" H 7600 4700 50  0001 C CNN "LCSC"
 	1    7600 4700
 	1    0    0    -1  
 $EndComp
 Text HLabel 5900 4700 0    50   Input ~ 0
 3V3
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 5FB5B5B5
 P 6900 4900
 AR Path="/5F9EE529/5FA93863/5FB5B5B5" Ref="C?"  Part="1" 
@@ -247,7 +249,7 @@ Connection ~ 6900 4700
 Wire Wire Line
 	6900 4700 7300 4700
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 5FB5B5C6
 P 8050 4900
 AR Path="/5F9EE529/5FA93863/5FB5B5C6" Ref="C?"  Part="1" 
@@ -261,7 +263,7 @@ F 4 "C1549" H 8050 4900 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:R-Device R?
+L B.B-rescue:R-Device-B.B-rescue R?
 U 1 1 5FB5B5CD
 P 8050 4500
 AR Path="/5F9EE529/5FA93863/5FB5B5CD" Ref="R?"  Part="1" 
@@ -282,7 +284,7 @@ Wire Wire Line
 	8050 4750 8050 4700
 Connection ~ 8050 4700
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 5FB5B5DB
 P 8950 4900
 AR Path="/5F9EE529/5FA93863/5FB5B5DB" Ref="C?"  Part="1" 
@@ -296,7 +298,7 @@ F 4 "C1532" H 8950 4900 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:Q_PMOS_DSG Q9
+L B.B-rescue:Q_PMOS_DSG-B.B-rescue Q9
 U 1 1 602B1909
 P 7750 2325
 F 0 "Q9" V 8092 2325 50  0000 C CNN
@@ -308,7 +310,7 @@ F 4 "C145421" V 7750 2325 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L B.B-rescue:2N7002-Transistor_FET Q?
+L B.B-rescue:2N7002-Transistor_FET-B.B-rescue Q?
 U 1 1 5FBA8934
 P 7650 2725
 AR Path="/5F77B818/5FBA8934" Ref="Q?"  Part="1" 
@@ -324,7 +326,7 @@ F 4 "C8545" H 7650 2725 50  0001 C CNN "LCSC"
 $EndComp
 Connection ~ 7750 2525
 $Comp
-L B.B-rescue:2N7002-Transistor_FET Q?
+L B.B-rescue:2N7002-Transistor_FET-B.B-rescue Q?
 U 1 1 5FBAB051
 P 3525 4750
 AR Path="/5F77B818/5FBAB051" Ref="Q?"  Part="1" 
@@ -340,7 +342,7 @@ F 4 "C8545" H 3525 4750 50  0001 C CNN "LCSC"
 $EndComp
 Connection ~ 3625 4550
 $Comp
-L B.B-eagle-import:GND #GND?
+L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5FA465E0
 P 4350 2900
 AR Path="/5FA3274C/5FA465E0" Ref="#GND?"  Part="1" 
@@ -353,7 +355,7 @@ F 3 "" H 4350 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:IRM-H936 U?
+L B.B-rescue:IRM-H936-B.B-rescue U?
 U 1 1 5FA465F6
 P 4350 2450
 AR Path="/5FA3274C/5FA465F6" Ref="U?"  Part="1" 
@@ -367,7 +369,7 @@ F 4 "C264266" H 4350 2450 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 5FB0693F
 P 3375 2650
 AR Path="/5FA4C94D/5FB0693F" Ref="C?"  Part="1" 
@@ -382,7 +384,7 @@ F 4 "C49217" H 3375 2650 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND?
+L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5FB06945
 P 3375 2900
 AR Path="/5FA4C94D/5FB06945" Ref="#GND?"  Part="1" 
@@ -403,7 +405,7 @@ Wire Wire Line
 Wire Wire Line
 	3375 2450 3850 2450
 $Comp
-L B.B-rescue:Q_PMOS_DSG Q7
+L B.B-rescue:Q_PMOS_DSG-B.B-rescue Q7
 U 1 1 5FBE7385
 P 3625 4350
 F 0 "Q7" V 3967 4350 50  0000 C CNN
@@ -434,7 +436,7 @@ IR-INPUT
 Text HLabel 2725 2450 0    50   Input ~ 0
 VCC
 $Comp
-L B.B-rescue:D-Device D?
+L B.B-rescue:D-Device-B.B-rescue D?
 U 1 1 5FCDB883
 P 2875 2450
 AR Path="/5F96CFDA/5FCDB883" Ref="D?"  Part="1" 
@@ -452,7 +454,7 @@ F 4 "C109204" V 2875 2450 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 5FCDDF04
 P 3850 2650
 AR Path="/5F96CFDA/5FCDDF04" Ref="C?"  Part="1" 
@@ -476,7 +478,7 @@ Connection ~ 3850 2450
 Wire Wire Line
 	3850 2450 4050 2450
 $Comp
-L B.B-eagle-import:GND #GND?
+L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5FCE1B74
 P 3850 2900
 AR Path="/5FA4C94D/5FCE1B74" Ref="#GND?"  Part="1" 
@@ -490,7 +492,7 @@ F 3 "" H 3850 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:R-Device R?
+L B.B-rescue:R-Device-B.B-rescue R?
 U 1 1 5FD86664
 P 3175 2450
 AR Path="/5F77B818/5FD86664" Ref="R?"  Part="1" 
@@ -504,7 +506,7 @@ F 4 "C25117" H 3175 2450 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:Conn_01x04-Connector_Generic J1
+L B.B-rescue:Conn_01x04-Connector_Generic-B.B-rescue J1
 U 1 1 5FE739E9
 P 6100 4700
 AR Path="/5FE739E9" Ref="J1"  Part="1" 
@@ -567,7 +569,7 @@ Wire Wire Line
 	8050 4350 8050 4300
 Connection ~ 8050 4300
 $Comp
-L B.B-eagle-import:GND #GND0114
+L B.B-rescue:GND-B.B-eagle-import #GND0114
 U 1 1 5FE93EA1
 P 4825 5050
 AR Path="/5F9EE529/5FE93EA1" Ref="#GND0114"  Part="1" 
@@ -600,7 +602,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 4700 10350 4700
 $Comp
-L B.B-rescue:Conn_01x04-Connector_Generic J4
+L B.B-rescue:Conn_01x04-Connector_Generic-B.B-rescue J4
 U 1 1 5FE71BD6
 P 6300 4700
 AR Path="/5FE71BD6" Ref="J4"  Part="1" 
@@ -626,7 +628,7 @@ Wire Wire Line
 	6500 4500 5900 4500
 Connection ~ 6500 4500
 $Comp
-L B.B-rescue:R-Device R?
+L B.B-rescue:R-Device-B.B-rescue R?
 U 1 1 5FA5476F
 P 5350 2350
 AR Path="/5FA3274C/5FA5476F" Ref="R?"  Part="1" 
@@ -640,7 +642,7 @@ F 4 "C25092" V 5350 2350 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND?
+L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5FA465EE
 P 5350 2900
 AR Path="/5FA3274C/5FA465EE" Ref="#GND?"  Part="1" 
@@ -653,7 +655,7 @@ F 3 "" H 5350 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:LED LED?
+L B.B-rescue:LED-B.B-eagle-import LED?
 U 1 1 5FA465E8
 P 5350 2600
 AR Path="/5FA3274C/5FA465E8" Ref="LED?"  Part="1" 

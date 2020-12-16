@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -26,13 +26,14 @@ INT
 Text HLabel 4250 3050 0    50   Input ~ 0
 SHUTDOWN
 $Comp
-L B.B-rescue:LDC1314 U66
+L B.B-rescue:LDC1314-B.B-rescue U66
 U 1 1 5FA9CA7D
 P 4750 3450
 F 0 "U66" H 4750 4325 50  0000 C CNN
 F 1 "LDC1314" H 4750 4234 50  0000 C CNN
 F 2 "Package_DFN_QFN:WQFN-16-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" H 4750 4200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ldc1312.pdf" H 4750 3550 50  0001 C CNN
+F 4 "C80399" H 4750 3450 50  0001 C CNN "LCSC"
 	1    4750 3450
 	-1   0    0    -1  
 $EndComp
@@ -68,7 +69,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 2950 5500 2950
 $Comp
-L B.B-rescue:L-Device L3
+L B.B-rescue:L-Device-B.B-rescue L3
 U 1 1 60038722
 P 5650 2950
 F 0 "L3" V 5700 2800 50  0000 C CNN
@@ -83,13 +84,14 @@ Wire Wire Line
 Wire Wire Line
 	5925 3050 5750 3050
 $Comp
-L B.B-rescue:C-Device C112
+L B.B-rescue:C-Device-B.B-rescue C112
 U 1 1 6003A0BB
 P 5600 3050
 F 0 "C112" V 5550 2900 50  0000 C CNN
 F 1 "1000pf" V 5550 3225 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5638 2900 50  0001 C CNN
 F 3 "~" H 5600 3050 50  0001 C CNN
+F 4 "C1523" V 5600 3050 50  0001 C CNN "LCSC"
 	1    5600 3050
 	0    1    1    0   
 $EndComp
@@ -152,7 +154,7 @@ Wire Wire Line
 Text HLabel 8175 3625 0    50   Input ~ 0
 GND
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 60F4C4C1
 P 3600 3000
 AR Path="/5FA4C94D/60F4C4C1" Ref="C?"  Part="1" 
@@ -166,7 +168,7 @@ F 4 "C52923" V 3600 3000 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 60F4ED82
 P 3325 3000
 AR Path="/5F96CFDA/60F4ED82" Ref="C?"  Part="1" 
@@ -184,7 +186,7 @@ F 4 "C1525" H 3325 3000 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 60F5CF7F
 P 3075 3000
 AR Path="/5F96CFDA/60F5CF7F" Ref="C?"  Part="1" 
@@ -202,7 +204,7 @@ F 4 "C15195" H 3075 3000 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 60F5DC7D
 P 2825 3000
 AR Path="/5F96CFDA/60F5DC7D" Ref="C?"  Part="1" 
@@ -246,18 +248,19 @@ LDC-GND
 Text HLabel 4200 4100 3    50   Input ~ 0
 LDC-GND
 $Comp
-L B.B-rescue:C-Device C78
+L B.B-rescue:C-Device-B.B-rescue C78
 U 1 1 5FD28390
 P 5600 3350
 F 0 "C78" V 5550 3200 50  0000 C CNN
 F 1 "1000pf" V 5550 3525 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5638 3200 50  0001 C CNN
 F 3 "~" H 5600 3350 50  0001 C CNN
+F 4 "C1523" V 5600 3350 50  0001 C CNN "LCSC"
 	1    5600 3350
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:L-Device L5
+L B.B-rescue:L-Device-B.B-rescue L5
 U 1 1 5FD2972B
 P 5650 3550
 F 0 "L5" V 5700 3400 50  0000 C CNN
@@ -268,18 +271,19 @@ F 3 "~" H 5650 3550 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L B.B-rescue:C-Device C79
+L B.B-rescue:C-Device-B.B-rescue C79
 U 1 1 5FD29731
 P 5600 3650
 F 0 "C79" V 5550 3500 50  0000 C CNN
 F 1 "1000pf" V 5550 3825 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5638 3500 50  0001 C CNN
 F 3 "~" H 5600 3650 50  0001 C CNN
+F 4 "C1523" V 5600 3650 50  0001 C CNN "LCSC"
 	1    5600 3650
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:L-Device L6
+L B.B-rescue:L-Device-B.B-rescue L6
 U 1 1 5FD2A7E2
 P 5650 3850
 F 0 "L6" V 5700 3700 50  0000 C CNN
@@ -290,13 +294,14 @@ F 3 "~" H 5650 3850 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L B.B-rescue:C-Device C80
+L B.B-rescue:C-Device-B.B-rescue C80
 U 1 1 5FD2A7E8
 P 5600 3950
 F 0 "C80" V 5550 3800 50  0000 C CNN
 F 1 "1000pf" V 5550 4125 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5638 3800 50  0001 C CNN
 F 3 "~" H 5600 3950 50  0001 C CNN
+F 4 "C1523" V 5600 3950 50  0001 C CNN "LCSC"
 	1    5600 3950
 	0    1    1    0   
 $EndComp
@@ -305,7 +310,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 3250 5500 3250
 $Comp
-L B.B-rescue:L-Device L4
+L B.B-rescue:L-Device-B.B-rescue L4
 U 1 1 5FD2838A
 P 5650 3250
 F 0 "L4" V 5700 3100 50  0000 C CNN

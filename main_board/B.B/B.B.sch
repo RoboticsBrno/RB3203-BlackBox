@@ -48,7 +48,7 @@ Connection ~ 6900 1900
 Wire Wire Line
 	7100 1400 7100 1600
 $Comp
-L B.B-eagle-import:VCC #V01
+L B.B-rescue:VCC-B.B-eagle-import #V01
 U 1 1 5FA8B2FC
 P 3375 1150
 F 0 "#V01" H 3375 1150 50  0001 C CNN
@@ -65,7 +65,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 1500 4300 1500
 $Comp
-L B.B-eagle-import:+5V #V05
+L B.B-rescue:+5V-B.B-eagle-import #V05
 U 1 1 5F970ABB
 P 7350 1150
 F 0 "#V05" H 7350 1150 50  0001 C CNN
@@ -76,7 +76,7 @@ F 3 "" H 7350 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:+3V3 #V04
+L B.B-rescue:+3V3-B.B-eagle-import #V04
 U 1 1 5F9711C3
 P 6550 1150
 F 0 "#V04" H 6550 1150 50  0001 C CNN
@@ -92,7 +92,7 @@ Connection ~ 6550 1400
 Wire Wire Line
 	4300 2150 5250 2150
 $Comp
-L B.B-rescue:R-Device R?
+L B.B-rescue:R-Device-B.B-rescue R?
 U 1 1 5FA57DCC
 P 6900 1600
 AR Path="/5FA4C94D/5FA57DCC" Ref="R?"  Part="1" 
@@ -115,7 +115,7 @@ Connection ~ 7100 3250
 Wire Wire Line
 	4500 1250 4500 1500
 $Comp
-L B.B-eagle-import:+5V #V02
+L B.B-rescue:+5V-B.B-eagle-import #V02
 U 1 1 5F96BCF7
 P 4500 1150
 F 0 "#V02" H 4500 1150 50  0001 C CNN
@@ -175,7 +175,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 3750 5250 3750
 $Comp
-L B.B-rescue:Conn_01x11-Connector_Generic J2
+L B.B-rescue:Conn_01x11-Connector_Generic-B.B-rescue J2
 U 1 1 5FC8A4A2
 P 7600 5350
 F 0 "J2" H 7550 5950 50  0000 L CNN
@@ -190,7 +190,7 @@ Wire Wire Line
 Wire Wire Line
 	3375 1700 3375 2700
 $Comp
-L B.B-eagle-import:GND #GND0156
+L B.B-rescue:GND-B.B-eagle-import #GND0156
 U 1 1 5FBE0F0B
 P 2725 1900
 F 0 "#GND0156" H 2725 1900 50  0001 C CNN
@@ -203,7 +203,7 @@ $EndComp
 Wire Wire Line
 	1850 1550 1850 1500
 $Comp
-L B.B-eagle-import:GND #GND0157
+L B.B-rescue:GND-B.B-eagle-import #GND0157
 U 1 1 5FBA25D8
 P 1850 2250
 F 0 "#GND0157" H 1850 2250 50  0001 C CNN
@@ -214,7 +214,7 @@ F 3 "" H 1850 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:Battery_Cell BT1
+L B.B-rescue:Battery_Cell-B.B-rescue BT1
 U 1 1 5FBA1DA4
 P 2050 2050
 F 0 "BT1" H 2168 2146 50  0000 L CNN
@@ -225,7 +225,7 @@ F 3 "~" V 2050 2110 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND061
+L B.B-rescue:GND-B.B-eagle-import #GND061
 U 1 1 5FA8F1DF
 P 2050 2250
 F 0 "#GND061" H 2050 2250 50  0001 C CNN
@@ -308,7 +308,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 1700 5250 1700
 $Comp
-L B.B-eagle-import:+3V3 #V03
+L B.B-rescue:+3V3-B.B-eagle-import #V03
 U 1 1 5F96C236
 P 4800 1150
 F 0 "#V03" H 4800 1150 50  0001 C CNN
@@ -321,7 +321,7 @@ $EndComp
 Wire Wire Line
 	4800 1250 4800 1700
 $Comp
-L B.B-rescue:Q_PMOS_DSG Q?
+L B.B-rescue:Q_PMOS_DSG-B.B-rescue Q?
 U 1 1 5FBDC479
 P 2725 1600
 AR Path="/5F9EE529/5FBDC479" Ref="Q?"  Part="1" 
@@ -336,7 +336,7 @@ F 4 "C145421" V 2725 1600 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L B.B-rescue:Polyfuse-Device F2
+L B.B-rescue:Polyfuse-Device-B.B-rescue F2
 U 1 1 5FC5EA4C
 P 2050 1700
 F 0 "F2" H 2138 1746 50  0000 L CNN
@@ -348,7 +348,7 @@ F 4 "C20988" H 2050 1700 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:Polyfuse-Device F1
+L B.B-rescue:Polyfuse-Device-B.B-rescue F1
 U 1 1 5FC5F6AE
 P 1850 1700
 F 0 "F1" H 1675 1750 50  0000 L CNN
@@ -382,7 +382,7 @@ F9 "GND" I L 8575 5050 50
 F10 "LDC-GND" I L 8575 5850 50 
 $EndSheet
 $Comp
-L B.B-rescue:Conn_01x11-Connector_Generic J3
+L B.B-rescue:Conn_01x11-Connector_Generic-B.B-rescue J3
 U 1 1 5FC91920
 P 7800 5350
 F 0 "J3" H 7750 5950 50  0000 L CNN
@@ -471,7 +471,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 5450 6250 5450
 $Comp
-L B.B-eagle-import:GND #GND01
+L B.B-rescue:GND-B.B-eagle-import #GND01
 U 1 1 5FC953CE
 P 7325 6050
 F 0 "#GND01" H 7325 6050 50  0001 C CNN
@@ -502,7 +502,7 @@ Wire Wire Line
 Text Label 3700 1325 0    50   ~ 0
 BAT+
 $Comp
-L B.B-rescue:R-Device R?
+L B.B-rescue:R-Device-B.B-rescue R?
 U 1 1 5FA54DFA
 P 6550 1600
 AR Path="/5FA4C94D/5FA54DFA" Ref="R?"  Part="1" 
@@ -519,7 +519,7 @@ $EndComp
 Wire Wire Line
 	7500 3150 7175 3150
 $Comp
-L B.B-eagle-import:VCC #V07
+L B.B-rescue:VCC-B.B-eagle-import #V07
 U 1 1 5FAF85B0
 P 7175 1150
 F 0 "#V07" H 7175 1150 50  0001 C CNN

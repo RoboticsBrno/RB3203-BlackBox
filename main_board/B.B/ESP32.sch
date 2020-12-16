@@ -14,18 +14,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L B.B-rescue:ESP32-WROVER-B.B-eagle-import U65
+L B.B-rescue:ESP32-WROVER-B.B-eagle-import-B.B-rescue U65
 U 1 1 5F77B934
 P 4650 5775
 F 0 "U65" H 4650 6875 60  0000 C CNN
 F 1 "ESP32-WROVER" H 4650 6725 60  0000 C CNN
 F 2 "BB:ESP32-WROVER" H 5100 5475 60  0001 C CNN
-F 3 "" H 5100 5475 60  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wrover-b_datasheet_en.pdf" H 5100 5475 60  0001 C CNN
+F 4 "C503591" H 4650 5775 50  0001 C CNN "LCSC"
 	1    4650 5775
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND0129
+L B.B-rescue:GND-B.B-eagle-import #GND0129
 U 1 1 5F78AA86
 P 4650 7075
 F 0 "#GND0129" H 4650 7075 50  0001 C CNN
@@ -36,7 +37,7 @@ F 3 "" H 4650 7075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:USB_C_Receptacle_USB2.0-Connector J5
+L B.B-rescue:USB_C_Receptacle_USB2.0-Connector-B.B-rescue J5
 U 1 1 5F7A6C0B
 P 1900 2550
 F 0 "J5" H 2007 3417 50  0000 C CNN
@@ -47,7 +48,7 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2050 25
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND0122
+L B.B-rescue:GND-B.B-eagle-import #GND0122
 U 1 1 5F7AFD73
 P 1900 3550
 F 0 "#GND0122" H 1900 3550 50  0001 C CNN
@@ -58,7 +59,7 @@ F 3 "" H 1900 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:R-Device R31
+L B.B-rescue:R-Device-B.B-rescue R31
 U 1 1 5F7A8F71
 P 2800 2450
 F 0 "R31" H 2870 2496 50  0000 L CNN
@@ -76,7 +77,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 2300 3100 2150
 $Comp
-L B.B-eagle-import:GND #GND0118
+L B.B-rescue:GND-B.B-eagle-import #GND0118
 U 1 1 5F7A9D47
 P 2800 2700
 F 0 "#GND0118" H 2800 2700 50  0001 C CNN
@@ -87,7 +88,7 @@ F 3 "" H 2800 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND0119
+L B.B-rescue:GND-B.B-eagle-import #GND0119
 U 1 1 5F7A9FFA
 P 3100 2700
 F 0 "#GND0119" H 3100 2700 50  0001 C CNN
@@ -119,7 +120,7 @@ Wire Wire Line
 	3450 5075 3550 5075
 Connection ~ 3450 5075
 $Comp
-L B.B-rescue:R-Device R33
+L B.B-rescue:R-Device-B.B-rescue R33
 U 1 1 5F80B567
 P 8900 3350
 F 0 "R33" H 8970 3396 50  0000 L CNN
@@ -131,7 +132,7 @@ F 4 "C25752" H 8900 3350 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L B.B-rescue:R-Device R37
+L B.B-rescue:R-Device-B.B-rescue R37
 U 1 1 5F82433D
 P 8900 3850
 F 0 "R37" H 8970 3896 50  0000 L CNN
@@ -143,7 +144,7 @@ F 4 "C25752" H 8900 3850 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:R-Device R35
+L B.B-rescue:R-Device-B.B-rescue R35
 U 1 1 5F8281DA
 P 8900 3600
 F 0 "R35" H 8970 3646 50  0000 L CNN
@@ -169,7 +170,7 @@ Connection ~ 9150 3350
 Wire Wire Line
 	9150 3350 9150 3600
 $Comp
-L B.B-rescue:C-Device C103
+L B.B-rescue:C-Device-B.B-rescue C103
 U 1 1 5F84DAE6
 P 4950 1450
 F 0 "C103" H 5065 1496 50  0000 L CNN
@@ -181,7 +182,7 @@ F 4 "C15850" H 4950 1450 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND0111
+L B.B-rescue:GND-B.B-eagle-import #GND0111
 U 1 1 5F8533E6
 P 4950 1700
 F 0 "#GND0111" H 4950 1700 50  0001 C CNN
@@ -194,7 +195,7 @@ $EndComp
 Wire Wire Line
 	4950 1300 4950 1250
 $Comp
-L B.B-rescue:C-Device C102
+L B.B-rescue:C-Device-B.B-rescue C102
 U 1 1 5F8566B5
 P 4500 1450
 F 0 "C102" H 4615 1496 50  0000 L CNN
@@ -206,7 +207,7 @@ F 4 "C14663" H 4500 1450 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND0110
+L B.B-rescue:GND-B.B-eagle-import #GND0110
 U 1 1 5F856D83
 P 4500 1700
 F 0 "#GND0110" H 4500 1700 50  0001 C CNN
@@ -224,7 +225,7 @@ Wire Wire Line
 	2300 5025 2300 4975
 Connection ~ 2300 4975
 $Comp
-L B.B-eagle-import:GND #GND0126
+L B.B-rescue:GND-B.B-eagle-import #GND0126
 U 1 1 5F96DA82
 P 2750 5425
 F 0 "#GND0126" H 2750 5425 50  0001 C CNN
@@ -235,7 +236,7 @@ F 3 "" H 2750 5425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND0125
+L B.B-rescue:GND-B.B-eagle-import #GND0125
 U 1 1 5F96DE9E
 P 2300 5425
 F 0 "#GND0125" H 2300 5425 50  0001 C CNN
@@ -246,7 +247,7 @@ F 3 "" H 2300 5425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:C-Device C109
+L B.B-rescue:C-Device-B.B-rescue C109
 U 1 1 5F970DFC
 P 2750 5175
 F 0 "C109" H 2865 5221 50  0000 L CNN
@@ -258,7 +259,7 @@ F 4 "C15850" H 2750 5175 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:C-Device C108
+L B.B-rescue:C-Device-B.B-rescue C108
 U 1 1 5F971517
 P 2300 5175
 F 0 "C108" H 2415 5221 50  0000 L CNN
@@ -278,7 +279,7 @@ D-
 Text Label 2500 2450 0    50   ~ 0
 D-
 $Comp
-L B.B-rescue:R-Device R34
+L B.B-rescue:R-Device-B.B-rescue R34
 U 1 1 5F7BE1D0
 P 9800 3350
 F 0 "R34" H 9870 3396 50  0000 L CNN
@@ -290,7 +291,7 @@ F 4 "C25752" H 9800 3350 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:R-Device R36
+L B.B-rescue:R-Device-B.B-rescue R36
 U 1 1 5F7BE95B
 P 9800 3600
 F 0 "R36" H 9870 3646 50  0000 L CNN
@@ -311,7 +312,7 @@ Connection ~ 10000 3600
 Wire Wire Line
 	10000 3600 10000 3950
 $Comp
-L B.B-eagle-import:GND #GND0123
+L B.B-rescue:GND-B.B-eagle-import #GND0123
 U 1 1 5F7C3BCF
 P 10000 4050
 F 0 "#GND0123" H 10000 4050 50  0001 C CNN
@@ -424,7 +425,7 @@ IO19
 Text HLabel 3550 6675 0    50   Input ~ 0
 IO18
 $Comp
-L B.B-rescue:2N7002-Transistor_FET Q3
+L B.B-rescue:2N7002-Transistor_FET-B.B-rescue Q3
 U 1 1 5F83FB30
 P 3900 1350
 F 0 "Q3" V 4104 1396 50  0000 L CNN
@@ -438,7 +439,7 @@ $EndComp
 Wire Wire Line
 	3700 1250 3600 1250
 $Comp
-L B.B-rescue:R-Device R28
+L B.B-rescue:R-Device-B.B-rescue R28
 U 1 1 5F860400
 P 4150 2150
 F 0 "R28" H 4220 2196 50  0000 L CNN
@@ -452,7 +453,7 @@ $EndComp
 Wire Wire Line
 	4150 2000 4150 1950
 $Comp
-L B.B-eagle-import:GND #GND0113
+L B.B-rescue:GND-B.B-eagle-import #GND0113
 U 1 1 5F862EDC
 P 4150 2400
 F 0 "#GND0113" H 4150 2400 50  0001 C CNN
@@ -467,7 +468,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 1950 2800 1950
 $Comp
-L B.B-rescue:SW_DIP_x01-Switch SW1
+L B.B-rescue:SW_DIP_x01-Switch-B.B-rescue SW1
 U 1 1 5F90B5A3
 P 7650 5400
 F 0 "SW1" H 7650 5667 50  0000 C CNN
@@ -479,7 +480,7 @@ F 4 "C318889" H 7650 5400 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:R-Device R20
+L B.B-rescue:R-Device-B.B-rescue R20
 U 1 1 5F913318
 P 8200 5400
 F 0 "R20" H 8270 5446 50  0000 L CNN
@@ -500,7 +501,7 @@ Connection ~ 7250 5650
 Wire Wire Line
 	7250 5650 7250 5800
 $Comp
-L B.B-eagle-import:GND #GND0112
+L B.B-rescue:GND-B.B-eagle-import #GND0112
 U 1 1 5F917986
 P 7250 5900
 F 0 "#GND0112" H 7250 5900 50  0001 C CNN
@@ -520,7 +521,7 @@ Wire Wire Line
 	8000 5400 8050 5400
 Connection ~ 8000 5400
 $Comp
-L B.B-rescue:R-Device R30
+L B.B-rescue:R-Device-B.B-rescue R30
 U 1 1 5F936AC5
 P 9900 5400
 F 0 "R30" H 9970 5446 50  0000 L CNN
@@ -541,7 +542,7 @@ Connection ~ 8950 5650
 Wire Wire Line
 	8950 5650 8950 5800
 $Comp
-L B.B-eagle-import:GND #GND0120
+L B.B-rescue:GND-B.B-eagle-import #GND0120
 U 1 1 5F936AD0
 P 8950 5900
 F 0 "#GND0120" H 8950 5900 50  0001 C CNN
@@ -567,7 +568,7 @@ IO0
 Text Label 10200 5400 0    50   ~ 0
 EN
 $Comp
-L B.B-rescue:R-Device R21
+L B.B-rescue:R-Device-B.B-rescue R21
 U 1 1 5F898834
 P 4150 1450
 F 0 "R21" H 4220 1496 50  0000 L CNN
@@ -581,7 +582,7 @@ $EndComp
 Wire Wire Line
 	4150 1300 4150 1250
 $Comp
-L B.B-eagle-import:GND #GND0109
+L B.B-rescue:GND-B.B-eagle-import #GND0109
 U 1 1 5F89883B
 P 4150 1700
 F 0 "#GND0109" H 4150 1700 50  0001 C CNN
@@ -616,7 +617,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 1350 5850 1250
 $Comp
-L B.B-eagle-import:GND #GND0124
+L B.B-rescue:GND-B.B-eagle-import #GND0124
 U 1 1 5F7AF961
 P 5950 4050
 F 0 "#GND0124" H 5950 4050 50  0001 C CNN
@@ -627,7 +628,7 @@ F 3 "" H 5950 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:CP2102N-A01-GQFN28-Interface_USB U64
+L B.B-rescue:CP2102N-A01-GQFN28-Interface_USB-B.B-rescue U64
 U 1 1 5F78AFDC
 P 5950 2650
 F 0 "U64" H 6125 1350 50  0000 C CNN
@@ -643,7 +644,7 @@ Connection ~ 4950 1250
 Wire Wire Line
 	4950 1250 5250 1250
 $Comp
-L B.B-rescue:R-Device R22
+L B.B-rescue:R-Device-B.B-rescue R22
 U 1 1 5F8D7784
 P 5350 1450
 F 0 "R22" H 5420 1496 50  0000 L CNN
@@ -670,7 +671,7 @@ Wire Wire Line
 Wire Wire Line
 	8975 1800 9150 1800
 $Comp
-L B.B-rescue:R-Device R23
+L B.B-rescue:R-Device-B.B-rescue R23
 U 1 1 5F9B97DB
 P 9350 1800
 F 0 "R23" H 9420 1846 50  0000 L CNN
@@ -682,7 +683,7 @@ F 4 "C25752" H 9350 1800 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L B.B-rescue:R-Device R29
+L B.B-rescue:R-Device-B.B-rescue R29
 U 1 1 5F9BA036
 P 9350 2450
 F 0 "R29" H 9420 2496 50  0000 L CNN
@@ -720,7 +721,7 @@ Text HLabel 3600 1150 1    50   Input ~ 0
 Text HLabel 9150 3250 1    50   Input ~ 0
 3V3
 $Comp
-L B.B-eagle-import:NC #NC19
+L B.B-rescue:NC-B.B-eagle-import #NC19
 U 1 1 5F97CFEA
 P 5750 6225
 F 0 "#NC19" H 5750 6225 50  0001 C CNN
@@ -731,7 +732,7 @@ F 3 "" H 5750 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC20
+L B.B-rescue:NC-B.B-eagle-import #NC20
 U 1 1 5F97D3F4
 P 5750 6325
 F 0 "#NC20" H 5750 6325 50  0001 C CNN
@@ -742,7 +743,7 @@ F 3 "" H 5750 6325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC21
+L B.B-rescue:NC-B.B-eagle-import #NC21
 U 1 1 5F97D6A8
 P 5750 6425
 F 0 "#NC21" H 5750 6425 50  0001 C CNN
@@ -753,7 +754,7 @@ F 3 "" H 5750 6425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC22
+L B.B-rescue:NC-B.B-eagle-import #NC22
 U 1 1 5F97D83A
 P 5750 6525
 F 0 "#NC22" H 5750 6525 50  0001 C CNN
@@ -764,7 +765,7 @@ F 3 "" H 5750 6525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC23
+L B.B-rescue:NC-B.B-eagle-import #NC23
 U 1 1 5F97DB2A
 P 5750 6625
 F 0 "#NC23" H 5750 6625 50  0001 C CNN
@@ -775,7 +776,7 @@ F 3 "" H 5750 6625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC24
+L B.B-rescue:NC-B.B-eagle-import #NC24
 U 1 1 5F97DDA8
 P 5750 6725
 F 0 "#NC24" H 5750 6725 50  0001 C CNN
@@ -786,7 +787,7 @@ F 3 "" H 5750 6725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC10
+L B.B-rescue:NC-B.B-eagle-import #NC10
 U 1 1 5F983066
 P 2500 3050
 F 0 "#NC10" H 2500 3050 50  0001 C CNN
@@ -797,7 +798,7 @@ F 3 "" H 2500 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC11
+L B.B-rescue:NC-B.B-eagle-import #NC11
 U 1 1 5F988908
 P 2500 3150
 F 0 "#NC11" H 2500 3150 50  0001 C CNN
@@ -808,7 +809,7 @@ F 3 "" H 2500 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC1
+L B.B-rescue:NC-B.B-eagle-import #NC1
 U 1 1 5F9891B2
 P 6450 1550
 F 0 "#NC1" H 6450 1550 50  0001 C CNN
@@ -819,7 +820,7 @@ F 3 "" H 6450 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC2
+L B.B-rescue:NC-B.B-eagle-import #NC2
 U 1 1 5F989CAA
 P 6450 1950
 F 0 "#NC2" H 6450 1950 50  0001 C CNN
@@ -830,7 +831,7 @@ F 3 "" H 6450 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC3
+L B.B-rescue:NC-B.B-eagle-import #NC3
 U 1 1 5F98A6BC
 P 6450 2150
 F 0 "#NC3" H 6450 2150 50  0001 C CNN
@@ -841,7 +842,7 @@ F 3 "" H 6450 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC4
+L B.B-rescue:NC-B.B-eagle-import #NC4
 U 1 1 5F98B044
 P 6450 2250
 F 0 "#NC4" H 6450 2250 50  0001 C CNN
@@ -852,7 +853,7 @@ F 3 "" H 6450 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC5
+L B.B-rescue:NC-B.B-eagle-import #NC5
 U 1 1 5F98B935
 P 6450 2450
 F 0 "#NC5" H 6450 2450 50  0001 C CNN
@@ -863,7 +864,7 @@ F 3 "" H 6450 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC6
+L B.B-rescue:NC-B.B-eagle-import #NC6
 U 1 1 5F98C226
 P 6450 2550
 F 0 "#NC6" H 6450 2550 50  0001 C CNN
@@ -874,7 +875,7 @@ F 3 "" H 6450 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC7
+L B.B-rescue:NC-B.B-eagle-import #NC7
 U 1 1 5F98CB26
 P 6450 2750
 F 0 "#NC7" H 6450 2750 50  0001 C CNN
@@ -885,7 +886,7 @@ F 3 "" H 6450 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC8
+L B.B-rescue:NC-B.B-eagle-import #NC8
 U 1 1 5F98D507
 P 6450 2850
 F 0 "#NC8" H 6450 2850 50  0001 C CNN
@@ -896,7 +897,7 @@ F 3 "" H 6450 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC9
+L B.B-rescue:NC-B.B-eagle-import #NC9
 U 1 1 5F98DF13
 P 6450 2950
 F 0 "#NC9" H 6450 2950 50  0001 C CNN
@@ -907,7 +908,7 @@ F 3 "" H 6450 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC14
+L B.B-rescue:NC-B.B-eagle-import #NC14
 U 1 1 5F98F79E
 P 6450 3350
 F 0 "#NC14" H 6450 3350 50  0001 C CNN
@@ -918,7 +919,7 @@ F 3 "" H 6450 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC15
+L B.B-rescue:NC-B.B-eagle-import #NC15
 U 1 1 5F990117
 P 6450 3450
 F 0 "#NC15" H 6450 3450 50  0001 C CNN
@@ -929,7 +930,7 @@ F 3 "" H 6450 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC16
+L B.B-rescue:NC-B.B-eagle-import #NC16
 U 1 1 5F992F19
 P 6450 3550
 F 0 "#NC16" H 6450 3550 50  0001 C CNN
@@ -940,7 +941,7 @@ F 3 "" H 6450 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC17
+L B.B-rescue:NC-B.B-eagle-import #NC17
 U 1 1 5F993967
 P 6450 3650
 F 0 "#NC17" H 6450 3650 50  0001 C CNN
@@ -951,7 +952,7 @@ F 3 "" H 6450 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC18
+L B.B-rescue:NC-B.B-eagle-import #NC18
 U 1 1 5F9943B5
 P 6450 3750
 F 0 "#NC18" H 6450 3750 50  0001 C CNN
@@ -962,7 +963,7 @@ F 3 "" H 6450 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:C-Device C104
+L B.B-rescue:C-Device-B.B-rescue C104
 U 1 1 5FABBE4E
 P 7650 5650
 F 0 "C104" V 7700 5800 50  0000 C CNN
@@ -974,7 +975,7 @@ F 4 "C1525" V 7650 5650 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L B.B-rescue:R-Device R32
+L B.B-rescue:R-Device-B.B-rescue R32
 U 1 1 5FAC0DBD
 P 3100 2450
 F 0 "R32" H 3170 2496 50  0000 L CNN
@@ -986,7 +987,7 @@ F 4 "C25905" H 3100 2450 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:LED LED1
+L B.B-rescue:LED-B.B-eagle-import LED1
 U 1 1 5FAD0890
 P 7400 2575
 F 0 "LED1" H 7478 2578 59  0000 L CNN
@@ -998,7 +999,7 @@ F 4 "C2286" H 7400 2575 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:LED LED2
+L B.B-rescue:LED-B.B-eagle-import LED2
 U 1 1 5FAD1734
 P 6950 2575
 F 0 "LED2" H 7028 2578 59  0000 L CNN
@@ -1012,7 +1013,7 @@ $EndComp
 Wire Wire Line
 	7400 3075 7400 3250
 $Comp
-L B.B-rescue:R-Device R?
+L B.B-rescue:R-Device-B.B-rescue R?
 U 1 1 5FA6121E
 P 6900 1750
 AR Path="/5FA3274C/5FA6121E" Ref="R?"  Part="1" 
@@ -1027,7 +1028,7 @@ F 4 "C25092" V 6900 1750 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:R-Device R?
+L B.B-rescue:R-Device-B.B-rescue R?
 U 1 1 5FA64256
 P 6900 1850
 AR Path="/5FA3274C/5FA64256" Ref="R?"  Part="1" 
@@ -1042,7 +1043,7 @@ F 4 "C25092" V 6900 1850 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:R-Device R?
+L B.B-rescue:R-Device-B.B-rescue R?
 U 1 1 5FA643BB
 P 6950 2925
 AR Path="/5FA3274C/5FA643BB" Ref="R?"  Part="1" 
@@ -1057,7 +1058,7 @@ F 4 "C25092" V 6950 2925 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:R-Device R?
+L B.B-rescue:R-Device-B.B-rescue R?
 U 1 1 5FA646C4
 P 7400 2925
 AR Path="/5FA3274C/5FA646C4" Ref="R?"  Part="1" 
@@ -1079,7 +1080,7 @@ Connection ~ 2800 1950
 Wire Wire Line
 	2800 1950 3075 1950
 $Comp
-L B.B-rescue:SW_DIP_x01-Switch SW2
+L B.B-rescue:SW_DIP_x01-Switch-B.B-rescue SW2
 U 1 1 5FB1B20F
 P 9350 5400
 F 0 "SW2" H 9350 5667 50  0000 C CNN
@@ -1091,7 +1092,7 @@ F 4 "C318889" H 9350 5400 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:C-Device C107
+L B.B-rescue:C-Device-B.B-rescue C107
 U 1 1 5FB1BF0E
 P 9350 5650
 F 0 "C107" V 9400 5800 50  0000 C CNN
@@ -1105,7 +1106,7 @@ $EndComp
 Wire Wire Line
 	10050 5400 10200 5400
 $Comp
-L B.B-rescue:R-Device R38
+L B.B-rescue:R-Device-B.B-rescue R38
 U 1 1 5FBD064E
 P 3450 4725
 F 0 "R38" H 3520 4771 50  0000 L CNN
@@ -1130,7 +1131,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 3150 6950 3075
 $Comp
-L B.B-rescue:Q_NPN_BCE MMBT3904
+L B.B-rescue:Q_NPN_BCE-B.B-rescue MMBT3904
 U 1 1 60277490
 P 9750 1800
 F 0 "MMBT3904" H 9891 1846 50  0000 L CNN
@@ -1142,7 +1143,7 @@ F 4 "C20526" H 9750 1800 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:Q_NPN_BCE MMBT1
+L B.B-rescue:Q_NPN_BCE-B.B-rescue MMBT1
 U 1 1 60279667
 P 9750 2450
 F 0 "MMBT1" H 9891 2404 50  0000 L CNN
@@ -1154,7 +1155,7 @@ F 4 "C20526" H 9750 2450 50  0001 C CNN "LCSC"
 	1    0    0    1   
 $EndComp
 $Comp
-L B.B-rescue:SW_DIP_x02-Switch SW4
+L B.B-rescue:SW_DIP_x02-Switch-B.B-rescue SW4
 U 1 1 5FB55D9C
 P 3375 1950
 F 0 "SW4" H 3375 2317 50  0000 C CNN
@@ -1181,7 +1182,7 @@ Wire Wire Line
 Text HLabel 6300 1250 2    50   Input ~ 0
 cable_connected
 $Comp
-L B.B-rescue:R-Device R?
+L B.B-rescue:R-Device-B.B-rescue R?
 U 1 1 5FB94C99
 P 6150 1250
 AR Path="/5FA3274C/5FB94C99" Ref="R?"  Part="1" 
@@ -1199,7 +1200,7 @@ Wire Wire Line
 	6000 1250 5950 1250
 Connection ~ 5950 1250
 $Comp
-L B.B-eagle-import:NC #NC28
+L B.B-rescue:NC-B.B-eagle-import #NC28
 U 1 1 5FC5D9A0
 P 1600 3450
 F 0 "#NC28" H 1600 3450 50  0001 C CNN

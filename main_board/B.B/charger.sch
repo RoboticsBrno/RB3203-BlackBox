@@ -16,7 +16,7 @@ $EndDescr
 Wire Wire Line
 	3900 3400 3975 3400
 $Comp
-L B.B-eagle-import:LED LED?
+L B.B-rescue:LED-B.B-eagle-import LED?
 U 1 1 5FBFF4C4
 P 4700 3550
 AR Path="/5FA3274C/5FBFF4C4" Ref="LED?"  Part="1" 
@@ -31,7 +31,7 @@ F 4 "C2286" H 4700 3550 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L B.B-eagle-import:LED LED?
+L B.B-rescue:LED-B.B-eagle-import LED?
 U 1 1 5FC00D50
 P 4700 3775
 AR Path="/5FA3274C/5FC00D50" Ref="LED?"  Part="1" 
@@ -55,7 +55,7 @@ Connection ~ 4550 3550
 Wire Wire Line
 	4550 3550 4550 3400
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 5FB55492
 P 3975 3625
 AR Path="/5F96CFDA/5FB55492" Ref="C?"  Part="1" 
@@ -73,7 +73,7 @@ F 4 "C52923" H 3975 3625 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND?
+L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5FB55498
 P 3975 3875
 AR Path="/5F96CFDA/5FB55498" Ref="#GND?"  Part="1" 
@@ -99,7 +99,7 @@ Connection ~ 3975 3400
 Wire Wire Line
 	3975 3400 4550 3400
 $Comp
-L B.B-rescue:R-Device R16
+L B.B-rescue:R-Device-B.B-rescue R16
 U 1 1 5FC03C27
 P 5050 3550
 F 0 "R16" V 5100 3425 50  0000 R CNN
@@ -111,7 +111,7 @@ F 4 "C11702" V 5050 3550 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L B.B-rescue:R-Device R19
+L B.B-rescue:R-Device-B.B-rescue R19
 U 1 1 5FC04CCC
 P 5050 3775
 F 0 "R19" V 5125 4000 50  0000 R CNN
@@ -123,7 +123,7 @@ F 4 "C11702" V 5050 3775 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND0104
+L B.B-rescue:GND-B.B-eagle-import #GND0104
 U 1 1 5FB90F26
 P 5775 3950
 F 0 "#GND0104" H 5775 3950 50  0001 C CNN
@@ -134,7 +134,7 @@ F 3 "" H 5775 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND?
+L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5FB9D127
 P 6225 4150
 AR Path="/5FA4C94D/5FB9D127" Ref="#GND?"  Part="1" 
@@ -148,7 +148,7 @@ F 3 "" H 6225 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:R-Device R48
+L B.B-rescue:R-Device-B.B-rescue R48
 U 1 1 5FB9BA20
 P 6225 3900
 F 0 "R48" H 6155 3854 50  0000 R CNN
@@ -171,7 +171,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 3550 5325 3550
 $Comp
-L B.B-rescue:SE9017 U72
+L B.B-rescue:SE9017-B.B-rescue U72
 U 1 1 5FB4881E
 P 5775 3400
 F 0 "U72" H 5750 3625 50  0000 C CNN
@@ -187,7 +187,7 @@ Wire Wire Line
 Wire Wire Line
 	6675 3450 6675 3400
 $Comp
-L B.B-eagle-import:GND #GND?
+L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5FB5121E
 P 6675 3850
 AR Path="/5F96CFDA/5FB5121E" Ref="#GND?"  Part="1" 
@@ -204,7 +204,7 @@ F 3 "" H 6675 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 5FB51226
 P 6675 3600
 AR Path="/5F96CFDA/5FB51226" Ref="C?"  Part="1" 

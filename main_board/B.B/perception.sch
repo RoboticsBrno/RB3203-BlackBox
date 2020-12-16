@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L B.B-rescue:BMX055 U?
+L B.B-rescue:BMX055-B.B-rescue U?
 U 1 1 5F9701D7
 P 6150 1700
 AR Path="/5F96CFDA/5F9701D7" Ref="U?"  Part="1" 
@@ -37,7 +37,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 1750 5500 1750
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 5F971B50
 P 4550 1950
 AR Path="/5F96CFDA/5F971B50" Ref="C?"  Part="1" 
@@ -54,7 +54,7 @@ F 4 "C15850" H 4550 1950 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND?
+L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5F972192
 P 4550 2200
 AR Path="/5F96CFDA/5F972192" Ref="#GND?"  Part="1" 
@@ -70,7 +70,7 @@ F 3 "" H 4550 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 5F974417
 P 4950 1950
 AR Path="/5F96CFDA/5F974417" Ref="C?"  Part="1" 
@@ -87,7 +87,7 @@ F 4 "C1525" H 4950 1950 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND?
+L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5F97A11B
 P 4950 2200
 AR Path="/5F96CFDA/5F97A11B" Ref="#GND?"  Part="1" 
@@ -127,7 +127,7 @@ Wire Wire Line
 	5500 2000 5500 1850
 Connection ~ 5500 1850
 $Comp
-L B.B-eagle-import:GND #GND?
+L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5F97F861
 P 6100 2900
 AR Path="/5F96CFDA/5F97F861" Ref="#GND?"  Part="1" 
@@ -159,7 +159,7 @@ int_giro2
 Text HLabel 6850 2150 2    50   Input ~ 0
 int_magnet
 $Comp
-L B.B-rescue:M41T62 U?
+L B.B-rescue:M41T62-B.B-rescue U?
 U 1 1 5F935E15
 P 6100 3600
 AR Path="/5F96CFDA/5F935E15" Ref="U?"  Part="1" 
@@ -176,7 +176,7 @@ F 4 "C113207" H 6100 3600 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:D-Device D?
+L B.B-rescue:D-Device-B.B-rescue D?
 U 1 1 5F93AF19
 P 4700 3600
 AR Path="/5F96CFDA/5F93AF19" Ref="D?"  Part="1" 
@@ -195,7 +195,7 @@ $EndComp
 Wire Wire Line
 	4550 3600 4500 3600
 $Comp
-L B.B-rescue:Crystal-Device Y?
+L B.B-rescue:Crystal-Device-B.B-rescue Y?
 U 1 1 5F93D78D
 P 6750 4100
 AR Path="/5F96CFDA/5F93D78D" Ref="Y?"  Part="1" 
@@ -224,7 +224,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 4300 6750 4250
 $Comp
-L B.B-eagle-import:GND #GND?
+L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5F9470EF
 P 6100 4250
 AR Path="/5F96CFDA/5F9470EF" Ref="#GND?"  Part="1" 
@@ -240,7 +240,7 @@ F 3 "" H 6100 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND?
+L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5F94A059
 P 4950 4050
 AR Path="/5F96CFDA/5F94A059" Ref="#GND?"  Part="1" 
@@ -258,7 +258,7 @@ $EndComp
 Wire Wire Line
 	4950 3650 4950 3600
 $Comp
-L B.B-eagle-import:NC #NC?
+L B.B-rescue:NC-B.B-eagle-import #NC?
 U 1 1 5F959D3B
 P 6550 3600
 AR Path="/5F96CFDA/5F959D3B" Ref="#NC?"  Part="1" 
@@ -276,7 +276,7 @@ $EndComp
 Text HLabel 6550 3700 2    50   Input ~ 0
 int_RTC
 $Comp
-L B.B-rescue:SPL06 U?
+L B.B-rescue:SPL06-B.B-rescue U?
 U 1 1 5F967811
 P 6100 5000
 AR Path="/5F96CFDA/5F967811" Ref="U?"  Part="1" 
@@ -299,7 +299,7 @@ SDA
 Text HLabel 6950 5100 2    50   Input ~ 0
 int_baro
 $Comp
-L B.B-eagle-import:NC #NC?
+L B.B-rescue:NC-B.B-eagle-import #NC?
 U 1 1 5F96E1FD
 P 6500 5300
 AR Path="/5F96CFDA/5F96E1FD" Ref="#NC?"  Part="1" 
@@ -315,7 +315,7 @@ F 3 "" H 6500 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC?
+L B.B-rescue:NC-B.B-eagle-import #NC?
 U 1 1 5F970396
 P 6850 2550
 AR Path="/5F96CFDA/5F970396" Ref="#NC?"  Part="1" 
@@ -331,7 +331,7 @@ F 3 "" H 6850 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC?
+L B.B-rescue:NC-B.B-eagle-import #NC?
 U 1 1 5F970862
 P 6850 2650
 AR Path="/5F96CFDA/5F970862" Ref="#NC?"  Part="1" 
@@ -347,7 +347,7 @@ F 3 "" H 6850 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:NC #NC?
+L B.B-rescue:NC-B.B-eagle-import #NC?
 U 1 1 5F970C9C
 P 5550 2650
 AR Path="/5F96CFDA/5F970C9C" Ref="#NC?"  Part="1" 
@@ -365,7 +365,7 @@ $EndComp
 Text HLabel 5000 4950 1    50   Input ~ 0
 3V3
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 5F975C33
 P 5000 5200
 AR Path="/5F96CFDA/5F975C33" Ref="C?"  Part="1" 
@@ -382,7 +382,7 @@ F 4 "C52923" H 5000 5200 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-eagle-import:GND #GND?
+L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5F975C39
 P 5000 5450
 AR Path="/5F96CFDA/5F975C39" Ref="#GND?"  Part="1" 
@@ -400,7 +400,7 @@ $EndComp
 Wire Wire Line
 	5000 5050 5000 5000
 $Comp
-L B.B-rescue:C-Device C?
+L B.B-rescue:C-Device-B.B-rescue C?
 U 1 1 5F9780C8
 P 4950 3800
 AR Path="/5F96CFDA/5F9780C8" Ref="C?"  Part="1" 
@@ -431,7 +431,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 5100 6850 5100
 $Comp
-L B.B-eagle-import:GND #GND?
+L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5F98C0A7
 P 6100 5650
 AR Path="/5F96CFDA/5F98C0A7" Ref="#GND?"  Part="1" 
@@ -447,7 +447,7 @@ F 3 "" H 6100 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L B.B-rescue:R-Device R?
+L B.B-rescue:R-Device-B.B-rescue R?
 U 1 1 5F990B4D
 P 6850 5300
 AR Path="/5F96CFDA/5F990B4D" Ref="R?"  Part="1" 
@@ -466,7 +466,7 @@ $EndComp
 Wire Wire Line
 	6850 5150 6850 5100
 $Comp
-L B.B-eagle-import:GND #GND?
+L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5F9924A7
 P 6850 5550
 AR Path="/5F96CFDA/5F9924A7" Ref="#GND?"  Part="1" 

@@ -22,7 +22,7 @@ DIN
 Wire Wire Line
 	900  1100 1350 1100
 $Comp
-L B.B-rescue:C-Device C1
+L B.B-rescue:C-Device-B.B-rescue C1
 U 1 1 5FAB9594
 P 1850 1300
 F 0 "C1" V 1800 1450 50  0000 C CNN
@@ -88,7 +88,7 @@ Wire Wire Line
 Text HLabel 3750 750  1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C2
+L B.B-rescue:C-Device-B.B-rescue C2
 U 1 1 5FAC4561
 P 3050 1300
 F 0 "C2" V 3000 1450 50  0000 C CNN
@@ -100,7 +100,7 @@ F 4 "C16772" V 3050 1300 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:C-Device C3
+L B.B-rescue:C-Device-B.B-rescue C3
 U 1 1 5FAC4874
 P 4250 1300
 F 0 "C3" V 4200 1450 50  0000 C CNN
@@ -131,7 +131,7 @@ Wire Wire Line
 Text HLabel 4950 750  1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C4
+L B.B-rescue:C-Device-B.B-rescue C4
 U 1 1 5FAC6087
 P 5450 1300
 F 0 "C4" V 5400 1450 50  0000 C CNN
@@ -162,7 +162,7 @@ Wire Wire Line
 Text HLabel 6150 750  1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C5
+L B.B-rescue:C-Device-B.B-rescue C5
 U 1 1 5FAC7F7D
 P 6650 1300
 F 0 "C5" V 6600 1450 50  0000 C CNN
@@ -193,7 +193,7 @@ Wire Wire Line
 Text HLabel 7350 750  1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C6
+L B.B-rescue:C-Device-B.B-rescue C6
 U 1 1 5FAC7F9C
 P 7850 1300
 F 0 "C6" V 7800 1450 50  0000 C CNN
@@ -224,7 +224,7 @@ Wire Wire Line
 Text HLabel 8550 750  1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C7
+L B.B-rescue:C-Device-B.B-rescue C7
 U 1 1 5FB2FBE5
 P 9050 1300
 F 0 "C7" V 9000 1450 50  0000 C CNN
@@ -255,7 +255,7 @@ Wire Wire Line
 Text HLabel 9750 750  1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C8
+L B.B-rescue:C-Device-B.B-rescue C8
 U 1 1 5FB2FC04
 P 10250 1300
 F 0 "C8" V 10200 1450 50  0000 C CNN
@@ -267,7 +267,7 @@ F 4 "C16772" V 10250 1300 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:C-Device C16
+L B.B-rescue:C-Device-B.B-rescue C16
 U 1 1 5FB47DD7
 P 10250 2150
 F 0 "C16" V 10200 2300 50  0000 C CNN
@@ -298,7 +298,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 1950 9750 2150
 $Comp
-L B.B-rescue:C-Device C15
+L B.B-rescue:C-Device-B.B-rescue C15
 U 1 1 5FB47DB8
 P 9050 2150
 F 0 "C15" V 9000 2300 50  0000 C CNN
@@ -329,7 +329,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 1950 8550 2150
 $Comp
-L B.B-rescue:C-Device C14
+L B.B-rescue:C-Device-B.B-rescue C14
 U 1 1 5FB47D99
 P 7850 2150
 F 0 "C14" V 7800 2300 50  0000 C CNN
@@ -360,7 +360,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 1950 7350 2150
 $Comp
-L B.B-rescue:C-Device C13
+L B.B-rescue:C-Device-B.B-rescue C13
 U 1 1 5FB47D7A
 P 6650 2150
 F 0 "C13" V 6600 2300 50  0000 C CNN
@@ -391,7 +391,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 1950 6150 2150
 $Comp
-L B.B-rescue:C-Device C12
+L B.B-rescue:C-Device-B.B-rescue C12
 U 1 1 5FB47D5B
 P 5450 2150
 F 0 "C12" V 5400 2300 50  0000 C CNN
@@ -422,7 +422,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 1950 4950 2150
 $Comp
-L B.B-rescue:C-Device C11
+L B.B-rescue:C-Device-B.B-rescue C11
 U 1 1 5FB47D3C
 P 4250 2150
 F 0 "C11" V 4200 2300 50  0000 C CNN
@@ -434,7 +434,7 @@ F 4 "C16772" V 4250 2150 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:C-Device C10
+L B.B-rescue:C-Device-B.B-rescue C10
 U 1 1 5FB47D35
 P 3050 2150
 F 0 "C10" V 3000 2300 50  0000 C CNN
@@ -500,7 +500,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 1950 1350 2150
 $Comp
-L B.B-rescue:C-Device C9
+L B.B-rescue:C-Device-B.B-rescue C9
 U 1 1 5FB47CEF
 P 1850 2150
 F 0 "C9" V 1800 2300 50  0000 C CNN
@@ -524,7 +524,7 @@ Text HLabel 900  2450 1    50   Input ~ 0
 Wire Wire Line
 	900  2800 1350 2800
 $Comp
-L B.B-rescue:C-Device C17
+L B.B-rescue:C-Device-B.B-rescue C17
 U 1 1 5FB8EEB1
 P 1850 3000
 F 0 "C17" V 1800 3150 50  0000 C CNN
@@ -590,7 +590,7 @@ Wire Wire Line
 Text HLabel 3750 2450 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C18
+L B.B-rescue:C-Device-B.B-rescue C18
 U 1 1 5FB8EEF7
 P 3050 3000
 F 0 "C18" V 3000 3150 50  0000 C CNN
@@ -602,7 +602,7 @@ F 4 "C16772" V 3050 3000 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:C-Device C19
+L B.B-rescue:C-Device-B.B-rescue C19
 U 1 1 5FB8EEFE
 P 4250 3000
 F 0 "C19" V 4200 3150 50  0000 C CNN
@@ -633,7 +633,7 @@ Wire Wire Line
 Text HLabel 4950 2450 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C20
+L B.B-rescue:C-Device-B.B-rescue C20
 U 1 1 5FB8EF1D
 P 5450 3000
 F 0 "C20" V 5400 3150 50  0000 C CNN
@@ -664,7 +664,7 @@ Wire Wire Line
 Text HLabel 6150 2450 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C21
+L B.B-rescue:C-Device-B.B-rescue C21
 U 1 1 5FB8EF3C
 P 6650 3000
 F 0 "C21" V 6600 3150 50  0000 C CNN
@@ -695,7 +695,7 @@ Wire Wire Line
 Text HLabel 7350 2450 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C22
+L B.B-rescue:C-Device-B.B-rescue C22
 U 1 1 5FB8EF5B
 P 7850 3000
 F 0 "C22" V 7800 3150 50  0000 C CNN
@@ -726,7 +726,7 @@ Wire Wire Line
 Text HLabel 8550 2450 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C23
+L B.B-rescue:C-Device-B.B-rescue C23
 U 1 1 5FB8EF7A
 P 9050 3000
 F 0 "C23" V 9000 3150 50  0000 C CNN
@@ -757,7 +757,7 @@ Wire Wire Line
 Text HLabel 9750 2450 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C24
+L B.B-rescue:C-Device-B.B-rescue C24
 U 1 1 5FB8EF99
 P 10250 3000
 F 0 "C24" V 10200 3150 50  0000 C CNN
@@ -775,7 +775,7 @@ Text HLabel 900  3250 1    50   Input ~ 0
 Wire Wire Line
 	900  3600 1350 3600
 $Comp
-L B.B-rescue:C-Device C25
+L B.B-rescue:C-Device-B.B-rescue C25
 U 1 1 5FB9FAD6
 P 1850 3800
 F 0 "C25" V 1800 3950 50  0000 C CNN
@@ -837,7 +837,7 @@ Connection ~ 4750 3800
 Wire Wire Line
 	3500 3400 3800 3400
 $Comp
-L B.B-rescue:C-Device C26
+L B.B-rescue:C-Device-B.B-rescue C26
 U 1 1 5FB9FB1C
 P 3050 3800
 F 0 "C26" V 3000 3950 50  0000 C CNN
@@ -849,7 +849,7 @@ F 4 "C16772" V 3050 3800 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:C-Device C27
+L B.B-rescue:C-Device-B.B-rescue C27
 U 1 1 5FB9FB23
 P 4250 3800
 F 0 "C27" V 4200 3950 50  0000 C CNN
@@ -878,7 +878,7 @@ Connection ~ 5950 3800
 Wire Wire Line
 	4700 3400 5000 3400
 $Comp
-L B.B-rescue:C-Device C28
+L B.B-rescue:C-Device-B.B-rescue C28
 U 1 1 5FB9FB42
 P 5450 3800
 F 0 "C28" V 5400 3950 50  0000 C CNN
@@ -907,7 +907,7 @@ Connection ~ 7150 3800
 Wire Wire Line
 	5900 3400 6200 3400
 $Comp
-L B.B-rescue:C-Device C29
+L B.B-rescue:C-Device-B.B-rescue C29
 U 1 1 5FB9FB61
 P 6650 3800
 F 0 "C29" V 6600 3950 50  0000 C CNN
@@ -936,7 +936,7 @@ Connection ~ 8350 3800
 Wire Wire Line
 	7100 3400 7400 3400
 $Comp
-L B.B-rescue:C-Device C30
+L B.B-rescue:C-Device-B.B-rescue C30
 U 1 1 5FB9FB80
 P 7850 3800
 F 0 "C30" V 7800 3950 50  0000 C CNN
@@ -965,7 +965,7 @@ Connection ~ 9550 3800
 Wire Wire Line
 	8300 3400 8600 3400
 $Comp
-L B.B-rescue:C-Device C31
+L B.B-rescue:C-Device-B.B-rescue C31
 U 1 1 5FB9FB9F
 P 9050 3800
 F 0 "C31" V 9000 3950 50  0000 C CNN
@@ -994,7 +994,7 @@ Connection ~ 10750 3800
 Wire Wire Line
 	9500 3400 9800 3400
 $Comp
-L B.B-rescue:C-Device C32
+L B.B-rescue:C-Device-B.B-rescue C32
 U 1 1 5FB9FBBE
 P 10250 3800
 F 0 "C32" V 10200 3950 50  0000 C CNN
@@ -1012,7 +1012,7 @@ Text HLabel 900  4100 1    50   Input ~ 0
 Wire Wire Line
 	900  4450 1350 4450
 $Comp
-L B.B-rescue:C-Device C33
+L B.B-rescue:C-Device-B.B-rescue C33
 U 1 1 5FC053DE
 P 1850 4650
 F 0 "C33" V 1800 4800 50  0000 C CNN
@@ -1078,7 +1078,7 @@ Wire Wire Line
 Text HLabel 3750 4100 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C34
+L B.B-rescue:C-Device-B.B-rescue C34
 U 1 1 5FC05424
 P 3050 4650
 F 0 "C34" V 3000 4800 50  0000 C CNN
@@ -1090,7 +1090,7 @@ F 4 "C16772" V 3050 4650 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:C-Device C35
+L B.B-rescue:C-Device-B.B-rescue C35
 U 1 1 5FC0542B
 P 4250 4650
 F 0 "C35" V 4200 4800 50  0000 C CNN
@@ -1121,7 +1121,7 @@ Wire Wire Line
 Text HLabel 4950 4100 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C36
+L B.B-rescue:C-Device-B.B-rescue C36
 U 1 1 5FC0544A
 P 5450 4650
 F 0 "C36" V 5400 4800 50  0000 C CNN
@@ -1152,7 +1152,7 @@ Wire Wire Line
 Text HLabel 6150 4100 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C37
+L B.B-rescue:C-Device-B.B-rescue C37
 U 1 1 5FC05469
 P 6650 4650
 F 0 "C37" V 6600 4800 50  0000 C CNN
@@ -1183,7 +1183,7 @@ Wire Wire Line
 Text HLabel 7350 4100 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C38
+L B.B-rescue:C-Device-B.B-rescue C38
 U 1 1 5FC05488
 P 7850 4650
 F 0 "C38" V 7800 4800 50  0000 C CNN
@@ -1214,7 +1214,7 @@ Wire Wire Line
 Text HLabel 8550 4100 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C39
+L B.B-rescue:C-Device-B.B-rescue C39
 U 1 1 5FC054A7
 P 9050 4650
 F 0 "C39" V 9000 4800 50  0000 C CNN
@@ -1245,7 +1245,7 @@ Wire Wire Line
 Text HLabel 9750 4100 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C40
+L B.B-rescue:C-Device-B.B-rescue C40
 U 1 1 5FC054C6
 P 10250 4650
 F 0 "C40" V 10200 4800 50  0000 C CNN
@@ -1257,7 +1257,7 @@ F 4 "C16772" V 10250 4650 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:C-Device C48
+L B.B-rescue:C-Device-B.B-rescue C48
 U 1 1 5FC054CD
 P 10250 5500
 F 0 "C48" V 10200 5650 50  0000 C CNN
@@ -1288,7 +1288,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 5300 9750 5500
 $Comp
-L B.B-rescue:C-Device C47
+L B.B-rescue:C-Device-B.B-rescue C47
 U 1 1 5FC054EC
 P 9050 5500
 F 0 "C47" V 9000 5650 50  0000 C CNN
@@ -1319,7 +1319,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 5300 8550 5500
 $Comp
-L B.B-rescue:C-Device C46
+L B.B-rescue:C-Device-B.B-rescue C46
 U 1 1 5FC0550B
 P 7850 5500
 F 0 "C46" V 7800 5650 50  0000 C CNN
@@ -1350,7 +1350,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 5300 7350 5500
 $Comp
-L B.B-rescue:C-Device C45
+L B.B-rescue:C-Device-B.B-rescue C45
 U 1 1 5FC0552A
 P 6650 5500
 F 0 "C45" V 6600 5650 50  0000 C CNN
@@ -1381,7 +1381,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 5300 6150 5500
 $Comp
-L B.B-rescue:C-Device C44
+L B.B-rescue:C-Device-B.B-rescue C44
 U 1 1 5FC05549
 P 5450 5500
 F 0 "C44" V 5400 5650 50  0000 C CNN
@@ -1412,7 +1412,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 5300 4950 5500
 $Comp
-L B.B-rescue:C-Device C43
+L B.B-rescue:C-Device-B.B-rescue C43
 U 1 1 5FC05568
 P 4250 5500
 F 0 "C43" V 4200 5650 50  0000 C CNN
@@ -1424,7 +1424,7 @@ F 4 "C16772" V 4250 5500 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:C-Device C42
+L B.B-rescue:C-Device-B.B-rescue C42
 U 1 1 5FC0556F
 P 3050 5500
 F 0 "C42" V 3000 5650 50  0000 C CNN
@@ -1490,7 +1490,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 5300 1350 5500
 $Comp
-L B.B-rescue:C-Device C41
+L B.B-rescue:C-Device-B.B-rescue C41
 U 1 1 5FC055B5
 P 1850 5500
 F 0 "C41" V 1800 5650 50  0000 C CNN
@@ -1514,7 +1514,7 @@ Text HLabel 900  5800 1    50   Input ~ 0
 Wire Wire Line
 	900  6150 1350 6150
 $Comp
-L B.B-rescue:C-Device C49
+L B.B-rescue:C-Device-B.B-rescue C49
 U 1 1 5FC055D2
 P 1850 6350
 F 0 "C49" V 1800 6500 50  0000 C CNN
@@ -1580,7 +1580,7 @@ Wire Wire Line
 Text HLabel 3750 5800 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C50
+L B.B-rescue:C-Device-B.B-rescue C50
 U 1 1 5FC05618
 P 3050 6350
 F 0 "C50" V 3000 6500 50  0000 C CNN
@@ -1592,7 +1592,7 @@ F 4 "C16772" V 3050 6350 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:C-Device C51
+L B.B-rescue:C-Device-B.B-rescue C51
 U 1 1 5FC0561F
 P 4250 6350
 F 0 "C51" V 4200 6500 50  0000 C CNN
@@ -1623,7 +1623,7 @@ Wire Wire Line
 Text HLabel 4950 5800 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C52
+L B.B-rescue:C-Device-B.B-rescue C52
 U 1 1 5FC0563E
 P 5450 6350
 F 0 "C52" V 5400 6500 50  0000 C CNN
@@ -1651,7 +1651,7 @@ Wire Wire Line
 Text HLabel 6150 5800 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C53
+L B.B-rescue:C-Device-B.B-rescue C53
 U 1 1 5FC0565D
 P 6650 6350
 F 0 "C53" V 6600 6500 50  0000 C CNN
@@ -1679,7 +1679,7 @@ Wire Wire Line
 Text HLabel 7350 5800 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C54
+L B.B-rescue:C-Device-B.B-rescue C54
 U 1 1 5FC0567C
 P 7850 6350
 F 0 "C54" V 7800 6500 50  0000 C CNN
@@ -1707,7 +1707,7 @@ Wire Wire Line
 Text HLabel 8550 5800 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C55
+L B.B-rescue:C-Device-B.B-rescue C55
 U 1 1 5FC0569B
 P 9050 6350
 F 0 "C55" V 9000 6500 50  0000 C CNN
@@ -1735,7 +1735,7 @@ Wire Wire Line
 Text HLabel 9750 5800 1    50   Input ~ 0
 5V
 $Comp
-L B.B-rescue:C-Device C56
+L B.B-rescue:C-Device-B.B-rescue C56
 U 1 1 5FC056BA
 P 10250 6350
 F 0 "C56" V 10200 6500 50  0000 C CNN
@@ -1753,7 +1753,7 @@ Text HLabel 900  6600 1    50   Input ~ 0
 Wire Wire Line
 	900  6950 1350 6950
 $Comp
-L B.B-rescue:C-Device C57
+L B.B-rescue:C-Device-B.B-rescue C57
 U 1 1 5FC056CC
 P 1850 7150
 F 0 "C57" V 1800 7300 50  0000 C CNN
@@ -1815,7 +1815,7 @@ Connection ~ 4750 7150
 Wire Wire Line
 	3500 6750 3800 6750
 $Comp
-L B.B-rescue:C-Device C58
+L B.B-rescue:C-Device-B.B-rescue C58
 U 1 1 5FC05712
 P 3050 7150
 F 0 "C58" V 3000 7300 50  0000 C CNN
@@ -1827,7 +1827,7 @@ F 4 "C16772" V 3050 7150 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L B.B-rescue:C-Device C59
+L B.B-rescue:C-Device-B.B-rescue C59
 U 1 1 5FC05719
 P 4250 7150
 F 0 "C59" V 4200 7300 50  0000 C CNN
@@ -1856,7 +1856,7 @@ Connection ~ 5950 7150
 Wire Wire Line
 	4700 6750 5000 6750
 $Comp
-L B.B-rescue:C-Device C60
+L B.B-rescue:C-Device-B.B-rescue C60
 U 1 1 5FC05738
 P 5450 7150
 F 0 "C60" V 5400 7300 50  0000 C CNN
@@ -1930,7 +1930,7 @@ Text HLabel 3750 3250 1    50   Input ~ 0
 Text HLabel 2550 3250 1    50   Input ~ 0
 5V
 $Comp
-L B.B-eagle-import:WS2812 U1
+L B.B-rescue:WS2812-B.B-eagle-import U1
 U 1 1 605AE701
 P 1850 1000
 F 0 "U1" H 1900 1050 50  0001 C CNN
@@ -1944,7 +1944,7 @@ $EndComp
 Wire Wire Line
 	900  1100 900  750 
 $Comp
-L B.B-eagle-import:WS2812 U2
+L B.B-rescue:WS2812-B.B-eagle-import U2
 U 1 1 6063D221
 P 3050 1000
 F 0 "U2" H 3100 1050 50  0001 C CNN
@@ -1959,7 +1959,7 @@ Wire Wire Line
 	2550 750  2550 1100
 Connection ~ 2550 1100
 $Comp
-L B.B-eagle-import:WS2812 U3
+L B.B-rescue:WS2812-B.B-eagle-import U3
 U 1 1 60684DAF
 P 4250 1000
 F 0 "U3" H 4300 1050 50  0001 C CNN
@@ -1973,7 +1973,7 @@ $EndComp
 Wire Wire Line
 	3750 750  3750 1100
 $Comp
-L B.B-eagle-import:WS2812 U4
+L B.B-rescue:WS2812-B.B-eagle-import U4
 U 1 1 606CBF24
 P 5450 1000
 F 0 "U4" H 5500 1050 50  0001 C CNN
@@ -1990,7 +1990,7 @@ Connection ~ 3750 1100
 Connection ~ 4950 1100
 Connection ~ 6150 1100
 $Comp
-L B.B-eagle-import:WS2812 U5
+L B.B-rescue:WS2812-B.B-eagle-import U5
 U 1 1 60713B66
 P 6650 1000
 F 0 "U5" H 6700 1050 50  0001 C CNN
@@ -2004,7 +2004,7 @@ $EndComp
 Wire Wire Line
 	6150 750  6150 1100
 $Comp
-L B.B-eagle-import:WS2812 U6
+L B.B-rescue:WS2812-B.B-eagle-import U6
 U 1 1 6075B3AD
 P 7850 1000
 F 0 "U6" H 7900 1050 50  0001 C CNN
@@ -2018,7 +2018,7 @@ $EndComp
 Wire Wire Line
 	7350 750  7350 1100
 $Comp
-L B.B-eagle-import:WS2812 U7
+L B.B-rescue:WS2812-B.B-eagle-import U7
 U 1 1 607A3038
 P 9050 1000
 F 0 "U7" H 9100 1050 50  0001 C CNN
@@ -2032,7 +2032,7 @@ $EndComp
 Wire Wire Line
 	8550 750  8550 1100
 $Comp
-L B.B-eagle-import:WS2812 U8
+L B.B-rescue:WS2812-B.B-eagle-import U8
 U 1 1 607EAE63
 P 10250 1000
 F 0 "U8" H 10300 1050 50  0001 C CNN
@@ -2046,7 +2046,7 @@ $EndComp
 Wire Wire Line
 	9750 750  9750 1100
 $Comp
-L B.B-eagle-import:WS2812 U9
+L B.B-rescue:WS2812-B.B-eagle-import U9
 U 1 1 60837B6F
 P 1850 1850
 F 0 "U9" H 1900 1900 50  0001 C CNN
@@ -2060,7 +2060,7 @@ $EndComp
 Wire Wire Line
 	900  1950 900  1600
 $Comp
-L B.B-eagle-import:WS2812 U10
+L B.B-rescue:WS2812-B.B-eagle-import U10
 U 1 1 60837B77
 P 3050 1850
 F 0 "U10" H 3100 1900 50  0001 C CNN
@@ -2074,7 +2074,7 @@ $EndComp
 Wire Wire Line
 	2550 1600 2550 1950
 $Comp
-L B.B-eagle-import:WS2812 U11
+L B.B-rescue:WS2812-B.B-eagle-import U11
 U 1 1 60837B7F
 P 4250 1850
 F 0 "U11" H 4300 1900 50  0001 C CNN
@@ -2088,7 +2088,7 @@ $EndComp
 Wire Wire Line
 	3750 1600 3750 1950
 $Comp
-L B.B-eagle-import:WS2812 U12
+L B.B-rescue:WS2812-B.B-eagle-import U12
 U 1 1 60837B87
 P 5450 1850
 F 0 "U12" H 5500 1900 50  0001 C CNN
@@ -2102,7 +2102,7 @@ $EndComp
 Wire Wire Line
 	4950 1600 4950 1950
 $Comp
-L B.B-eagle-import:WS2812 U13
+L B.B-rescue:WS2812-B.B-eagle-import U13
 U 1 1 60837B8F
 P 6650 1850
 F 0 "U13" H 6700 1900 50  0001 C CNN
@@ -2116,7 +2116,7 @@ $EndComp
 Wire Wire Line
 	6150 1600 6150 1950
 $Comp
-L B.B-eagle-import:WS2812 U14
+L B.B-rescue:WS2812-B.B-eagle-import U14
 U 1 1 60837B97
 P 7850 1850
 F 0 "U14" H 7900 1900 50  0001 C CNN
@@ -2130,7 +2130,7 @@ $EndComp
 Wire Wire Line
 	7350 1600 7350 1950
 $Comp
-L B.B-eagle-import:WS2812 U15
+L B.B-rescue:WS2812-B.B-eagle-import U15
 U 1 1 60837B9F
 P 9050 1850
 F 0 "U15" H 9100 1900 50  0001 C CNN
@@ -2144,7 +2144,7 @@ $EndComp
 Wire Wire Line
 	8550 1600 8550 1950
 $Comp
-L B.B-eagle-import:WS2812 U16
+L B.B-rescue:WS2812-B.B-eagle-import U16
 U 1 1 60837BA7
 P 10250 1850
 F 0 "U16" H 10300 1900 50  0001 C CNN
@@ -2158,7 +2158,7 @@ $EndComp
 Wire Wire Line
 	9750 1600 9750 1950
 $Comp
-L B.B-eagle-import:WS2812 U17
+L B.B-rescue:WS2812-B.B-eagle-import U17
 U 1 1 60883726
 P 1850 2700
 F 0 "U17" H 1900 2750 50  0001 C CNN
@@ -2172,7 +2172,7 @@ $EndComp
 Wire Wire Line
 	900  2800 900  2450
 $Comp
-L B.B-eagle-import:WS2812 U18
+L B.B-rescue:WS2812-B.B-eagle-import U18
 U 1 1 6088372E
 P 3050 2700
 F 0 "U18" H 3100 2750 50  0001 C CNN
@@ -2186,7 +2186,7 @@ $EndComp
 Wire Wire Line
 	2550 2450 2550 2800
 $Comp
-L B.B-eagle-import:WS2812 U19
+L B.B-rescue:WS2812-B.B-eagle-import U19
 U 1 1 60883736
 P 4250 2700
 F 0 "U19" H 4300 2750 50  0001 C CNN
@@ -2200,7 +2200,7 @@ $EndComp
 Wire Wire Line
 	3750 2450 3750 2800
 $Comp
-L B.B-eagle-import:WS2812 U20
+L B.B-rescue:WS2812-B.B-eagle-import U20
 U 1 1 6088373E
 P 5450 2700
 F 0 "U20" H 5500 2750 50  0001 C CNN
@@ -2214,7 +2214,7 @@ $EndComp
 Wire Wire Line
 	4950 2450 4950 2800
 $Comp
-L B.B-eagle-import:WS2812 U21
+L B.B-rescue:WS2812-B.B-eagle-import U21
 U 1 1 60883746
 P 6650 2700
 F 0 "U21" H 6700 2750 50  0001 C CNN
@@ -2228,7 +2228,7 @@ $EndComp
 Wire Wire Line
 	6150 2450 6150 2800
 $Comp
-L B.B-eagle-import:WS2812 U22
+L B.B-rescue:WS2812-B.B-eagle-import U22
 U 1 1 6088374E
 P 7850 2700
 F 0 "U22" H 7900 2750 50  0001 C CNN
@@ -2242,7 +2242,7 @@ $EndComp
 Wire Wire Line
 	7350 2450 7350 2800
 $Comp
-L B.B-eagle-import:WS2812 U23
+L B.B-rescue:WS2812-B.B-eagle-import U23
 U 1 1 60883756
 P 9050 2700
 F 0 "U23" H 9100 2750 50  0001 C CNN
@@ -2256,7 +2256,7 @@ $EndComp
 Wire Wire Line
 	8550 2450 8550 2800
 $Comp
-L B.B-eagle-import:WS2812 U24
+L B.B-rescue:WS2812-B.B-eagle-import U24
 U 1 1 6088375E
 P 10250 2700
 F 0 "U24" H 10300 2750 50  0001 C CNN
@@ -2270,7 +2270,7 @@ $EndComp
 Wire Wire Line
 	9750 2450 9750 2800
 $Comp
-L B.B-eagle-import:WS2812 U25
+L B.B-rescue:WS2812-B.B-eagle-import U25
 U 1 1 608D1A27
 P 1850 3500
 F 0 "U25" H 1900 3550 50  0001 C CNN
@@ -2284,7 +2284,7 @@ $EndComp
 Wire Wire Line
 	900  3600 900  3250
 $Comp
-L B.B-eagle-import:WS2812 U26
+L B.B-rescue:WS2812-B.B-eagle-import U26
 U 1 1 608D1A2F
 P 3050 3500
 F 0 "U26" H 3100 3550 50  0001 C CNN
@@ -2298,7 +2298,7 @@ $EndComp
 Wire Wire Line
 	2550 3250 2550 3600
 $Comp
-L B.B-eagle-import:WS2812 U27
+L B.B-rescue:WS2812-B.B-eagle-import U27
 U 1 1 608D1A37
 P 4250 3500
 F 0 "U27" H 4300 3550 50  0001 C CNN
@@ -2312,7 +2312,7 @@ $EndComp
 Wire Wire Line
 	3750 3250 3750 3600
 $Comp
-L B.B-eagle-import:WS2812 U28
+L B.B-rescue:WS2812-B.B-eagle-import U28
 U 1 1 608D1A3F
 P 5450 3500
 F 0 "U28" H 5500 3550 50  0001 C CNN
@@ -2326,7 +2326,7 @@ $EndComp
 Wire Wire Line
 	4950 3250 4950 3600
 $Comp
-L B.B-eagle-import:WS2812 U29
+L B.B-rescue:WS2812-B.B-eagle-import U29
 U 1 1 608D1A47
 P 6650 3500
 F 0 "U29" H 6700 3550 50  0001 C CNN
@@ -2340,7 +2340,7 @@ $EndComp
 Wire Wire Line
 	6150 3250 6150 3600
 $Comp
-L B.B-eagle-import:WS2812 U30
+L B.B-rescue:WS2812-B.B-eagle-import U30
 U 1 1 608D1A4F
 P 7850 3500
 F 0 "U30" H 7900 3550 50  0001 C CNN
@@ -2354,7 +2354,7 @@ $EndComp
 Wire Wire Line
 	7350 3250 7350 3600
 $Comp
-L B.B-eagle-import:WS2812 U31
+L B.B-rescue:WS2812-B.B-eagle-import U31
 U 1 1 608D1A57
 P 9050 3500
 F 0 "U31" H 9100 3550 50  0001 C CNN
@@ -2368,7 +2368,7 @@ $EndComp
 Wire Wire Line
 	8550 3250 8550 3600
 $Comp
-L B.B-eagle-import:WS2812 U32
+L B.B-rescue:WS2812-B.B-eagle-import U32
 U 1 1 608D1A5F
 P 10250 3500
 F 0 "U32" H 10300 3550 50  0001 C CNN
@@ -2382,7 +2382,7 @@ $EndComp
 Wire Wire Line
 	9750 3250 9750 3600
 $Comp
-L B.B-eagle-import:WS2812 U33
+L B.B-rescue:WS2812-B.B-eagle-import U33
 U 1 1 609212E5
 P 1850 4350
 F 0 "U33" H 1900 4400 50  0001 C CNN
@@ -2396,7 +2396,7 @@ $EndComp
 Wire Wire Line
 	900  4450 900  4100
 $Comp
-L B.B-eagle-import:WS2812 U34
+L B.B-rescue:WS2812-B.B-eagle-import U34
 U 1 1 609212ED
 P 3050 4350
 F 0 "U34" H 3100 4400 50  0001 C CNN
@@ -2410,7 +2410,7 @@ $EndComp
 Wire Wire Line
 	2550 4100 2550 4450
 $Comp
-L B.B-eagle-import:WS2812 U35
+L B.B-rescue:WS2812-B.B-eagle-import U35
 U 1 1 609212F5
 P 4250 4350
 F 0 "U35" H 4300 4400 50  0001 C CNN
@@ -2424,7 +2424,7 @@ $EndComp
 Wire Wire Line
 	3750 4100 3750 4450
 $Comp
-L B.B-eagle-import:WS2812 U36
+L B.B-rescue:WS2812-B.B-eagle-import U36
 U 1 1 609212FD
 P 5450 4350
 F 0 "U36" H 5500 4400 50  0001 C CNN
@@ -2438,7 +2438,7 @@ $EndComp
 Wire Wire Line
 	4950 4100 4950 4450
 $Comp
-L B.B-eagle-import:WS2812 U37
+L B.B-rescue:WS2812-B.B-eagle-import U37
 U 1 1 60921305
 P 6650 4350
 F 0 "U37" H 6700 4400 50  0001 C CNN
@@ -2452,7 +2452,7 @@ $EndComp
 Wire Wire Line
 	6150 4100 6150 4450
 $Comp
-L B.B-eagle-import:WS2812 U38
+L B.B-rescue:WS2812-B.B-eagle-import U38
 U 1 1 6092130D
 P 7850 4350
 F 0 "U38" H 7900 4400 50  0001 C CNN
@@ -2466,7 +2466,7 @@ $EndComp
 Wire Wire Line
 	7350 4100 7350 4450
 $Comp
-L B.B-eagle-import:WS2812 U39
+L B.B-rescue:WS2812-B.B-eagle-import U39
 U 1 1 60921315
 P 9050 4350
 F 0 "U39" H 9100 4400 50  0001 C CNN
@@ -2480,7 +2480,7 @@ $EndComp
 Wire Wire Line
 	8550 4100 8550 4450
 $Comp
-L B.B-eagle-import:WS2812 U40
+L B.B-rescue:WS2812-B.B-eagle-import U40
 U 1 1 6092131D
 P 10250 4350
 F 0 "U40" H 10300 4400 50  0001 C CNN
@@ -2494,7 +2494,7 @@ $EndComp
 Wire Wire Line
 	9750 4100 9750 4450
 $Comp
-L B.B-eagle-import:WS2812 U41
+L B.B-rescue:WS2812-B.B-eagle-import U41
 U 1 1 60972D27
 P 1850 5200
 F 0 "U41" H 1900 5250 50  0001 C CNN
@@ -2508,7 +2508,7 @@ $EndComp
 Wire Wire Line
 	900  5300 900  4950
 $Comp
-L B.B-eagle-import:WS2812 U42
+L B.B-rescue:WS2812-B.B-eagle-import U42
 U 1 1 60972D2F
 P 3050 5200
 F 0 "U42" H 3100 5250 50  0001 C CNN
@@ -2522,7 +2522,7 @@ $EndComp
 Wire Wire Line
 	2550 4950 2550 5300
 $Comp
-L B.B-eagle-import:WS2812 U43
+L B.B-rescue:WS2812-B.B-eagle-import U43
 U 1 1 60972D37
 P 4250 5200
 F 0 "U43" H 4300 5250 50  0001 C CNN
@@ -2536,7 +2536,7 @@ $EndComp
 Wire Wire Line
 	3750 4950 3750 5300
 $Comp
-L B.B-eagle-import:WS2812 U44
+L B.B-rescue:WS2812-B.B-eagle-import U44
 U 1 1 60972D3F
 P 5450 5200
 F 0 "U44" H 5500 5250 50  0001 C CNN
@@ -2550,7 +2550,7 @@ $EndComp
 Wire Wire Line
 	4950 4950 4950 5300
 $Comp
-L B.B-eagle-import:WS2812 U45
+L B.B-rescue:WS2812-B.B-eagle-import U45
 U 1 1 60972D47
 P 6650 5200
 F 0 "U45" H 6700 5250 50  0001 C CNN
@@ -2564,7 +2564,7 @@ $EndComp
 Wire Wire Line
 	6150 4950 6150 5300
 $Comp
-L B.B-eagle-import:WS2812 U46
+L B.B-rescue:WS2812-B.B-eagle-import U46
 U 1 1 60972D4F
 P 7850 5200
 F 0 "U46" H 7900 5250 50  0001 C CNN
@@ -2578,7 +2578,7 @@ $EndComp
 Wire Wire Line
 	7350 4950 7350 5300
 $Comp
-L B.B-eagle-import:WS2812 U47
+L B.B-rescue:WS2812-B.B-eagle-import U47
 U 1 1 60972D57
 P 9050 5200
 F 0 "U47" H 9100 5250 50  0001 C CNN
@@ -2592,7 +2592,7 @@ $EndComp
 Wire Wire Line
 	8550 4950 8550 5300
 $Comp
-L B.B-eagle-import:WS2812 U48
+L B.B-rescue:WS2812-B.B-eagle-import U48
 U 1 1 60972D5F
 P 10250 5200
 F 0 "U48" H 10300 5250 50  0001 C CNN
@@ -2606,7 +2606,7 @@ $EndComp
 Wire Wire Line
 	9750 4950 9750 5300
 $Comp
-L B.B-eagle-import:WS2812 U49
+L B.B-rescue:WS2812-B.B-eagle-import U49
 U 1 1 60A1B5B9
 P 1850 6050
 F 0 "U49" H 1900 6100 50  0001 C CNN
@@ -2620,7 +2620,7 @@ $EndComp
 Wire Wire Line
 	900  6150 900  5800
 $Comp
-L B.B-eagle-import:WS2812 U50
+L B.B-rescue:WS2812-B.B-eagle-import U50
 U 1 1 60A1B5C1
 P 3050 6050
 F 0 "U50" H 3100 6100 50  0001 C CNN
@@ -2634,7 +2634,7 @@ $EndComp
 Wire Wire Line
 	2550 5800 2550 6150
 $Comp
-L B.B-eagle-import:WS2812 U51
+L B.B-rescue:WS2812-B.B-eagle-import U51
 U 1 1 60A1B5C9
 P 4250 6050
 F 0 "U51" H 4300 6100 50  0001 C CNN
@@ -2648,7 +2648,7 @@ $EndComp
 Wire Wire Line
 	3750 5800 3750 6150
 $Comp
-L B.B-eagle-import:WS2812 U52
+L B.B-rescue:WS2812-B.B-eagle-import U52
 U 1 1 60A1B5D1
 P 5450 6050
 F 0 "U52" H 5500 6100 50  0001 C CNN
@@ -2662,7 +2662,7 @@ $EndComp
 Wire Wire Line
 	4950 5800 4950 6150
 $Comp
-L B.B-eagle-import:WS2812 U53
+L B.B-rescue:WS2812-B.B-eagle-import U53
 U 1 1 60A1B5D9
 P 6650 6050
 F 0 "U53" H 6700 6100 50  0001 C CNN
@@ -2676,7 +2676,7 @@ $EndComp
 Wire Wire Line
 	6150 5800 6150 6150
 $Comp
-L B.B-eagle-import:WS2812 U54
+L B.B-rescue:WS2812-B.B-eagle-import U54
 U 1 1 60A1B5E1
 P 7850 6050
 F 0 "U54" H 7900 6100 50  0001 C CNN
@@ -2690,7 +2690,7 @@ $EndComp
 Wire Wire Line
 	7350 5800 7350 6150
 $Comp
-L B.B-eagle-import:WS2812 U55
+L B.B-rescue:WS2812-B.B-eagle-import U55
 U 1 1 60A1B5E9
 P 9050 6050
 F 0 "U55" H 9100 6100 50  0001 C CNN
@@ -2704,7 +2704,7 @@ $EndComp
 Wire Wire Line
 	8550 5800 8550 6150
 $Comp
-L B.B-eagle-import:WS2812 U56
+L B.B-rescue:WS2812-B.B-eagle-import U56
 U 1 1 60A1B5F1
 P 10250 6050
 F 0 "U56" H 10300 6100 50  0001 C CNN
@@ -2718,7 +2718,7 @@ $EndComp
 Wire Wire Line
 	9750 5800 9750 6150
 $Comp
-L B.B-eagle-import:WS2812 U57
+L B.B-rescue:WS2812-B.B-eagle-import U57
 U 1 1 60A70720
 P 1850 6850
 F 0 "U57" H 1900 6900 50  0001 C CNN
@@ -2732,7 +2732,7 @@ $EndComp
 Wire Wire Line
 	900  6950 900  6600
 $Comp
-L B.B-eagle-import:WS2812 U58
+L B.B-rescue:WS2812-B.B-eagle-import U58
 U 1 1 60A70728
 P 3050 6850
 F 0 "U58" H 3100 6900 50  0001 C CNN
@@ -2746,7 +2746,7 @@ $EndComp
 Wire Wire Line
 	2550 6600 2550 6950
 $Comp
-L B.B-eagle-import:WS2812 U59
+L B.B-rescue:WS2812-B.B-eagle-import U59
 U 1 1 60A70730
 P 4250 6850
 F 0 "U59" H 4300 6900 50  0001 C CNN
@@ -2760,7 +2760,7 @@ $EndComp
 Wire Wire Line
 	3750 6600 3750 6950
 $Comp
-L B.B-eagle-import:WS2812 U60
+L B.B-rescue:WS2812-B.B-eagle-import U60
 U 1 1 60A70738
 P 5450 6850
 F 0 "U60" H 5500 6900 50  0001 C CNN
