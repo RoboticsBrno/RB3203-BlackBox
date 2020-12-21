@@ -1,38 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# +3V3-B.B-eagle-import
-#
-DEF +3V3-B.B-eagle-import #V 0 40 Y Y 1 L P
-F0 "#V" 0 0 50 H I C CNN
-F1 "+3V3-B.B-eagle-import" -150 75 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -25 -25 0 50 N
-P 2 1 0 0 0 50 25 -25 N
-P 2 1 0 0 25 -25 -25 -25 N
-P 3 1 0 0 0 50 25 -25 -25 -25 F
-X +3V3 1 0 -100 100 U 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
-# +5V-B.B-eagle-import
-#
-DEF +5V-B.B-eagle-import #V 0 40 Y Y 1 L P
-F0 "#V" 0 0 50 H I C CNN
-F1 "+5V-B.B-eagle-import" -100 75 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -25 -25 0 50 N
-P 2 1 0 0 0 50 25 -25 N
-P 2 1 0 0 25 -25 -25 -25 N
-P 3 1 0 0 0 50 25 -25 -25 -25 F
-X +5V 1 0 -100 100 U 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
 # 2N7002-Transistor_FET-B.B-rescue
 #
 DEF 2N7002-Transistor_FET-B.B-rescue Q 0 0 Y N 1 F N
@@ -753,6 +721,23 @@ X ~ 1 -300 100 200 R 50 50 1 1 P
 X ~ 2 -300 0 200 R 50 50 1 1 P
 X ~ 3 300 0 200 L 50 50 1 1 P
 X ~ 4 300 100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SY8009
+#
+DEF SY8009 U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "SY8009" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 200 -200 -200 50 0 1 0 f
+X EN 1 -300 -150 100 R 50 50 1 1 I
+X GND 2 0 -300 100 U 50 50 1 1 W
+X LX 3 300 0 100 L 50 50 1 1 w
+X IN 4 -300 0 100 R 50 50 1 1 W
+X FB 5 300 -150 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
@@ -67,23 +67,6 @@ F 1 "GND" H 4550 2120 59  0000 C CNN
 F 2 "" H 4550 2200 50  0001 C CNN
 F 3 "" H 4550 2200 50  0001 C CNN
 	1    4550 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L B.B-rescue:C-Device-B.B-rescue C?
-U 1 1 5F974417
-P 4950 1950
-AR Path="/5F96CFDA/5F974417" Ref="C?"  Part="1" 
-AR Path="/5F9EE529/5F9F24D4/5F974417" Ref="C116"  Part="1" 
-AR Path="/5FA9DBB3/5F9F24D4/5F974417" Ref="C?"  Part="1" 
-AR Path="/5F9EE529/5FB1300F/5F974417" Ref="C?"  Part="1" 
-AR Path="/5FB26A97/5F974417" Ref="C68"  Part="1" 
-F 0 "C68" H 5065 1996 50  0000 L CNN
-F 1 "0.1uf" H 5065 1905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4988 1800 50  0001 C CNN
-F 3 "~" H 4950 1950 50  0001 C CNN
-F 4 "C1525" H 4950 1950 50  0001 C CNN "LCSC"
-	1    4950 1950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -289,6 +272,7 @@ F 1 "SPL06" H 6100 5134 50  0000 C CNN
 F 2 "BB:SMD-8_2x2.5x0.65P" H 6100 5000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1907081118_Goertek-SPL06-007_C233787.pdf" H 6100 5000 50  0001 C CNN
 F 4 "C233787" H 6100 5000 50  0001 C CNN "LCSC"
+F 5 "0;0;-90" H 6100 5000 50  0001 C CNN "JLCPCB_CORRECTION"
 	1    6100 5000
 	1    0    0    -1  
 $EndComp
@@ -495,4 +479,18 @@ VCC
 Wire Wire Line
 	5700 5000 5650 5000
 Connection ~ 5650 5000
+$Comp
+L B.B-rescue:C-Device-B.B-rescue C?
+U 1 1 600A2DED
+P 4950 1950
+AR Path="/5F77B818/600A2DED" Ref="C?"  Part="1" 
+AR Path="/5FB26A97/600A2DED" Ref="C68"  Part="1" 
+F 0 "C68" H 5065 1996 50  0000 L CNN
+F 1 "0.1uf" H 5065 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4988 1800 50  0001 C CNN
+F 3 "~" H 4950 1950 50  0001 C CNN
+F 4 "C49678" H 4950 1950 50  0001 C CNN "LCSC"
+	1    4950 1950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

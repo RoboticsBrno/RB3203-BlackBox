@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -179,6 +179,7 @@ F 1 "SE9017" H 5750 3534 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5775 3400 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Seaward-Elec-SE9017-HF_C115752.pdf" H 5775 3400 50  0001 C CNN
 F 4 "C115751" H 5775 3400 50  0001 C CNN "LCSC"
+F 5 "0;0;180" H 5775 3400 50  0001 C CNN "JLCPCB_CORRECTION"
 	1    5775 3400
 	1    0    0    -1  
 $EndComp

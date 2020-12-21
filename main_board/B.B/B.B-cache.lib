@@ -1,38 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# B.B-rescue_+3V3-B.B-eagle-import
-#
-DEF B.B-rescue_+3V3-B.B-eagle-import #V 0 40 Y Y 1 L P
-F0 "#V" 0 0 50 H I C CNN
-F1 "B.B-rescue_+3V3-B.B-eagle-import" -150 75 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -25 -25 0 50 N
-P 2 1 0 0 0 50 25 -25 N
-P 2 1 0 0 25 -25 -25 -25 N
-P 3 1 0 0 0 50 25 -25 -25 -25 F
-X +3V3 1 0 -100 100 U 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
-# B.B-rescue_+5V-B.B-eagle-import
-#
-DEF B.B-rescue_+5V-B.B-eagle-import #V 0 40 Y Y 1 L P
-F0 "#V" 0 0 50 H I C CNN
-F1 "B.B-rescue_+5V-B.B-eagle-import" -100 75 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -25 -25 0 50 N
-P 2 1 0 0 0 50 25 -25 N
-P 2 1 0 0 25 -25 -25 -25 N
-P 3 1 0 0 0 50 25 -25 -25 -25 F
-X +5V 1 0 -100 100 U 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
 # B.B-rescue_2N7002-Transistor_FET-B.B-rescue
 #
 DEF B.B-rescue_2N7002-Transistor_FET-B.B-rescue Q 0 0 Y N 1 F N
@@ -64,24 +32,6 @@ P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
 X G 1 -200 0 210 R 50 50 1 1 I
 X S 2 100 -200 100 U 50 50 1 1 P
 X D 3 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# B.B-rescue_AOZ1280-B.B-rescue
-#
-DEF B.B-rescue_AOZ1280-B.B-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 200 50 H V C CNN
-F1 "B.B-rescue_AOZ1280-B.B-rescue" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -200 50 200 -250 0 1 0 f
-X BST 1 300 0 100 L 50 50 1 1 B
-X GND 2 0 -350 100 U 50 50 1 1 W
-X FB 3 300 -200 100 L 50 50 1 1 I
-X EN 4 -300 -150 100 R 50 50 1 1 O
-X VIN 5 -300 0 100 R 50 50 1 1 W
-X LX 6 300 -100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
@@ -756,6 +706,23 @@ X ~ 4 300 100 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# B.B-rescue_SY8009
+#
+DEF B.B-rescue_SY8009 U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "B.B-rescue_SY8009" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 200 -200 -200 50 0 1 0 f
+X EN 1 -300 -150 100 R 50 50 1 1 I
+X GND 2 0 -300 100 U 50 50 1 1 W
+X LX 3 300 0 100 L 50 50 1 1 w
+X IN 4 -300 0 100 R 50 50 1 1 W
+X FB 5 300 -150 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # B.B-rescue_USB_C_Receptacle_USB2.0-Connector-B.B-rescue
 #
 DEF B.B-rescue_USB_C_Receptacle_USB2.0-Connector-B.B-rescue J 0 40 Y Y 1 F N
@@ -814,22 +781,6 @@ X SHIELD S1 -300 -900 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_VCC-B.B-eagle-import
-#
-DEF B.B-rescue_VCC-B.B-eagle-import #V 0 40 Y Y 1 L P
-F0 "#V" 0 0 50 H I C CNN
-F1 "B.B-rescue_VCC-B.B-eagle-import" -87 75 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -25 -25 0 50 N
-P 2 1 0 0 0 50 25 -25 N
-P 2 1 0 0 25 -25 -25 -25 N
-P 3 1 0 0 0 50 25 -25 -25 -25 F
-X VCC 1 0 -100 100 U 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
 # B.B-rescue_WS2812-B.B-eagle-import
 #
 DEF B.B-rescue_WS2812-B.B-eagle-import ~ 0 40 Y Y 1 L N
@@ -843,6 +794,52 @@ X VCC 1 -450 -100 200 R 50 50 1 0 B
 X DOUT 2 450 100 200 L 50 50 1 0 B
 X GND 3 450 -100 200 L 50 50 1 0 B
 X DIN 4 -450 100 200 R 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
