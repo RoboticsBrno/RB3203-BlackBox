@@ -868,12 +868,12 @@ Wire Wire Line
 Wire Wire Line
 	7700 2525 8400 2525
 $Comp
-L B.B-rescue:Conn_01x04-Connector_Generic-B.B-rescue J?
+L B.B-rescue:Conn_01x04-Connector_Generic-B.B-rescue J6
 U 1 1 60273E9E
 P 3075 3850
-F 0 "J?" H 3155 3842 50  0000 L CNN
+F 0 "J6" H 3155 3842 50  0000 L CNN
 F 1 "Conn_01x04-Connector_Generic-B.B-rescue" H 2150 4075 50  0000 L CNN
-F 2 "" H 3075 3850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3075 3850 50  0001 C CNN
 F 3 "" H 3075 3850 50  0001 C CNN
 	1    3075 3850
 	1    0    0    -1  
@@ -890,8 +890,8 @@ U 1 1 60276177
 P 2800 4200
 AR Path="/5FA4C94D/60276177" Ref="#GND?"  Part="1" 
 AR Path="/5F9AAC80/60276177" Ref="#GND?"  Part="1" 
-AR Path="/5FB26A97/60276177" Ref="#GND?"  Part="1" 
-F 0 "#GND?" H 2800 4200 50  0001 C CNN
+AR Path="/5FB26A97/60276177" Ref="#GND0151"  Part="1" 
+F 0 "#GND0151" H 2800 4200 50  0001 C CNN
 F 1 "GND" H 2800 4120 59  0000 C CNN
 F 2 "" H 2800 4200 50  0001 C CNN
 F 3 "" H 2800 4200 50  0001 C CNN

@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:B.B-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -44,6 +45,7 @@ F 0 "J5" H 2007 3417 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 2007 3326 50  0000 C CNN
 F 2 "BB:USB_C_Female-16Pin-HPJF" H 2050 2550 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2050 2550 50  0001 C CNN
+F 4 "C720630" H 1900 2550 50  0001 C CNN "LCSC"
 	1    1900 2550
 	1    0    0    -1  
 $EndComp
@@ -102,14 +104,6 @@ Wire Wire Line
 	3600 1250 3600 1150
 Wire Wire Line
 	2300 4575 2300 4975
-Wire Wire Line
-	9800 2650 9800 2750
-Wire Wire Line
-	9800 2750 9850 2750
-Wire Wire Line
-	9800 1600 9800 1500
-Wire Wire Line
-	9800 1500 9850 1500
 Wire Wire Line
 	3300 5075 3450 5075
 Wire Wire Line
@@ -317,14 +311,6 @@ Wire Wire Line
 	9500 3600 9650 3600
 Wire Wire Line
 	9500 3350 9650 3350
-Text Label 9850 2750 0    50   ~ 0
-IO0
-Text Label 9850 1500 0    50   ~ 0
-EN
-Text Label 8975 1800 0    50   ~ 0
-DTR
-Text Label 8975 2450 0    50   ~ 0
-RTS
 Text HLabel 5750 5025 2    50   Input ~ 0
 IO4
 Text HLabel 5750 5425 2    50   Input ~ 0
@@ -574,52 +560,6 @@ Wire Wire Line
 	5350 1250 5850 1250
 Text Label 2500 1950 0    50   ~ 0
 VBUS
-Wire Wire Line
-	8975 2450 9150 2450
-Wire Wire Line
-	8975 1800 9150 1800
-$Comp
-L B.B-rescue:R-Device-B.B-rescue R23
-U 1 1 5F9B97DB
-P 9350 1800
-F 0 "R23" H 9420 1846 50  0000 L CNN
-F 1 "12k" H 9420 1755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9280 1800 50  0001 C CNN
-F 3 "~" H 9350 1800 50  0001 C CNN
-F 4 "C25752" H 9350 1800 50  0001 C CNN "LCSC"
-	1    9350 1800
-	0    1    -1   0   
-$EndComp
-$Comp
-L B.B-rescue:R-Device-B.B-rescue R29
-U 1 1 5F9BA036
-P 9350 2450
-F 0 "R29" H 9420 2496 50  0000 L CNN
-F 1 "12k" H 9420 2405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9280 2450 50  0001 C CNN
-F 3 "~" H 9350 2450 50  0001 C CNN
-F 4 "C25752" H 9350 2450 50  0001 C CNN "LCSC"
-	1    9350 2450
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	9150 2450 9150 2200
-Wire Wire Line
-	9150 2200 9800 2050
-Connection ~ 9150 2450
-Wire Wire Line
-	9150 2450 9200 2450
-Wire Wire Line
-	9800 2050 9800 2000
-Wire Wire Line
-	9800 2250 9800 2200
-Wire Wire Line
-	9800 2200 9150 2050
-Wire Wire Line
-	9150 2050 9150 1800
-Connection ~ 9150 1800
-Wire Wire Line
-	9150 1800 9200 1800
 Text HLabel 2300 4575 1    50   Input ~ 0
 3V3
 Text HLabel 3450 4575 1    50   Input ~ 0
@@ -1120,33 +1060,6 @@ F 5 "0;0;180" V 3900 1350 50  0001 C CNN "JLCPCB_CORRECTION"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L B.B-rescue:Q_NPN_BCE-B.B-rescue MMBT1
-U 1 1 60279667
-P 9750 2450
-F 0 "MMBT1" H 9891 2404 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 9891 2495 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9900 2550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-MMBT3904_C20526.pdf" H 9700 2450 50  0001 C CNN
-F 4 "C20526" H 9750 2450 50  0001 C CNN "LCSC"
-F 5 "C115751" H 9750 2450 50  0001 C CNN "Field5"
-F 6 "0;0;180" H 9750 2450 50  0001 C CNN "JLCPCB_CORRECTION"
-	1    9750 2450
-	1    0    0    1   
-$EndComp
-$Comp
-L B.B-rescue:Q_NPN_BCE-B.B-rescue MMBT3904
-U 1 1 60277490
-P 9750 1800
-F 0 "MMBT3904" H 9891 1846 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 9891 1755 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9900 1900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-MMBT3904_C20526.pdf" H 9700 1800 50  0001 C CNN
-F 4 "C20526" H 9750 1800 50  0001 C CNN "LCSC"
-F 5 "0;0;180" H 9750 1800 50  0001 C CNN "JLCPCB_CORRECTION"
-	1    9750 1800
-	1    0    0    -1  
-$EndComp
-$Comp
 L B.B-rescue:CP2102N-A01-GQFN28-Interface_USB-B.B-rescue U64
 U 1 1 5F78AFDC
 P 5950 2650
@@ -1237,4 +1150,93 @@ F 4 "C49678" H 4925 1450 50  0001 C CNN "LCSC"
 	1    4925 1450
 	1    0    0    -1  
 $EndComp
+$Comp
+L B.B-rescue:Q_NPN_BCE-B.B-rescue MMBT3904
+U 1 1 60277490
+P 9750 1800
+F 0 "MMBT3904" H 9891 1846 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 9891 1755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9900 1900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-MMBT3904_C20526.pdf" H 9700 1800 50  0001 C CNN
+F 4 "C20526" H 9750 1800 50  0001 C CNN "LCSC"
+F 5 "0;0;180" H 9750 1800 50  0001 C CNN "JLCPCB_CORRECTION"
+	1    9750 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-rescue:Q_NPN_BCE-B.B-rescue MMBT1
+U 1 1 60279667
+P 9750 2450
+F 0 "MMBT1" H 9891 2404 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 9891 2495 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9900 2550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-MMBT3904_C20526.pdf" H 9700 2450 50  0001 C CNN
+F 4 "C20526" H 9750 2450 50  0001 C CNN "LCSC"
+F 5 "C115751" H 9750 2450 50  0001 C CNN "Field5"
+F 6 "0;0;180" H 9750 2450 50  0001 C CNN "JLCPCB_CORRECTION"
+	1    9750 2450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9150 1800 9200 1800
+Connection ~ 9150 1800
+Wire Wire Line
+	9150 2050 9150 1800
+Wire Wire Line
+	9800 2200 9150 2050
+Wire Wire Line
+	9800 2250 9800 2200
+Wire Wire Line
+	9800 2050 9800 2000
+Wire Wire Line
+	9150 2450 9200 2450
+Connection ~ 9150 2450
+Wire Wire Line
+	9150 2200 9800 2050
+Wire Wire Line
+	9150 2450 9150 2200
+$Comp
+L B.B-rescue:R-Device-B.B-rescue R29
+U 1 1 5F9BA036
+P 9350 2450
+F 0 "R29" H 9420 2496 50  0000 L CNN
+F 1 "12k" H 9420 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9280 2450 50  0001 C CNN
+F 3 "~" H 9350 2450 50  0001 C CNN
+F 4 "C25752" H 9350 2450 50  0001 C CNN "LCSC"
+	1    9350 2450
+	0    1    -1   0   
+$EndComp
+$Comp
+L B.B-rescue:R-Device-B.B-rescue R23
+U 1 1 5F9B97DB
+P 9350 1800
+F 0 "R23" H 9420 1846 50  0000 L CNN
+F 1 "12k" H 9420 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9280 1800 50  0001 C CNN
+F 3 "~" H 9350 1800 50  0001 C CNN
+F 4 "C25752" H 9350 1800 50  0001 C CNN "LCSC"
+	1    9350 1800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8975 1800 9150 1800
+Wire Wire Line
+	8975 2450 9150 2450
+Text Label 8975 2450 0    50   ~ 0
+RTS
+Text Label 8975 1800 0    50   ~ 0
+DTR
+Text Label 9850 1500 0    50   ~ 0
+EN
+Text Label 9850 2750 0    50   ~ 0
+IO0
+Wire Wire Line
+	9800 1500 9850 1500
+Wire Wire Line
+	9800 1600 9800 1500
+Wire Wire Line
+	9800 2750 9850 2750
+Wire Wire Line
+	9800 2650 9800 2750
 $EndSCHEMATC
