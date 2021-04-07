@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:B.B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -41,17 +40,17 @@ $EndComp
 Text HLabel 2725 2800 0    50   Input ~ 0
 3V3
 $Sheet
-S 7925 3275 525  500 
+S 8175 3275 525  400 
 U 5FAA484F
 F0 "WS281200" 50
 F1 "WS2812.sch" 50
-F2 "5V" I L 7925 3325 50 
-F3 "DIN" I L 7925 3475 50 
-F4 "GND" I L 7925 3725 50 
+F2 "5V" I L 8175 3325 50 
+F3 "DIN" I L 8175 3475 50 
+F4 "GND" I L 8175 3625 50 
 $EndSheet
-Text HLabel 7925 3475 0    50   Input ~ 0
+Text HLabel 8175 3475 0    50   Input ~ 0
 WS2812
-Text HLabel 6800 3325 0    50   Input ~ 0
+Text HLabel 8175 3325 0    50   Input ~ 0
 5V
 Wire Wire Line
 	5925 3050 5925 3150
@@ -152,7 +151,7 @@ Wire Wire Line
 	5800 3850 5925 3850
 Wire Wire Line
 	5925 3950 5750 3950
-Text HLabel 6800 3725 0    50   Input ~ 0
+Text HLabel 8175 3625 0    50   Input ~ 0
 GND
 $Comp
 L B.B-rescue:C-Device-B.B-rescue C?
@@ -331,58 +330,4 @@ Text HLabel 3600 3150 3    50   Input ~ 0
 LDC-GND
 Text HLabel 5250 2850 2    50   Input ~ 0
 LDC-GND
-$Comp
-L B.B-rescue:C-Device-B.B-rescue C?
-U 1 1 600C059C
-P 6850 3525
-AR Path="/5FA4C94D/600C059C" Ref="C?"  Part="1" 
-AR Path="/5F9AAC80/600C059C" Ref="C?"  Part="1" 
-AR Path="/5FA9675D/600C059C" Ref="C82"  Part="1" 
-F 0 "C82" H 6965 3571 50  0000 L CNN
-F 1 "10uf" H 6965 3480 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6888 3375 50  0001 C CNN
-F 3 "~" H 6850 3525 50  0001 C CNN
-F 4 "C15850" H 6850 3525 50  0001 C CNN "LCSC"
-	1    6850 3525
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6800 3325 6850 3325
-Wire Wire Line
-	7925 3725 7275 3725
-Wire Wire Line
-	6850 3675 6850 3725
-Connection ~ 6850 3725
-Wire Wire Line
-	6850 3725 6800 3725
-Wire Wire Line
-	6850 3375 6850 3325
-Connection ~ 6850 3325
-Wire Wire Line
-	6850 3325 7275 3325
-$Comp
-L B.B-rescue:C-Device-B.B-rescue C?
-U 1 1 600CCD72
-P 7275 3525
-AR Path="/5FA4C94D/600CCD72" Ref="C?"  Part="1" 
-AR Path="/5F9AAC80/600CCD72" Ref="C?"  Part="1" 
-AR Path="/5FA9675D/600CCD72" Ref="C83"  Part="1" 
-F 0 "C83" H 7390 3571 50  0000 L CNN
-F 1 "10uf" H 7390 3480 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7313 3375 50  0001 C CNN
-F 3 "~" H 7275 3525 50  0001 C CNN
-F 4 "C15850" H 7275 3525 50  0001 C CNN "LCSC"
-	1    7275 3525
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7275 3675 7275 3725
-Wire Wire Line
-	7275 3375 7275 3325
-Connection ~ 7275 3325
-Wire Wire Line
-	7275 3325 7925 3325
-Connection ~ 7275 3725
-Wire Wire Line
-	7275 3725 6850 3725
 $EndSCHEMATC

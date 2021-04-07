@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:B.B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,6 +13,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 3450 1450 850  850 
+U 5FA4C94D
+F0 "power00" 50
+F1 "power.sch" 50
+F2 "VCC" I L 3450 1500 50 
+F3 "5V" I R 4300 1500 50 
+F4 "SHUTDOWN_5V" I R 4300 2000 50 
+F5 "3V3" I R 4300 1700 50 
+F6 "SHUTDOWN_3V3-5V" I R 4300 2150 50 
+F7 "baterimetr" I R 4300 1850 50 
+F8 "VCC-OUT" I L 3450 1700 50 
+$EndSheet
 Wire Wire Line
 	6250 1800 6550 1800
 Wire Wire Line
@@ -67,6 +79,8 @@ Wire Wire Line
 Connection ~ 7100 3250
 Wire Wire Line
 	4500 1250 4500 1500
+Wire Wire Line
+	8650 4450 8650 4700
 Wire Wire Line
 	4300 2700 5250 2700
 $Sheet
@@ -205,6 +219,8 @@ F11 "int_baro" I L 7500 2700 50
 F12 "VCC" I L 7500 1500 50 
 $EndSheet
 Wire Wire Line
+	8600 4450 8650 4450
+Wire Wire Line
 	6250 3750 7500 3750
 Wire Wire Line
 	6250 4100 7500 4100
@@ -332,28 +348,30 @@ Wire Wire Line
 Wire Wire Line
 	8000 5850 8575 5850
 Wire Wire Line
-	7400 4950 7350 4950
+	7400 4950 7325 4950
 Wire Wire Line
-	7350 4950 7350 4850
+	7325 4950 7325 4850
 Wire Wire Line
-	7400 4850 7350 4850
-Connection ~ 7350 4850
+	7325 4700 8650 4700
 Wire Wire Line
-	7350 4850 7350 3050
+	7400 4850 7325 4850
+Connection ~ 7325 4850
 Wire Wire Line
-	7400 5050 7350 5050
+	7325 4850 7325 4700
 Wire Wire Line
-	7350 5050 7350 5150
+	7400 5050 7325 5050
 Wire Wire Line
-	7400 5150 7350 5150
-Connection ~ 7350 5150
+	7325 5050 7325 5150
 Wire Wire Line
-	7350 5150 7350 5850
+	7400 5150 7325 5150
+Connection ~ 7325 5150
 Wire Wire Line
-	7400 5850 7350 5850
-Connection ~ 7350 5850
+	7325 5150 7325 5850
 Wire Wire Line
-	7350 5850 7350 5950
+	7400 5850 7325 5850
+Connection ~ 7325 5850
+Wire Wire Line
+	7325 5850 7325 5950
 Wire Wire Line
 	7400 5750 7100 5750
 Wire Wire Line
@@ -376,12 +394,12 @@ Wire Wire Line
 $Comp
 L B.B-rescue:GND-B.B-eagle-import #GND01
 U 1 1 5FC953CE
-P 7350 6050
-F 0 "#GND01" H 7350 6050 50  0001 C CNN
-F 1 "GND" H 7350 5970 59  0000 C CNN
-F 2 "" H 7350 6050 50  0001 C CNN
-F 3 "" H 7350 6050 50  0001 C CNN
-	1    7350 6050
+P 7325 6050
+F 0 "#GND01" H 7325 6050 50  0001 C CNN
+F 1 "GND" H 7325 5970 59  0000 C CNN
+F 2 "" H 7325 6050 50  0001 C CNN
+F 3 "" H 7325 6050 50  0001 C CNN
+	1    7325 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -521,18 +539,4 @@ Wire Wire Line
 Connection ~ 3350 1700
 Wire Wire Line
 	3450 2700 3350 2700
-$Sheet
-S 3450 1450 850  850 
-U 5FA4C94D
-F0 "power00" 50
-F1 "power.sch" 50
-F2 "VCC" I L 3450 1500 50 
-F3 "5V" I R 4300 1500 50 
-F4 "SHUTDOWN_5V" I R 4300 2000 50 
-F5 "3V3" I R 4300 1700 50 
-F6 "SHUTDOWN_3V3-5V" I R 4300 2150 50 
-F7 "baterimetr" I R 4300 1850 50 
-F8 "VCC-OUT" I L 3450 1700 50 
-$EndSheet
-Connection ~ 7350 3050
 $EndSCHEMATC

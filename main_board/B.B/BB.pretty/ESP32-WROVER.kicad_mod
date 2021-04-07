@@ -1,4 +1,4 @@
-(module ESP32-WROVER (layer F.Cu) (tedit 5FE1F321)
+(module ESP32-WROVER (layer F.Cu) (tedit 5FD90E44)
   (attr smd)
   (fp_text reference U1 (at -0.1 0.62) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -68,9 +68,9 @@
   (pad 39 thru_hole circle (at -1.025 9.7) (size 1.2 1.2) (drill 0.7) (layers *.Cu *.Mask))
   (pad 39 thru_hole circle (at 0.225 9.7) (size 1.2 1.2) (drill 0.7) (layers *.Cu *.Mask))
   (pad 39 thru_hole circle (at 1.475 9.7) (size 1.2 1.2) (drill 0.7) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/3D_modely/ESP32_wrover.step
-    (offset (xyz 9 -24.75 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -90))
+  (model ${KIWALTER3DMOD}/nrf51822-04_module.x3d
+    (offset (xyz 11.00000323479652 29.99999034944534 0))
+    (scale (xyz 2 2.8 1))
+    (rotate (xyz 0 0 0))
   )
 )

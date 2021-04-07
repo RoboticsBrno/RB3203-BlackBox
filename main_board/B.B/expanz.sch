@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:B.B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -113,6 +112,52 @@ F 4 "C22452" V 4525 4600 50  0001 C CNN "LCSC"
 	1    4525 4600
 	0    1    1    0   
 $EndComp
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND0137
+U 1 1 5F9DF814
+P 7750 3025
+AR Path="/5F9EE529/5F9DF814" Ref="#GND0137"  Part="1" 
+AR Path="/5FA9DBB3/5F9DF814" Ref="#GND?"  Part="1" 
+F 0 "#GND0137" H 7750 3025 50  0001 C CNN
+F 1 "GND" H 7750 2945 59  0000 C CNN
+F 2 "" H 7750 3025 50  0001 C CNN
+F 3 "" H 7750 3025 50  0001 C CNN
+	1    7750 3025
+	1    0    0    -1  
+$EndComp
+Text HLabel 7950 2225 2    50   Input ~ 0
+5V-WS2812
+Text HLabel 7300 2225 0    50   Input ~ 0
+5V
+$Comp
+L B.B-rescue:R-Device-B.B-rescue R?
+U 1 1 5FAAB362
+P 7550 2525
+AR Path="/5F96CFDA/5FAAB362" Ref="R?"  Part="1" 
+AR Path="/5F9EE529/5F9F24D4/5FAAB362" Ref="R?"  Part="1" 
+AR Path="/5FA9DBB3/5F9F24D4/5FAAB362" Ref="R?"  Part="1" 
+AR Path="/5F9EE529/5FAAB362" Ref="R42"  Part="1" 
+F 0 "R42" H 7600 2475 50  0000 L CNN
+F 1 "100k" H 7600 2575 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7480 2525 50  0001 C CNN
+F 3 "~" H 7550 2525 50  0001 C CNN
+F 4 "C25741" H 7550 2525 50  0001 C CNN "LCSC"
+	1    7550 2525
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 2525 7750 2525
+Wire Wire Line
+	7300 2225 7350 2225
+Wire Wire Line
+	7400 2525 7350 2525
+Wire Wire Line
+	7350 2525 7350 2225
+Connection ~ 7350 2225
+Wire Wire Line
+	7350 2225 7550 2225
+Text HLabel 7450 2725 0    50   Input ~ 0
+WS2812-power
 $Comp
 L B.B-rescue:MH253ESO-B.B-rescue U?
 U 1 1 5FB5B56F
@@ -254,6 +299,35 @@ F 4 "C1532" H 8950 4900 50  0001 C CNN "LCSC"
 	1    8950 4900
 	1    0    0    -1  
 $EndComp
+$Comp
+L B.B-rescue:Q_PMOS_DSG-B.B-rescue Q9
+U 1 1 602B1909
+P 7750 2325
+F 0 "Q9" V 8092 2325 50  0000 C CNN
+F 1 "SI3447CDV" V 8001 2325 50  0000 C CNN
+F 2 "BB:TSOP-6_1.5x3.0x0.95P" H 7950 2425 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Vishay-Intertech-SI3447CDV-T1-E3_C145421.pdf" H 7750 2325 50  0001 C CNN
+F 4 "C144884" V 7750 2325 50  0001 C CNN "LCSC"
+	1    7750 2325
+	0    1    -1   0   
+$EndComp
+$Comp
+L B.B-rescue:2N7002-Transistor_FET-B.B-rescue Q?
+U 1 1 5FBA8934
+P 7650 2725
+AR Path="/5F77B818/5FBA8934" Ref="Q?"  Part="1" 
+AR Path="/5FA4C94D/5FBA8934" Ref="Q?"  Part="1" 
+AR Path="/5F9EE529/5FBA8934" Ref="Q8"  Part="1" 
+F 0 "Q8" H 7854 2771 50  0000 L CNN
+F 1 "2N7002" H 7854 2680 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7850 2650 50  0001 L CIN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-CJ3134K_C110100.pdf" H 7650 2725 50  0001 L CNN
+F 4 "C8545" H 7650 2725 50  0001 C CNN "LCSC"
+F 5 "0;0;180" H 7650 2725 50  0001 C CNN "JLCPCB_CORRECTION"
+	1    7650 2725
+	1    0    0    -1  
+$EndComp
+Connection ~ 7750 2525
 $Comp
 L B.B-rescue:2N7002-Transistor_FET-B.B-rescue Q?
 U 1 1 5FBAB051

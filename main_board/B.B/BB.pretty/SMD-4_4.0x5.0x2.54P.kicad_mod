@@ -1,4 +1,4 @@
-(module SMD-4_4.0x5.0x2.54P (layer F.Cu) (tedit 5FE2418B)
+(module SMD-4_4.0x5.0x2.54P (layer F.Cu) (tedit 5FD90E76)
   (attr smd)
   (fp_text reference REF** (at 0 4.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -15,9 +15,4 @@
   (pad 2 smd rect (at -3.15 2.15) (size 1.5 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 3.15 2.15) (size 1.5 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 3.15 -0.39) (size 1.5 1.1) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/3D_modely/IRM-H936.step
-    (offset (xyz 0 -0.9 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 90))
-  )
 )
