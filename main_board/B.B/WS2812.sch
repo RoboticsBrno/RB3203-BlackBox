@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:B.B-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 4 9
 Title ""
 Date ""
 Rev ""
@@ -2947,4 +2948,6 @@ Text HLabel 8350 1350 3    50   Input ~ 0
 GND
 Text HLabel 7150 1350 3    50   Input ~ 0
 GND
+Text HLabel 5900 6750 2    50   Input ~ 0
+DOUT
 $EndSCHEMATC

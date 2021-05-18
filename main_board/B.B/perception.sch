@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:B.B-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -13,134 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L B.B-rescue:BMX055-B.B-rescue U?
-U 1 1 5F9701D7
-P 6150 1700
-AR Path="/5F96CFDA/5F9701D7" Ref="U?"  Part="1" 
-AR Path="/5F9EE529/5F9F24D4/5F9701D7" Ref="U69"  Part="1" 
-AR Path="/5FA9DBB3/5F9F24D4/5F9701D7" Ref="U?"  Part="1" 
-AR Path="/5F9EE529/5FB1300F/5F9701D7" Ref="U?"  Part="1" 
-AR Path="/5FB26A97/5F9701D7" Ref="U61"  Part="1" 
-F 0 "U61" H 6200 1875 50  0000 C CNN
-F 1 "BMX055" H 6200 1784 50  0000 C CNN
-F 2 "BB:LGA_4.5x3" H 5950 1650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Bosch-Sensortec-BMX055_C94022.pdf" H 5950 1650 50  0001 C CNN
-F 4 "C94022" H 6150 1700 50  0001 C CNN "LCSC"
-	1    6150 1700
-	1    0    0    -1  
-$EndComp
-Text HLabel 4550 1650 1    50   Input ~ 0
-3V3
-Wire Wire Line
-	4550 1650 4550 1750
-Wire Wire Line
-	5550 1750 5500 1750
-$Comp
-L B.B-rescue:C-Device-B.B-rescue C?
-U 1 1 5F971B50
-P 4550 1950
-AR Path="/5F96CFDA/5F971B50" Ref="C?"  Part="1" 
-AR Path="/5F9EE529/5F9F24D4/5F971B50" Ref="C115"  Part="1" 
-AR Path="/5FA9DBB3/5F9F24D4/5F971B50" Ref="C?"  Part="1" 
-AR Path="/5F9EE529/5FB1300F/5F971B50" Ref="C?"  Part="1" 
-AR Path="/5FB26A97/5F971B50" Ref="C67"  Part="1" 
-F 0 "C67" H 4665 1996 50  0000 L CNN
-F 1 "10uf" H 4665 1905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4588 1800 50  0001 C CNN
-F 3 "~" H 4550 1950 50  0001 C CNN
-F 4 "C15850" H 4550 1950 50  0001 C CNN "LCSC"
-	1    4550 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L B.B-rescue:GND-B.B-eagle-import #GND?
-U 1 1 5F972192
-P 4550 2200
-AR Path="/5F96CFDA/5F972192" Ref="#GND?"  Part="1" 
-AR Path="/5F9EE529/5F9F24D4/5F972192" Ref="#GND0144"  Part="1" 
-AR Path="/5FA9DBB3/5F9F24D4/5F972192" Ref="#GND?"  Part="1" 
-AR Path="/5F9EE529/5FB1300F/5F972192" Ref="#GND?"  Part="1" 
-AR Path="/5FB26A97/5F972192" Ref="#GND0141"  Part="1" 
-F 0 "#GND0141" H 4550 2200 50  0001 C CNN
-F 1 "GND" H 4550 2120 59  0000 C CNN
-F 2 "" H 4550 2200 50  0001 C CNN
-F 3 "" H 4550 2200 50  0001 C CNN
-	1    4550 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L B.B-rescue:GND-B.B-eagle-import #GND?
-U 1 1 5F97A11B
-P 4950 2200
-AR Path="/5F96CFDA/5F97A11B" Ref="#GND?"  Part="1" 
-AR Path="/5F9EE529/5F9F24D4/5F97A11B" Ref="#GND0145"  Part="1" 
-AR Path="/5FA9DBB3/5F9F24D4/5F97A11B" Ref="#GND?"  Part="1" 
-AR Path="/5F9EE529/5FB1300F/5F97A11B" Ref="#GND?"  Part="1" 
-AR Path="/5FB26A97/5F97A11B" Ref="#GND0142"  Part="1" 
-F 0 "#GND0142" H 4950 2200 50  0001 C CNN
-F 1 "GND" H 4950 2120 59  0000 C CNN
-F 2 "" H 4950 2200 50  0001 C CNN
-F 3 "" H 4950 2200 50  0001 C CNN
-	1    4950 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 1850 5500 1850
-Wire Wire Line
-	5500 1850 5500 1750
-Connection ~ 5500 1750
-Wire Wire Line
-	4550 1750 4950 1750
-Wire Wire Line
-	4550 1800 4550 1750
-Connection ~ 4550 1750
-Wire Wire Line
-	4950 1800 4950 1750
-Connection ~ 4950 1750
-Wire Wire Line
-	4950 1750 5500 1750
-Text HLabel 5550 2400 0    50   Input ~ 0
-SCL
-Text HLabel 5550 2500 0    50   Input ~ 0
-SDA
-Wire Wire Line
-	5550 2000 5500 2000
-Wire Wire Line
-	5500 2000 5500 1850
-Connection ~ 5500 1850
-$Comp
-L B.B-rescue:GND-B.B-eagle-import #GND?
-U 1 1 5F97F861
-P 6100 2900
-AR Path="/5F96CFDA/5F97F861" Ref="#GND?"  Part="1" 
-AR Path="/5F9EE529/5F9F24D4/5F97F861" Ref="#GND0146"  Part="1" 
-AR Path="/5FA9DBB3/5F9F24D4/5F97F861" Ref="#GND?"  Part="1" 
-AR Path="/5F9EE529/5FB1300F/5F97F861" Ref="#GND?"  Part="1" 
-AR Path="/5FB26A97/5F97F861" Ref="#GND0143"  Part="1" 
-F 0 "#GND0143" H 6100 2900 50  0001 C CNN
-F 1 "GND" H 6100 2820 59  0000 C CNN
-F 2 "" H 6100 2900 50  0001 C CNN
-F 3 "" H 6100 2900 50  0001 C CNN
-	1    6100 2900
-	1    0    0    -1  
-$EndComp
-Text HLabel 6850 2450 2    50   Input ~ 0
-3V3
-Text HLabel 5550 2250 0    50   Input ~ 0
-3V3
-Text HLabel 5550 2150 0    50   Input ~ 0
-3V3
-Text HLabel 6850 1750 2    50   Input ~ 0
-int_accel1
-Text HLabel 6850 1850 2    50   Input ~ 0
-int_accel2
-Text HLabel 6850 1950 2    50   Input ~ 0
-int_giro1
-Text HLabel 6850 2050 2    50   Input ~ 0
-int_giro2
-Text HLabel 6850 2150 2    50   Input ~ 0
-int_magnet
 $Comp
 L B.B-rescue:M41T62-B.B-rescue U?
 U 1 1 5F935E15
@@ -189,7 +62,7 @@ AR Path="/5FB26A97/5F93D78D" Ref="Y1"  Part="1"
 F 0 "Y1" V 6704 4231 50  0000 L CNN
 F 1 "32.768kHz" V 6795 4231 50  0000 L CNN
 F 2 "BB:SMD-3215_2P" H 6750 4100 50  0001 C CNN
-F 3 "~" H 6750 4100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nihon-Dempa-Kogyo-NX3215SA-32-768KHZ-STD-MUA-14_C156244.pdf" H 6750 4100 50  0001 C CNN
 F 4 "C156244" V 6750 4100 50  0001 C CNN "LCSC"
 	1    6750 4100
 	0    1    1    0   
@@ -298,54 +171,6 @@ F 3 "" H 6500 5300 50  0001 C CNN
 	1    6500 5300
 	1    0    0    -1  
 $EndComp
-$Comp
-L B.B-rescue:NC-B.B-eagle-import #NC?
-U 1 1 5F970396
-P 6850 2550
-AR Path="/5F96CFDA/5F970396" Ref="#NC?"  Part="1" 
-AR Path="/5F9EE529/5F9F24D4/5F970396" Ref="#NC27"  Part="1" 
-AR Path="/5FA9DBB3/5F9F24D4/5F970396" Ref="#NC?"  Part="1" 
-AR Path="/5F9EE529/5FB1300F/5F970396" Ref="#NC?"  Part="1" 
-AR Path="/5FB26A97/5F970396" Ref="#NC12"  Part="1" 
-F 0 "#NC12" H 6850 2550 50  0001 C CNN
-F 1 "NC" H 6850 2550 50  0001 C CNN
-F 2 "" H 6850 2550 50  0001 C CNN
-F 3 "" H 6850 2550 50  0001 C CNN
-	1    6850 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L B.B-rescue:NC-B.B-eagle-import #NC?
-U 1 1 5F970862
-P 6850 2650
-AR Path="/5F96CFDA/5F970862" Ref="#NC?"  Part="1" 
-AR Path="/5F9EE529/5F9F24D4/5F970862" Ref="#NC29"  Part="1" 
-AR Path="/5FA9DBB3/5F9F24D4/5F970862" Ref="#NC?"  Part="1" 
-AR Path="/5F9EE529/5FB1300F/5F970862" Ref="#NC?"  Part="1" 
-AR Path="/5FB26A97/5F970862" Ref="#NC25"  Part="1" 
-F 0 "#NC25" H 6850 2650 50  0001 C CNN
-F 1 "NC" H 6850 2650 50  0001 C CNN
-F 2 "" H 6850 2650 50  0001 C CNN
-F 3 "" H 6850 2650 50  0001 C CNN
-	1    6850 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L B.B-rescue:NC-B.B-eagle-import #NC?
-U 1 1 5F970C9C
-P 5550 2650
-AR Path="/5F96CFDA/5F970C9C" Ref="#NC?"  Part="1" 
-AR Path="/5F9EE529/5F9F24D4/5F970C9C" Ref="#NC28"  Part="1" 
-AR Path="/5FA9DBB3/5F9F24D4/5F970C9C" Ref="#NC?"  Part="1" 
-AR Path="/5F9EE529/5FB1300F/5F970C9C" Ref="#NC?"  Part="1" 
-AR Path="/5FB26A97/5F970C9C" Ref="#NC13"  Part="1" 
-F 0 "#NC13" H 5550 2650 50  0001 C CNN
-F 1 "NC" H 5550 2650 50  0001 C CNN
-F 2 "" H 5550 2650 50  0001 C CNN
-F 3 "" H 5550 2650 50  0001 C CNN
-	1    5550 2650
-	-1   0    0    1   
-$EndComp
 Text HLabel 5000 4950 1    50   Input ~ 0
 3V3
 $Comp
@@ -412,8 +237,6 @@ Wire Wire Line
 	5700 5100 5650 5100
 Wire Wire Line
 	5650 5100 5650 5000
-Wire Wire Line
-	6500 5100 6850 5100
 $Comp
 L B.B-rescue:GND-B.B-eagle-import #GND?
 U 1 1 5F98C0A7
@@ -430,67 +253,395 @@ F 3 "" H 6100 5650 50  0001 C CNN
 	1    6100 5650
 	1    0    0    -1  
 $EndComp
-$Comp
-L B.B-rescue:R-Device-B.B-rescue R?
-U 1 1 5F990B4D
-P 6850 5300
-AR Path="/5F96CFDA/5F990B4D" Ref="R?"  Part="1" 
-AR Path="/5F9EE529/5F9F24D4/5F990B4D" Ref="R49"  Part="1" 
-AR Path="/5FA9DBB3/5F9F24D4/5F990B4D" Ref="R?"  Part="1" 
-AR Path="/5F9EE529/5FB1300F/5F990B4D" Ref="R?"  Part="1" 
-AR Path="/5FB26A97/5F990B4D" Ref="R45"  Part="1" 
-F 0 "R45" H 6920 5346 50  0000 L CNN
-F 1 "100k" H 6920 5255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6780 5300 50  0001 C CNN
-F 3 "~" H 6850 5300 50  0001 C CNN
-F 4 "C25741" H 6850 5300 50  0001 C CNN "LCSC"
-	1    6850 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6850 5150 6850 5100
-$Comp
-L B.B-rescue:GND-B.B-eagle-import #GND?
-U 1 1 5F9924A7
-P 6850 5550
-AR Path="/5F96CFDA/5F9924A7" Ref="#GND?"  Part="1" 
-AR Path="/5F9EE529/5F9F24D4/5F9924A7" Ref="#GND0150"  Part="1" 
-AR Path="/5FA9DBB3/5F9F24D4/5F9924A7" Ref="#GND?"  Part="1" 
-AR Path="/5F9EE529/5FB1300F/5F9924A7" Ref="#GND?"  Part="1" 
-AR Path="/5FB26A97/5F9924A7" Ref="#GND0148"  Part="1" 
-F 0 "#GND0148" H 6850 5550 50  0001 C CNN
-F 1 "GND" H 6850 5470 59  0000 C CNN
-F 2 "" H 6850 5550 50  0001 C CNN
-F 3 "" H 6850 5550 50  0001 C CNN
-	1    6850 5550
-	1    0    0    -1  
-$EndComp
 Text HLabel 5700 4000 0    50   Input ~ 0
 SCL
 Text HLabel 5700 3900 0    50   Input ~ 0
 SDA
 Wire Wire Line
 	5000 4950 5000 5000
-Connection ~ 6850 5100
-Wire Wire Line
-	6850 5100 6950 5100
 Text HLabel 4500 3600 0    50   Input ~ 0
 VCC
 Wire Wire Line
 	5700 5000 5650 5000
 Connection ~ 5650 5000
 $Comp
-L B.B-rescue:C-Device-B.B-rescue C?
-U 1 1 600A2DED
-P 4950 1950
-AR Path="/5F77B818/600A2DED" Ref="C?"  Part="1" 
-AR Path="/5FB26A97/600A2DED" Ref="C68"  Part="1" 
-F 0 "C68" H 5065 1996 50  0000 L CNN
-F 1 "0.1uf" H 5065 1905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4988 1800 50  0001 C CNN
-F 3 "~" H 4950 1950 50  0001 C CNN
-F 4 "C49678" H 4950 1950 50  0001 C CNN "LCSC"
-	1    4950 1950
+L B.B-rescue:MPU6050 U73
+U 1 1 60207215
+P 4575 1600
+F 0 "U73" H 4575 1825 50  0000 C CNN
+F 1 "MPU6050" H 4575 1734 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 4575 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/TDK-InvenSense-MPU-6050_C24112.pdf" H 4575 1600 50  0001 C CNN
+F 4 "C24112" H 4575 1600 50  0001 C CNN "LCSC"
+	1    4575 1600
 	1    0    0    -1  
 $EndComp
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND?
+U 1 1 602081E3
+P 4575 2650
+AR Path="/5F96CFDA/602081E3" Ref="#GND?"  Part="1" 
+AR Path="/5F9EE529/5F9F24D4/602081E3" Ref="#GND?"  Part="1" 
+AR Path="/5FA9DBB3/5F9F24D4/602081E3" Ref="#GND?"  Part="1" 
+AR Path="/5F9EE529/5FB1300F/602081E3" Ref="#GND?"  Part="1" 
+AR Path="/5FB26A97/602081E3" Ref="#GND0117"  Part="1" 
+F 0 "#GND0117" H 4575 2650 50  0001 C CNN
+F 1 "GND" H 4575 2570 59  0000 C CNN
+F 2 "" H 4575 2650 50  0001 C CNN
+F 3 "" H 4575 2650 50  0001 C CNN
+	1    4575 2650
+	1    0    0    -1  
+$EndComp
+Text HLabel 4125 2400 0    50   Input ~ 0
+SCL
+Text HLabel 4125 2300 0    50   Input ~ 0
+SDA
+Text HLabel 3575 1500 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	3575 1500 3575 1600
+Wire Wire Line
+	4125 1700 4075 1700
+Wire Wire Line
+	4075 1700 4075 1600
+Connection ~ 4075 1600
+Wire Wire Line
+	4075 1600 4125 1600
+Wire Wire Line
+	4125 1900 4075 1900
+Wire Wire Line
+	4075 1900 4075 1700
+Connection ~ 4075 1700
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND?
+U 1 1 60216692
+P 3800 2250
+AR Path="/5F96CFDA/60216692" Ref="#GND?"  Part="1" 
+AR Path="/5F9EE529/5F9F24D4/60216692" Ref="#GND?"  Part="1" 
+AR Path="/5FA9DBB3/5F9F24D4/60216692" Ref="#GND?"  Part="1" 
+AR Path="/5F9EE529/5FB1300F/60216692" Ref="#GND?"  Part="1" 
+AR Path="/5FB26A97/60216692" Ref="#GND0121"  Part="1" 
+F 0 "#GND0121" H 3800 2250 50  0001 C CNN
+F 1 "GND" H 3800 2170 59  0000 C CNN
+F 2 "" H 3800 2250 50  0001 C CNN
+F 3 "" H 3800 2250 50  0001 C CNN
+	1    3800 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2150 3800 2100
+Wire Wire Line
+	3800 2100 4125 2100
+Wire Wire Line
+	4125 2000 3800 2000
+Wire Wire Line
+	3800 2000 3800 2100
+Connection ~ 3800 2100
+Wire Wire Line
+	3575 1600 4075 1600
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND?
+U 1 1 60221D7A
+P 3575 2050
+AR Path="/5F96CFDA/60221D7A" Ref="#GND?"  Part="1" 
+AR Path="/5F9EE529/5F9F24D4/60221D7A" Ref="#GND?"  Part="1" 
+AR Path="/5FA9DBB3/5F9F24D4/60221D7A" Ref="#GND?"  Part="1" 
+AR Path="/5F9EE529/5FB1300F/60221D7A" Ref="#GND?"  Part="1" 
+AR Path="/5FB26A97/60221D7A" Ref="#GND0127"  Part="1" 
+F 0 "#GND0127" H 3575 2050 50  0001 C CNN
+F 1 "GND" H 3575 1970 59  0000 C CNN
+F 2 "" H 3575 2050 50  0001 C CNN
+F 3 "" H 3575 2050 50  0001 C CNN
+	1    3575 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3575 1650 3575 1600
+$Comp
+L B.B-rescue:C-Device-B.B-rescue C?
+U 1 1 60221D82
+P 3575 1800
+AR Path="/5F96CFDA/60221D82" Ref="C?"  Part="1" 
+AR Path="/5F9EE529/5F9F24D4/60221D82" Ref="C?"  Part="1" 
+AR Path="/5FA9DBB3/5F9F24D4/60221D82" Ref="C?"  Part="1" 
+AR Path="/5F9EE529/5FB1300F/60221D82" Ref="C?"  Part="1" 
+AR Path="/5FB26A97/60221D82" Ref="C84"  Part="1" 
+F 0 "C84" H 3690 1846 50  0000 L CNN
+F 1 "1uf" H 3690 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3613 1650 50  0001 C CNN
+F 3 "~" H 3575 1800 50  0001 C CNN
+F 4 "C52923" H 3575 1800 50  0001 C CNN "LCSC"
+	1    3575 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3575 1600
+Wire Wire Line
+	5100 2200 5100 2250
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND?
+U 1 1 6023C311
+P 5100 2650
+AR Path="/5FA4C94D/6023C311" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/6023C311" Ref="#GND?"  Part="1" 
+AR Path="/5FB26A97/6023C311" Ref="#GND0128"  Part="1" 
+F 0 "#GND0128" H 5100 2650 50  0001 C CNN
+F 1 "GND" H 5100 2570 59  0000 C CNN
+F 2 "" H 5100 2650 50  0001 C CNN
+F 3 "" H 5100 2650 50  0001 C CNN
+	1    5100 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2200 5025 2200
+$Comp
+L B.B-rescue:C-Device-B.B-rescue C?
+U 1 1 602540F1
+P 5550 2400
+AR Path="/5F96CFDA/602540F1" Ref="C?"  Part="1" 
+AR Path="/5F9EE529/5F9F24D4/602540F1" Ref="C?"  Part="1" 
+AR Path="/5FA9DBB3/5F9F24D4/602540F1" Ref="C?"  Part="1" 
+AR Path="/5F9EE529/5FB1300F/602540F1" Ref="C?"  Part="1" 
+AR Path="/5FB26A97/602540F1" Ref="C95"  Part="1" 
+AR Path="/5FA9675D/602540F1" Ref="C?"  Part="1" 
+AR Path="/5F9EE529/602540F1" Ref="C?"  Part="1" 
+F 0 "C95" H 5650 2450 50  0000 L CNN
+F 1 "0.1uf" H 5650 2350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5588 2250 50  0001 C CNN
+F 3 "~" H 5550 2400 50  0001 C CNN
+F 4 "C1525" H 5550 2400 50  0001 C CNN "LCSC"
+	1    5550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND?
+U 1 1 602540F7
+P 5550 2650
+AR Path="/5FA4C94D/602540F7" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/602540F7" Ref="#GND?"  Part="1" 
+AR Path="/5F9EE529/602540F7" Ref="#GND?"  Part="1" 
+AR Path="/5FB26A97/602540F7" Ref="#GND0130"  Part="1" 
+F 0 "#GND0130" H 5550 2650 50  0001 C CNN
+F 1 "GND" H 5550 2570 59  0000 C CNN
+F 2 "" H 5550 2650 50  0001 C CNN
+F 3 "" H 5550 2650 50  0001 C CNN
+	1    5550 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2250 5550 2100
+Wire Wire Line
+	5550 2100 5025 2100
+Text HLabel 5025 1600 2    50   Input ~ 0
+int_MPU
+Text HLabel 7375 2450 2    50   Input ~ 0
+SCL
+Text HLabel 6900 2275 2    50   Input ~ 0
+SDA
+Text HLabel 6500 1500 1    50   Input ~ 0
+3V3
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND?
+U 1 1 60295DFC
+P 7950 2050
+AR Path="/5FA4C94D/60295DFC" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/60295DFC" Ref="#GND?"  Part="1" 
+AR Path="/5FB26A97/60295DFC" Ref="#GND0150"  Part="1" 
+F 0 "#GND0150" H 7950 2050 50  0001 C CNN
+F 1 "GND" H 7950 1970 59  0000 C CNN
+F 2 "" H 7950 2050 50  0001 C CNN
+F 3 "" H 7950 2050 50  0001 C CNN
+	1    7950 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1650 7950 1600
+Wire Wire Line
+	7950 1600 7875 1600
+$Comp
+L Device:Jumper_NC_Dual JP1
+U 1 1 600CE448
+P 6650 2275
+F 0 "JP1" H 6550 2150 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 6750 2400 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 6650 2275 50  0001 C CNN
+F 3 "~" H 6650 2275 50  0001 C CNN
+F 4 "" H 6650 2275 50  0001 C CNN "JLCPCB_IGNORE"
+	1    6650 2275
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NC_Dual JP2
+U 1 1 600DA519
+P 7125 2450
+F 0 "JP2" H 7025 2350 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 7125 2575 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 7125 2450 50  0001 C CNN
+F 3 "~" H 7125 2450 50  0001 C CNN
+F 4 "" H 7125 2450 50  0001 C CNN "JLCPCB_IGNORE"
+	1    7125 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 2175 6650 1700
+Wire Wire Line
+	6650 1700 7275 1700
+Wire Wire Line
+	7125 2350 7125 1800
+Wire Wire Line
+	7125 1800 7275 1800
+Wire Wire Line
+	5025 1800 6275 1800
+Wire Wire Line
+	6275 1800 6275 2275
+Wire Wire Line
+	6275 2275 6400 2275
+Wire Wire Line
+	5025 1900 6175 1900
+Wire Wire Line
+	6175 1900 6175 2450
+Wire Wire Line
+	6175 2450 6875 2450
+Text HLabel 2825 3750 0    50   Input ~ 0
+A9-TX
+Text HLabel 2825 3850 0    50   Input ~ 0
+A9-RX
+Text HLabel 2825 3650 0    50   Input ~ 0
+VCC
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND?
+U 1 1 60276177
+P 2750 4100
+AR Path="/5FA4C94D/60276177" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/60276177" Ref="#GND?"  Part="1" 
+AR Path="/5FB26A97/60276177" Ref="#GND0151"  Part="1" 
+F 0 "#GND0151" H 2750 4100 50  0001 C CNN
+F 1 "GND" H 2750 4020 59  0000 C CNN
+F 2 "" H 2750 4100 50  0001 C CNN
+F 3 "" H 2750 4100 50  0001 C CNN
+	1    2750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4000 2750 3950
+Wire Wire Line
+	2750 3950 2825 3950
+Wire Notes Line
+	2075 4250 3850 4250
+Wire Notes Line
+	3850 3450 2075 3450
+Wire Notes Line
+	2075 3450 2075 4250
+Text Notes 2650 3425 0    50   ~ 0
+conn for A9G
+$Comp
+L B.B-rescue:QMC6310 U61
+U 1 1 60ACA176
+P 7575 1600
+F 0 "U61" H 7575 1825 50  0000 C CNN
+F 1 "QMC6310" H 7575 1734 50  0000 C CNN
+F 2 "BB:QMC6310" H 7625 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2007101835_QST-QMC6310U_C669299.pdf" H 7625 1600 50  0001 C CNN
+F 4 "C669299" H 7575 1600 50  0001 C CNN "LCSC"
+	1    7575 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1500 6500 1600
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND?
+U 1 1 60ACD176
+P 7675 2050
+AR Path="/5FA4C94D/60ACD176" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/60ACD176" Ref="#GND?"  Part="1" 
+AR Path="/5FB26A97/60ACD176" Ref="#GND0137"  Part="1" 
+F 0 "#GND0137" H 7675 2050 50  0001 C CNN
+F 1 "GND" H 7675 1970 59  0000 C CNN
+F 2 "" H 7675 2050 50  0001 C CNN
+F 3 "" H 7675 2050 50  0001 C CNN
+	1    7675 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7275 1600 6500 1600
+Connection ~ 6500 1600
+$Comp
+L B.B-rescue:C-Device-B.B-rescue C?
+U 1 1 60295DF6
+P 7950 1800
+AR Path="/5FA4C94D/60295DF6" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/60295DF6" Ref="C?"  Part="1" 
+AR Path="/5FB26A97/60295DF6" Ref="C91"  Part="1" 
+F 0 "C91" H 8065 1846 50  0000 L CNN
+F 1 "4.7uf" H 8065 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7988 1650 50  0001 C CNN
+F 3 "~" H 7950 1800 50  0001 C CNN
+F 4 "C23733" H 7950 1800 50  0001 C CNN "LCSC"
+	1    7950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND?
+U 1 1 6027D75A
+P 6500 2050
+AR Path="/5F96CFDA/6027D75A" Ref="#GND?"  Part="1" 
+AR Path="/5F9EE529/5F9F24D4/6027D75A" Ref="#GND?"  Part="1" 
+AR Path="/5FA9DBB3/5F9F24D4/6027D75A" Ref="#GND?"  Part="1" 
+AR Path="/5F9EE529/5FB1300F/6027D75A" Ref="#GND?"  Part="1" 
+AR Path="/5FB26A97/6027D75A" Ref="#GND0149"  Part="1" 
+F 0 "#GND0149" H 6500 2050 50  0001 C CNN
+F 1 "GND" H 6500 1970 59  0000 C CNN
+F 2 "" H 6500 2050 50  0001 C CNN
+F 3 "" H 6500 2050 50  0001 C CNN
+	1    6500 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1600 6500 1650
+$Comp
+L B.B-rescue:C-Device-B.B-rescue C?
+U 1 1 60ADFB86
+P 6500 1800
+AR Path="/5FA4C94D/60ADFB86" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/60ADFB86" Ref="C?"  Part="1" 
+AR Path="/5F9EE529/60ADFB86" Ref="C?"  Part="1" 
+AR Path="/5FB26A97/60ADFB86" Ref="C67"  Part="1" 
+F 0 "C67" H 6350 1900 50  0000 L CNN
+F 1 "2.2uf" H 6300 1725 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6538 1650 50  0001 C CNN
+F 3 "~" H 6500 1800 50  0001 C CNN
+F 4 "C12530" H 6500 1800 50  0001 C CNN "LCSC"
+	1    6500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-rescue:C-Device-B.B-rescue C?
+U 1 1 60AE3694
+P 5100 2400
+AR Path="/5FA4C94D/60AE3694" Ref="C?"  Part="1" 
+AR Path="/5F9AAC80/60AE3694" Ref="C?"  Part="1" 
+AR Path="/5F9EE529/60AE3694" Ref="C?"  Part="1" 
+AR Path="/5FB26A97/60AE3694" Ref="C68"  Part="1" 
+F 0 "C68" H 5200 2450 50  0000 L CNN
+F 1 "2.2uf" H 5200 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5138 2250 50  0001 C CNN
+F 3 "~" H 5100 2400 50  0001 C CNN
+F 4 "C12530" H 5100 2400 50  0001 C CNN "LCSC"
+	1    5100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J6
+U 1 1 60B1A7F5
+P 3025 3750
+F 0 "J6" H 3105 3742 50  0000 L CNN
+F 1 "Conn_01x04" H 3105 3651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3025 3750 50  0001 C CNN
+F 3 "~" H 3025 3750 50  0001 C CNN
+	1    3025 3750
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3850 4250 3850 3450
+Wire Wire Line
+	6500 5100 6950 5100
 $EndSCHEMATC
