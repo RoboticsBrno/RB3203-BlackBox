@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -226,8 +226,8 @@ $EndComp
 Connection ~ 6675 3400
 Wire Wire Line
 	6675 3400 6775 3400
-Text HLabel 3900 3400 0    50   Input ~ 0
-BAT
 Text HLabel 6775 3400 2    50   Input ~ 0
+BAT
+Text HLabel 3900 3400 0    50   Input ~ 0
 VCC
 $EndSCHEMATC

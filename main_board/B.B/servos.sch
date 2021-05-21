@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -228,22 +228,18 @@ F 4 "C376076" H 7350 4200 50  0001 C CNN "LCSC"
 	1    7350 4200
 	1    0    0    -1  
 $EndComp
-Text HLabel 6975 3325 0    50   Input ~ 0
+Text HLabel 6775 3325 0    50   Input ~ 0
 T0
 Wire Wire Line
-	6975 3325 7150 3325
-Text HLabel 6975 3650 0    50   Input ~ 0
+	6775 3325 7000 3325
+Text HLabel 6750 3650 0    50   Input ~ 0
 T1
-Wire Wire Line
-	6975 3650 7150 3650
-Text HLabel 6975 3975 0    50   Input ~ 0
+Text HLabel 6750 3975 0    50   Input ~ 0
 T2
 Wire Wire Line
-	6975 3975 7150 3975
-Text HLabel 6975 4300 0    50   Input ~ 0
+	6750 3975 7000 3975
+Text HLabel 6750 4300 0    50   Input ~ 0
 T3
-Wire Wire Line
-	6975 4300 7150 4300
 Text Notes 7100 2650 0    50   ~ 0
 Tlacitka
 Text Notes 4825 2650 0    50   ~ 0
@@ -264,4 +260,117 @@ Wire Notes Line
 	4150 4750 4150 2500
 Wire Notes Line
 	5750 2500 5750 4750
+$Comp
+L B.B-rescue:R-Device-B.B-rescue R?
+U 1 1 60A9DBE7
+P 6800 4225
+AR Path="/5F77B818/60A9DBE7" Ref="R?"  Part="1" 
+AR Path="/60BC23E6/60A9DBE7" Ref="R40"  Part="1" 
+F 0 "R40" V 6870 4271 50  0000 L CNN
+F 1 "12k" V 6875 4050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6730 4225 50  0001 C CNN
+F 3 "~" H 6800 4225 50  0001 C CNN
+F 4 "C25752" H 6800 4225 50  0001 C CNN "LCSC"
+	1    6800 4225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6750 3650 7000 3650
+Wire Wire Line
+	6750 4300 7000 4300
+Wire Wire Line
+	6950 4225 7000 4225
+Wire Wire Line
+	7000 4225 7000 4300
+Connection ~ 7000 4300
+Wire Wire Line
+	7000 4300 7150 4300
+Wire Wire Line
+	6650 4225 6600 4225
+Wire Wire Line
+	6600 4225 6600 4100
+Wire Wire Line
+	6600 4100 7100 4100
+Connection ~ 7100 4100
+$Comp
+L B.B-rescue:R-Device-B.B-rescue R?
+U 1 1 60AB3CD2
+P 6800 3900
+AR Path="/5F77B818/60AB3CD2" Ref="R?"  Part="1" 
+AR Path="/60BC23E6/60AB3CD2" Ref="R39"  Part="1" 
+F 0 "R39" V 6870 3946 50  0000 L CNN
+F 1 "12k" V 6875 3725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6730 3900 50  0001 C CNN
+F 3 "~" H 6800 3900 50  0001 C CNN
+F 4 "C25752" H 6800 3900 50  0001 C CNN "LCSC"
+	1    6800 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 3900 7000 3900
+Wire Wire Line
+	7000 3900 7000 3975
+Wire Wire Line
+	6650 3900 6600 3900
+Wire Wire Line
+	6600 3900 6600 3775
+Wire Wire Line
+	6600 3775 7100 3775
+$Comp
+L B.B-rescue:R-Device-B.B-rescue R?
+U 1 1 60AB5228
+P 6800 3575
+AR Path="/5F77B818/60AB5228" Ref="R?"  Part="1" 
+AR Path="/60BC23E6/60AB5228" Ref="R17"  Part="1" 
+F 0 "R17" V 6870 3621 50  0000 L CNN
+F 1 "12k" V 6875 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6730 3575 50  0001 C CNN
+F 3 "~" H 6800 3575 50  0001 C CNN
+F 4 "C25752" H 6800 3575 50  0001 C CNN "LCSC"
+	1    6800 3575
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 3575 7000 3575
+Wire Wire Line
+	7000 3575 7000 3650
+Wire Wire Line
+	6650 3575 6600 3575
+Wire Wire Line
+	6600 3575 6600 3450
+Wire Wire Line
+	6600 3450 7100 3450
+$Comp
+L B.B-rescue:R-Device-B.B-rescue R?
+U 1 1 60AB63BD
+P 6800 3250
+AR Path="/5F77B818/60AB63BD" Ref="R?"  Part="1" 
+AR Path="/60BC23E6/60AB63BD" Ref="R12"  Part="1" 
+F 0 "R12" V 6870 3296 50  0000 L CNN
+F 1 "12k" V 6875 3075 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6730 3250 50  0001 C CNN
+F 3 "~" H 6800 3250 50  0001 C CNN
+F 4 "C25752" H 6800 3250 50  0001 C CNN "LCSC"
+	1    6800 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 3250 7000 3250
+Wire Wire Line
+	7000 3250 7000 3325
+Wire Wire Line
+	6650 3250 6600 3250
+Wire Wire Line
+	6600 3250 6600 3125
+Wire Wire Line
+	6600 3125 7100 3125
+Connection ~ 7000 3325
+Wire Wire Line
+	7000 3325 7150 3325
+Connection ~ 7000 3650
+Wire Wire Line
+	7000 3650 7150 3650
+Connection ~ 7000 3975
+Wire Wire Line
+	7000 3975 7150 3975
 $EndSCHEMATC

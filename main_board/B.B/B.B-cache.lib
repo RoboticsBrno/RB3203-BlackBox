@@ -124,29 +124,6 @@ X ~RSTb 9 -500 900 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# B.B-rescue_Conn_01x04-Connector_Generic-B.B-rescue
-#
-DEF B.B-rescue_Conn_01x04-Connector_Generic-B.B-rescue J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "B.B-rescue_Conn_01x04-Connector_Generic-B.B-rescue" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -250 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # B.B-rescue_Conn_01x11-Connector_Generic-B.B-rescue
 #
 DEF B.B-rescue_Conn_01x11-Connector_Generic-B.B-rescue J 0 40 Y N 1 F N
@@ -320,7 +297,7 @@ ENDDEF
 #
 # B.B-rescue_GND-B.B-eagle-import
 #
-DEF B.B-rescue_GND-B.B-eagle-import #GND 0 40 Y Y 1 L P
+DEF B.B-rescue_GND-B.B-eagle-import #GND 0 40 Y Y 1 F P
 F0 "#GND" 0 0 50 H I C CNN
 F1 "B.B-rescue_GND-B.B-eagle-import" -87 -100 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
@@ -332,22 +309,6 @@ P 2 1 0 0 6 0 -6 0 N
 P 2 1 0 0 25 31 -25 31 N
 P 2 1 0 0 43 62 0 62 N
 X GND 1 0 100 0 D 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
-# B.B-rescue_IRM-H936-B.B-rescue
-#
-DEF B.B-rescue_IRM-H936-B.B-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 200 50 H V C CNN
-F1 "B.B-rescue_IRM-H936-B.B-rescue" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -200 50 200 -250 0 1 0 f
-X GND 1 0 -350 100 U 50 50 1 1 W
-X GND 2 0 -350 100 U 50 50 1 1 W N
-X OUT 3 300 0 100 L 50 50 1 1 O
-X VCC 4 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -467,21 +428,6 @@ X gnd 3 0 -550 100 U 50 50 1 1 W
 X SQW 4 450 0 100 L 50 50 1 1 O
 X gnd 5 0 -550 100 U 50 50 1 1 W N
 X SDA 9 -400 -300 100 R 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# B.B-rescue_MH253ESO-B.B-rescue
-#
-DEF B.B-rescue_MH253ESO-B.B-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 200 50 H V C CNN
-F1 "B.B-rescue_MH253ESO-B.B-rescue" 0 100 50 H V C CNN
-F2 "" 0 50 50 H I C CNN
-F3 "" 0 50 50 H I C CNN
-DRAW
-S -200 50 200 -250 0 1 0 f
-X VCC 1 -300 0 100 R 50 50 1 1 W
-X OUT 2 300 0 100 L 50 50 1 1 O
-X GND 3 0 -350 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #

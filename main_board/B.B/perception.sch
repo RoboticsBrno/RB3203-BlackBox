@@ -431,7 +431,7 @@ Wire Wire Line
 	5550 2250 5550 2100
 Wire Wire Line
 	5550 2100 5025 2100
-Text HLabel 5025 1600 2    50   Input ~ 0
+Text HLabel 5125 1600 2    50   Input ~ 0
 int_MPU
 Text HLabel 7375 2450 2    50   Input ~ 0
 SCL
@@ -501,38 +501,6 @@ Wire Wire Line
 	6175 1900 6175 2450
 Wire Wire Line
 	6175 2450 6875 2450
-Text HLabel 2825 3750 0    50   Input ~ 0
-A9-TX
-Text HLabel 2825 3850 0    50   Input ~ 0
-A9-RX
-Text HLabel 2825 3650 0    50   Input ~ 0
-VCC
-$Comp
-L B.B-rescue:GND-B.B-eagle-import #GND?
-U 1 1 60276177
-P 2750 4100
-AR Path="/5FA4C94D/60276177" Ref="#GND?"  Part="1" 
-AR Path="/5F9AAC80/60276177" Ref="#GND?"  Part="1" 
-AR Path="/5FB26A97/60276177" Ref="#GND0151"  Part="1" 
-F 0 "#GND0151" H 2750 4100 50  0001 C CNN
-F 1 "GND" H 2750 4020 59  0000 C CNN
-F 2 "" H 2750 4100 50  0001 C CNN
-F 3 "" H 2750 4100 50  0001 C CNN
-	1    2750 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 4000 2750 3950
-Wire Wire Line
-	2750 3950 2825 3950
-Wire Notes Line
-	2075 4250 3850 4250
-Wire Notes Line
-	3850 3450 2075 3450
-Wire Notes Line
-	2075 3450 2075 4250
-Text Notes 2650 3425 0    50   ~ 0
-conn for A9G
 $Comp
 L B.B-rescue:QMC6310 U61
 U 1 1 60ACA176
@@ -629,19 +597,29 @@ F 4 "C12530" H 5100 2400 50  0001 C CNN "LCSC"
 	1    5100 2400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J6
-U 1 1 60B1A7F5
-P 3025 3750
-F 0 "J6" H 3105 3742 50  0000 L CNN
-F 1 "Conn_01x04" H 3105 3651 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3025 3750 50  0001 C CNN
-F 3 "~" H 3025 3750 50  0001 C CNN
-	1    3025 3750
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	3850 4250 3850 3450
 Wire Wire Line
 	6500 5100 6950 5100
+$Comp
+L B.B-rescue:R-Device-B.B-rescue R?
+U 1 1 60A7274D
+P 5075 1400
+AR Path="/5F77B818/60A7274D" Ref="R?"  Part="1" 
+AR Path="/5FB26A97/60A7274D" Ref="R5"  Part="1" 
+F 0 "R5" H 5145 1446 50  0000 L CNN
+F 1 "12k" H 5145 1355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5005 1400 50  0001 C CNN
+F 3 "~" H 5075 1400 50  0001 C CNN
+F 4 "C25752" H 5075 1400 50  0001 C CNN "LCSC"
+	1    5075 1400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5125 1600 5075 1600
+Wire Wire Line
+	5075 1550 5075 1600
+Connection ~ 5075 1600
+Wire Wire Line
+	5075 1600 5025 1600
+Text HLabel 5075 1250 1    50   Input ~ 0
+3V3
 $EndSCHEMATC

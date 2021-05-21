@@ -369,7 +369,7 @@ ENDDEF
 #
 # GND-B.B-eagle-import
 #
-DEF GND-B.B-eagle-import #GND 0 40 Y Y 1 L P
+DEF GND-B.B-eagle-import #GND 0 40 Y Y 1 F P
 F0 "#GND" 0 0 50 H I C CNN
 F1 "GND-B.B-eagle-import" -87 -100 59 H V L BNN
 F2 "" 0 0 50 H I C CNN

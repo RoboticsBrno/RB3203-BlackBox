@@ -394,6 +394,7 @@ F 0 "J7" H 9155 3517 50  0000 L CNN
 F 1 "Conn_01x03" H 9155 3426 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9075 3475 50  0001 C CNN
 F 3 "~" H 9075 3475 50  0001 C CNN
+F 4 "" H 9075 3475 50  0001 C CNN "JLCPCB_IGNORE"
 	1    9075 3475
 	1    0    0    -1  
 $EndComp
