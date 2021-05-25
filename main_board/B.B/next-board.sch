@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:B.B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -389,27 +388,27 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x03 J7
 U 1 1 60BBD743
-P 9075 3475
-F 0 "J7" H 9155 3517 50  0000 L CNN
-F 1 "Conn_01x03" H 9155 3426 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9075 3475 50  0001 C CNN
-F 3 "~" H 9075 3475 50  0001 C CNN
-F 4 "" H 9075 3475 50  0001 C CNN "JLCPCB_IGNORE"
-	1    9075 3475
+P 9075 3575
+F 0 "J7" H 9155 3617 50  0000 L CNN
+F 1 "Conn_01x03" H 9155 3526 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9075 3575 50  0001 C CNN
+F 3 "~" H 9075 3575 50  0001 C CNN
+F 4 "" H 9075 3575 50  0001 C CNN "JLCPCB_IGNORE"
+	1    9075 3575
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8875 3475 8450 3475
 Wire Wire Line
+	8875 3675 8800 3675
+Wire Wire Line
+	8800 3675 8800 3750
+Wire Wire Line
 	8875 3575 8800 3575
 Wire Wire Line
-	8800 3575 8800 3650
-Wire Wire Line
-	8875 3375 8800 3375
-Wire Wire Line
-	8800 3375 8800 3300
+	8800 3575 8800 3300
 Text HLabel 8800 3300 1    50   Input ~ 0
 5V
-Text HLabel 8800 3650 3    50   Input ~ 0
+Text HLabel 8800 3750 3    50   Input ~ 0
 GND
 $EndSCHEMATC
