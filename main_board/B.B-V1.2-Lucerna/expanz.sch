@@ -1,0 +1,317 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L B.B-rescue:Motor_DC-Motor-B.B-rescue M1
+U 1 1 5FA5194A
+P 6025 4200
+AR Path="/5F9EE529/5FA5194A" Ref="M1"  Part="1" 
+AR Path="/5FA9DBB3/5FA5194A" Ref="M?"  Part="1" 
+F 0 "M1" H 6183 4196 50  0000 L CNN
+F 1 "Motor_DC" H 6183 4105 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 6025 4110 50  0001 C CNN
+F 3 "~" H 6025 4110 50  0001 C CNN
+F 4 "" H 6025 4200 50  0001 C CNN "JLCPCB_IGNORE"
+	1    6025 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6025 4500 6025 4650
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND0132
+U 1 1 5FA5FD95
+P 4825 4750
+AR Path="/5F9EE529/5FA5FD95" Ref="#GND0132"  Part="1" 
+AR Path="/5FA9DBB3/5FA5FD95" Ref="#GND?"  Part="1" 
+F 0 "#GND0132" H 4825 4750 50  0001 C CNN
+F 1 "GND" H 4825 4670 59  0000 C CNN
+F 2 "" H 4825 4750 50  0001 C CNN
+F 3 "" H 4825 4750 50  0001 C CNN
+	1    4825 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND0133
+U 1 1 5FAF4CA6
+P 5725 4750
+AR Path="/5F9EE529/5FAF4CA6" Ref="#GND0133"  Part="1" 
+AR Path="/5FA9DBB3/5FAF4CA6" Ref="#GND?"  Part="1" 
+F 0 "#GND0133" H 5725 4750 50  0001 C CNN
+F 1 "GND" H 5725 4670 59  0000 C CNN
+F 2 "" H 5725 4750 50  0001 C CNN
+F 3 "" H 5725 4750 50  0001 C CNN
+	1    5725 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5725 4650 5725 4450
+Text HLabel 4525 4450 0    50   Input ~ 0
+MOTOR
+$Comp
+L B.B-rescue:R-Device-B.B-rescue R?
+U 1 1 5FAA51EC
+P 4625 4250
+AR Path="/5F96CFDA/5FAA51EC" Ref="R?"  Part="1" 
+AR Path="/5F9EE529/5F9F24D4/5FAA51EC" Ref="R?"  Part="1" 
+AR Path="/5FA9DBB3/5F9F24D4/5FAA51EC" Ref="R?"  Part="1" 
+AR Path="/5F9EE529/5FAA51EC" Ref="R41"  Part="1" 
+F 0 "R41" H 4675 4200 50  0000 L CNN
+F 1 "100k" H 4675 4300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4555 4250 50  0001 C CNN
+F 3 "~" H 4625 4250 50  0001 C CNN
+F 4 "C25741" H 4625 4250 50  0001 C CNN "LCSC"
+	1    4625 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4825 4250 4775 4250
+Wire Wire Line
+	4375 3950 4425 3950
+Wire Wire Line
+	4475 4250 4425 4250
+Wire Wire Line
+	4425 4250 4425 3950
+Connection ~ 4425 3950
+Wire Wire Line
+	4425 3950 4625 3950
+$Comp
+L B.B-rescue:D_Schottky-Device-B.B-rescue D?
+U 1 1 5FBB2FF1
+P 5725 4300
+AR Path="/5FA4C94D/5FBB2FF1" Ref="D?"  Part="1" 
+AR Path="/5F9EE529/5FBB2FF1" Ref="D3"  Part="1" 
+F 0 "D3" H 5675 4100 50  0000 L CNN
+F 1 "SS54" H 5625 4175 50  0000 L CNN
+F 2 "BB:DO-214AC" H 5725 4300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903061001_MDD-Jiangsu-Yutai-Elec-SS54_C22452.pdf" H 5725 4300 50  0001 C CNN
+F 4 "C22452" V 5725 4300 50  0001 C CNN "LCSC"
+	1    5725 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L B.B-rescue:2N7002-Transistor_FET-B.B-rescue Q?
+U 1 1 5FBAB051
+P 4725 4450
+AR Path="/5F77B818/5FBAB051" Ref="Q?"  Part="1" 
+AR Path="/5FA4C94D/5FBAB051" Ref="Q?"  Part="1" 
+AR Path="/5F9EE529/5FBAB051" Ref="Q10"  Part="1" 
+F 0 "Q10" H 4929 4496 50  0000 L CNN
+F 1 "2N7002" H 4929 4405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4925 4375 50  0001 L CIN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-CJ3134K_C110100.pdf" H 4725 4450 50  0001 L CNN
+F 4 "C8545" H 4725 4450 50  0001 C CNN "LCSC"
+F 5 "0;0;180" H 4725 4450 50  0001 C CNN "JLCPCB_CORRECTION"
+	1    4725 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4825 4250
+$Comp
+L B.B-rescue:Q_PMOS_DSG-B.B-rescue Q7
+U 1 1 5FBE7385
+P 4825 4050
+F 0 "Q7" V 5167 4050 50  0000 C CNN
+F 1 "SI3447CDV" V 5076 4050 50  0000 C CNN
+F 2 "BB:TSOP-6_1.5x3.0x0.95P" H 5025 4150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Vishay-Intertech-SI3447CDV-T1-E3_C145421.pdf" H 4825 4050 50  0001 C CNN
+F 4 "C144884" V 4825 4050 50  0001 C CNN "LCSC"
+	1    4825 4050
+	0    1    -1   0   
+$EndComp
+Connection ~ 5725 3950
+Wire Wire Line
+	5725 3950 6025 3950
+Wire Wire Line
+	5725 4150 5725 3950
+Wire Wire Line
+	6025 3950 6025 4000
+Wire Wire Line
+	5025 3950 5725 3950
+Text HLabel 4375 3950 0    50   Input ~ 0
+5V
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND0114
+U 1 1 5FE93EA1
+P 6025 4750
+AR Path="/5F9EE529/5FE93EA1" Ref="#GND0114"  Part="1" 
+AR Path="/5FA9DBB3/5FE93EA1" Ref="#GND?"  Part="1" 
+F 0 "#GND0114" H 6025 4750 50  0001 C CNN
+F 1 "GND" H 6025 4670 59  0000 C CNN
+F 2 "" H 6025 4750 50  0001 C CNN
+F 3 "" H 6025 4750 50  0001 C CNN
+	1    6025 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-rescue:piezo U71
+U 1 1 60A3E368
+P 4150 2075
+F 0 "U71" H 4328 2121 50  0000 L CNN
+F 1 "piezo" H 4328 2030 50  0000 L CNN
+F 2 "BB:piezo" H 4150 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2004131005_S-S-SKY-1475-0540-45P7-6_C511707.pdf" H 4150 2075 50  0001 C CNN
+F 4 "C511707" H 4150 2075 50  0001 C CNN "LCSC"
+F 5 "0;0;180" H 4150 2075 50  0001 C CNN "JLCPCB_CORRECTION"
+	1    4150 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND?
+U 1 1 60A3FCDC
+P 3575 3150
+AR Path="/5FA3274C/60A3FCDC" Ref="#GND?"  Part="1" 
+AR Path="/5F9EE529/60A3FCDC" Ref="#GND0141"  Part="1" 
+F 0 "#GND0141" H 3575 3150 50  0001 C CNN
+F 1 "GND" H 3575 3070 59  0000 C CNN
+F 2 "" H 3575 3150 50  0001 C CNN
+F 3 "" H 3575 3150 50  0001 C CNN
+	1    3575 3150
+	1    0    0    -1  
+$EndComp
+Text HLabel 3475 2675 0    50   Input ~ 0
+piezo
+$Comp
+L B.B-rescue:2N7002-Transistor_FET-B.B-rescue Q?
+U 1 1 60A79FDF
+P 3825 2675
+AR Path="/5F77B818/60A79FDF" Ref="Q?"  Part="1" 
+AR Path="/5FA4C94D/60A79FDF" Ref="Q?"  Part="1" 
+AR Path="/5F9EE529/60A79FDF" Ref="Q4"  Part="1" 
+F 0 "Q4" H 4029 2721 50  0000 L CNN
+F 1 "2N7002" H 4029 2630 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4025 2600 50  0001 L CIN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-CJ3134K_C110100.pdf" H 3825 2675 50  0001 L CNN
+F 4 "C8545" H 3825 2675 50  0001 C CNN "LCSC"
+F 5 "0;0;180" H 3825 2675 50  0001 C CNN "JLCPCB_CORRECTION"
+	1    3825 2675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 2675 3575 2675
+Wire Wire Line
+	3575 2675 3575 2750
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND?
+U 1 1 60A82E76
+P 3925 3150
+AR Path="/5FA3274C/60A82E76" Ref="#GND?"  Part="1" 
+AR Path="/5F9EE529/60A82E76" Ref="#GND0142"  Part="1" 
+F 0 "#GND0142" H 3925 3150 50  0001 C CNN
+F 1 "GND" H 3925 3070 59  0000 C CNN
+F 2 "" H 3925 3150 50  0001 C CNN
+F 3 "" H 3925 3150 50  0001 C CNN
+	1    3925 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3925 3050 3925 2875
+Wire Wire Line
+	3925 2475 3925 2425
+Wire Wire Line
+	3925 2125 3950 2125
+Wire Wire Line
+	3475 2675 3575 2675
+Connection ~ 3575 2675
+$Comp
+L B.B-rescue:D_Schottky-Device-B.B-rescue D?
+U 1 1 60A971FA
+P 3850 2225
+AR Path="/5FA4C94D/60A971FA" Ref="D?"  Part="1" 
+AR Path="/5F9EE529/60A971FA" Ref="D1"  Part="1" 
+F 0 "D1" H 3800 2025 50  0000 L CNN
+F 1 "SS54" H 3750 2125 50  0000 L CNN
+F 2 "BB:DO-214AC" H 3850 2225 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903061001_MDD-Jiangsu-Yutai-Elec-SS54_C22452.pdf" H 3850 2225 50  0001 C CNN
+F 4 "C22452" V 3850 2225 50  0001 C CNN "LCSC"
+	1    3850 2225
+	0    1    1    0   
+$EndComp
+Text HLabel 3775 2025 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	3950 2025 3850 2025
+Wire Wire Line
+	3850 2075 3850 2025
+Connection ~ 3850 2025
+Wire Wire Line
+	3850 2025 3775 2025
+Wire Wire Line
+	3850 2375 3850 2425
+Wire Wire Line
+	3850 2425 3925 2425
+Connection ~ 3925 2425
+Wire Wire Line
+	3925 2425 3925 2125
+$Comp
+L B.B-rescue:R-Device-B.B-rescue R?
+U 1 1 60AA9751
+P 3575 2900
+AR Path="/5F9EE529/5FA93863/60AA9751" Ref="R?"  Part="1" 
+AR Path="/5F9EE529/60AA9751" Ref="R9"  Part="1" 
+F 0 "R9" H 3645 2946 50  0000 L CNN
+F 1 "47k" H 3645 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3505 2900 50  0001 C CNN
+F 3 "~" H 3575 2900 50  0001 C CNN
+F 4 "C25792" H 3575 2900 50  0001 C CNN "LCSC"
+	1    3575 2900
+	1    0    0    -1  
+$EndComp
+Text HLabel 6475 2200 0    50   Input ~ 0
+A9-TX
+Text HLabel 6475 2300 0    50   Input ~ 0
+A9-RX
+Text HLabel 6475 2100 0    50   Input ~ 0
+VCC
+$Comp
+L B.B-rescue:GND-B.B-eagle-import #GND?
+U 1 1 60A88BDE
+P 6400 2550
+AR Path="/5FA4C94D/60A88BDE" Ref="#GND?"  Part="1" 
+AR Path="/5F9AAC80/60A88BDE" Ref="#GND?"  Part="1" 
+AR Path="/5FB26A97/60A88BDE" Ref="#GND?"  Part="1" 
+AR Path="/5F9EE529/60A88BDE" Ref="#GND0134"  Part="1" 
+F 0 "#GND0134" H 6400 2550 50  0001 C CNN
+F 1 "GND" H 6400 2470 59  0000 C CNN
+F 2 "" H 6400 2550 50  0001 C CNN
+F 3 "" H 6400 2550 50  0001 C CNN
+	1    6400 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2450 6400 2400
+Wire Wire Line
+	6400 2400 6475 2400
+Wire Notes Line
+	5725 2700 7500 2700
+Wire Notes Line
+	7500 1900 5725 1900
+Wire Notes Line
+	5725 1900 5725 2700
+Text Notes 6300 1875 0    50   ~ 0
+conn for A9G
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 60A88BEA
+P 6675 2200
+F 0 "J1" H 6755 2192 50  0000 L CNN
+F 1 "Conn_01x04" H 6755 2101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6675 2200 50  0001 C CNN
+F 3 "~" H 6675 2200 50  0001 C CNN
+F 4 "" H 6675 2200 50  0001 C CNN "JLCPCB_IGNORE"
+	1    6675 2200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7500 2700 7500 1900
+$EndSCHEMATC
