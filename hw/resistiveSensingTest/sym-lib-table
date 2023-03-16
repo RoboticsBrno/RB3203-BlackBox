@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "resistiveSensingTest")(type "KiCad")(uri "${KIPRJMOD}/resistiveSensingTest.kicad_sym")(options "")(descr ""))
+)
