@@ -445,10 +445,6 @@
       "ServoBoard"
     ],
     [
-      "6ebb690c-2b50-4306-9bd9-419e5938510b",
-      "Charger1"
-    ],
-    [
       "e24a5136-2be4-44de-8181-85cee94a1626",
       "ESPCircle"
     ],
@@ -465,12 +461,12 @@
       "Charger0"
     ],
     [
-      "d5675485-c529-4231-a637-1d3c17c008f1",
-      "A9G"
+      "42c6643c-04e2-43ad-8f0e-80e5d3fe214b",
+      "USB"
     ],
     [
       "8773969d-b2cc-42c4-9a6d-35c6f165cf16",
-      "BatteriManager"
+      "PowerManager"
     ]
   ],
   "text_variables": {}
