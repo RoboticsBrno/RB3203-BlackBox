@@ -1347,6 +1347,9 @@
     (path "/4685e526-2110-4224-8524-1e32247470d7/e1750fb2-a242-478f-8b8d-b51dcfe161d6/551e9ee8-8337-4b4e-85fc-053df6f779d7"
       (reference "D?") (unit 1) (value "WS2812B") (footprint "RB3203-Lib:WS2812")
     )
+    (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/8773969d-b2cc-42c4-9a6d-35c6f165cf16/da5be375-027b-4f55-96f0-042c23671c4c/5a0853ef-1299-430b-abe0-f91b06b3a41b"
+      (reference "D?") (unit 1) (value "D_Dual_CommonCathode_AAK_Parallel") (footprint "Package_TO_SOT_SMD:SOT-723")
+    )
     (path "/4685e526-2110-4224-8524-1e32247470d7/e1750fb2-a242-478f-8b8d-b51dcfe161d6/5b786c73-e594-4ed7-ab35-5084b48dcb48"
       (reference "D?") (unit 1) (value "WS2812B") (footprint "RB3203-Lib:WS2812")
     )
@@ -1557,9 +1560,6 @@
     (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/8773969d-b2cc-42c4-9a6d-35c6f165cf16/5bfa1d35-bf00-4fcc-8082-15b66ee824a4"
       (reference "Q?") (unit 1) (value "Q_NMOS_DGS") (footprint "Package_TO_SOT_SMD:SOT-723")
     )
-    (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/8773969d-b2cc-42c4-9a6d-35c6f165cf16/da5be375-027b-4f55-96f0-042c23671c4c/7877dee8-f54d-4468-a1c8-397355c964c7"
-      (reference "Q?") (unit 1) (value "PMOS-2x_BSS84DW") (footprint "")
-    )
     (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/8773969d-b2cc-42c4-9a6d-35c6f165cf16/9d2fe9e3-050d-4a4f-9db9-ce63742cc11a"
       (reference "Q?") (unit 1) (value "Q_PMOS_DGS") (footprint "RBCX:JMSL0302AU")
     )
@@ -1568,9 +1568,6 @@
     )
     (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/8773969d-b2cc-42c4-9a6d-35c6f165cf16/da5be375-027b-4f55-96f0-042c23671c4c/eac15b38-42c9-4615-9e24-600c5bf77a0c"
       (reference "Q?") (unit 1) (value "Q_PMOS_DGS") (footprint "RBCX:JMSL0302AU")
-    )
-    (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/8773969d-b2cc-42c4-9a6d-35c6f165cf16/da5be375-027b-4f55-96f0-042c23671c4c/7e0f6868-10db-4902-8bec-b2854a0bb0c9"
-      (reference "Q?") (unit 2) (value "PMOS-2x_BSS84DW") (footprint "")
     )
     (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/8773969d-b2cc-42c4-9a6d-35c6f165cf16/0dc76fec-b6a7-42a9-a6e4-b0cfec5561ae"
       (reference "R?") (unit 1) (value "330") (footprint "Capacitor_SMD:C_0201_0603Metric")
@@ -1625,9 +1622,6 @@
     )
     (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/42c6643c-04e2-43ad-8f0e-80e5d3fe214b/c302e470-1fb7-40e5-9dd8-30730343fc5b"
       (reference "R?") (unit 1) (value "5k1") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/8773969d-b2cc-42c4-9a6d-35c6f165cf16/da5be375-027b-4f55-96f0-042c23671c4c/ce17c020-df10-4ac8-af4a-a84703c9a2c2"
-      (reference "R?") (unit 1) (value "10k") (footprint "Capacitor_SMD:C_0201_0603Metric")
     )
     (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/8773969d-b2cc-42c4-9a6d-35c6f165cf16/d4bde66b-4e12-4f84-b190-06faa65670b5"
       (reference "R?") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0201_0603Metric")
@@ -1706,9 +1700,6 @@
     )
     (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/8773969d-b2cc-42c4-9a6d-35c6f165cf16/c844f587-06d2-4dd4-95bc-753509fb3ed8/28547cc2-61ec-497d-b425-a8c4c52f8beb"
       (reference "U?") (unit 1) (value "22uf") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/8773969d-b2cc-42c4-9a6d-35c6f165cf16/da5be375-027b-4f55-96f0-042c23671c4c/28cb302f-10b3-4f75-aa99-4229e352a6fd"
-      (reference "U?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/8773969d-b2cc-42c4-9a6d-35c6f165cf16/da5be375-027b-4f55-96f0-042c23671c4c/2d59b41c-bfa2-481a-8eef-dcf2a6f7f31e"
       (reference "U?") (unit 1) (value "LD39200") (footprint "Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm")
@@ -1832,9 +1823,6 @@
     )
     (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/8773969d-b2cc-42c4-9a6d-35c6f165cf16/c844f587-06d2-4dd4-95bc-753509fb3ed8/ed0e0b43-bd7b-40b4-aa9e-d76a0a8b2511"
       (reference "U?") (unit 1) (value "0.1uf") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/8773969d-b2cc-42c4-9a6d-35c6f165cf16/da5be375-027b-4f55-96f0-042c23671c4c/ef05983b-fbfa-48b3-9d36-f0a06c417547"
-      (reference "U?") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/9c917b4f-c6c7-4191-9aaa-f982c264da50/8773969d-b2cc-42c4-9a6d-35c6f165cf16/da5be375-027b-4f55-96f0-042c23671c4c/f903b72e-acf1-4c71-aa89-70431693c0b1"
       (reference "U?") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")

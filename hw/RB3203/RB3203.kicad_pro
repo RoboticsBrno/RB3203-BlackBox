@@ -343,7 +343,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Robotarna_KiCad_Library"
+    ]
   },
   "meta": {
     "filename": "RB3203.kicad_pro",
