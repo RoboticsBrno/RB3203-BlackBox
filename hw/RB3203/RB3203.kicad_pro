@@ -431,20 +431,12 @@
       ""
     ],
     [
-      "2975b2c4-ac93-416a-b8ab-1abad81cbf19",
-      "TouchBoard"
-    ],
-    [
       "4685e526-2110-4224-8524-1e32247470d7",
       "LedBoard"
     ],
     [
       "9c917b4f-c6c7-4191-9aaa-f982c264da50",
       "MainBoard"
-    ],
-    [
-      "c80658fd-381c-4d49-87b7-fa23ccb51ee7",
-      "ServoBoard"
     ],
     [
       "e24a5136-2be4-44de-8181-85cee94a1626",
@@ -469,6 +461,10 @@
     [
       "8773969d-b2cc-42c4-9a6d-35c6f165cf16",
       "PowerManager"
+    ],
+    [
+      "f0889d2d-a4b9-43d3-86df-3a9072a2a604",
+      "LCB"
     ]
   ],
   "text_variables": {}
